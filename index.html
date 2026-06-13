@@ -76,25 +76,38 @@ const SIG_MAP=[['突破20日高點(量確認)','Breakout突破'],['Breakout','Br
 function bt(sig){const h=SIG_MAP.find(([k])=>sig.includes(k));if(!h)return null;return((D.backtest&&D.backtest.strategies)||[]).find(s=>s.name===h[1])||null;}
 function stars(signals){const bs=(signals||[]).map(bt).filter(Boolean);if(!bs.length)return '';const avg=k=>bs.reduce((a,b)=>a+(b[k]||0),0)/bs.length;const pf=avg('profit_factor'),sh=avg('sharpe');return `<span class="star">${(sh>=0.5&&pf>=2)?'★★':'★'} PF${pf.toFixed(1)}</span>`;}
 
-function buyRows(sc,tf,isUS){
+function renderStk(r,tf,bear){
+  const e=(r.tf_scores||{})[tf]||r;
+  const hasBO=(r.signals||[]).some(s=>s.includes('突破20日高點(量確認)')||s.includes('Breakout'));
+  const tp=e.buy_price?(e.buy_price*1.2).toFixed(2):null;
+  let earn='';if(r.earnings_date){const dd=(new Date(r.earnings_date)-Date.now())/864e5;if(dd>=-1&&dd<=14)earn=` · <span class="earn">📅財報${r.earnings_date.slice(5)}</span>`;}
+  const halve=bear&&!hasBO?' <span class="earn">🐻倉位減半</span>':'';
+  return `<div class="stk">
+    <div class="row"><div><span class="nm">${r.name}</span><span class="sub">（${r.stock_id}）${r.sector||''}${earn}</span></div>
+    <div class="sc" style="color:${e.action_color}">${e.final_score}</div></div>
+    <div class="row"><div style="color:${e.action_color};font-weight:600">${e.action}${halve}</div><div>${stars(r.signals)}</div></div>
+    <div class="px"><span>現價 <b>$${r.price!=null?r.price:'—'}</b></span><span>買 <b style="color:var(--b)">${e.buy_price?'$'+e.buy_price:'—'}</b></span><span>損 <b style="color:var(--r)">${e.stop_suggest?'$'+e.stop_suggest:'—'}</b></span><span>利 <b style="color:var(--g)">${tp?'$'+tp:'—'}</b></span></div>
+    <div class="sig">${(r.signals||[]).slice(0,3).join(' · ')||'—'}</div>
+  </div>`;
+}
+function buyRows(sc,tf){
   const ids=(((sc||{}).by_timeframe||{})[tf]||{}).buy_ids||[];
   const rows=ids.map(id=>((sc||{}).results||[]).find(r=>r.stock_id===id)).filter(Boolean);
   if(!rows.length)return '<div class="muted" style="padding:6px 0">此框架今天無建議買進</div>';
   const reg=(sc||{}).market_regime, bear=!!(reg&&reg.bull===false);
-  return rows.map(r=>{
-    const e=(r.tf_scores||{})[tf]||r;
-    const hasBO=(r.signals||[]).some(s=>s.includes('突破20日高點(量確認)')||s.includes('Breakout'));
-    const tp=e.buy_price?(e.buy_price*1.2).toFixed(2):null;
-    let earn='';if(r.earnings_date){const dd=(new Date(r.earnings_date)-Date.now())/864e5;if(dd>=-1&&dd<=14)earn=` · <span class="earn">📅財報${r.earnings_date.slice(5)}</span>`;}
-    const halve=bear&&!hasBO?' <span class="earn">🐻倉位減半</span>':'';
-    return `<div class="stk">
-      <div class="row"><div><span class="nm">${r.name}</span><span class="sub">（${r.stock_id}）${r.sector||''}${earn}</span></div>
-      <div class="sc" style="color:${e.action_color}">${e.final_score}</div></div>
-      <div class="row"><div style="color:${e.action_color};font-weight:600">${e.action}${halve}</div><div>${stars(r.signals)}</div></div>
-      <div class="px"><span>現價 <b>$${r.price!=null?r.price:'—'}</b></span><span>買 <b style="color:var(--b)">${e.buy_price?'$'+e.buy_price:'—'}</b></span><span>損 <b style="color:var(--r)">${e.stop_suggest?'$'+e.stop_suggest:'—'}</b></span><span>利 <b style="color:var(--g)">${tp?'$'+tp:'—'}</b></span></div>
-      <div class="sig">${(r.signals||[]).slice(0,3).join(' · ')||'—'}</div>
-    </div>`;
-  }).join('');
+  return rows.map(r=>renderStk(r,tf,bear)).join('');
+}
+// 自選查詢：在今日已掃描的個股(台股強勢板塊成分+美股觀察清單)裡找；範圍外提示用電腦版
+function mCheck(){
+  const code=(document.getElementById('mq').value||'').trim().toUpperCase();
+  const box=document.getElementById('mqr');
+  if(!code){box.innerHTML='';return;}
+  const isUS=!/^\d/.test(code);
+  const sc=isUS?D.us:D.tw;
+  const r=((sc||{}).results||[]).find(x=>(x.stock_id||'').toUpperCase()===code);
+  if(!r){box.innerHTML=`<div class="muted" style="padding:8px 2px">「${code}」不在今日掃描清單（強勢板塊成分股＋美股觀察清單約60檔）。任意代號即時查請用電腦版「自選股即時體檢」。</div>`;return;}
+  const reg=(sc||{}).market_regime, bear=!!(reg&&reg.bull===false);
+  box.innerHTML=`<div style="margin-top:6px"><div class="muted">⚡ 短線</div>${renderStk(r,'short',bear)}<div class="muted" style="margin-top:6px">📈 中線</div>${renderStk(r,'medium',bear)}</div>`;
 }
 function bearBanner(sc,idx){const reg=(sc||{}).market_regime;if(!(reg&&reg.bull===false))return '';return `<div class="bear"><b>🐻 ${idx} 空頭市況</b>（${reg.index?reg.index.toLocaleString():''}&lt;MA200）：非Breakout標的倉位建議減半</div>`;}
 
@@ -105,6 +118,14 @@ function renderBuy(){
   if(H){const cell=(m,t,l)=>{const s=(H[m]||{})[t];if(!s)return '';const done=(s.hit||0)+(s.miss||0);if(!done)return `${l} 累積中`;return `${l} <b style="color:${s.hit_rate>=50?'var(--g)':'#d97706'}">${s.hit_rate}%</b>`;};
     hit=`<div class="card" style="font-size:12px">📈 實戰命中率：${['台短','台中'].map((l,i)=>cell('TW',['short','medium'][i],l)).filter(Boolean).join(' · ')} · ${['美短','美中'].map((l,i)=>cell('US',['short','medium'][i],l)).filter(Boolean).join(' · ')}</div>`;}
   document.getElementById('p-buy').innerHTML=hit+`
+    <div class="card">
+      <div class="row" style="gap:6px">
+        <input id="mq" placeholder="輸入代號 2330 / NVDA 查體檢" style="flex:1;padding:8px 10px;border:1px solid var(--line);border-radius:8px;font-size:15px" onkeydown="if(event.key==='Enter')mCheck()">
+        <button onclick="mCheck()" style="background:#4338ca;color:#fff;border:0;border-radius:8px;padding:8px 18px;font-weight:700;font-size:15px">查</button>
+      </div>
+      <div class="muted" style="margin-top:4px;font-size:11px">查今日掃描清單內個股（約60檔）；任意代號即時查請用電腦版</div>
+      <div id="mqr"></div>
+    </div>
     <h3>🇹🇼 台股</h3>${bearBanner(tw,'加權')}
     <div class="card"><div class="muted" style="margin-bottom:4px">⚡ 短線</div>${buyRows(tw,'short',false)}</div>
     <div class="card"><div class="muted" style="margin-bottom:4px">📈 中線</div>${buyRows(tw,'medium',false)}</div>
