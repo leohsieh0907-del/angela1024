@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<title>昕圳創投 · 行動版</title>
+<style>
+  :root{--g:#16a34a;--r:#dc2626;--b:#0284c7;--ink:#1e293b;--mut:#64748b;--line:#e2e8f0;--bg:#f4f6f9}
+  *{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+  body{margin:0;font-family:-apple-system,"PingFang TC","Microsoft JhengHei",sans-serif;background:var(--bg);color:var(--ink);font-size:15px;line-height:1.5}
+  header{position:sticky;top:0;z-index:10;background:#fff;border-bottom:1px solid var(--line);padding:10px 14px;display:flex;justify-content:space-between;align-items:center}
+  header b{font-size:16px}
+  header .t{font-size:11px;color:var(--mut)}
+  .tabs{position:sticky;top:49px;z-index:10;display:flex;background:#fff;border-bottom:1px solid var(--line)}
+  .tabs button{flex:1;border:0;background:none;padding:11px 4px;font-size:14px;color:var(--mut);border-bottom:2px solid transparent}
+  .tabs button.on{color:var(--b);border-bottom-color:var(--b);font-weight:700}
+  .pane{display:none;padding:12px}
+  .pane.on{display:block}
+  h3{font-size:15px;margin:14px 0 8px}
+  .card{background:#fff;border:1px solid var(--line);border-radius:12px;padding:12px 14px;margin-bottom:10px}
+  .row{display:flex;justify-content:space-between;align-items:baseline;gap:8px}
+  .stk{border-bottom:1px solid var(--line);padding:10px 0}
+  .stk:last-child{border-bottom:0}
+  .stk .nm{font-weight:700}
+  .stk .sub{font-size:11px;color:var(--mut)}
+  .stk .sc{font-size:20px;font-weight:800}
+  .px{display:flex;gap:14px;flex-wrap:wrap;font-size:13px;margin-top:5px}
+  .px b{font-weight:700}
+  .sig{font-size:11px;color:var(--mut);margin-top:4px}
+  .star{color:#f59e0b;font-weight:700}
+  .bear{background:#fef3c7;border-left:4px solid #d97706;border-radius:8px;padding:8px 12px;font-size:13px;margin-bottom:10px}
+  .earn{font-size:11px;color:#d97706}
+  .kpi{display:flex;gap:8px;flex-wrap:wrap}
+  .kpi>div{flex:1;min-width:88px;background:#fff;border:1px solid var(--line);border-radius:10px;padding:9px 11px}
+  .kpi .l{font-size:11px;color:var(--mut)}
+  .kpi .v{font-size:17px;font-weight:800}
+  .pill{display:inline-block;font-size:12px;padding:2px 9px;border-radius:9px;font-weight:700}
+  .briefbtns{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:10px}
+  .briefbtns button{border:1px solid var(--line);background:#fff;border-radius:8px;padding:6px 10px;font-size:12px}
+  .briefbtns button.on{background:#4338ca;color:#fff;border-color:#4338ca}
+  details{margin:6px 0;font-size:13px}
+  summary{font-weight:600;padding:4px 0}
+  table{width:100%;border-collapse:collapse;font-size:12px}
+  td,th{padding:4px 6px;border-bottom:1px solid var(--line);text-align:left}
+  .muted{color:var(--mut);font-size:12px}
+  .err{color:var(--r);padding:20px;text-align:center}
+  .foot{font-size:11px;color:var(--mut);padding:14px;text-align:center}
+</style>
+</head>
+<body>
+<header>
+  <b>🏢 昕圳創投 <span style="font-weight:400;color:var(--mut);font-size:12px">行動版</span></b>
+  <span class="t" id="stamp">載入中…</span>
+</header>
+<div class="tabs">
+  <button class="on" data-p="buy" onclick="tab('buy')">🛒 能買</button>
+  <button data-p="market" onclick="tab('market')">📊 大盤</button>
+  <button data-p="brief" onclick="tab('brief')">🔔 快報</button>
+</div>
+<div class="pane on" id="p-buy"><div class="muted" style="padding:20px;text-align:center">載入中…</div></div>
+<div class="pane" id="p-market"></div>
+<div class="pane" id="p-brief"></div>
+<div class="foot">市場資料每日多時段自動更新 · 完整功能（持倉/帳務/掃描）請用電腦版<br>下單決策由你拍板，本頁僅供參考</div>
+
+<script>
+const D = {};   // 載入的資料
+function tab(p){
+  document.querySelectorAll('.tabs button').forEach(b=>b.classList.toggle('on',b.dataset.p===p));
+  document.querySelectorAll('.pane').forEach(el=>el.classList.toggle('on',el.id==='p-'+p));
+}
+const col = c => c>=0?'var(--g)':'var(--r)';
+const fmtT = iso => (iso||'').slice(0,16).replace('T',' ');
+
+// 星級：訊號對映回測 PF/Sharpe（★★=Sharpe≥0.5且PF≥2）
+const SIG_MAP=[['突破20日高點(量確認)','Breakout突破'],['Breakout','Breakout突破'],['扣抵有利','扣抵有利'],['上升趨勢','趨勢線'],['趨勢線','趨勢線'],['雙線多頭排列','雙線GC+VCP'],['雙線GC+VCP','雙線GC+VCP'],['爆量','量能爆量'],['MACD+KD','MACD+KD雙金叉']];
+function bt(sig){const h=SIG_MAP.find(([k])=>sig.includes(k));if(!h)return null;return((D.backtest&&D.backtest.strategies)||[]).find(s=>s.name===h[1])||null;}
+function stars(signals){const bs=(signals||[]).map(bt).filter(Boolean);if(!bs.length)return '';const avg=k=>bs.reduce((a,b)=>a+(b[k]||0),0)/bs.length;const pf=avg('profit_factor'),sh=avg('sharpe');return `<span class="star">${(sh>=0.5&&pf>=2)?'★★':'★'} PF${pf.toFixed(1)}</span>`;}
+
+function buyRows(sc,tf,isUS){
+  const ids=(((sc||{}).by_timeframe||{})[tf]||{}).buy_ids||[];
+  const rows=ids.map(id=>((sc||{}).results||[]).find(r=>r.stock_id===id)).filter(Boolean);
+  if(!rows.length)return '<div class="muted" style="padding:6px 0">此框架今天無建議買進</div>';
+  const reg=(sc||{}).market_regime, bear=!!(reg&&reg.bull===false);
+  return rows.map(r=>{
+    const e=(r.tf_scores||{})[tf]||r;
+    const hasBO=(r.signals||[]).some(s=>s.includes('突破20日高點(量確認)')||s.includes('Breakout'));
+    const tp=e.buy_price?(e.buy_price*1.2).toFixed(2):null;
+    let earn='';if(r.earnings_date){const dd=(new Date(r.earnings_date)-Date.now())/864e5;if(dd>=-1&&dd<=14)earn=` · <span class="earn">📅財報${r.earnings_date.slice(5)}</span>`;}
+    const halve=bear&&!hasBO?' <span class="earn">🐻倉位減半</span>':'';
+    return `<div class="stk">
+      <div class="row"><div><span class="nm">${r.name}</span><span class="sub">（${r.stock_id}）${r.sector||''}${earn}</span></div>
+      <div class="sc" style="color:${e.action_color}">${e.final_score}</div></div>
+      <div class="row"><div style="color:${e.action_color};font-weight:600">${e.action}${halve}</div><div>${stars(r.signals)}</div></div>
+      <div class="px"><span>現價 <b>$${r.price!=null?r.price:'—'}</b></span><span>買 <b style="color:var(--b)">${e.buy_price?'$'+e.buy_price:'—'}</b></span><span>損 <b style="color:var(--r)">${e.stop_suggest?'$'+e.stop_suggest:'—'}</b></span><span>利 <b style="color:var(--g)">${tp?'$'+tp:'—'}</b></span></div>
+      <div class="sig">${(r.signals||[]).slice(0,3).join(' · ')||'—'}</div>
+    </div>`;
+  }).join('');
+}
+function bearBanner(sc,idx){const reg=(sc||{}).market_regime;if(!(reg&&reg.bull===false))return '';return `<div class="bear"><b>🐻 ${idx} 空頭市況</b>（${reg.index?reg.index.toLocaleString():''}&lt;MA200）：非Breakout標的倉位建議減半</div>`;}
+
+function renderBuy(){
+  const tw=D.tw, us=D.us;
+  const H=(D.hits&&D.hits.summary)||null;
+  let hit='';
+  if(H){const cell=(m,t,l)=>{const s=(H[m]||{})[t];if(!s)return '';const done=(s.hit||0)+(s.miss||0);if(!done)return `${l} 累積中`;return `${l} <b style="color:${s.hit_rate>=50?'var(--g)':'#d97706'}">${s.hit_rate}%</b>`;};
+    hit=`<div class="card" style="font-size:12px">📈 實戰命中率：${['台短','台中'].map((l,i)=>cell('TW',['short','medium'][i],l)).filter(Boolean).join(' · ')} · ${['美短','美中'].map((l,i)=>cell('US',['short','medium'][i],l)).filter(Boolean).join(' · ')}</div>`;}
+  document.getElementById('p-buy').innerHTML=hit+`
+    <h3>🇹🇼 台股</h3>${bearBanner(tw,'加權')}
+    <div class="card"><div class="muted" style="margin-bottom:4px">⚡ 短線</div>${buyRows(tw,'short',false)}</div>
+    <div class="card"><div class="muted" style="margin-bottom:4px">📈 中線</div>${buyRows(tw,'medium',false)}</div>
+    <h3>🇺🇸 美股</h3>${bearBanner(us,'S&P500')}
+    <div class="card"><div class="muted" style="margin-bottom:4px">⚡ 短線</div>${buyRows(us,'short',true)}</div>
+    <div class="card"><div class="muted" style="margin-bottom:4px">📈 中線</div>${buyRows(us,'medium',true)}</div>
+    <div class="muted" style="padding:4px 2px">星級★★=Sharpe≥0.5且PF≥2（嚴格回測）｜買=拉回MA20/突破追價，損=支撐或-8%，利=+20%賣½留½｜倉位需總資產(個資)請用電腦版</div>`;
+}
+
+function renderMarket(){
+  const h=(D.brief||{}).market_health||{};
+  if(!h.index){document.getElementById('p-market').innerHTML='<div class="muted" style="padding:20px;text-align:center">無大盤資料</div>';return;}
+  const idx=h.index,ma=h.ma||{},vol=h.volume||{},fx=h.usdtwd||{},cr=h.credit||{};
+  const [ht,hc]=h.health||['—','#888'];
+  const maPills=[20,60,120,240].map(n=>{const m=ma[n];if(!m)return '';return `<span class="pill" style="background:${m.above?'#fef2f2':'#f0fdf4'};color:${m.above?'var(--r)':'var(--g)'}">MA${n} ${m.above?'站上':'跌破'}</span>`;}).join(' ');
+  document.getElementById('p-market').innerHTML=`
+    ${cr.divergence?'<div class="bear"><b>⚠️ 信用背離</b>：美股仍強但信用利差轉弱，新倉保守</div>':''}
+    <div class="card"><div class="row"><div>大盤體質 <b class="pill" style="background:${hc}22;color:${hc}">${ht}（${h.health_score}/7）</b></div>
+      <div style="text-align:right"><div class="muted">加權</div><div style="font-size:18px;font-weight:800;color:${col(idx.chg)}">${idx.last.toLocaleString()} ${idx.chg>=0?'▲':'▼'}${Math.abs(idx.chg).toFixed(2)}%</div></div></div>
+      <div style="margin-top:8px">${maPills}</div></div>
+    <div class="kpi">
+      <div><div class="l">RSI</div><div class="v">${h.rsi||'—'}</div></div>
+      <div><div class="l">MACD</div><div class="v" style="color:${(h.macd||{}).bull?'var(--r)':'var(--g)'}">${(h.macd||{}).bull?'紅柱':'綠柱'}</div></div>
+      <div><div class="l">量能</div><div class="v">${vol.ratio||'—'}x</div></div>
+    </div>
+    <h3>領先指標</h3>
+    <div class="kpi">
+      ${fx.last?`<div><div class="l">USDTWD(外資)</div><div class="v" style="color:${fx.twd_strong?'var(--r)':'var(--g)'}">${fx.last}</div><div class="muted">${fx.state}</div></div>`:''}
+      ${cr.ratio?`<div><div class="l">信用 HYG/LQD</div><div class="v" style="color:${cr.risk_on?'var(--r)':'var(--g)'}">${cr.risk_on?'Risk-On':'Risk-Off'}</div><div class="muted">${cr.state}</div></div>`:''}
+    </div>`;
+}
+
+let _bk='tw_pre';
+function renderBrief(bk){
+  _bk=bk||_bk;
+  const b=(D.brief||{})[_bk]||{};
+  const btns=[['tw_pre','🌅台股前'],['tw_post','🌆台股後'],['us_pre','🌃美股前'],['us_post','☀️美股後']];
+  const hd=b.headline||{};
+  let html=`<div class="briefbtns">${btns.map(([k,l])=>`<button class="${k===_bk?'on':''}" onclick="renderBrief('${k}')">${l}</button>`).join('')}</div>`;
+  if(!b.sections||!b.sections.length){html+='<div class="muted" style="padding:20px;text-align:center">無資料</div>';}
+  else{
+    html+=`<div class="card" style="border-left:4px solid ${hd.color||'#888'}"><b style="color:${hd.color||'#888'}">${hd.text||''}</b><div class="muted">更新 ${fmtT(b.updated_at)}</div></div>`;
+    b.sections.forEach(s=>{html+=`<details ${s.open?'open':''}><summary>${s.title}</summary><div>${s.html||''}</div></details>`;});
+  }
+  document.getElementById('p-brief').innerHTML=html;
+}
+
+async function load(){
+  const f=async n=>{try{const r=await fetch(n+'?t='+Date.now());return r.ok?await r.json():null;}catch(e){return null;}};
+  const [tw,us,brief,hits,backtest]=await Promise.all([f('sector_scan.json'),f('us_scan.json'),f('market_brief.json'),f('actbuy_hits.json'),f('backtest_results.json')]);
+  Object.assign(D,{tw,us,brief,hits,backtest});
+  const t=(tw||{}).scan_time||((brief||{}).tw_pre||{}).updated_at;
+  document.getElementById('stamp').textContent='資料 '+fmtT(t);
+  if(!tw&&!brief){document.getElementById('p-buy').innerHTML='<div class="err">❌ 資料載入失敗，稍後重試</div>';return;}
+  try{renderBuy();renderMarket();renderBrief();}catch(e){document.getElementById('p-buy').innerHTML='<div class="err">❌ '+e.message+'</div>';}
+}
+load();
+</script>
+</body>
+</html>

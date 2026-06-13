@@ -1,0 +1,211 @@
+{
+  "run_at": "2026-06-11T08:40:48.899777",
+  "period": "2021-12 ~ 2026-06",
+  "test_symbols": [
+    "2330",
+    "2454",
+    "2317",
+    "2308",
+    "3008",
+    "2382",
+    "3711",
+    "2412",
+    "3037",
+    "3189",
+    "3231",
+    "2376",
+    "2368",
+    "6223",
+    "3017",
+    "3653",
+    "2603",
+    "2615",
+    "2609",
+    "1519",
+    "1513",
+    "2327",
+    "5434",
+    "8210"
+  ],
+  "init_cash": 100000,
+  "commission": 0.001425,
+  "strategies": [
+    {
+      "name": "Breakout突破",
+      "win_rate": 47.05,
+      "return_pct": 111.13,
+      "sharpe": 0.54,
+      "max_drawdown": -28.57,
+      "trades": 496,
+      "profit_factor": 2.53,
+      "bull": {
+        "trades": 428,
+        "win_rate": 46.03
+      },
+      "bear": {
+        "trades": 68,
+        "win_rate": 55.88
+      },
+      "grade": "保留",
+      "sharpe_delta": -0.29
+    },
+    {
+      "name": "扣抵有利",
+      "win_rate": 37.34,
+      "return_pct": 206.85,
+      "sharpe": 0.52,
+      "max_drawdown": -38.42,
+      "trades": 2000,
+      "profit_factor": 1.77,
+      "bull": {
+        "trades": 1709,
+        "win_rate": 37.33
+      },
+      "bear": {
+        "trades": 291,
+        "win_rate": 38.14
+      },
+      "grade": "普通",
+      "sharpe_delta": -0.62
+    },
+    {
+      "name": "趨勢線",
+      "win_rate": 38.33,
+      "return_pct": 163.13,
+      "sharpe": 0.39,
+      "max_drawdown": -37.48,
+      "trades": 2220,
+      "profit_factor": 1.65,
+      "bull": {
+        "trades": 1911,
+        "win_rate": 38.93
+      },
+      "bear": {
+        "trades": 309,
+        "win_rate": 34.3
+      },
+      "grade": "普通",
+      "sharpe_delta": -0.56
+    },
+    {
+      "name": "雙線GC+VCP",
+      "win_rate": 31.12,
+      "return_pct": 142.44,
+      "sharpe": 0.41,
+      "max_drawdown": -36.99,
+      "trades": 1140,
+      "profit_factor": 1.8,
+      "bull": {
+        "trades": 982,
+        "win_rate": 31.77
+      },
+      "bear": {
+        "trades": 158,
+        "win_rate": 26.58
+      },
+      "grade": "普通",
+      "sharpe_delta": -0.58
+    },
+    {
+      "name": "量能爆量",
+      "win_rate": 42.4,
+      "return_pct": 94.96,
+      "sharpe": 0.45,
+      "max_drawdown": -30.41,
+      "trades": 786,
+      "profit_factor": 1.99,
+      "bull": {
+        "trades": 617,
+        "win_rate": 41.17
+      },
+      "bear": {
+        "trades": 169,
+        "win_rate": 44.38
+      },
+      "grade": "普通",
+      "sharpe_delta": -0.28
+    },
+    {
+      "name": "MACD+KD雙金叉",
+      "win_rate": 34.41,
+      "return_pct": 82.0,
+      "sharpe": 0.25,
+      "max_drawdown": -31.93,
+      "trades": 533,
+      "profit_factor": 1.85,
+      "bull": {
+        "trades": 485,
+        "win_rate": 36.08
+      },
+      "bear": {
+        "trades": 48,
+        "win_rate": 37.5
+      },
+      "grade": "普通",
+      "sharpe_delta": -0.54
+    },
+    {
+      "name": "綜合分數>=5",
+      "win_rate": 38.15,
+      "return_pct": 169.15,
+      "sharpe": 0.44,
+      "max_drawdown": -37.35,
+      "trades": 1535,
+      "profit_factor": 1.77,
+      "bull": {
+        "trades": 1342,
+        "win_rate": 38.67
+      },
+      "bear": {
+        "trades": 193,
+        "win_rate": 35.75
+      },
+      "grade": "綜合",
+      "sharpe_delta": -0.59
+    }
+  ],
+  "ranking": [
+    "Breakout突破",
+    "扣抵有利",
+    "量能爆量",
+    "綜合分數>=5",
+    "雙線GC+VCP",
+    "趨勢線",
+    "MACD+KD雙金叉"
+  ],
+  "verdict": "值得留：Breakout突破。 應砍（雜訊/負期望）：扣抵有利、趨勢線、雙線GC+VCP、量能爆量、MACD+KD雙金叉。 綜合分數>=5 策略報酬 169.15% vs 單一策略平均 133.42%，多訊號共振確實較佳，分數高有意義。",
+  "changes": [
+    {
+      "name": "扣抵有利",
+      "type": "降級",
+      "from": "保留",
+      "to": "普通",
+      "sharpe_delta": -0.62,
+      "icon": "⬇️🔴"
+    },
+    {
+      "name": "趨勢線",
+      "type": "降級",
+      "from": "保留",
+      "to": "普通",
+      "sharpe_delta": -0.56,
+      "icon": "⬇️🔴"
+    },
+    {
+      "name": "量能爆量",
+      "type": "降級",
+      "from": "保留",
+      "to": "普通",
+      "sharpe_delta": -0.28,
+      "icon": "⬇️🔴"
+    },
+    {
+      "name": "MACD+KD雙金叉",
+      "type": "降級",
+      "from": "保留",
+      "to": "普通",
+      "sharpe_delta": -0.54,
+      "icon": "⬇️🔴"
+    }
+  ]
+}
