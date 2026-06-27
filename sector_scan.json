@@ -1,5 +1,5 @@
 {
-  "scan_time": "2026-06-27T22:08:59.585429",
+  "scan_time": "2026-06-27T22:50:11.713801",
   "weight_source": "時間框架:中線",
   "weights": {
     "fundamental": 0.35,
@@ -388,7 +388,7 @@
         "📊 MA20>MA60多頭",
         "📐 上升趨勢",
         "🎯 雙線多頭排列",
-        "📊 量增1.64x"
+        "📊 量增1.68x"
       ],
       "final_score": 80.0,
       "positives": 3,
@@ -1167,7 +1167,7 @@
         "📊 MA20>MA60多頭",
         "📐 上升趨勢",
         "🎯 雙線多頭排列",
-        "🔥 爆量3.36x"
+        "🔥 爆量3.48x"
       ],
       "final_score": 62.7,
       "positives": 2,
@@ -1918,6 +1918,69 @@
       "streak_days": 0
     },
     {
+      "stock_id": "3019",
+      "name": "亞光",
+      "market": "TW",
+      "votes": {
+        "fundamental": 1,
+        "chip": 0.3,
+        "technical": -1
+      },
+      "vote_notes": {
+        "fundamental": "四維77分(B 體質良)｜強成長 YoY+33%｜毛利17.3%｜ROE9.9%",
+        "chip": "外資-629張(中性)｜融資大減(籌碼沉澱)",
+        "technical": "跌破MA20（弱勢）｜量比0.59x量縮"
+      },
+      "weighted": 15.5,
+      "strategy_score": 3,
+      "signals": [
+        "📊 MA20>MA60多頭",
+        "📐 上升趨勢"
+      ],
+      "final_score": 24.3,
+      "positives": 2,
+      "negatives": 1,
+      "action": "中性觀望",
+      "action_color": "#888",
+      "price": 139.5,
+      "rsi": 44.5,
+      "vol_ratio": 0.59,
+      "chg_pct": -7.0,
+      "ma20": 148.9,
+      "support": 137.84,
+      "buy_price": null,
+      "stop_suggest": null,
+      "tf_scores": {
+        "short": {
+          "weighted": -21.5,
+          "final_score": 2.1,
+          "action": "中性觀望",
+          "action_color": "#888",
+          "buy_price": null,
+          "stop_suggest": null
+        },
+        "medium": {
+          "weighted": 15.5,
+          "final_score": 24.3,
+          "action": "中性觀望",
+          "action_color": "#888",
+          "buy_price": null,
+          "stop_suggest": null
+        },
+        "long": {
+          "weighted": 56.0,
+          "final_score": 48.6,
+          "action": "買進",
+          "action_color": "#16a34a",
+          "buy_price": 137.84,
+          "stop_suggest": 126.81
+        }
+      },
+      "earnings_date": null,
+      "sector": "光學鏡頭",
+      "streak_days": 0
+    },
+    {
       "stock_id": "2376",
       "name": "技嘉",
       "market": "TW",
@@ -2359,68 +2422,6 @@
       },
       "earnings_date": "2026-07-16",
       "sector": "晶圓代工",
-      "streak_days": 0
-    },
-    {
-      "stock_id": "3019",
-      "name": "亞光",
-      "market": "TW",
-      "votes": {
-        "fundamental": 1,
-        "chip": 0.3,
-        "technical": -1
-      },
-      "vote_notes": {
-        "fundamental": "四維77分(B 體質良)｜強成長 YoY+33%｜毛利17.3%｜ROE9.9%",
-        "chip": "外資-629張(中性)｜融資大減(籌碼沉澱)",
-        "technical": "跌破MA20（弱勢）｜量比0.59x量縮"
-      },
-      "weighted": 15.5,
-      "strategy_score": 1,
-      "signals": [
-        "📊 MA20>MA60多頭"
-      ],
-      "final_score": 14.3,
-      "positives": 2,
-      "negatives": 1,
-      "action": "中性觀望",
-      "action_color": "#888",
-      "price": 139.5,
-      "rsi": 44.5,
-      "vol_ratio": 0.59,
-      "chg_pct": -7.0,
-      "ma20": 148.9,
-      "support": 137.84,
-      "buy_price": null,
-      "stop_suggest": null,
-      "tf_scores": {
-        "short": {
-          "weighted": -21.5,
-          "final_score": -7.9,
-          "action": "中性觀望",
-          "action_color": "#888",
-          "buy_price": null,
-          "stop_suggest": null
-        },
-        "medium": {
-          "weighted": 15.5,
-          "final_score": 14.3,
-          "action": "中性觀望",
-          "action_color": "#888",
-          "buy_price": null,
-          "stop_suggest": null
-        },
-        "long": {
-          "weighted": 56.0,
-          "final_score": 38.6,
-          "action": "觀察候選",
-          "action_color": "#f59e0b",
-          "buy_price": 137.84,
-          "stop_suggest": 126.81
-        }
-      },
-      "earnings_date": null,
-      "sector": "光學鏡頭",
       "streak_days": 0
     },
     {
@@ -3427,12 +3428,12 @@
         "technical": "跌破MA20（弱勢）｜量比1.85x放量｜RSI 24.7 超賣"
       },
       "weighted": -30.0,
-      "strategy_score": 2,
+      "strategy_score": 1,
       "signals": [
         "📊 MA20>MA60多頭",
-        "🔥 爆量2.11x"
+        "📊 量增1.95x"
       ],
-      "final_score": -8.0,
+      "final_score": -13.0,
       "positives": 1,
       "negatives": 2,
       "action": "中性觀望",
@@ -3448,7 +3449,7 @@
       "tf_scores": {
         "short": {
           "weighted": -80.0,
-          "final_score": -38.0,
+          "final_score": -43.0,
           "action": "賣出/避開",
           "action_color": "#dc2626",
           "buy_price": null,
@@ -3456,7 +3457,7 @@
         },
         "medium": {
           "weighted": -30.0,
-          "final_score": -8.0,
+          "final_score": -13.0,
           "action": "中性觀望",
           "action_color": "#888",
           "buy_price": null,
@@ -3464,7 +3465,7 @@
         },
         "long": {
           "weighted": 30.0,
-          "final_score": 28.0,
+          "final_score": 23.0,
           "action": "中性觀望",
           "action_color": "#888",
           "buy_price": null,
@@ -3616,8 +3617,7 @@
       "weighted": -65.0,
       "strategy_score": 1,
       "signals": [
-        "📊 MA20>MA60多頭",
-        "📊 量增1.51x"
+        "📊 MA20>MA60多頭"
       ],
       "final_score": -34.0,
       "positives": 0,
@@ -4001,7 +4001,7 @@
         "📊 MA20>MA60多頭",
         "📐 上升趨勢",
         "🎯 雙線多頭排列",
-        "📊 量增1.64x"
+        "📊 量增1.68x"
       ],
       "final_score": 80.0,
       "positives": 3,
@@ -4183,8 +4183,7 @@
       "weighted": -65.0,
       "strategy_score": 1,
       "signals": [
-        "📊 MA20>MA60多頭",
-        "📊 量增1.51x"
+        "📊 MA20>MA60多頭"
       ],
       "final_score": -34.0,
       "positives": 0,
@@ -4531,6 +4530,11 @@
             "stock_id": "3406",
             "name": "玉晶光",
             "score": 77.4
+          },
+          {
+            "stock_id": "3019",
+            "name": "亞光",
+            "score": 48.6
           }
         ],
         "被動元件": [
@@ -4543,7 +4547,6 @@
       },
       "watch_ids": [
         "2603",
-        "3019",
         "1785",
         "3081",
         "6187"
