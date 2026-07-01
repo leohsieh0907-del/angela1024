@@ -1,5 +1,5 @@
 {
-  "scan_time": "2026-07-01T17:46:35.919202",
+  "scan_time": "2026-07-02T07:45:09.467026",
   "weight_source": "時間框架:中線",
   "weights": {
     "fundamental": 0.5,
@@ -44,27 +44,88 @@
   "data_error": true,
   "results": [
     {
+      "stock_id": "6147",
+      "name": "頎邦",
+      "market": "TW",
+      "votes": {
+        "fundamental": 0,
+        "chip": 0.36,
+        "technical": 0
+      },
+      "vote_notes": {
+        "fundamental": "估值資料失敗:Failed to perform, curl: (6) Could not resolve host: query1.finance.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.",
+        "chip": "外資買超1,412張｜投信賣超3,189張｜(TWSE暫無→FinMind備援)",
+        "technical": "資料不足"
+      },
+      "weighted": 9.0,
+      "strategy_score": 0,
+      "signals": [],
+      "final_score": 5.4,
+      "positives": 1,
+      "negatives": 0,
+      "action": "中性觀望",
+      "action_color": "#888",
+      "price": null,
+      "rsi": 50,
+      "vol_ratio": 0,
+      "chg_pct": null,
+      "ma20": null,
+      "support": null,
+      "buy_price": null,
+      "stop_suggest": null,
+      "tf_scores": {
+        "short": {
+          "weighted": 18.0,
+          "final_score": 10.8,
+          "action": "中性觀望",
+          "action_color": "#888",
+          "buy_price": null,
+          "stop_suggest": null
+        },
+        "medium": {
+          "weighted": 9.0,
+          "final_score": 5.4,
+          "action": "中性觀望",
+          "action_color": "#888",
+          "buy_price": null,
+          "stop_suggest": null
+        },
+        "long": {
+          "weighted": 7.2,
+          "final_score": 4.3,
+          "action": "中性觀望",
+          "action_color": "#888",
+          "buy_price": null,
+          "stop_suggest": null
+        }
+      },
+      "earnings_date": null,
+      "sector": "先進封裝",
+      "streak_days": 0,
+      "in_strong_sector": false
+    },
+    {
       "stock_id": "2330",
       "name": "台積電",
       "market": "TW",
       "votes": {
-        "fundamental": 1,
+        "fundamental": 0,
         "chip": 0,
         "technical": 0
       },
       "vote_notes": {
-        "fundamental": "四維100分(A 體質優)｜強成長 YoY+58%｜毛利66.2%｜ROE38.9%",
-        "chip": "籌碼資料失敗:HTTPSConnectionPool(host='www.twse.com.tw', port=443): Max retries exceeded with url: /rwd/zh/fund/T86?date=20260701&selectType=ALLBUT0999&response=json (Caused by NameResolutionError(\"HTTPSConnection(host='www.twse.com.tw', port=443): Failed to resolve 'www.twse.com.tw' ([Errno 11001] getaddrinfo failed)\"))",
+        "fundamental": "估值資料失敗:Failed to perform, curl: (6) Could not resolve host: query1.finance.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.",
+        "chip": "籌碼資料失敗:HTTPSConnectionPool(host='www.twse.com.tw', port=443): Max retries exceeded with url: /rwd/zh/fund/T86?date=20260702&selectType=ALLBUT0999&response=json (Caused by NameResolutionError(\"HTTPSConnection(host='www.twse.com.tw', port=443): Failed to resolve 'www.twse.com.tw' ([Errno 11001] getaddrinfo failed)\"))",
         "technical": "資料不足"
       },
-      "weighted": 50.0,
+      "weighted": 0.0,
       "strategy_score": 0,
       "signals": [],
-      "final_score": 30.0,
-      "positives": 1,
+      "final_score": 0.0,
+      "positives": 0,
       "negatives": 0,
-      "action": "觀察候選",
-      "action_color": "#f59e0b",
+      "action": "中性觀望",
+      "action_color": "#888",
       "price": null,
       "rsi": 50,
       "vol_ratio": 0,
@@ -83,18 +144,18 @@
           "stop_suggest": null
         },
         "medium": {
-          "weighted": 50.0,
-          "final_score": 30.0,
-          "action": "觀察候選",
-          "action_color": "#f59e0b",
+          "weighted": 0.0,
+          "final_score": 0.0,
+          "action": "中性觀望",
+          "action_color": "#888",
           "buy_price": null,
           "stop_suggest": null
         },
         "long": {
-          "weighted": 65.0,
-          "final_score": 39.0,
-          "action": "觀察候選",
-          "action_color": "#f59e0b",
+          "weighted": 0.0,
+          "final_score": 0.0,
+          "action": "中性觀望",
+          "action_color": "#888",
           "buy_price": null,
           "stop_suggest": null
         }
@@ -109,23 +170,23 @@
       "name": "聯電",
       "market": "TW",
       "votes": {
-        "fundamental": 1,
+        "fundamental": 0,
         "chip": 0,
         "technical": 0
       },
       "vote_notes": {
-        "fundamental": "四維94分(A 體質優)｜強成長 YoY+108%｜毛利29.2%｜ROE15.9%",
-        "chip": "籌碼資料失敗:HTTPSConnectionPool(host='www.twse.com.tw', port=443): Max retries exceeded with url: /rwd/zh/fund/T86?date=20260701&selectType=ALLBUT0999&response=json (Caused by NameResolutionError(\"HTTPSConnection(host='www.twse.com.tw', port=443): Failed to resolve 'www.twse.com.tw' ([Errno 11001] getaddrinfo failed)\"))",
+        "fundamental": "估值資料失敗:Failed to perform, curl: (6) Could not resolve host: query1.finance.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.",
+        "chip": "籌碼資料失敗:HTTPSConnectionPool(host='www.twse.com.tw', port=443): Max retries exceeded with url: /rwd/zh/fund/T86?date=20260702&selectType=ALLBUT0999&response=json (Caused by NameResolutionError(\"HTTPSConnection(host='www.twse.com.tw', port=443): Failed to resolve 'www.twse.com.tw' ([Errno 11001] getaddrinfo failed)\"))",
         "technical": "資料不足"
       },
-      "weighted": 50.0,
+      "weighted": 0.0,
       "strategy_score": 0,
       "signals": [],
-      "final_score": 30.0,
-      "positives": 1,
+      "final_score": 0.0,
+      "positives": 0,
       "negatives": 0,
-      "action": "觀察候選",
-      "action_color": "#f59e0b",
+      "action": "中性觀望",
+      "action_color": "#888",
       "price": null,
       "rsi": 50,
       "vol_ratio": 0,
@@ -144,18 +205,18 @@
           "stop_suggest": null
         },
         "medium": {
-          "weighted": 50.0,
-          "final_score": 30.0,
-          "action": "觀察候選",
-          "action_color": "#f59e0b",
+          "weighted": 0.0,
+          "final_score": 0.0,
+          "action": "中性觀望",
+          "action_color": "#888",
           "buy_price": null,
           "stop_suggest": null
         },
         "long": {
-          "weighted": 65.0,
-          "final_score": 39.0,
-          "action": "觀察候選",
-          "action_color": "#f59e0b",
+          "weighted": 0.0,
+          "final_score": 0.0,
+          "action": "中性觀望",
+          "action_color": "#888",
           "buy_price": null,
           "stop_suggest": null
         }
@@ -170,23 +231,23 @@
       "name": "力積電",
       "market": "TW",
       "votes": {
-        "fundamental": 1,
+        "fundamental": 0,
         "chip": 0,
         "technical": 0
       },
       "vote_notes": {
-        "fundamental": "四維82分(A 體質優)｜強成長 YoY+1392%｜毛利10.2%｜ROE58.9%",
-        "chip": "籌碼資料失敗:HTTPSConnectionPool(host='www.twse.com.tw', port=443): Max retries exceeded with url: /rwd/zh/fund/T86?date=20260701&selectType=ALLBUT0999&response=json (Caused by NameResolutionError(\"HTTPSConnection(host='www.twse.com.tw', port=443): Failed to resolve 'www.twse.com.tw' ([Errno 11001] getaddrinfo failed)\"))",
+        "fundamental": "估值資料失敗:Failed to perform, curl: (6) Could not resolve host: query1.finance.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.",
+        "chip": "籌碼資料失敗:HTTPSConnectionPool(host='www.twse.com.tw', port=443): Max retries exceeded with url: /rwd/zh/fund/T86?date=20260702&selectType=ALLBUT0999&response=json (Caused by NameResolutionError(\"HTTPSConnection(host='www.twse.com.tw', port=443): Failed to resolve 'www.twse.com.tw' ([Errno 11001] getaddrinfo failed)\"))",
         "technical": "資料不足"
       },
-      "weighted": 50.0,
+      "weighted": 0.0,
       "strategy_score": 0,
       "signals": [],
-      "final_score": 30.0,
-      "positives": 1,
+      "final_score": 0.0,
+      "positives": 0,
       "negatives": 0,
-      "action": "觀察候選",
-      "action_color": "#f59e0b",
+      "action": "中性觀望",
+      "action_color": "#888",
       "price": null,
       "rsi": 50,
       "vol_ratio": 0,
@@ -205,634 +266,24 @@
           "stop_suggest": null
         },
         "medium": {
-          "weighted": 50.0,
-          "final_score": 30.0,
-          "action": "觀察候選",
-          "action_color": "#f59e0b",
+          "weighted": 0.0,
+          "final_score": 0.0,
+          "action": "中性觀望",
+          "action_color": "#888",
           "buy_price": null,
           "stop_suggest": null
         },
         "long": {
-          "weighted": 65.0,
-          "final_score": 39.0,
-          "action": "觀察候選",
-          "action_color": "#f59e0b",
+          "weighted": 0.0,
+          "final_score": 0.0,
+          "action": "中性觀望",
+          "action_color": "#888",
           "buy_price": null,
           "stop_suggest": null
         }
       },
       "earnings_date": null,
       "sector": "晶圓代工",
-      "streak_days": 0,
-      "in_strong_sector": false
-    },
-    {
-      "stock_id": "3443",
-      "name": "創意",
-      "market": "TW",
-      "votes": {
-        "fundamental": 1,
-        "chip": 0,
-        "technical": 0
-      },
-      "vote_notes": {
-        "fundamental": "四維84分(A 體質優)｜強成長 YoY+132%｜毛利27.2%｜ROE45.2%",
-        "chip": "籌碼資料失敗:HTTPSConnectionPool(host='www.twse.com.tw', port=443): Max retries exceeded with url: /rwd/zh/fund/T86?date=20260701&selectType=ALLBUT0999&response=json (Caused by NameResolutionError(\"HTTPSConnection(host='www.twse.com.tw', port=443): Failed to resolve 'www.twse.com.tw' ([Errno 11001] getaddrinfo failed)\"))",
-        "technical": "資料不足"
-      },
-      "weighted": 50.0,
-      "strategy_score": 0,
-      "signals": [],
-      "final_score": 30.0,
-      "positives": 1,
-      "negatives": 0,
-      "action": "觀察候選",
-      "action_color": "#f59e0b",
-      "price": null,
-      "rsi": 50,
-      "vol_ratio": 0,
-      "chg_pct": null,
-      "ma20": null,
-      "support": null,
-      "buy_price": null,
-      "stop_suggest": null,
-      "tf_scores": {
-        "short": {
-          "weighted": 0.0,
-          "final_score": 0.0,
-          "action": "中性觀望",
-          "action_color": "#888",
-          "buy_price": null,
-          "stop_suggest": null
-        },
-        "medium": {
-          "weighted": 50.0,
-          "final_score": 30.0,
-          "action": "觀察候選",
-          "action_color": "#f59e0b",
-          "buy_price": null,
-          "stop_suggest": null
-        },
-        "long": {
-          "weighted": 65.0,
-          "final_score": 39.0,
-          "action": "觀察候選",
-          "action_color": "#f59e0b",
-          "buy_price": null,
-          "stop_suggest": null
-        }
-      },
-      "earnings_date": null,
-      "sector": "IC設計",
-      "streak_days": 0,
-      "in_strong_sector": true
-    },
-    {
-      "stock_id": "6669",
-      "name": "緯穎",
-      "market": "TW",
-      "votes": {
-        "fundamental": 1,
-        "chip": 0,
-        "technical": 0
-      },
-      "vote_notes": {
-        "fundamental": "四維60分(B 體質良)｜強成長 YoY+62%｜毛利7.6%｜ROE40.3%",
-        "chip": "籌碼資料失敗:HTTPSConnectionPool(host='www.twse.com.tw', port=443): Max retries exceeded with url: /rwd/zh/fund/T86?date=20260701&selectType=ALLBUT0999&response=json (Caused by NameResolutionError(\"HTTPSConnection(host='www.twse.com.tw', port=443): Failed to resolve 'www.twse.com.tw' ([Errno 11001] getaddrinfo failed)\"))",
-        "technical": "資料不足"
-      },
-      "weighted": 50.0,
-      "strategy_score": 0,
-      "signals": [],
-      "final_score": 30.0,
-      "positives": 1,
-      "negatives": 0,
-      "action": "觀察候選",
-      "action_color": "#f59e0b",
-      "price": null,
-      "rsi": 50,
-      "vol_ratio": 0,
-      "chg_pct": null,
-      "ma20": null,
-      "support": null,
-      "buy_price": null,
-      "stop_suggest": null,
-      "tf_scores": {
-        "short": {
-          "weighted": 0.0,
-          "final_score": 0.0,
-          "action": "中性觀望",
-          "action_color": "#888",
-          "buy_price": null,
-          "stop_suggest": null
-        },
-        "medium": {
-          "weighted": 50.0,
-          "final_score": 30.0,
-          "action": "觀察候選",
-          "action_color": "#f59e0b",
-          "buy_price": null,
-          "stop_suggest": null
-        },
-        "long": {
-          "weighted": 65.0,
-          "final_score": 39.0,
-          "action": "觀察候選",
-          "action_color": "#f59e0b",
-          "buy_price": null,
-          "stop_suggest": null
-        }
-      },
-      "earnings_date": null,
-      "sector": "AI伺服器",
-      "streak_days": 0,
-      "in_strong_sector": true
-    },
-    {
-      "stock_id": "3231",
-      "name": "緯創",
-      "market": "TW",
-      "votes": {
-        "fundamental": 1,
-        "chip": 0,
-        "technical": 0
-      },
-      "vote_notes": {
-        "fundamental": "四維52分(C 體質中)｜強成長 YoY+144%｜毛利5.2%｜ROE37.9%",
-        "chip": "籌碼資料失敗:HTTPSConnectionPool(host='www.twse.com.tw', port=443): Max retries exceeded with url: /rwd/zh/fund/T86?date=20260701&selectType=ALLBUT0999&response=json (Caused by NameResolutionError(\"HTTPSConnection(host='www.twse.com.tw', port=443): Failed to resolve 'www.twse.com.tw' ([Errno 11001] getaddrinfo failed)\"))",
-        "technical": "資料不足"
-      },
-      "weighted": 50.0,
-      "strategy_score": 0,
-      "signals": [],
-      "final_score": 30.0,
-      "positives": 1,
-      "negatives": 0,
-      "action": "觀察候選",
-      "action_color": "#f59e0b",
-      "price": null,
-      "rsi": 50,
-      "vol_ratio": 0,
-      "chg_pct": null,
-      "ma20": null,
-      "support": null,
-      "buy_price": null,
-      "stop_suggest": null,
-      "tf_scores": {
-        "short": {
-          "weighted": 0.0,
-          "final_score": 0.0,
-          "action": "中性觀望",
-          "action_color": "#888",
-          "buy_price": null,
-          "stop_suggest": null
-        },
-        "medium": {
-          "weighted": 50.0,
-          "final_score": 30.0,
-          "action": "觀察候選",
-          "action_color": "#f59e0b",
-          "buy_price": null,
-          "stop_suggest": null
-        },
-        "long": {
-          "weighted": 65.0,
-          "final_score": 39.0,
-          "action": "觀察候選",
-          "action_color": "#f59e0b",
-          "buy_price": null,
-          "stop_suggest": null
-        }
-      },
-      "earnings_date": null,
-      "sector": "AI伺服器",
-      "streak_days": 0,
-      "in_strong_sector": true
-    },
-    {
-      "stock_id": "2382",
-      "name": "廣達",
-      "market": "TW",
-      "votes": {
-        "fundamental": 1,
-        "chip": 0,
-        "technical": 0
-      },
-      "vote_notes": {
-        "fundamental": "四維52分(C 體質中)｜強成長 YoY+94%｜毛利4.8%｜ROE41.1%",
-        "chip": "籌碼資料失敗:HTTPSConnectionPool(host='www.twse.com.tw', port=443): Max retries exceeded with url: /rwd/zh/fund/T86?date=20260701&selectType=ALLBUT0999&response=json (Caused by NameResolutionError(\"HTTPSConnection(host='www.twse.com.tw', port=443): Failed to resolve 'www.twse.com.tw' ([Errno 11001] getaddrinfo failed)\"))",
-        "technical": "資料不足"
-      },
-      "weighted": 50.0,
-      "strategy_score": 0,
-      "signals": [],
-      "final_score": 30.0,
-      "positives": 1,
-      "negatives": 0,
-      "action": "觀察候選",
-      "action_color": "#f59e0b",
-      "price": null,
-      "rsi": 50,
-      "vol_ratio": 0,
-      "chg_pct": null,
-      "ma20": null,
-      "support": null,
-      "buy_price": null,
-      "stop_suggest": null,
-      "tf_scores": {
-        "short": {
-          "weighted": 0.0,
-          "final_score": 0.0,
-          "action": "中性觀望",
-          "action_color": "#888",
-          "buy_price": null,
-          "stop_suggest": null
-        },
-        "medium": {
-          "weighted": 50.0,
-          "final_score": 30.0,
-          "action": "觀察候選",
-          "action_color": "#f59e0b",
-          "buy_price": null,
-          "stop_suggest": null
-        },
-        "long": {
-          "weighted": 65.0,
-          "final_score": 39.0,
-          "action": "觀察候選",
-          "action_color": "#f59e0b",
-          "buy_price": null,
-          "stop_suggest": null
-        }
-      },
-      "earnings_date": null,
-      "sector": "AI伺服器",
-      "streak_days": 0,
-      "in_strong_sector": true
-    },
-    {
-      "stock_id": "3037",
-      "name": "欣興",
-      "market": "TW",
-      "votes": {
-        "fundamental": 1,
-        "chip": 0,
-        "technical": 0
-      },
-      "vote_notes": {
-        "fundamental": "四維74分(B 體質良)｜強成長 YoY+447%｜毛利18.0%｜ROE19.0%",
-        "chip": "籌碼資料失敗:HTTPSConnectionPool(host='www.twse.com.tw', port=443): Max retries exceeded with url: /rwd/zh/fund/T86?date=20260701&selectType=ALLBUT0999&response=json (Caused by NameResolutionError(\"HTTPSConnection(host='www.twse.com.tw', port=443): Failed to resolve 'www.twse.com.tw' ([Errno 11001] getaddrinfo failed)\"))",
-        "technical": "資料不足"
-      },
-      "weighted": 50.0,
-      "strategy_score": 0,
-      "signals": [],
-      "final_score": 30.0,
-      "positives": 1,
-      "negatives": 0,
-      "action": "觀察候選",
-      "action_color": "#f59e0b",
-      "price": null,
-      "rsi": 50,
-      "vol_ratio": 0,
-      "chg_pct": null,
-      "ma20": null,
-      "support": null,
-      "buy_price": null,
-      "stop_suggest": null,
-      "tf_scores": {
-        "short": {
-          "weighted": 0.0,
-          "final_score": 0.0,
-          "action": "中性觀望",
-          "action_color": "#888",
-          "buy_price": null,
-          "stop_suggest": null
-        },
-        "medium": {
-          "weighted": 50.0,
-          "final_score": 30.0,
-          "action": "觀察候選",
-          "action_color": "#f59e0b",
-          "buy_price": null,
-          "stop_suggest": null
-        },
-        "long": {
-          "weighted": 65.0,
-          "final_score": 39.0,
-          "action": "觀察候選",
-          "action_color": "#f59e0b",
-          "buy_price": null,
-          "stop_suggest": null
-        }
-      },
-      "earnings_date": null,
-      "sector": "ABF載板",
-      "streak_days": 0,
-      "in_strong_sector": false
-    },
-    {
-      "stock_id": "8046",
-      "name": "南電",
-      "market": "TW",
-      "votes": {
-        "fundamental": 1,
-        "chip": 0,
-        "technical": 0
-      },
-      "vote_notes": {
-        "fundamental": "四維79分(B 體質良)｜強成長 YoY+534%｜毛利15.8%｜ROE11.2%",
-        "chip": "籌碼資料失敗:HTTPSConnectionPool(host='www.twse.com.tw', port=443): Max retries exceeded with url: /rwd/zh/fund/T86?date=20260701&selectType=ALLBUT0999&response=json (Caused by NameResolutionError(\"HTTPSConnection(host='www.twse.com.tw', port=443): Failed to resolve 'www.twse.com.tw' ([Errno 11001] getaddrinfo failed)\"))",
-        "technical": "資料不足"
-      },
-      "weighted": 50.0,
-      "strategy_score": 0,
-      "signals": [],
-      "final_score": 30.0,
-      "positives": 1,
-      "negatives": 0,
-      "action": "觀察候選",
-      "action_color": "#f59e0b",
-      "price": null,
-      "rsi": 50,
-      "vol_ratio": 0,
-      "chg_pct": null,
-      "ma20": null,
-      "support": null,
-      "buy_price": null,
-      "stop_suggest": null,
-      "tf_scores": {
-        "short": {
-          "weighted": 0.0,
-          "final_score": 0.0,
-          "action": "中性觀望",
-          "action_color": "#888",
-          "buy_price": null,
-          "stop_suggest": null
-        },
-        "medium": {
-          "weighted": 50.0,
-          "final_score": 30.0,
-          "action": "觀察候選",
-          "action_color": "#f59e0b",
-          "buy_price": null,
-          "stop_suggest": null
-        },
-        "long": {
-          "weighted": 65.0,
-          "final_score": 39.0,
-          "action": "觀察候選",
-          "action_color": "#f59e0b",
-          "buy_price": null,
-          "stop_suggest": null
-        }
-      },
-      "earnings_date": null,
-      "sector": "ABF載板",
-      "streak_days": 0,
-      "in_strong_sector": false
-    },
-    {
-      "stock_id": "3189",
-      "name": "景碩",
-      "market": "TW",
-      "votes": {
-        "fundamental": 1,
-        "chip": 0,
-        "technical": 0
-      },
-      "vote_notes": {
-        "fundamental": "四維81分(A 體質優)｜強成長 YoY+92%｜毛利21.2%｜ROE8.1%",
-        "chip": "籌碼資料失敗:HTTPSConnectionPool(host='www.twse.com.tw', port=443): Max retries exceeded with url: /rwd/zh/fund/T86?date=20260701&selectType=ALLBUT0999&response=json (Caused by NameResolutionError(\"HTTPSConnection(host='www.twse.com.tw', port=443): Failed to resolve 'www.twse.com.tw' ([Errno 11001] getaddrinfo failed)\"))",
-        "technical": "資料不足"
-      },
-      "weighted": 50.0,
-      "strategy_score": 0,
-      "signals": [],
-      "final_score": 30.0,
-      "positives": 1,
-      "negatives": 0,
-      "action": "觀察候選",
-      "action_color": "#f59e0b",
-      "price": null,
-      "rsi": 50,
-      "vol_ratio": 0,
-      "chg_pct": null,
-      "ma20": null,
-      "support": null,
-      "buy_price": null,
-      "stop_suggest": null,
-      "tf_scores": {
-        "short": {
-          "weighted": 0.0,
-          "final_score": 0.0,
-          "action": "中性觀望",
-          "action_color": "#888",
-          "buy_price": null,
-          "stop_suggest": null
-        },
-        "medium": {
-          "weighted": 50.0,
-          "final_score": 30.0,
-          "action": "觀察候選",
-          "action_color": "#f59e0b",
-          "buy_price": null,
-          "stop_suggest": null
-        },
-        "long": {
-          "weighted": 65.0,
-          "final_score": 39.0,
-          "action": "觀察候選",
-          "action_color": "#f59e0b",
-          "buy_price": null,
-          "stop_suggest": null
-        }
-      },
-      "earnings_date": null,
-      "sector": "ABF載板",
-      "streak_days": 0,
-      "in_strong_sector": false
-    },
-    {
-      "stock_id": "2383",
-      "name": "台光電",
-      "market": "TW",
-      "votes": {
-        "fundamental": 1,
-        "chip": 0,
-        "technical": 0
-      },
-      "vote_notes": {
-        "fundamental": "四維78分(B 體質良)｜強成長 YoY+115%｜毛利29.4%｜ROE44.5%",
-        "chip": "籌碼資料失敗:HTTPSConnectionPool(host='www.twse.com.tw', port=443): Max retries exceeded with url: /rwd/zh/fund/T86?date=20260701&selectType=ALLBUT0999&response=json (Caused by NameResolutionError(\"HTTPSConnection(host='www.twse.com.tw', port=443): Failed to resolve 'www.twse.com.tw' ([Errno 11001] getaddrinfo failed)\"))",
-        "technical": "資料不足"
-      },
-      "weighted": 50.0,
-      "strategy_score": 0,
-      "signals": [],
-      "final_score": 30.0,
-      "positives": 1,
-      "negatives": 0,
-      "action": "觀察候選",
-      "action_color": "#f59e0b",
-      "price": null,
-      "rsi": 50,
-      "vol_ratio": 0,
-      "chg_pct": null,
-      "ma20": null,
-      "support": null,
-      "buy_price": null,
-      "stop_suggest": null,
-      "tf_scores": {
-        "short": {
-          "weighted": 0.0,
-          "final_score": 0.0,
-          "action": "中性觀望",
-          "action_color": "#888",
-          "buy_price": null,
-          "stop_suggest": null
-        },
-        "medium": {
-          "weighted": 50.0,
-          "final_score": 30.0,
-          "action": "觀察候選",
-          "action_color": "#f59e0b",
-          "buy_price": null,
-          "stop_suggest": null
-        },
-        "long": {
-          "weighted": 65.0,
-          "final_score": 39.0,
-          "action": "觀察候選",
-          "action_color": "#f59e0b",
-          "buy_price": null,
-          "stop_suggest": null
-        }
-      },
-      "earnings_date": null,
-      "sector": "ABF材料/CCL",
-      "streak_days": 0,
-      "in_strong_sector": false
-    },
-    {
-      "stock_id": "3081",
-      "name": "聯亞",
-      "market": "TW",
-      "votes": {
-        "fundamental": 1,
-        "chip": 0,
-        "technical": 0
-      },
-      "vote_notes": {
-        "fundamental": "四維100分(A 體質優)｜強成長 YoY+648%｜毛利54.8%｜ROE30.0%",
-        "chip": "籌碼資料失敗:HTTPSConnectionPool(host='www.twse.com.tw', port=443): Max retries exceeded with url: /rwd/zh/fund/T86?date=20260701&selectType=ALLBUT0999&response=json (Caused by NameResolutionError(\"HTTPSConnection(host='www.twse.com.tw', port=443): Failed to resolve 'www.twse.com.tw' ([Errno 11001] getaddrinfo failed)\"))",
-        "technical": "資料不足"
-      },
-      "weighted": 50.0,
-      "strategy_score": 0,
-      "signals": [],
-      "final_score": 30.0,
-      "positives": 1,
-      "negatives": 0,
-      "action": "觀察候選",
-      "action_color": "#f59e0b",
-      "price": null,
-      "rsi": 50,
-      "vol_ratio": 0,
-      "chg_pct": null,
-      "ma20": null,
-      "support": null,
-      "buy_price": null,
-      "stop_suggest": null,
-      "tf_scores": {
-        "short": {
-          "weighted": 0.0,
-          "final_score": 0.0,
-          "action": "中性觀望",
-          "action_color": "#888",
-          "buy_price": null,
-          "stop_suggest": null
-        },
-        "medium": {
-          "weighted": 50.0,
-          "final_score": 30.0,
-          "action": "觀察候選",
-          "action_color": "#f59e0b",
-          "buy_price": null,
-          "stop_suggest": null
-        },
-        "long": {
-          "weighted": 65.0,
-          "final_score": 39.0,
-          "action": "觀察候選",
-          "action_color": "#f59e0b",
-          "buy_price": null,
-          "stop_suggest": null
-        }
-      },
-      "earnings_date": null,
-      "sector": "CPO光通訊",
-      "streak_days": 0,
-      "in_strong_sector": false
-    },
-    {
-      "stock_id": "6239",
-      "name": "力成",
-      "market": "TW",
-      "votes": {
-        "fundamental": 1,
-        "chip": 0,
-        "technical": 0
-      },
-      "vote_notes": {
-        "fundamental": "四維78分(B 體質良)｜強成長 YoY+58%｜毛利19.4%｜ROE16.4%",
-        "chip": "籌碼資料失敗:HTTPSConnectionPool(host='www.twse.com.tw', port=443): Max retries exceeded with url: /rwd/zh/fund/T86?date=20260701&selectType=ALLBUT0999&response=json (Caused by NameResolutionError(\"HTTPSConnection(host='www.twse.com.tw', port=443): Failed to resolve 'www.twse.com.tw' ([Errno 11001] getaddrinfo failed)\"))",
-        "technical": "資料不足"
-      },
-      "weighted": 50.0,
-      "strategy_score": 0,
-      "signals": [],
-      "final_score": 30.0,
-      "positives": 1,
-      "negatives": 0,
-      "action": "觀察候選",
-      "action_color": "#f59e0b",
-      "price": null,
-      "rsi": 50,
-      "vol_ratio": 0,
-      "chg_pct": null,
-      "ma20": null,
-      "support": null,
-      "buy_price": null,
-      "stop_suggest": null,
-      "tf_scores": {
-        "short": {
-          "weighted": 0.0,
-          "final_score": 0.0,
-          "action": "中性觀望",
-          "action_color": "#888",
-          "buy_price": null,
-          "stop_suggest": null
-        },
-        "medium": {
-          "weighted": 50.0,
-          "final_score": 30.0,
-          "action": "觀察候選",
-          "action_color": "#f59e0b",
-          "buy_price": null,
-          "stop_suggest": null
-        },
-        "long": {
-          "weighted": 65.0,
-          "final_score": 39.0,
-          "action": "觀察候選",
-          "action_color": "#f59e0b",
-          "buy_price": null,
-          "stop_suggest": null
-        }
-      },
-      "earnings_date": null,
-      "sector": "先進封裝",
       "streak_days": 0,
       "in_strong_sector": false
     },
@@ -846,8 +297,8 @@
         "technical": 0
       },
       "vote_notes": {
-        "fundamental": "四維78分(B 體質良)｜成長平緩 YoY+5%｜毛利46.3%｜ROE25.0%",
-        "chip": "籌碼資料失敗:HTTPSConnectionPool(host='www.twse.com.tw', port=443): Max retries exceeded with url: /rwd/zh/fund/T86?date=20260701&selectType=ALLBUT0999&response=json (Caused by NameResolutionError(\"HTTPSConnection(host='www.twse.com.tw', port=443): Failed to resolve 'www.twse.com.tw' ([Errno 11001] getaddrinfo failed)\"))",
+        "fundamental": "估值資料失敗:Failed to perform, curl: (6) Could not resolve host: query1.finance.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.",
+        "chip": "籌碼資料失敗:HTTPSConnectionPool(host='www.twse.com.tw', port=443): Max retries exceeded with url: /rwd/zh/fund/T86?date=20260702&selectType=ALLBUT0999&response=json (Caused by NameResolutionError(\"HTTPSConnection(host='www.twse.com.tw', port=443): Failed to resolve 'www.twse.com.tw' ([Errno 11001] getaddrinfo failed)\"))",
         "technical": "資料不足"
       },
       "weighted": 0.0,
@@ -898,6 +349,555 @@
       "in_strong_sector": true
     },
     {
+      "stock_id": "3443",
+      "name": "創意",
+      "market": "TW",
+      "votes": {
+        "fundamental": 0,
+        "chip": 0,
+        "technical": 0
+      },
+      "vote_notes": {
+        "fundamental": "估值資料失敗:Failed to perform, curl: (6) Could not resolve host: query1.finance.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.",
+        "chip": "籌碼資料失敗:HTTPSConnectionPool(host='www.twse.com.tw', port=443): Max retries exceeded with url: /rwd/zh/fund/T86?date=20260702&selectType=ALLBUT0999&response=json (Caused by NameResolutionError(\"HTTPSConnection(host='www.twse.com.tw', port=443): Failed to resolve 'www.twse.com.tw' ([Errno 11001] getaddrinfo failed)\"))",
+        "technical": "資料不足"
+      },
+      "weighted": 0.0,
+      "strategy_score": 0,
+      "signals": [],
+      "final_score": 0.0,
+      "positives": 0,
+      "negatives": 0,
+      "action": "中性觀望",
+      "action_color": "#888",
+      "price": null,
+      "rsi": 50,
+      "vol_ratio": 0,
+      "chg_pct": null,
+      "ma20": null,
+      "support": null,
+      "buy_price": null,
+      "stop_suggest": null,
+      "tf_scores": {
+        "short": {
+          "weighted": 0.0,
+          "final_score": 0.0,
+          "action": "中性觀望",
+          "action_color": "#888",
+          "buy_price": null,
+          "stop_suggest": null
+        },
+        "medium": {
+          "weighted": 0.0,
+          "final_score": 0.0,
+          "action": "中性觀望",
+          "action_color": "#888",
+          "buy_price": null,
+          "stop_suggest": null
+        },
+        "long": {
+          "weighted": 0.0,
+          "final_score": 0.0,
+          "action": "中性觀望",
+          "action_color": "#888",
+          "buy_price": null,
+          "stop_suggest": null
+        }
+      },
+      "earnings_date": null,
+      "sector": "IC設計",
+      "streak_days": 0,
+      "in_strong_sector": true
+    },
+    {
+      "stock_id": "3661",
+      "name": "世芯-KY",
+      "market": "TW",
+      "votes": {
+        "fundamental": 0,
+        "chip": 0,
+        "technical": 0
+      },
+      "vote_notes": {
+        "fundamental": "估值資料失敗:Failed to perform, curl: (6) Could not resolve host: query1.finance.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.",
+        "chip": "籌碼資料失敗:HTTPSConnectionPool(host='www.twse.com.tw', port=443): Max retries exceeded with url: /rwd/zh/fund/T86?date=20260702&selectType=ALLBUT0999&response=json (Caused by NameResolutionError(\"HTTPSConnection(host='www.twse.com.tw', port=443): Failed to resolve 'www.twse.com.tw' ([Errno 11001] getaddrinfo failed)\"))",
+        "technical": "資料不足"
+      },
+      "weighted": 0.0,
+      "strategy_score": 0,
+      "signals": [],
+      "final_score": 0.0,
+      "positives": 0,
+      "negatives": 0,
+      "action": "中性觀望",
+      "action_color": "#888",
+      "price": null,
+      "rsi": 50,
+      "vol_ratio": 0,
+      "chg_pct": null,
+      "ma20": null,
+      "support": null,
+      "buy_price": null,
+      "stop_suggest": null,
+      "tf_scores": {
+        "short": {
+          "weighted": 0.0,
+          "final_score": 0.0,
+          "action": "中性觀望",
+          "action_color": "#888",
+          "buy_price": null,
+          "stop_suggest": null
+        },
+        "medium": {
+          "weighted": 0.0,
+          "final_score": 0.0,
+          "action": "中性觀望",
+          "action_color": "#888",
+          "buy_price": null,
+          "stop_suggest": null
+        },
+        "long": {
+          "weighted": 0.0,
+          "final_score": 0.0,
+          "action": "中性觀望",
+          "action_color": "#888",
+          "buy_price": null,
+          "stop_suggest": null
+        }
+      },
+      "earnings_date": null,
+      "sector": "IC設計",
+      "streak_days": 0,
+      "in_strong_sector": true
+    },
+    {
+      "stock_id": "6669",
+      "name": "緯穎",
+      "market": "TW",
+      "votes": {
+        "fundamental": 0,
+        "chip": 0,
+        "technical": 0
+      },
+      "vote_notes": {
+        "fundamental": "估值資料失敗:Failed to perform, curl: (6) Could not resolve host: query1.finance.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.",
+        "chip": "籌碼資料失敗:HTTPSConnectionPool(host='www.twse.com.tw', port=443): Max retries exceeded with url: /rwd/zh/fund/T86?date=20260702&selectType=ALLBUT0999&response=json (Caused by NameResolutionError(\"HTTPSConnection(host='www.twse.com.tw', port=443): Failed to resolve 'www.twse.com.tw' ([Errno 11001] getaddrinfo failed)\"))",
+        "technical": "資料不足"
+      },
+      "weighted": 0.0,
+      "strategy_score": 0,
+      "signals": [],
+      "final_score": 0.0,
+      "positives": 0,
+      "negatives": 0,
+      "action": "中性觀望",
+      "action_color": "#888",
+      "price": null,
+      "rsi": 50,
+      "vol_ratio": 0,
+      "chg_pct": null,
+      "ma20": null,
+      "support": null,
+      "buy_price": null,
+      "stop_suggest": null,
+      "tf_scores": {
+        "short": {
+          "weighted": 0.0,
+          "final_score": 0.0,
+          "action": "中性觀望",
+          "action_color": "#888",
+          "buy_price": null,
+          "stop_suggest": null
+        },
+        "medium": {
+          "weighted": 0.0,
+          "final_score": 0.0,
+          "action": "中性觀望",
+          "action_color": "#888",
+          "buy_price": null,
+          "stop_suggest": null
+        },
+        "long": {
+          "weighted": 0.0,
+          "final_score": 0.0,
+          "action": "中性觀望",
+          "action_color": "#888",
+          "buy_price": null,
+          "stop_suggest": null
+        }
+      },
+      "earnings_date": null,
+      "sector": "AI伺服器",
+      "streak_days": 0,
+      "in_strong_sector": true
+    },
+    {
+      "stock_id": "3231",
+      "name": "緯創",
+      "market": "TW",
+      "votes": {
+        "fundamental": 0,
+        "chip": 0,
+        "technical": 0
+      },
+      "vote_notes": {
+        "fundamental": "估值資料失敗:Failed to perform, curl: (6) Could not resolve host: query1.finance.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.",
+        "chip": "籌碼資料失敗:HTTPSConnectionPool(host='www.twse.com.tw', port=443): Max retries exceeded with url: /rwd/zh/fund/T86?date=20260702&selectType=ALLBUT0999&response=json (Caused by NameResolutionError(\"HTTPSConnection(host='www.twse.com.tw', port=443): Failed to resolve 'www.twse.com.tw' ([Errno 11001] getaddrinfo failed)\"))",
+        "technical": "資料不足"
+      },
+      "weighted": 0.0,
+      "strategy_score": 0,
+      "signals": [],
+      "final_score": 0.0,
+      "positives": 0,
+      "negatives": 0,
+      "action": "中性觀望",
+      "action_color": "#888",
+      "price": null,
+      "rsi": 50,
+      "vol_ratio": 0,
+      "chg_pct": null,
+      "ma20": null,
+      "support": null,
+      "buy_price": null,
+      "stop_suggest": null,
+      "tf_scores": {
+        "short": {
+          "weighted": 0.0,
+          "final_score": 0.0,
+          "action": "中性觀望",
+          "action_color": "#888",
+          "buy_price": null,
+          "stop_suggest": null
+        },
+        "medium": {
+          "weighted": 0.0,
+          "final_score": 0.0,
+          "action": "中性觀望",
+          "action_color": "#888",
+          "buy_price": null,
+          "stop_suggest": null
+        },
+        "long": {
+          "weighted": 0.0,
+          "final_score": 0.0,
+          "action": "中性觀望",
+          "action_color": "#888",
+          "buy_price": null,
+          "stop_suggest": null
+        }
+      },
+      "earnings_date": null,
+      "sector": "AI伺服器",
+      "streak_days": 0,
+      "in_strong_sector": true
+    },
+    {
+      "stock_id": "2382",
+      "name": "廣達",
+      "market": "TW",
+      "votes": {
+        "fundamental": 0,
+        "chip": 0,
+        "technical": 0
+      },
+      "vote_notes": {
+        "fundamental": "估值資料失敗:Failed to perform, curl: (6) Could not resolve host: query1.finance.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.",
+        "chip": "籌碼資料失敗:HTTPSConnectionPool(host='www.twse.com.tw', port=443): Max retries exceeded with url: /rwd/zh/fund/T86?date=20260702&selectType=ALLBUT0999&response=json (Caused by NameResolutionError(\"HTTPSConnection(host='www.twse.com.tw', port=443): Failed to resolve 'www.twse.com.tw' ([Errno 11001] getaddrinfo failed)\"))",
+        "technical": "資料不足"
+      },
+      "weighted": 0.0,
+      "strategy_score": 0,
+      "signals": [],
+      "final_score": 0.0,
+      "positives": 0,
+      "negatives": 0,
+      "action": "中性觀望",
+      "action_color": "#888",
+      "price": null,
+      "rsi": 50,
+      "vol_ratio": 0,
+      "chg_pct": null,
+      "ma20": null,
+      "support": null,
+      "buy_price": null,
+      "stop_suggest": null,
+      "tf_scores": {
+        "short": {
+          "weighted": 0.0,
+          "final_score": 0.0,
+          "action": "中性觀望",
+          "action_color": "#888",
+          "buy_price": null,
+          "stop_suggest": null
+        },
+        "medium": {
+          "weighted": 0.0,
+          "final_score": 0.0,
+          "action": "中性觀望",
+          "action_color": "#888",
+          "buy_price": null,
+          "stop_suggest": null
+        },
+        "long": {
+          "weighted": 0.0,
+          "final_score": 0.0,
+          "action": "中性觀望",
+          "action_color": "#888",
+          "buy_price": null,
+          "stop_suggest": null
+        }
+      },
+      "earnings_date": null,
+      "sector": "AI伺服器",
+      "streak_days": 0,
+      "in_strong_sector": true
+    },
+    {
+      "stock_id": "3037",
+      "name": "欣興",
+      "market": "TW",
+      "votes": {
+        "fundamental": 0,
+        "chip": 0,
+        "technical": 0
+      },
+      "vote_notes": {
+        "fundamental": "估值資料失敗:Failed to perform, curl: (6) Could not resolve host: query1.finance.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.",
+        "chip": "籌碼資料失敗:HTTPSConnectionPool(host='www.twse.com.tw', port=443): Max retries exceeded with url: /rwd/zh/fund/T86?date=20260702&selectType=ALLBUT0999&response=json (Caused by NameResolutionError(\"HTTPSConnection(host='www.twse.com.tw', port=443): Failed to resolve 'www.twse.com.tw' ([Errno 11001] getaddrinfo failed)\"))",
+        "technical": "資料不足"
+      },
+      "weighted": 0.0,
+      "strategy_score": 0,
+      "signals": [],
+      "final_score": 0.0,
+      "positives": 0,
+      "negatives": 0,
+      "action": "中性觀望",
+      "action_color": "#888",
+      "price": null,
+      "rsi": 50,
+      "vol_ratio": 0,
+      "chg_pct": null,
+      "ma20": null,
+      "support": null,
+      "buy_price": null,
+      "stop_suggest": null,
+      "tf_scores": {
+        "short": {
+          "weighted": 0.0,
+          "final_score": 0.0,
+          "action": "中性觀望",
+          "action_color": "#888",
+          "buy_price": null,
+          "stop_suggest": null
+        },
+        "medium": {
+          "weighted": 0.0,
+          "final_score": 0.0,
+          "action": "中性觀望",
+          "action_color": "#888",
+          "buy_price": null,
+          "stop_suggest": null
+        },
+        "long": {
+          "weighted": 0.0,
+          "final_score": 0.0,
+          "action": "中性觀望",
+          "action_color": "#888",
+          "buy_price": null,
+          "stop_suggest": null
+        }
+      },
+      "earnings_date": null,
+      "sector": "ABF載板",
+      "streak_days": 0,
+      "in_strong_sector": false
+    },
+    {
+      "stock_id": "8046",
+      "name": "南電",
+      "market": "TW",
+      "votes": {
+        "fundamental": 0,
+        "chip": 0,
+        "technical": 0
+      },
+      "vote_notes": {
+        "fundamental": "估值資料失敗:Failed to perform, curl: (6) Could not resolve host: query1.finance.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.",
+        "chip": "籌碼資料失敗:HTTPSConnectionPool(host='www.twse.com.tw', port=443): Max retries exceeded with url: /rwd/zh/fund/T86?date=20260702&selectType=ALLBUT0999&response=json (Caused by NameResolutionError(\"HTTPSConnection(host='www.twse.com.tw', port=443): Failed to resolve 'www.twse.com.tw' ([Errno 11001] getaddrinfo failed)\"))",
+        "technical": "資料不足"
+      },
+      "weighted": 0.0,
+      "strategy_score": 0,
+      "signals": [],
+      "final_score": 0.0,
+      "positives": 0,
+      "negatives": 0,
+      "action": "中性觀望",
+      "action_color": "#888",
+      "price": null,
+      "rsi": 50,
+      "vol_ratio": 0,
+      "chg_pct": null,
+      "ma20": null,
+      "support": null,
+      "buy_price": null,
+      "stop_suggest": null,
+      "tf_scores": {
+        "short": {
+          "weighted": 0.0,
+          "final_score": 0.0,
+          "action": "中性觀望",
+          "action_color": "#888",
+          "buy_price": null,
+          "stop_suggest": null
+        },
+        "medium": {
+          "weighted": 0.0,
+          "final_score": 0.0,
+          "action": "中性觀望",
+          "action_color": "#888",
+          "buy_price": null,
+          "stop_suggest": null
+        },
+        "long": {
+          "weighted": 0.0,
+          "final_score": 0.0,
+          "action": "中性觀望",
+          "action_color": "#888",
+          "buy_price": null,
+          "stop_suggest": null
+        }
+      },
+      "earnings_date": null,
+      "sector": "ABF載板",
+      "streak_days": 0,
+      "in_strong_sector": false
+    },
+    {
+      "stock_id": "3189",
+      "name": "景碩",
+      "market": "TW",
+      "votes": {
+        "fundamental": 0,
+        "chip": 0,
+        "technical": 0
+      },
+      "vote_notes": {
+        "fundamental": "估值資料失敗:Failed to perform, curl: (6) Could not resolve host: query1.finance.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.",
+        "chip": "籌碼資料失敗:HTTPSConnectionPool(host='www.twse.com.tw', port=443): Max retries exceeded with url: /rwd/zh/fund/T86?date=20260702&selectType=ALLBUT0999&response=json (Caused by NameResolutionError(\"HTTPSConnection(host='www.twse.com.tw', port=443): Failed to resolve 'www.twse.com.tw' ([Errno 11001] getaddrinfo failed)\"))",
+        "technical": "資料不足"
+      },
+      "weighted": 0.0,
+      "strategy_score": 0,
+      "signals": [],
+      "final_score": 0.0,
+      "positives": 0,
+      "negatives": 0,
+      "action": "中性觀望",
+      "action_color": "#888",
+      "price": null,
+      "rsi": 50,
+      "vol_ratio": 0,
+      "chg_pct": null,
+      "ma20": null,
+      "support": null,
+      "buy_price": null,
+      "stop_suggest": null,
+      "tf_scores": {
+        "short": {
+          "weighted": 0.0,
+          "final_score": 0.0,
+          "action": "中性觀望",
+          "action_color": "#888",
+          "buy_price": null,
+          "stop_suggest": null
+        },
+        "medium": {
+          "weighted": 0.0,
+          "final_score": 0.0,
+          "action": "中性觀望",
+          "action_color": "#888",
+          "buy_price": null,
+          "stop_suggest": null
+        },
+        "long": {
+          "weighted": 0.0,
+          "final_score": 0.0,
+          "action": "中性觀望",
+          "action_color": "#888",
+          "buy_price": null,
+          "stop_suggest": null
+        }
+      },
+      "earnings_date": null,
+      "sector": "ABF載板",
+      "streak_days": 0,
+      "in_strong_sector": false
+    },
+    {
+      "stock_id": "2383",
+      "name": "台光電",
+      "market": "TW",
+      "votes": {
+        "fundamental": 0,
+        "chip": 0,
+        "technical": 0
+      },
+      "vote_notes": {
+        "fundamental": "估值資料失敗:Failed to perform, curl: (6) Could not resolve host: query1.finance.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.",
+        "chip": "籌碼資料失敗:HTTPSConnectionPool(host='www.twse.com.tw', port=443): Max retries exceeded with url: /rwd/zh/fund/T86?date=20260702&selectType=ALLBUT0999&response=json (Caused by NameResolutionError(\"HTTPSConnection(host='www.twse.com.tw', port=443): Failed to resolve 'www.twse.com.tw' ([Errno 11001] getaddrinfo failed)\"))",
+        "technical": "資料不足"
+      },
+      "weighted": 0.0,
+      "strategy_score": 0,
+      "signals": [],
+      "final_score": 0.0,
+      "positives": 0,
+      "negatives": 0,
+      "action": "中性觀望",
+      "action_color": "#888",
+      "price": null,
+      "rsi": 50,
+      "vol_ratio": 0,
+      "chg_pct": null,
+      "ma20": null,
+      "support": null,
+      "buy_price": null,
+      "stop_suggest": null,
+      "tf_scores": {
+        "short": {
+          "weighted": 0.0,
+          "final_score": 0.0,
+          "action": "中性觀望",
+          "action_color": "#888",
+          "buy_price": null,
+          "stop_suggest": null
+        },
+        "medium": {
+          "weighted": 0.0,
+          "final_score": 0.0,
+          "action": "中性觀望",
+          "action_color": "#888",
+          "buy_price": null,
+          "stop_suggest": null
+        },
+        "long": {
+          "weighted": 0.0,
+          "final_score": 0.0,
+          "action": "中性觀望",
+          "action_color": "#888",
+          "buy_price": null,
+          "stop_suggest": null
+        }
+      },
+      "earnings_date": null,
+      "sector": "ABF材料/CCL",
+      "streak_days": 0,
+      "in_strong_sector": false
+    },
+    {
       "stock_id": "6274",
       "name": "台燿",
       "market": "TW",
@@ -907,8 +907,8 @@
         "technical": 0
       },
       "vote_notes": {
-        "fundamental": "估值資料失敗:Failed to perform, curl: (6) Could not resolve host: query2.finance.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.",
-        "chip": "籌碼資料失敗:HTTPSConnectionPool(host='www.twse.com.tw', port=443): Max retries exceeded with url: /rwd/zh/fund/T86?date=20260701&selectType=ALLBUT0999&response=json (Caused by NameResolutionError(\"HTTPSConnection(host='www.twse.com.tw', port=443): Failed to resolve 'www.twse.com.tw' ([Errno 11001] getaddrinfo failed)\"))",
+        "fundamental": "估值資料失敗:Failed to perform, curl: (6) Could not resolve host: query1.finance.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.",
+        "chip": "籌碼資料失敗:HTTPSConnectionPool(host='www.twse.com.tw', port=443): Max retries exceeded with url: /rwd/zh/fund/T86?date=20260702&selectType=ALLBUT0999&response=json (Caused by NameResolutionError(\"HTTPSConnection(host='www.twse.com.tw', port=443): Failed to resolve 'www.twse.com.tw' ([Errno 11001] getaddrinfo failed)\"))",
         "technical": "資料不足"
       },
       "weighted": 0.0,
@@ -968,8 +968,8 @@
         "technical": 0
       },
       "vote_notes": {
-        "fundamental": "估值資料失敗:Failed to perform, curl: (6) Could not resolve host: query2.finance.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.",
-        "chip": "籌碼資料失敗:HTTPSConnectionPool(host='www.twse.com.tw', port=443): Max retries exceeded with url: /rwd/zh/fund/T86?date=20260701&selectType=ALLBUT0999&response=json (Caused by NameResolutionError(\"HTTPSConnection(host='www.twse.com.tw', port=443): Failed to resolve 'www.twse.com.tw' ([Errno 11001] getaddrinfo failed)\"))",
+        "fundamental": "估值資料失敗:Failed to perform, curl: (6) Could not resolve host: query1.finance.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.",
+        "chip": "籌碼資料失敗:HTTPSConnectionPool(host='www.twse.com.tw', port=443): Max retries exceeded with url: /rwd/zh/fund/T86?date=20260702&selectType=ALLBUT0999&response=json (Caused by NameResolutionError(\"HTTPSConnection(host='www.twse.com.tw', port=443): Failed to resolve 'www.twse.com.tw' ([Errno 11001] getaddrinfo failed)\"))",
         "technical": "資料不足"
       },
       "weighted": 0.0,
@@ -1029,8 +1029,8 @@
         "technical": 0
       },
       "vote_notes": {
-        "fundamental": "估值資料失敗:Failed to perform, curl: (6) Could not resolve host: query2.finance.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.",
-        "chip": "籌碼資料失敗:HTTPSConnectionPool(host='www.twse.com.tw', port=443): Max retries exceeded with url: /rwd/zh/fund/T86?date=20260701&selectType=ALLBUT0999&response=json (Caused by NameResolutionError(\"HTTPSConnection(host='www.twse.com.tw', port=443): Failed to resolve 'www.twse.com.tw' ([Errno 11001] getaddrinfo failed)\"))",
+        "fundamental": "估值資料失敗:Failed to perform, curl: (6) Could not resolve host: query1.finance.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.",
+        "chip": "籌碼資料失敗:HTTPSConnectionPool(host='www.twse.com.tw', port=443): Max retries exceeded with url: /rwd/zh/fund/T86?date=20260702&selectType=ALLBUT0999&response=json (Caused by NameResolutionError(\"HTTPSConnection(host='www.twse.com.tw', port=443): Failed to resolve 'www.twse.com.tw' ([Errno 11001] getaddrinfo failed)\"))",
         "technical": "資料不足"
       },
       "weighted": 0.0,
@@ -1090,8 +1090,8 @@
         "technical": 0
       },
       "vote_notes": {
-        "fundamental": "估值資料失敗:Failed to perform, curl: (6) Could not resolve host: query2.finance.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.",
-        "chip": "籌碼資料失敗:HTTPSConnectionPool(host='www.twse.com.tw', port=443): Max retries exceeded with url: /rwd/zh/fund/T86?date=20260701&selectType=ALLBUT0999&response=json (Caused by NameResolutionError(\"HTTPSConnection(host='www.twse.com.tw', port=443): Failed to resolve 'www.twse.com.tw' ([Errno 11001] getaddrinfo failed)\"))",
+        "fundamental": "估值資料失敗:Failed to perform, curl: (6) Could not resolve host: query1.finance.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.",
+        "chip": "籌碼資料失敗:HTTPSConnectionPool(host='www.twse.com.tw', port=443): Max retries exceeded with url: /rwd/zh/fund/T86?date=20260702&selectType=ALLBUT0999&response=json (Caused by NameResolutionError(\"HTTPSConnection(host='www.twse.com.tw', port=443): Failed to resolve 'www.twse.com.tw' ([Errno 11001] getaddrinfo failed)\"))",
         "technical": "資料不足"
       },
       "weighted": 0.0,
@@ -1151,8 +1151,8 @@
         "technical": 0
       },
       "vote_notes": {
-        "fundamental": "估值資料失敗:Failed to perform, curl: (6) Could not resolve host: query2.finance.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.",
-        "chip": "籌碼資料失敗:HTTPSConnectionPool(host='www.twse.com.tw', port=443): Max retries exceeded with url: /rwd/zh/fund/T86?date=20260701&selectType=ALLBUT0999&response=json (Caused by NameResolutionError(\"HTTPSConnection(host='www.twse.com.tw', port=443): Failed to resolve 'www.twse.com.tw' ([Errno 11001] getaddrinfo failed)\"))",
+        "fundamental": "估值資料失敗:Failed to perform, curl: (6) Could not resolve host: query1.finance.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.",
+        "chip": "籌碼資料失敗:HTTPSConnectionPool(host='www.twse.com.tw', port=443): Max retries exceeded with url: /rwd/zh/fund/T86?date=20260702&selectType=ALLBUT0999&response=json (Caused by NameResolutionError(\"HTTPSConnection(host='www.twse.com.tw', port=443): Failed to resolve 'www.twse.com.tw' ([Errno 11001] getaddrinfo failed)\"))",
         "technical": "資料不足"
       },
       "weighted": 0.0,
@@ -1203,6 +1203,67 @@
       "in_strong_sector": false
     },
     {
+      "stock_id": "3081",
+      "name": "聯亞",
+      "market": "TW",
+      "votes": {
+        "fundamental": 0,
+        "chip": 0,
+        "technical": 0
+      },
+      "vote_notes": {
+        "fundamental": "估值資料失敗:Failed to perform, curl: (6) Could not resolve host: query1.finance.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.",
+        "chip": "籌碼資料失敗:HTTPSConnectionPool(host='www.twse.com.tw', port=443): Max retries exceeded with url: /rwd/zh/fund/T86?date=20260702&selectType=ALLBUT0999&response=json (Caused by NameResolutionError(\"HTTPSConnection(host='www.twse.com.tw', port=443): Failed to resolve 'www.twse.com.tw' ([Errno 11001] getaddrinfo failed)\"))",
+        "technical": "資料不足"
+      },
+      "weighted": 0.0,
+      "strategy_score": 0,
+      "signals": [],
+      "final_score": 0.0,
+      "positives": 0,
+      "negatives": 0,
+      "action": "中性觀望",
+      "action_color": "#888",
+      "price": null,
+      "rsi": 50,
+      "vol_ratio": 0,
+      "chg_pct": null,
+      "ma20": null,
+      "support": null,
+      "buy_price": null,
+      "stop_suggest": null,
+      "tf_scores": {
+        "short": {
+          "weighted": 0.0,
+          "final_score": 0.0,
+          "action": "中性觀望",
+          "action_color": "#888",
+          "buy_price": null,
+          "stop_suggest": null
+        },
+        "medium": {
+          "weighted": 0.0,
+          "final_score": 0.0,
+          "action": "中性觀望",
+          "action_color": "#888",
+          "buy_price": null,
+          "stop_suggest": null
+        },
+        "long": {
+          "weighted": 0.0,
+          "final_score": 0.0,
+          "action": "中性觀望",
+          "action_color": "#888",
+          "buy_price": null,
+          "stop_suggest": null
+        }
+      },
+      "earnings_date": null,
+      "sector": "CPO光通訊",
+      "streak_days": 0,
+      "in_strong_sector": false
+    },
+    {
       "stock_id": "4977",
       "name": "眾達-KY",
       "market": "TW",
@@ -1212,8 +1273,8 @@
         "technical": 0
       },
       "vote_notes": {
-        "fundamental": "估值資料失敗:Failed to perform, curl: (6) Could not resolve host: query2.finance.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.",
-        "chip": "籌碼資料失敗:HTTPSConnectionPool(host='www.twse.com.tw', port=443): Max retries exceeded with url: /rwd/zh/fund/T86?date=20260701&selectType=ALLBUT0999&response=json (Caused by NameResolutionError(\"HTTPSConnection(host='www.twse.com.tw', port=443): Failed to resolve 'www.twse.com.tw' ([Errno 11001] getaddrinfo failed)\"))",
+        "fundamental": "估值資料失敗:Failed to perform, curl: (6) Could not resolve host: query1.finance.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.",
+        "chip": "籌碼資料失敗:HTTPSConnectionPool(host='www.twse.com.tw', port=443): Max retries exceeded with url: /rwd/zh/fund/T86?date=20260702&selectType=ALLBUT0999&response=json (Caused by NameResolutionError(\"HTTPSConnection(host='www.twse.com.tw', port=443): Failed to resolve 'www.twse.com.tw' ([Errno 11001] getaddrinfo failed)\"))",
         "technical": "資料不足"
       },
       "weighted": 0.0,
@@ -1273,8 +1334,8 @@
         "technical": 0
       },
       "vote_notes": {
-        "fundamental": "估值資料失敗:Failed to perform, curl: (6) Could not resolve host: query2.finance.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.",
-        "chip": "籌碼資料失敗:HTTPSConnectionPool(host='www.twse.com.tw', port=443): Max retries exceeded with url: /rwd/zh/fund/T86?date=20260701&selectType=ALLBUT0999&response=json (Caused by NameResolutionError(\"HTTPSConnection(host='www.twse.com.tw', port=443): Failed to resolve 'www.twse.com.tw' ([Errno 11001] getaddrinfo failed)\"))",
+        "fundamental": "估值資料失敗:Failed to perform, curl: (6) Could not resolve host: query1.finance.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.",
+        "chip": "籌碼資料失敗:HTTPSConnectionPool(host='www.twse.com.tw', port=443): Max retries exceeded with url: /rwd/zh/fund/T86?date=20260702&selectType=ALLBUT0999&response=json (Caused by NameResolutionError(\"HTTPSConnection(host='www.twse.com.tw', port=443): Failed to resolve 'www.twse.com.tw' ([Errno 11001] getaddrinfo failed)\"))",
         "technical": "資料不足"
       },
       "weighted": 0.0,
@@ -1334,8 +1395,8 @@
         "technical": 0
       },
       "vote_notes": {
-        "fundamental": "估值資料失敗:Failed to perform, curl: (6) Could not resolve host: query2.finance.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.",
-        "chip": "籌碼資料失敗:HTTPSConnectionPool(host='www.twse.com.tw', port=443): Max retries exceeded with url: /rwd/zh/fund/T86?date=20260701&selectType=ALLBUT0999&response=json (Caused by NameResolutionError(\"HTTPSConnection(host='www.twse.com.tw', port=443): Failed to resolve 'www.twse.com.tw' ([Errno 11001] getaddrinfo failed)\"))",
+        "fundamental": "估值資料失敗:Failed to perform, curl: (6) Could not resolve host: query1.finance.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.",
+        "chip": "籌碼資料失敗:HTTPSConnectionPool(host='www.twse.com.tw', port=443): Max retries exceeded with url: /rwd/zh/fund/T86?date=20260702&selectType=ALLBUT0999&response=json (Caused by NameResolutionError(\"HTTPSConnection(host='www.twse.com.tw', port=443): Failed to resolve 'www.twse.com.tw' ([Errno 11001] getaddrinfo failed)\"))",
         "technical": "資料不足"
       },
       "weighted": 0.0,
@@ -1395,8 +1456,8 @@
         "technical": 0
       },
       "vote_notes": {
-        "fundamental": "估值資料失敗:Failed to perform, curl: (6) Could not resolve host: query2.finance.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.",
-        "chip": "籌碼資料失敗:HTTPSConnectionPool(host='www.twse.com.tw', port=443): Max retries exceeded with url: /rwd/zh/fund/T86?date=20260701&selectType=ALLBUT0999&response=json (Caused by NameResolutionError(\"HTTPSConnection(host='www.twse.com.tw', port=443): Failed to resolve 'www.twse.com.tw' ([Errno 11001] getaddrinfo failed)\"))",
+        "fundamental": "估值資料失敗:Failed to perform, curl: (6) Could not resolve host: query1.finance.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.",
+        "chip": "籌碼資料失敗:HTTPSConnectionPool(host='www.twse.com.tw', port=443): Max retries exceeded with url: /rwd/zh/fund/T86?date=20260702&selectType=ALLBUT0999&response=json (Caused by NameResolutionError(\"HTTPSConnection(host='www.twse.com.tw', port=443): Failed to resolve 'www.twse.com.tw' ([Errno 11001] getaddrinfo failed)\"))",
         "technical": "資料不足"
       },
       "weighted": 0.0,
@@ -1456,8 +1517,8 @@
         "technical": 0
       },
       "vote_notes": {
-        "fundamental": "估值資料失敗:Failed to perform, curl: (6) Could not resolve host: query2.finance.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.",
-        "chip": "籌碼資料失敗:HTTPSConnectionPool(host='www.twse.com.tw', port=443): Max retries exceeded with url: /rwd/zh/fund/T86?date=20260701&selectType=ALLBUT0999&response=json (Caused by NameResolutionError(\"HTTPSConnection(host='www.twse.com.tw', port=443): Failed to resolve 'www.twse.com.tw' ([Errno 11001] getaddrinfo failed)\"))",
+        "fundamental": "估值資料失敗:Failed to perform, curl: (6) Could not resolve host: query1.finance.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.",
+        "chip": "籌碼資料失敗:HTTPSConnectionPool(host='www.twse.com.tw', port=443): Max retries exceeded with url: /rwd/zh/fund/T86?date=20260702&selectType=ALLBUT0999&response=json (Caused by NameResolutionError(\"HTTPSConnection(host='www.twse.com.tw', port=443): Failed to resolve 'www.twse.com.tw' ([Errno 11001] getaddrinfo failed)\"))",
         "technical": "資料不足"
       },
       "weighted": 0.0,
@@ -1517,8 +1578,8 @@
         "technical": 0
       },
       "vote_notes": {
-        "fundamental": "估值資料失敗:Failed to perform, curl: (6) Could not resolve host: query2.finance.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.",
-        "chip": "籌碼資料失敗:HTTPSConnectionPool(host='www.twse.com.tw', port=443): Max retries exceeded with url: /rwd/zh/fund/T86?date=20260701&selectType=ALLBUT0999&response=json (Caused by NameResolutionError(\"HTTPSConnection(host='www.twse.com.tw', port=443): Failed to resolve 'www.twse.com.tw' ([Errno 11001] getaddrinfo failed)\"))",
+        "fundamental": "估值資料失敗:Failed to perform, curl: (6) Could not resolve host: query1.finance.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.",
+        "chip": "籌碼資料失敗:HTTPSConnectionPool(host='www.twse.com.tw', port=443): Max retries exceeded with url: /rwd/zh/fund/T86?date=20260702&selectType=ALLBUT0999&response=json (Caused by NameResolutionError(\"HTTPSConnection(host='www.twse.com.tw', port=443): Failed to resolve 'www.twse.com.tw' ([Errno 11001] getaddrinfo failed)\"))",
         "technical": "資料不足"
       },
       "weighted": 0.0,
@@ -1569,8 +1630,8 @@
       "in_strong_sector": false
     },
     {
-      "stock_id": "3711",
-      "name": "日月光投控",
+      "stock_id": "6239",
+      "name": "力成",
       "market": "TW",
       "votes": {
         "fundamental": 0,
@@ -1578,8 +1639,8 @@
         "technical": 0
       },
       "vote_notes": {
-        "fundamental": "估值資料失敗:Failed to perform, curl: (6) Could not resolve host: query2.finance.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.",
-        "chip": "籌碼資料失敗:HTTPSConnectionPool(host='www.twse.com.tw', port=443): Max retries exceeded with url: /rwd/zh/fund/T86?date=20260701&selectType=ALLBUT0999&response=json (Caused by NameResolutionError(\"HTTPSConnection(host='www.twse.com.tw', port=443): Failed to resolve 'www.twse.com.tw' ([Errno 11001] getaddrinfo failed)\"))",
+        "fundamental": "估值資料失敗:Failed to perform, curl: (6) Could not resolve host: query1.finance.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.",
+        "chip": "籌碼資料失敗:HTTPSConnectionPool(host='www.twse.com.tw', port=443): Max retries exceeded with url: /rwd/zh/fund/T86?date=20260702&selectType=ALLBUT0999&response=json (Caused by NameResolutionError(\"HTTPSConnection(host='www.twse.com.tw', port=443): Failed to resolve 'www.twse.com.tw' ([Errno 11001] getaddrinfo failed)\"))",
         "technical": "資料不足"
       },
       "weighted": 0.0,
@@ -1630,8 +1691,8 @@
       "in_strong_sector": false
     },
     {
-      "stock_id": "6147",
-      "name": "頎邦",
+      "stock_id": "3711",
+      "name": "日月光投控",
       "market": "TW",
       "votes": {
         "fundamental": 0,
@@ -1639,8 +1700,8 @@
         "technical": 0
       },
       "vote_notes": {
-        "fundamental": "估值資料失敗:Failed to perform, curl: (6) Could not resolve host: query2.finance.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.",
-        "chip": "籌碼資料失敗:HTTPSConnectionPool(host='www.twse.com.tw', port=443): Max retries exceeded with url: /rwd/zh/fund/T86?date=20260701&selectType=ALLBUT0999&response=json (Caused by NameResolutionError(\"HTTPSConnection(host='www.twse.com.tw', port=443): Failed to resolve 'www.twse.com.tw' ([Errno 11001] getaddrinfo failed)\"))",
+        "fundamental": "估值資料失敗:Failed to perform, curl: (6) Could not resolve host: query1.finance.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.",
+        "chip": "籌碼資料失敗:HTTPSConnectionPool(host='www.twse.com.tw', port=443): Max retries exceeded with url: /rwd/zh/fund/T86?date=20260702&selectType=ALLBUT0999&response=json (Caused by NameResolutionError(\"HTTPSConnection(host='www.twse.com.tw', port=443): Failed to resolve 'www.twse.com.tw' ([Errno 11001] getaddrinfo failed)\"))",
         "technical": "資料不足"
       },
       "weighted": 0.0,
@@ -1696,73 +1757,12 @@
       "market": "TW",
       "votes": {
         "fundamental": 0,
-        "chip": 0,
+        "chip": -0.0,
         "technical": 0
       },
       "vote_notes": {
-        "fundamental": "估值資料失敗:Failed to perform, curl: (6) Could not resolve host: query2.finance.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.",
-        "chip": "籌碼資料失敗:HTTPSConnectionPool(host='www.twse.com.tw', port=443): Max retries exceeded with url: /rwd/zh/fund/T86?date=20260701&selectType=ALLBUT0999&response=json (Caused by NameResolutionError(\"HTTPSConnection(host='www.twse.com.tw', port=443): Failed to resolve 'www.twse.com.tw' ([Errno 11001] getaddrinfo failed)\"))",
-        "technical": "資料不足"
-      },
-      "weighted": 0.0,
-      "strategy_score": 0,
-      "signals": [],
-      "final_score": 0.0,
-      "positives": 0,
-      "negatives": 0,
-      "action": "中性觀望",
-      "action_color": "#888",
-      "price": null,
-      "rsi": 50,
-      "vol_ratio": 0,
-      "chg_pct": null,
-      "ma20": null,
-      "support": null,
-      "buy_price": null,
-      "stop_suggest": null,
-      "tf_scores": {
-        "short": {
-          "weighted": 0.0,
-          "final_score": 0.0,
-          "action": "中性觀望",
-          "action_color": "#888",
-          "buy_price": null,
-          "stop_suggest": null
-        },
-        "medium": {
-          "weighted": 0.0,
-          "final_score": 0.0,
-          "action": "中性觀望",
-          "action_color": "#888",
-          "buy_price": null,
-          "stop_suggest": null
-        },
-        "long": {
-          "weighted": 0.0,
-          "final_score": 0.0,
-          "action": "中性觀望",
-          "action_color": "#888",
-          "buy_price": null,
-          "stop_suggest": null
-        }
-      },
-      "earnings_date": null,
-      "sector": "半導體設備",
-      "streak_days": 0,
-      "in_strong_sector": false
-    },
-    {
-      "stock_id": "6187",
-      "name": "萬潤",
-      "market": "TW",
-      "votes": {
-        "fundamental": 0,
-        "chip": 0,
-        "technical": 0
-      },
-      "vote_notes": {
-        "fundamental": "估值資料失敗:Failed to perform, curl: (6) Could not resolve host: query2.finance.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.",
-        "chip": "籌碼資料失敗:HTTPSConnectionPool(host='www.twse.com.tw', port=443): Max retries exceeded with url: /rwd/zh/fund/T86?date=20260701&selectType=ALLBUT0999&response=json (Caused by NameResolutionError(\"HTTPSConnection(host='www.twse.com.tw', port=443): Failed to resolve 'www.twse.com.tw' ([Errno 11001] getaddrinfo failed)\"))",
+        "fundamental": "估值資料失敗:Failed to perform, curl: (6) Could not resolve host: query1.finance.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.",
+        "chip": "外資+53張(中性)｜(TWSE暫無→FinMind備援)",
         "technical": "資料不足"
       },
       "weighted": 0.0,
@@ -1822,8 +1822,8 @@
         "technical": 0
       },
       "vote_notes": {
-        "fundamental": "估值資料失敗:Failed to perform, curl: (6) Could not resolve host: query2.finance.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.",
-        "chip": "籌碼資料失敗:HTTPSConnectionPool(host='www.twse.com.tw', port=443): Max retries exceeded with url: /rwd/zh/fund/T86?date=20260701&selectType=ALLBUT0999&response=json (Caused by NameResolutionError(\"HTTPSConnection(host='www.twse.com.tw', port=443): Failed to resolve 'www.twse.com.tw' ([Errno 11001] getaddrinfo failed)\"))",
+        "fundamental": "估值資料失敗:Failed to perform, curl: (6) Could not resolve host: query1.finance.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.",
+        "chip": "籌碼資料失敗:HTTPSConnectionPool(host='www.twse.com.tw', port=443): Max retries exceeded with url: /rwd/zh/fund/T86?date=20260702&selectType=ALLBUT0999&response=json (Caused by NameResolutionError(\"HTTPSConnection(host='www.twse.com.tw', port=443): Failed to resolve 'www.twse.com.tw' ([Errno 11001] getaddrinfo failed)\"))",
         "technical": "資料不足"
       },
       "weighted": 0.0,
@@ -1874,67 +1874,6 @@
       "in_strong_sector": false
     },
     {
-      "stock_id": "6488",
-      "name": "環球晶",
-      "market": "TW",
-      "votes": {
-        "fundamental": 0,
-        "chip": 0,
-        "technical": 0
-      },
-      "vote_notes": {
-        "fundamental": "估值資料失敗:Failed to perform, curl: (6) Could not resolve host: query2.finance.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.",
-        "chip": "籌碼資料失敗:HTTPSConnectionPool(host='www.twse.com.tw', port=443): Max retries exceeded with url: /rwd/zh/fund/T86?date=20260701&selectType=ALLBUT0999&response=json (Caused by NameResolutionError(\"HTTPSConnection(host='www.twse.com.tw', port=443): Failed to resolve 'www.twse.com.tw' ([Errno 11001] getaddrinfo failed)\"))",
-        "technical": "資料不足"
-      },
-      "weighted": 0.0,
-      "strategy_score": 0,
-      "signals": [],
-      "final_score": 0.0,
-      "positives": 0,
-      "negatives": 0,
-      "action": "中性觀望",
-      "action_color": "#888",
-      "price": null,
-      "rsi": 50,
-      "vol_ratio": 0,
-      "chg_pct": null,
-      "ma20": null,
-      "support": null,
-      "buy_price": null,
-      "stop_suggest": null,
-      "tf_scores": {
-        "short": {
-          "weighted": 0.0,
-          "final_score": 0.0,
-          "action": "中性觀望",
-          "action_color": "#888",
-          "buy_price": null,
-          "stop_suggest": null
-        },
-        "medium": {
-          "weighted": 0.0,
-          "final_score": 0.0,
-          "action": "中性觀望",
-          "action_color": "#888",
-          "buy_price": null,
-          "stop_suggest": null
-        },
-        "long": {
-          "weighted": 0.0,
-          "final_score": 0.0,
-          "action": "中性觀望",
-          "action_color": "#888",
-          "buy_price": null,
-          "stop_suggest": null
-        }
-      },
-      "earnings_date": null,
-      "sector": "半導體材料",
-      "streak_days": 0,
-      "in_strong_sector": false
-    },
-    {
       "stock_id": "5483",
       "name": "中美晶",
       "market": "TW",
@@ -1944,8 +1883,8 @@
         "technical": 0
       },
       "vote_notes": {
-        "fundamental": "估值資料失敗:Failed to perform, curl: (6) Could not resolve host: query2.finance.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.",
-        "chip": "籌碼資料失敗:HTTPSConnectionPool(host='www.twse.com.tw', port=443): Max retries exceeded with url: /rwd/zh/fund/T86?date=20260701&selectType=ALLBUT0999&response=json (Caused by NameResolutionError(\"HTTPSConnection(host='www.twse.com.tw', port=443): Failed to resolve 'www.twse.com.tw' ([Errno 11001] getaddrinfo failed)\"))",
+        "fundamental": "估值資料失敗:Failed to perform, curl: (6) Could not resolve host: query1.finance.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.",
+        "chip": "籌碼資料失敗:HTTPSConnectionPool(host='www.twse.com.tw', port=443): Max retries exceeded with url: /rwd/zh/fund/T86?date=20260702&selectType=ALLBUT0999&response=json (Caused by NameResolutionError(\"HTTPSConnection(host='www.twse.com.tw', port=443): Failed to resolve 'www.twse.com.tw' ([Errno 11001] getaddrinfo failed)\"))",
         "technical": "資料不足"
       },
       "weighted": 0.0,
@@ -2005,8 +1944,8 @@
         "technical": 0
       },
       "vote_notes": {
-        "fundamental": "估值資料失敗:Failed to perform, curl: (6) Could not resolve host: query2.finance.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.",
-        "chip": "籌碼資料失敗:HTTPSConnectionPool(host='www.twse.com.tw', port=443): Max retries exceeded with url: /rwd/zh/fund/T86?date=20260701&selectType=ALLBUT0999&response=json (Caused by NameResolutionError(\"HTTPSConnection(host='www.twse.com.tw', port=443): Failed to resolve 'www.twse.com.tw' ([Errno 11001] getaddrinfo failed)\"))",
+        "fundamental": "估值資料失敗:Failed to perform, curl: (6) Could not resolve host: query1.finance.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.",
+        "chip": "籌碼資料失敗:HTTPSConnectionPool(host='www.twse.com.tw', port=443): Max retries exceeded with url: /rwd/zh/fund/T86?date=20260702&selectType=ALLBUT0999&response=json (Caused by NameResolutionError(\"HTTPSConnection(host='www.twse.com.tw', port=443): Failed to resolve 'www.twse.com.tw' ([Errno 11001] getaddrinfo failed)\"))",
         "technical": "資料不足"
       },
       "weighted": 0.0,
@@ -2066,8 +2005,8 @@
         "technical": 0
       },
       "vote_notes": {
-        "fundamental": "估值資料失敗:Failed to perform, curl: (6) Could not resolve host: query2.finance.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.",
-        "chip": "籌碼資料失敗:HTTPSConnectionPool(host='www.twse.com.tw', port=443): Max retries exceeded with url: /rwd/zh/fund/T86?date=20260701&selectType=ALLBUT0999&response=json (Caused by NameResolutionError(\"HTTPSConnection(host='www.twse.com.tw', port=443): Failed to resolve 'www.twse.com.tw' ([Errno 11001] getaddrinfo failed)\"))",
+        "fundamental": "估值資料失敗:Failed to perform, curl: (6) Could not resolve host: query1.finance.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.",
+        "chip": "籌碼資料失敗:HTTPSConnectionPool(host='www.twse.com.tw', port=443): Max retries exceeded with url: /rwd/zh/fund/T86?date=20260702&selectType=ALLBUT0999&response=json (Caused by NameResolutionError(\"HTTPSConnection(host='www.twse.com.tw', port=443): Failed to resolve 'www.twse.com.tw' ([Errno 11001] getaddrinfo failed)\"))",
         "technical": "資料不足"
       },
       "weighted": 0.0,
@@ -2127,8 +2066,8 @@
         "technical": 0
       },
       "vote_notes": {
-        "fundamental": "估值資料失敗:Failed to perform, curl: (6) Could not resolve host: query2.finance.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.",
-        "chip": "籌碼資料失敗:HTTPSConnectionPool(host='www.twse.com.tw', port=443): Max retries exceeded with url: /rwd/zh/fund/T86?date=20260701&selectType=ALLBUT0999&response=json (Caused by NameResolutionError(\"HTTPSConnection(host='www.twse.com.tw', port=443): Failed to resolve 'www.twse.com.tw' ([Errno 11001] getaddrinfo failed)\"))",
+        "fundamental": "估值資料失敗:Failed to perform, curl: (6) Could not resolve host: query1.finance.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.",
+        "chip": "籌碼資料失敗:HTTPSConnectionPool(host='www.twse.com.tw', port=443): Max retries exceeded with url: /rwd/zh/fund/T86?date=20260702&selectType=ALLBUT0999&response=json (Caused by NameResolutionError(\"HTTPSConnection(host='www.twse.com.tw', port=443): Failed to resolve 'www.twse.com.tw' ([Errno 11001] getaddrinfo failed)\"))",
         "technical": "資料不足"
       },
       "weighted": 0.0,
@@ -2188,8 +2127,8 @@
         "technical": 0
       },
       "vote_notes": {
-        "fundamental": "估值資料失敗:Failed to perform, curl: (6) Could not resolve host: query2.finance.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.",
-        "chip": "籌碼資料失敗:HTTPSConnectionPool(host='www.twse.com.tw', port=443): Max retries exceeded with url: /rwd/zh/fund/T86?date=20260701&selectType=ALLBUT0999&response=json (Caused by NameResolutionError(\"HTTPSConnection(host='www.twse.com.tw', port=443): Failed to resolve 'www.twse.com.tw' ([Errno 11001] getaddrinfo failed)\"))",
+        "fundamental": "估值資料失敗:Failed to perform, curl: (6) Could not resolve host: query1.finance.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.",
+        "chip": "籌碼資料失敗:HTTPSConnectionPool(host='www.twse.com.tw', port=443): Max retries exceeded with url: /rwd/zh/fund/T86?date=20260702&selectType=ALLBUT0999&response=json (Caused by NameResolutionError(\"HTTPSConnection(host='www.twse.com.tw', port=443): Failed to resolve 'www.twse.com.tw' ([Errno 11001] getaddrinfo failed)\"))",
         "technical": "資料不足"
       },
       "weighted": 0.0,
@@ -2249,8 +2188,8 @@
         "technical": 0
       },
       "vote_notes": {
-        "fundamental": "估值資料失敗:Failed to perform, curl: (6) Could not resolve host: query2.finance.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.",
-        "chip": "籌碼資料失敗:HTTPSConnectionPool(host='www.twse.com.tw', port=443): Max retries exceeded with url: /rwd/zh/fund/T86?date=20260701&selectType=ALLBUT0999&response=json (Caused by NameResolutionError(\"HTTPSConnection(host='www.twse.com.tw', port=443): Failed to resolve 'www.twse.com.tw' ([Errno 11001] getaddrinfo failed)\"))",
+        "fundamental": "估值資料失敗:Failed to perform, curl: (6) Could not resolve host: query1.finance.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.",
+        "chip": "籌碼資料失敗:HTTPSConnectionPool(host='www.twse.com.tw', port=443): Max retries exceeded with url: /rwd/zh/fund/T86?date=20260702&selectType=ALLBUT0999&response=json (Caused by NameResolutionError(\"HTTPSConnection(host='www.twse.com.tw', port=443): Failed to resolve 'www.twse.com.tw' ([Errno 11001] getaddrinfo failed)\"))",
         "technical": "資料不足"
       },
       "weighted": 0.0,
@@ -2310,8 +2249,8 @@
         "technical": 0
       },
       "vote_notes": {
-        "fundamental": "估值資料失敗:Failed to perform, curl: (6) Could not resolve host: query2.finance.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.",
-        "chip": "籌碼資料失敗:HTTPSConnectionPool(host='www.twse.com.tw', port=443): Max retries exceeded with url: /rwd/zh/fund/T86?date=20260701&selectType=ALLBUT0999&response=json (Caused by NameResolutionError(\"HTTPSConnection(host='www.twse.com.tw', port=443): Failed to resolve 'www.twse.com.tw' ([Errno 11001] getaddrinfo failed)\"))",
+        "fundamental": "估值資料失敗:Failed to perform, curl: (6) Could not resolve host: query1.finance.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.",
+        "chip": "籌碼資料失敗:HTTPSConnectionPool(host='www.twse.com.tw', port=443): Max retries exceeded with url: /rwd/zh/fund/T86?date=20260702&selectType=ALLBUT0999&response=json (Caused by NameResolutionError(\"HTTPSConnection(host='www.twse.com.tw', port=443): Failed to resolve 'www.twse.com.tw' ([Errno 11001] getaddrinfo failed)\"))",
         "technical": "資料不足"
       },
       "weighted": 0.0,
@@ -2371,8 +2310,8 @@
         "technical": 0
       },
       "vote_notes": {
-        "fundamental": "估值資料失敗:Failed to perform, curl: (6) Could not resolve host: query2.finance.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.",
-        "chip": "籌碼資料失敗:HTTPSConnectionPool(host='www.twse.com.tw', port=443): Max retries exceeded with url: /rwd/zh/fund/T86?date=20260701&selectType=ALLBUT0999&response=json (Caused by NameResolutionError(\"HTTPSConnection(host='www.twse.com.tw', port=443): Failed to resolve 'www.twse.com.tw' ([Errno 11001] getaddrinfo failed)\"))",
+        "fundamental": "估值資料失敗:Failed to perform, curl: (6) Could not resolve host: query1.finance.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.",
+        "chip": "籌碼資料失敗:HTTPSConnectionPool(host='www.twse.com.tw', port=443): Max retries exceeded with url: /rwd/zh/fund/T86?date=20260702&selectType=ALLBUT0999&response=json (Caused by NameResolutionError(\"HTTPSConnection(host='www.twse.com.tw', port=443): Failed to resolve 'www.twse.com.tw' ([Errno 11001] getaddrinfo failed)\"))",
         "technical": "資料不足"
       },
       "weighted": 0.0,
@@ -2432,8 +2371,8 @@
         "technical": 0
       },
       "vote_notes": {
-        "fundamental": "估值資料失敗:Failed to perform, curl: (6) Could not resolve host: query2.finance.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.",
-        "chip": "籌碼資料失敗:HTTPSConnectionPool(host='www.twse.com.tw', port=443): Max retries exceeded with url: /rwd/zh/fund/T86?date=20260701&selectType=ALLBUT0999&response=json (Caused by NameResolutionError(\"HTTPSConnection(host='www.twse.com.tw', port=443): Failed to resolve 'www.twse.com.tw' ([Errno 11001] getaddrinfo failed)\"))",
+        "fundamental": "估值資料失敗:Failed to perform, curl: (6) Could not resolve host: query1.finance.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.",
+        "chip": "籌碼資料失敗:HTTPSConnectionPool(host='www.twse.com.tw', port=443): Max retries exceeded with url: /rwd/zh/fund/T86?date=20260702&selectType=ALLBUT0999&response=json (Caused by NameResolutionError(\"HTTPSConnection(host='www.twse.com.tw', port=443): Failed to resolve 'www.twse.com.tw' ([Errno 11001] getaddrinfo failed)\"))",
         "technical": "資料不足"
       },
       "weighted": 0.0,
@@ -2493,8 +2432,8 @@
         "technical": 0
       },
       "vote_notes": {
-        "fundamental": "估值資料失敗:Failed to perform, curl: (6) Could not resolve host: query2.finance.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.",
-        "chip": "籌碼資料失敗:HTTPSConnectionPool(host='www.twse.com.tw', port=443): Max retries exceeded with url: /rwd/zh/fund/T86?date=20260701&selectType=ALLBUT0999&response=json (Caused by NameResolutionError(\"HTTPSConnection(host='www.twse.com.tw', port=443): Failed to resolve 'www.twse.com.tw' ([Errno 11001] getaddrinfo failed)\"))",
+        "fundamental": "估值資料失敗:Failed to perform, curl: (6) Could not resolve host: query1.finance.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.",
+        "chip": "籌碼資料失敗:HTTPSConnectionPool(host='www.twse.com.tw', port=443): Max retries exceeded with url: /rwd/zh/fund/T86?date=20260702&selectType=ALLBUT0999&response=json (Caused by NameResolutionError(\"HTTPSConnection(host='www.twse.com.tw', port=443): Failed to resolve 'www.twse.com.tw' ([Errno 11001] getaddrinfo failed)\"))",
         "technical": "資料不足"
       },
       "weighted": 0.0,
@@ -2554,8 +2493,8 @@
         "technical": 0
       },
       "vote_notes": {
-        "fundamental": "估值資料失敗:Failed to perform, curl: (6) Could not resolve host: query2.finance.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.",
-        "chip": "籌碼資料失敗:HTTPSConnectionPool(host='www.twse.com.tw', port=443): Max retries exceeded with url: /rwd/zh/fund/T86?date=20260701&selectType=ALLBUT0999&response=json (Caused by NameResolutionError(\"HTTPSConnection(host='www.twse.com.tw', port=443): Failed to resolve 'www.twse.com.tw' ([Errno 11001] getaddrinfo failed)\"))",
+        "fundamental": "估值資料失敗:Failed to perform, curl: (6) Could not resolve host: query1.finance.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.",
+        "chip": "籌碼資料失敗:HTTPSConnectionPool(host='www.twse.com.tw', port=443): Max retries exceeded with url: /rwd/zh/fund/T86?date=20260702&selectType=ALLBUT0999&response=json (Caused by NameResolutionError(\"HTTPSConnection(host='www.twse.com.tw', port=443): Failed to resolve 'www.twse.com.tw' ([Errno 11001] getaddrinfo failed)\"))",
         "technical": "資料不足"
       },
       "weighted": 0.0,
@@ -2615,8 +2554,8 @@
         "technical": 0
       },
       "vote_notes": {
-        "fundamental": "估值資料失敗:Failed to perform, curl: (6) Could not resolve host: query2.finance.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.",
-        "chip": "籌碼資料失敗:HTTPSConnectionPool(host='www.twse.com.tw', port=443): Max retries exceeded with url: /rwd/zh/fund/T86?date=20260701&selectType=ALLBUT0999&response=json (Caused by NameResolutionError(\"HTTPSConnection(host='www.twse.com.tw', port=443): Failed to resolve 'www.twse.com.tw' ([Errno 11001] getaddrinfo failed)\"))",
+        "fundamental": "估值資料失敗:Failed to perform, curl: (6) Could not resolve host: query1.finance.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.",
+        "chip": "籌碼資料失敗:HTTPSConnectionPool(host='www.twse.com.tw', port=443): Max retries exceeded with url: /rwd/zh/fund/T86?date=20260702&selectType=ALLBUT0999&response=json (Caused by NameResolutionError(\"HTTPSConnection(host='www.twse.com.tw', port=443): Failed to resolve 'www.twse.com.tw' ([Errno 11001] getaddrinfo failed)\"))",
         "technical": "資料不足"
       },
       "weighted": 0.0,
@@ -2676,8 +2615,8 @@
         "technical": 0
       },
       "vote_notes": {
-        "fundamental": "估值資料失敗:Failed to perform, curl: (6) Could not resolve host: query2.finance.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.",
-        "chip": "籌碼資料失敗:HTTPSConnectionPool(host='www.twse.com.tw', port=443): Max retries exceeded with url: /rwd/zh/fund/T86?date=20260701&selectType=ALLBUT0999&response=json (Caused by NameResolutionError(\"HTTPSConnection(host='www.twse.com.tw', port=443): Failed to resolve 'www.twse.com.tw' ([Errno 11001] getaddrinfo failed)\"))",
+        "fundamental": "估值資料失敗:Failed to perform, curl: (6) Could not resolve host: query1.finance.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.",
+        "chip": "籌碼資料失敗:HTTPSConnectionPool(host='www.twse.com.tw', port=443): Max retries exceeded with url: /rwd/zh/fund/T86?date=20260702&selectType=ALLBUT0999&response=json (Caused by NameResolutionError(\"HTTPSConnection(host='www.twse.com.tw', port=443): Failed to resolve 'www.twse.com.tw' ([Errno 11001] getaddrinfo failed)\"))",
         "technical": "資料不足"
       },
       "weighted": 0.0,
@@ -2737,8 +2676,8 @@
         "technical": 0
       },
       "vote_notes": {
-        "fundamental": "估值資料失敗:Failed to perform, curl: (6) Could not resolve host: query2.finance.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.",
-        "chip": "籌碼資料失敗:HTTPSConnectionPool(host='www.twse.com.tw', port=443): Max retries exceeded with url: /rwd/zh/fund/T86?date=20260701&selectType=ALLBUT0999&response=json (Caused by NameResolutionError(\"HTTPSConnection(host='www.twse.com.tw', port=443): Failed to resolve 'www.twse.com.tw' ([Errno 11001] getaddrinfo failed)\"))",
+        "fundamental": "估值資料失敗:Failed to perform, curl: (6) Could not resolve host: query1.finance.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.",
+        "chip": "籌碼資料失敗:HTTPSConnectionPool(host='www.twse.com.tw', port=443): Max retries exceeded with url: /rwd/zh/fund/T86?date=20260702&selectType=ALLBUT0999&response=json (Caused by NameResolutionError(\"HTTPSConnection(host='www.twse.com.tw', port=443): Failed to resolve 'www.twse.com.tw' ([Errno 11001] getaddrinfo failed)\"))",
         "technical": "資料不足"
       },
       "weighted": 0.0,
@@ -2798,8 +2737,8 @@
         "technical": 0
       },
       "vote_notes": {
-        "fundamental": "估值資料失敗:Failed to perform, curl: (6) Could not resolve host: query2.finance.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.",
-        "chip": "籌碼資料失敗:HTTPSConnectionPool(host='www.twse.com.tw', port=443): Max retries exceeded with url: /rwd/zh/fund/T86?date=20260701&selectType=ALLBUT0999&response=json (Caused by NameResolutionError(\"HTTPSConnection(host='www.twse.com.tw', port=443): Failed to resolve 'www.twse.com.tw' ([Errno 11001] getaddrinfo failed)\"))",
+        "fundamental": "估值資料失敗:Failed to perform, curl: (6) Could not resolve host: query1.finance.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.",
+        "chip": "籌碼資料失敗:HTTPSConnectionPool(host='www.twse.com.tw', port=443): Max retries exceeded with url: /rwd/zh/fund/T86?date=20260702&selectType=ALLBUT0999&response=json (Caused by NameResolutionError(\"HTTPSConnection(host='www.twse.com.tw', port=443): Failed to resolve 'www.twse.com.tw' ([Errno 11001] getaddrinfo failed)\"))",
         "technical": "資料不足"
       },
       "weighted": 0.0,
@@ -2859,8 +2798,8 @@
         "technical": 0
       },
       "vote_notes": {
-        "fundamental": "估值資料失敗:Failed to perform, curl: (6) Could not resolve host: query2.finance.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.",
-        "chip": "籌碼資料失敗:HTTPSConnectionPool(host='www.twse.com.tw', port=443): Max retries exceeded with url: /rwd/zh/fund/T86?date=20260701&selectType=ALLBUT0999&response=json (Caused by NameResolutionError(\"HTTPSConnection(host='www.twse.com.tw', port=443): Failed to resolve 'www.twse.com.tw' ([Errno 11001] getaddrinfo failed)\"))",
+        "fundamental": "估值資料失敗:Failed to perform, curl: (6) Could not resolve host: query1.finance.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.",
+        "chip": "籌碼資料失敗:HTTPSConnectionPool(host='www.twse.com.tw', port=443): Max retries exceeded with url: /rwd/zh/fund/T86?date=20260702&selectType=ALLBUT0999&response=json (Caused by NameResolutionError(\"HTTPSConnection(host='www.twse.com.tw', port=443): Failed to resolve 'www.twse.com.tw' ([Errno 11001] getaddrinfo failed)\"))",
         "technical": "資料不足"
       },
       "weighted": 0.0,
@@ -2920,8 +2859,8 @@
         "technical": 0
       },
       "vote_notes": {
-        "fundamental": "估值資料失敗:Failed to perform, curl: (6) Could not resolve host: query2.finance.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.",
-        "chip": "籌碼資料失敗:HTTPSConnectionPool(host='www.twse.com.tw', port=443): Max retries exceeded with url: /rwd/zh/fund/T86?date=20260701&selectType=ALLBUT0999&response=json (Caused by NameResolutionError(\"HTTPSConnection(host='www.twse.com.tw', port=443): Failed to resolve 'www.twse.com.tw' ([Errno 11001] getaddrinfo failed)\"))",
+        "fundamental": "估值資料失敗:Failed to perform, curl: (6) Could not resolve host: query1.finance.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.",
+        "chip": "籌碼資料失敗:HTTPSConnectionPool(host='www.twse.com.tw', port=443): Max retries exceeded with url: /rwd/zh/fund/T86?date=20260702&selectType=ALLBUT0999&response=json (Caused by NameResolutionError(\"HTTPSConnection(host='www.twse.com.tw', port=443): Failed to resolve 'www.twse.com.tw' ([Errno 11001] getaddrinfo failed)\"))",
         "technical": "資料不足"
       },
       "weighted": 0.0,
@@ -2981,8 +2920,8 @@
         "technical": 0
       },
       "vote_notes": {
-        "fundamental": "估值資料失敗:Failed to perform, curl: (6) Could not resolve host: query2.finance.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.",
-        "chip": "籌碼資料失敗:HTTPSConnectionPool(host='www.twse.com.tw', port=443): Max retries exceeded with url: /rwd/zh/fund/T86?date=20260701&selectType=ALLBUT0999&response=json (Caused by NameResolutionError(\"HTTPSConnection(host='www.twse.com.tw', port=443): Failed to resolve 'www.twse.com.tw' ([Errno 11001] getaddrinfo failed)\"))",
+        "fundamental": "估值資料失敗:Failed to perform, curl: (6) Could not resolve host: query1.finance.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.",
+        "chip": "籌碼資料失敗:HTTPSConnectionPool(host='www.twse.com.tw', port=443): Max retries exceeded with url: /rwd/zh/fund/T86?date=20260702&selectType=ALLBUT0999&response=json (Caused by NameResolutionError(\"HTTPSConnection(host='www.twse.com.tw', port=443): Failed to resolve 'www.twse.com.tw' ([Errno 11001] getaddrinfo failed)\"))",
         "technical": "資料不足"
       },
       "weighted": 0.0,
@@ -3042,8 +2981,8 @@
         "technical": 0
       },
       "vote_notes": {
-        "fundamental": "估值資料失敗:Failed to perform, curl: (6) Could not resolve host: query2.finance.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.",
-        "chip": "籌碼資料失敗:HTTPSConnectionPool(host='www.twse.com.tw', port=443): Max retries exceeded with url: /rwd/zh/fund/T86?date=20260701&selectType=ALLBUT0999&response=json (Caused by NameResolutionError(\"HTTPSConnection(host='www.twse.com.tw', port=443): Failed to resolve 'www.twse.com.tw' ([Errno 11001] getaddrinfo failed)\"))",
+        "fundamental": "估值資料失敗:Failed to perform, curl: (6) Could not resolve host: query1.finance.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.",
+        "chip": "籌碼資料失敗:HTTPSConnectionPool(host='www.twse.com.tw', port=443): Max retries exceeded with url: /rwd/zh/fund/T86?date=20260702&selectType=ALLBUT0999&response=json (Caused by NameResolutionError(\"HTTPSConnection(host='www.twse.com.tw', port=443): Failed to resolve 'www.twse.com.tw' ([Errno 11001] getaddrinfo failed)\"))",
         "technical": "資料不足"
       },
       "weighted": 0.0,
@@ -3103,8 +3042,8 @@
         "technical": 0
       },
       "vote_notes": {
-        "fundamental": "估值資料失敗:Failed to perform, curl: (6) Could not resolve host: query2.finance.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.",
-        "chip": "籌碼資料失敗:HTTPSConnectionPool(host='www.twse.com.tw', port=443): Max retries exceeded with url: /rwd/zh/fund/T86?date=20260701&selectType=ALLBUT0999&response=json (Caused by NameResolutionError(\"HTTPSConnection(host='www.twse.com.tw', port=443): Failed to resolve 'www.twse.com.tw' ([Errno 11001] getaddrinfo failed)\"))",
+        "fundamental": "估值資料失敗:Failed to perform, curl: (6) Could not resolve host: query1.finance.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.",
+        "chip": "籌碼資料失敗:HTTPSConnectionPool(host='www.twse.com.tw', port=443): Max retries exceeded with url: /rwd/zh/fund/T86?date=20260702&selectType=ALLBUT0999&response=json (Caused by NameResolutionError(\"HTTPSConnection(host='www.twse.com.tw', port=443): Failed to resolve 'www.twse.com.tw' ([Errno 11001] getaddrinfo failed)\"))",
         "technical": "資料不足"
       },
       "weighted": 0.0,
@@ -3164,8 +3103,8 @@
         "technical": 0
       },
       "vote_notes": {
-        "fundamental": "估值資料失敗:Failed to perform, curl: (6) Could not resolve host: query2.finance.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.",
-        "chip": "籌碼資料失敗:HTTPSConnectionPool(host='www.twse.com.tw', port=443): Max retries exceeded with url: /rwd/zh/fund/T86?date=20260701&selectType=ALLBUT0999&response=json (Caused by NameResolutionError(\"HTTPSConnection(host='www.twse.com.tw', port=443): Failed to resolve 'www.twse.com.tw' ([Errno 11001] getaddrinfo failed)\"))",
+        "fundamental": "估值資料失敗:Failed to perform, curl: (6) Could not resolve host: query1.finance.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.",
+        "chip": "籌碼資料失敗:HTTPSConnectionPool(host='www.twse.com.tw', port=443): Max retries exceeded with url: /rwd/zh/fund/T86?date=20260702&selectType=ALLBUT0999&response=json (Caused by NameResolutionError(\"HTTPSConnection(host='www.twse.com.tw', port=443): Failed to resolve 'www.twse.com.tw' ([Errno 11001] getaddrinfo failed)\"))",
         "technical": "資料不足"
       },
       "weighted": 0.0,
@@ -3225,8 +3164,8 @@
         "technical": 0
       },
       "vote_notes": {
-        "fundamental": "估值資料失敗:Failed to perform, curl: (6) Could not resolve host: query2.finance.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.",
-        "chip": "籌碼資料失敗:HTTPSConnectionPool(host='www.twse.com.tw', port=443): Max retries exceeded with url: /rwd/zh/fund/T86?date=20260701&selectType=ALLBUT0999&response=json (Caused by NameResolutionError(\"HTTPSConnection(host='www.twse.com.tw', port=443): Failed to resolve 'www.twse.com.tw' ([Errno 11001] getaddrinfo failed)\"))",
+        "fundamental": "估值資料失敗:Failed to perform, curl: (6) Could not resolve host: query1.finance.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.",
+        "chip": "籌碼資料失敗:HTTPSConnectionPool(host='www.twse.com.tw', port=443): Max retries exceeded with url: /rwd/zh/fund/T86?date=20260702&selectType=ALLBUT0999&response=json (Caused by NameResolutionError(\"HTTPSConnection(host='www.twse.com.tw', port=443): Failed to resolve 'www.twse.com.tw' ([Errno 11001] getaddrinfo failed)\"))",
         "technical": "資料不足"
       },
       "weighted": 0.0,
@@ -3286,8 +3225,8 @@
         "technical": 0
       },
       "vote_notes": {
-        "fundamental": "估值資料失敗:Failed to perform, curl: (6) Could not resolve host: query2.finance.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.",
-        "chip": "籌碼資料失敗:HTTPSConnectionPool(host='www.twse.com.tw', port=443): Max retries exceeded with url: /rwd/zh/fund/T86?date=20260701&selectType=ALLBUT0999&response=json (Caused by NameResolutionError(\"HTTPSConnection(host='www.twse.com.tw', port=443): Failed to resolve 'www.twse.com.tw' ([Errno 11001] getaddrinfo failed)\"))",
+        "fundamental": "估值資料失敗:Failed to perform, curl: (6) Could not resolve host: query1.finance.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.",
+        "chip": "籌碼資料失敗:HTTPSConnectionPool(host='www.twse.com.tw', port=443): Max retries exceeded with url: /rwd/zh/fund/T86?date=20260702&selectType=ALLBUT0999&response=json (Caused by NameResolutionError(\"HTTPSConnection(host='www.twse.com.tw', port=443): Failed to resolve 'www.twse.com.tw' ([Errno 11001] getaddrinfo failed)\"))",
         "technical": "資料不足"
       },
       "weighted": 0.0,
@@ -3347,8 +3286,8 @@
         "technical": 0
       },
       "vote_notes": {
-        "fundamental": "估值資料失敗:Failed to perform, curl: (6) Could not resolve host: query2.finance.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.",
-        "chip": "籌碼資料失敗:HTTPSConnectionPool(host='www.twse.com.tw', port=443): Max retries exceeded with url: /rwd/zh/fund/T86?date=20260701&selectType=ALLBUT0999&response=json (Caused by NameResolutionError(\"HTTPSConnection(host='www.twse.com.tw', port=443): Failed to resolve 'www.twse.com.tw' ([Errno 11001] getaddrinfo failed)\"))",
+        "fundamental": "估值資料失敗:Failed to perform, curl: (6) Could not resolve host: query1.finance.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.",
+        "chip": "籌碼資料失敗:HTTPSConnectionPool(host='www.twse.com.tw', port=443): Max retries exceeded with url: /rwd/zh/fund/T86?date=20260702&selectType=ALLBUT0999&response=json (Caused by NameResolutionError(\"HTTPSConnection(host='www.twse.com.tw', port=443): Failed to resolve 'www.twse.com.tw' ([Errno 11001] getaddrinfo failed)\"))",
         "technical": "資料不足"
       },
       "weighted": 0.0,
@@ -3408,8 +3347,8 @@
         "technical": 0
       },
       "vote_notes": {
-        "fundamental": "估值資料失敗:Failed to perform, curl: (6) Could not resolve host: query2.finance.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.",
-        "chip": "籌碼資料失敗:HTTPSConnectionPool(host='www.twse.com.tw', port=443): Max retries exceeded with url: /rwd/zh/fund/T86?date=20260701&selectType=ALLBUT0999&response=json (Caused by NameResolutionError(\"HTTPSConnection(host='www.twse.com.tw', port=443): Failed to resolve 'www.twse.com.tw' ([Errno 11001] getaddrinfo failed)\"))",
+        "fundamental": "估值資料失敗:Failed to perform, curl: (6) Could not resolve host: query1.finance.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.",
+        "chip": "籌碼資料失敗:HTTPSConnectionPool(host='www.twse.com.tw', port=443): Max retries exceeded with url: /rwd/zh/fund/T86?date=20260702&selectType=ALLBUT0999&response=json (Caused by NameResolutionError(\"HTTPSConnection(host='www.twse.com.tw', port=443): Failed to resolve 'www.twse.com.tw' ([Errno 11001] getaddrinfo failed)\"))",
         "technical": "資料不足"
       },
       "weighted": 0.0,
@@ -3469,8 +3408,8 @@
         "technical": 0
       },
       "vote_notes": {
-        "fundamental": "估值資料失敗:Failed to perform, curl: (6) Could not resolve host: query2.finance.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.",
-        "chip": "籌碼資料失敗:HTTPSConnectionPool(host='www.twse.com.tw', port=443): Max retries exceeded with url: /rwd/zh/fund/T86?date=20260701&selectType=ALLBUT0999&response=json (Caused by NameResolutionError(\"HTTPSConnection(host='www.twse.com.tw', port=443): Failed to resolve 'www.twse.com.tw' ([Errno 11001] getaddrinfo failed)\"))",
+        "fundamental": "估值資料失敗:Failed to perform, curl: (6) Could not resolve host: query1.finance.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.",
+        "chip": "籌碼資料失敗:HTTPSConnectionPool(host='www.twse.com.tw', port=443): Max retries exceeded with url: /rwd/zh/fund/T86?date=20260702&selectType=ALLBUT0999&response=json (Caused by NameResolutionError(\"HTTPSConnection(host='www.twse.com.tw', port=443): Failed to resolve 'www.twse.com.tw' ([Errno 11001] getaddrinfo failed)\"))",
         "technical": "資料不足"
       },
       "weighted": 0.0,
@@ -3530,8 +3469,8 @@
         "technical": 0
       },
       "vote_notes": {
-        "fundamental": "估值資料失敗:Failed to perform, curl: (6) Could not resolve host: query2.finance.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.",
-        "chip": "籌碼資料失敗:HTTPSConnectionPool(host='www.twse.com.tw', port=443): Max retries exceeded with url: /rwd/zh/fund/T86?date=20260701&selectType=ALLBUT0999&response=json (Caused by NameResolutionError(\"HTTPSConnection(host='www.twse.com.tw', port=443): Failed to resolve 'www.twse.com.tw' ([Errno 11001] getaddrinfo failed)\"))",
+        "fundamental": "估值資料失敗:Failed to perform, curl: (6) Could not resolve host: query1.finance.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.",
+        "chip": "籌碼資料失敗:HTTPSConnectionPool(host='www.twse.com.tw', port=443): Max retries exceeded with url: /rwd/zh/fund/T86?date=20260702&selectType=ALLBUT0999&response=json (Caused by NameResolutionError(\"HTTPSConnection(host='www.twse.com.tw', port=443): Failed to resolve 'www.twse.com.tw' ([Errno 11001] getaddrinfo failed)\"))",
         "technical": "資料不足"
       },
       "weighted": 0.0,
@@ -3582,27 +3521,27 @@
       "in_strong_sector": true
     },
     {
-      "stock_id": "3661",
-      "name": "世芯-KY",
+      "stock_id": "6187",
+      "name": "萬潤",
       "market": "TW",
       "votes": {
-        "fundamental": -1,
-        "chip": 0,
+        "fundamental": 0,
+        "chip": -0.12,
         "technical": 0
       },
       "vote_notes": {
-        "fundamental": "四維95分(A 體質優)｜營收衰退 YoY-60%｜毛利50.2%｜ROE13.2%",
-        "chip": "籌碼資料失敗:HTTPSConnectionPool(host='www.twse.com.tw', port=443): Max retries exceeded with url: /rwd/zh/fund/T86?date=20260701&selectType=ALLBUT0999&response=json (Caused by NameResolutionError(\"HTTPSConnection(host='www.twse.com.tw', port=443): Failed to resolve 'www.twse.com.tw' ([Errno 11001] getaddrinfo failed)\"))",
+        "fundamental": "估值資料失敗:Failed to perform, curl: (6) Could not resolve host: query1.finance.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.",
+        "chip": "外資+399張(中性)｜投信賣超581張｜(TWSE暫無→FinMind備援)",
         "technical": "資料不足"
       },
-      "weighted": -50.0,
+      "weighted": -3.0,
       "strategy_score": 0,
       "signals": [],
-      "final_score": -30.0,
+      "final_score": -1.8,
       "positives": 0,
       "negatives": 1,
-      "action": "賣出/避開",
-      "action_color": "#dc2626",
+      "action": "中性觀望",
+      "action_color": "#888",
       "price": null,
       "rsi": 50,
       "vol_ratio": 0,
@@ -3613,591 +3552,101 @@
       "stop_suggest": null,
       "tf_scores": {
         "short": {
-          "weighted": 0.0,
-          "final_score": 0.0,
+          "weighted": -6.0,
+          "final_score": -3.6,
           "action": "中性觀望",
           "action_color": "#888",
           "buy_price": null,
           "stop_suggest": null
         },
         "medium": {
-          "weighted": -50.0,
-          "final_score": -30.0,
-          "action": "賣出/避開",
-          "action_color": "#dc2626",
+          "weighted": -3.0,
+          "final_score": -1.8,
+          "action": "中性觀望",
+          "action_color": "#888",
           "buy_price": null,
           "stop_suggest": null
         },
         "long": {
-          "weighted": -65.0,
-          "final_score": -39.0,
-          "action": "賣出/避開",
-          "action_color": "#dc2626",
+          "weighted": -2.4,
+          "final_score": -1.4,
+          "action": "中性觀望",
+          "action_color": "#888",
           "buy_price": null,
           "stop_suggest": null
         }
       },
       "earnings_date": null,
-      "sector": "IC設計",
+      "sector": "半導體設備",
       "streak_days": 0,
-      "in_strong_sector": true
+      "in_strong_sector": false
+    },
+    {
+      "stock_id": "6488",
+      "name": "環球晶",
+      "market": "TW",
+      "votes": {
+        "fundamental": 0,
+        "chip": -0.14,
+        "technical": 0
+      },
+      "vote_notes": {
+        "fundamental": "估值資料失敗:Failed to perform, curl: (6) Could not resolve host: query1.finance.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.",
+        "chip": "外資+400張(中性)｜投信賣超723張｜(TWSE暫無→FinMind備援)",
+        "technical": "資料不足"
+      },
+      "weighted": -3.5,
+      "strategy_score": 0,
+      "signals": [],
+      "final_score": -2.1,
+      "positives": 0,
+      "negatives": 1,
+      "action": "中性觀望",
+      "action_color": "#888",
+      "price": null,
+      "rsi": 50,
+      "vol_ratio": 0,
+      "chg_pct": null,
+      "ma20": null,
+      "support": null,
+      "buy_price": null,
+      "stop_suggest": null,
+      "tf_scores": {
+        "short": {
+          "weighted": -7.0,
+          "final_score": -4.2,
+          "action": "中性觀望",
+          "action_color": "#888",
+          "buy_price": null,
+          "stop_suggest": null
+        },
+        "medium": {
+          "weighted": -3.5,
+          "final_score": -2.1,
+          "action": "中性觀望",
+          "action_color": "#888",
+          "buy_price": null,
+          "stop_suggest": null
+        },
+        "long": {
+          "weighted": -2.8,
+          "final_score": -1.7,
+          "action": "中性觀望",
+          "action_color": "#888",
+          "buy_price": null,
+          "stop_suggest": null
+        }
+      },
+      "earnings_date": null,
+      "sector": "半導體材料",
+      "streak_days": 0,
+      "in_strong_sector": false
     }
   ],
   "buy_top": [],
   "buy_folded": {},
-  "watch_top": [
-    {
-      "stock_id": "2330",
-      "name": "台積電",
-      "market": "TW",
-      "votes": {
-        "fundamental": 1,
-        "chip": 0,
-        "technical": 0
-      },
-      "vote_notes": {
-        "fundamental": "四維100分(A 體質優)｜強成長 YoY+58%｜毛利66.2%｜ROE38.9%",
-        "chip": "籌碼資料失敗:HTTPSConnectionPool(host='www.twse.com.tw', port=443): Max retries exceeded with url: /rwd/zh/fund/T86?date=20260701&selectType=ALLBUT0999&response=json (Caused by NameResolutionError(\"HTTPSConnection(host='www.twse.com.tw', port=443): Failed to resolve 'www.twse.com.tw' ([Errno 11001] getaddrinfo failed)\"))",
-        "technical": "資料不足"
-      },
-      "weighted": 50.0,
-      "strategy_score": 0,
-      "signals": [],
-      "final_score": 30.0,
-      "positives": 1,
-      "negatives": 0,
-      "action": "觀察候選",
-      "action_color": "#f59e0b",
-      "price": null,
-      "rsi": 50,
-      "vol_ratio": 0,
-      "chg_pct": null,
-      "ma20": null,
-      "support": null,
-      "buy_price": null,
-      "stop_suggest": null,
-      "tf_scores": {
-        "short": {
-          "weighted": 0.0,
-          "final_score": 0.0,
-          "action": "中性觀望",
-          "action_color": "#888",
-          "buy_price": null,
-          "stop_suggest": null
-        },
-        "medium": {
-          "weighted": 50.0,
-          "final_score": 30.0,
-          "action": "觀察候選",
-          "action_color": "#f59e0b",
-          "buy_price": null,
-          "stop_suggest": null
-        },
-        "long": {
-          "weighted": 65.0,
-          "final_score": 39.0,
-          "action": "觀察候選",
-          "action_color": "#f59e0b",
-          "buy_price": null,
-          "stop_suggest": null
-        }
-      },
-      "earnings_date": null,
-      "sector": "晶圓代工",
-      "streak_days": 0,
-      "in_strong_sector": false
-    },
-    {
-      "stock_id": "2303",
-      "name": "聯電",
-      "market": "TW",
-      "votes": {
-        "fundamental": 1,
-        "chip": 0,
-        "technical": 0
-      },
-      "vote_notes": {
-        "fundamental": "四維94分(A 體質優)｜強成長 YoY+108%｜毛利29.2%｜ROE15.9%",
-        "chip": "籌碼資料失敗:HTTPSConnectionPool(host='www.twse.com.tw', port=443): Max retries exceeded with url: /rwd/zh/fund/T86?date=20260701&selectType=ALLBUT0999&response=json (Caused by NameResolutionError(\"HTTPSConnection(host='www.twse.com.tw', port=443): Failed to resolve 'www.twse.com.tw' ([Errno 11001] getaddrinfo failed)\"))",
-        "technical": "資料不足"
-      },
-      "weighted": 50.0,
-      "strategy_score": 0,
-      "signals": [],
-      "final_score": 30.0,
-      "positives": 1,
-      "negatives": 0,
-      "action": "觀察候選",
-      "action_color": "#f59e0b",
-      "price": null,
-      "rsi": 50,
-      "vol_ratio": 0,
-      "chg_pct": null,
-      "ma20": null,
-      "support": null,
-      "buy_price": null,
-      "stop_suggest": null,
-      "tf_scores": {
-        "short": {
-          "weighted": 0.0,
-          "final_score": 0.0,
-          "action": "中性觀望",
-          "action_color": "#888",
-          "buy_price": null,
-          "stop_suggest": null
-        },
-        "medium": {
-          "weighted": 50.0,
-          "final_score": 30.0,
-          "action": "觀察候選",
-          "action_color": "#f59e0b",
-          "buy_price": null,
-          "stop_suggest": null
-        },
-        "long": {
-          "weighted": 65.0,
-          "final_score": 39.0,
-          "action": "觀察候選",
-          "action_color": "#f59e0b",
-          "buy_price": null,
-          "stop_suggest": null
-        }
-      },
-      "earnings_date": null,
-      "sector": "晶圓代工",
-      "streak_days": 0,
-      "in_strong_sector": false
-    },
-    {
-      "stock_id": "6770",
-      "name": "力積電",
-      "market": "TW",
-      "votes": {
-        "fundamental": 1,
-        "chip": 0,
-        "technical": 0
-      },
-      "vote_notes": {
-        "fundamental": "四維82分(A 體質優)｜強成長 YoY+1392%｜毛利10.2%｜ROE58.9%",
-        "chip": "籌碼資料失敗:HTTPSConnectionPool(host='www.twse.com.tw', port=443): Max retries exceeded with url: /rwd/zh/fund/T86?date=20260701&selectType=ALLBUT0999&response=json (Caused by NameResolutionError(\"HTTPSConnection(host='www.twse.com.tw', port=443): Failed to resolve 'www.twse.com.tw' ([Errno 11001] getaddrinfo failed)\"))",
-        "technical": "資料不足"
-      },
-      "weighted": 50.0,
-      "strategy_score": 0,
-      "signals": [],
-      "final_score": 30.0,
-      "positives": 1,
-      "negatives": 0,
-      "action": "觀察候選",
-      "action_color": "#f59e0b",
-      "price": null,
-      "rsi": 50,
-      "vol_ratio": 0,
-      "chg_pct": null,
-      "ma20": null,
-      "support": null,
-      "buy_price": null,
-      "stop_suggest": null,
-      "tf_scores": {
-        "short": {
-          "weighted": 0.0,
-          "final_score": 0.0,
-          "action": "中性觀望",
-          "action_color": "#888",
-          "buy_price": null,
-          "stop_suggest": null
-        },
-        "medium": {
-          "weighted": 50.0,
-          "final_score": 30.0,
-          "action": "觀察候選",
-          "action_color": "#f59e0b",
-          "buy_price": null,
-          "stop_suggest": null
-        },
-        "long": {
-          "weighted": 65.0,
-          "final_score": 39.0,
-          "action": "觀察候選",
-          "action_color": "#f59e0b",
-          "buy_price": null,
-          "stop_suggest": null
-        }
-      },
-      "earnings_date": null,
-      "sector": "晶圓代工",
-      "streak_days": 0,
-      "in_strong_sector": false
-    },
-    {
-      "stock_id": "3443",
-      "name": "創意",
-      "market": "TW",
-      "votes": {
-        "fundamental": 1,
-        "chip": 0,
-        "technical": 0
-      },
-      "vote_notes": {
-        "fundamental": "四維84分(A 體質優)｜強成長 YoY+132%｜毛利27.2%｜ROE45.2%",
-        "chip": "籌碼資料失敗:HTTPSConnectionPool(host='www.twse.com.tw', port=443): Max retries exceeded with url: /rwd/zh/fund/T86?date=20260701&selectType=ALLBUT0999&response=json (Caused by NameResolutionError(\"HTTPSConnection(host='www.twse.com.tw', port=443): Failed to resolve 'www.twse.com.tw' ([Errno 11001] getaddrinfo failed)\"))",
-        "technical": "資料不足"
-      },
-      "weighted": 50.0,
-      "strategy_score": 0,
-      "signals": [],
-      "final_score": 30.0,
-      "positives": 1,
-      "negatives": 0,
-      "action": "觀察候選",
-      "action_color": "#f59e0b",
-      "price": null,
-      "rsi": 50,
-      "vol_ratio": 0,
-      "chg_pct": null,
-      "ma20": null,
-      "support": null,
-      "buy_price": null,
-      "stop_suggest": null,
-      "tf_scores": {
-        "short": {
-          "weighted": 0.0,
-          "final_score": 0.0,
-          "action": "中性觀望",
-          "action_color": "#888",
-          "buy_price": null,
-          "stop_suggest": null
-        },
-        "medium": {
-          "weighted": 50.0,
-          "final_score": 30.0,
-          "action": "觀察候選",
-          "action_color": "#f59e0b",
-          "buy_price": null,
-          "stop_suggest": null
-        },
-        "long": {
-          "weighted": 65.0,
-          "final_score": 39.0,
-          "action": "觀察候選",
-          "action_color": "#f59e0b",
-          "buy_price": null,
-          "stop_suggest": null
-        }
-      },
-      "earnings_date": null,
-      "sector": "IC設計",
-      "streak_days": 0,
-      "in_strong_sector": true
-    },
-    {
-      "stock_id": "6669",
-      "name": "緯穎",
-      "market": "TW",
-      "votes": {
-        "fundamental": 1,
-        "chip": 0,
-        "technical": 0
-      },
-      "vote_notes": {
-        "fundamental": "四維60分(B 體質良)｜強成長 YoY+62%｜毛利7.6%｜ROE40.3%",
-        "chip": "籌碼資料失敗:HTTPSConnectionPool(host='www.twse.com.tw', port=443): Max retries exceeded with url: /rwd/zh/fund/T86?date=20260701&selectType=ALLBUT0999&response=json (Caused by NameResolutionError(\"HTTPSConnection(host='www.twse.com.tw', port=443): Failed to resolve 'www.twse.com.tw' ([Errno 11001] getaddrinfo failed)\"))",
-        "technical": "資料不足"
-      },
-      "weighted": 50.0,
-      "strategy_score": 0,
-      "signals": [],
-      "final_score": 30.0,
-      "positives": 1,
-      "negatives": 0,
-      "action": "觀察候選",
-      "action_color": "#f59e0b",
-      "price": null,
-      "rsi": 50,
-      "vol_ratio": 0,
-      "chg_pct": null,
-      "ma20": null,
-      "support": null,
-      "buy_price": null,
-      "stop_suggest": null,
-      "tf_scores": {
-        "short": {
-          "weighted": 0.0,
-          "final_score": 0.0,
-          "action": "中性觀望",
-          "action_color": "#888",
-          "buy_price": null,
-          "stop_suggest": null
-        },
-        "medium": {
-          "weighted": 50.0,
-          "final_score": 30.0,
-          "action": "觀察候選",
-          "action_color": "#f59e0b",
-          "buy_price": null,
-          "stop_suggest": null
-        },
-        "long": {
-          "weighted": 65.0,
-          "final_score": 39.0,
-          "action": "觀察候選",
-          "action_color": "#f59e0b",
-          "buy_price": null,
-          "stop_suggest": null
-        }
-      },
-      "earnings_date": null,
-      "sector": "AI伺服器",
-      "streak_days": 0,
-      "in_strong_sector": true
-    },
-    {
-      "stock_id": "3231",
-      "name": "緯創",
-      "market": "TW",
-      "votes": {
-        "fundamental": 1,
-        "chip": 0,
-        "technical": 0
-      },
-      "vote_notes": {
-        "fundamental": "四維52分(C 體質中)｜強成長 YoY+144%｜毛利5.2%｜ROE37.9%",
-        "chip": "籌碼資料失敗:HTTPSConnectionPool(host='www.twse.com.tw', port=443): Max retries exceeded with url: /rwd/zh/fund/T86?date=20260701&selectType=ALLBUT0999&response=json (Caused by NameResolutionError(\"HTTPSConnection(host='www.twse.com.tw', port=443): Failed to resolve 'www.twse.com.tw' ([Errno 11001] getaddrinfo failed)\"))",
-        "technical": "資料不足"
-      },
-      "weighted": 50.0,
-      "strategy_score": 0,
-      "signals": [],
-      "final_score": 30.0,
-      "positives": 1,
-      "negatives": 0,
-      "action": "觀察候選",
-      "action_color": "#f59e0b",
-      "price": null,
-      "rsi": 50,
-      "vol_ratio": 0,
-      "chg_pct": null,
-      "ma20": null,
-      "support": null,
-      "buy_price": null,
-      "stop_suggest": null,
-      "tf_scores": {
-        "short": {
-          "weighted": 0.0,
-          "final_score": 0.0,
-          "action": "中性觀望",
-          "action_color": "#888",
-          "buy_price": null,
-          "stop_suggest": null
-        },
-        "medium": {
-          "weighted": 50.0,
-          "final_score": 30.0,
-          "action": "觀察候選",
-          "action_color": "#f59e0b",
-          "buy_price": null,
-          "stop_suggest": null
-        },
-        "long": {
-          "weighted": 65.0,
-          "final_score": 39.0,
-          "action": "觀察候選",
-          "action_color": "#f59e0b",
-          "buy_price": null,
-          "stop_suggest": null
-        }
-      },
-      "earnings_date": null,
-      "sector": "AI伺服器",
-      "streak_days": 0,
-      "in_strong_sector": true
-    },
-    {
-      "stock_id": "2382",
-      "name": "廣達",
-      "market": "TW",
-      "votes": {
-        "fundamental": 1,
-        "chip": 0,
-        "technical": 0
-      },
-      "vote_notes": {
-        "fundamental": "四維52分(C 體質中)｜強成長 YoY+94%｜毛利4.8%｜ROE41.1%",
-        "chip": "籌碼資料失敗:HTTPSConnectionPool(host='www.twse.com.tw', port=443): Max retries exceeded with url: /rwd/zh/fund/T86?date=20260701&selectType=ALLBUT0999&response=json (Caused by NameResolutionError(\"HTTPSConnection(host='www.twse.com.tw', port=443): Failed to resolve 'www.twse.com.tw' ([Errno 11001] getaddrinfo failed)\"))",
-        "technical": "資料不足"
-      },
-      "weighted": 50.0,
-      "strategy_score": 0,
-      "signals": [],
-      "final_score": 30.0,
-      "positives": 1,
-      "negatives": 0,
-      "action": "觀察候選",
-      "action_color": "#f59e0b",
-      "price": null,
-      "rsi": 50,
-      "vol_ratio": 0,
-      "chg_pct": null,
-      "ma20": null,
-      "support": null,
-      "buy_price": null,
-      "stop_suggest": null,
-      "tf_scores": {
-        "short": {
-          "weighted": 0.0,
-          "final_score": 0.0,
-          "action": "中性觀望",
-          "action_color": "#888",
-          "buy_price": null,
-          "stop_suggest": null
-        },
-        "medium": {
-          "weighted": 50.0,
-          "final_score": 30.0,
-          "action": "觀察候選",
-          "action_color": "#f59e0b",
-          "buy_price": null,
-          "stop_suggest": null
-        },
-        "long": {
-          "weighted": 65.0,
-          "final_score": 39.0,
-          "action": "觀察候選",
-          "action_color": "#f59e0b",
-          "buy_price": null,
-          "stop_suggest": null
-        }
-      },
-      "earnings_date": null,
-      "sector": "AI伺服器",
-      "streak_days": 0,
-      "in_strong_sector": true
-    },
-    {
-      "stock_id": "3037",
-      "name": "欣興",
-      "market": "TW",
-      "votes": {
-        "fundamental": 1,
-        "chip": 0,
-        "technical": 0
-      },
-      "vote_notes": {
-        "fundamental": "四維74分(B 體質良)｜強成長 YoY+447%｜毛利18.0%｜ROE19.0%",
-        "chip": "籌碼資料失敗:HTTPSConnectionPool(host='www.twse.com.tw', port=443): Max retries exceeded with url: /rwd/zh/fund/T86?date=20260701&selectType=ALLBUT0999&response=json (Caused by NameResolutionError(\"HTTPSConnection(host='www.twse.com.tw', port=443): Failed to resolve 'www.twse.com.tw' ([Errno 11001] getaddrinfo failed)\"))",
-        "technical": "資料不足"
-      },
-      "weighted": 50.0,
-      "strategy_score": 0,
-      "signals": [],
-      "final_score": 30.0,
-      "positives": 1,
-      "negatives": 0,
-      "action": "觀察候選",
-      "action_color": "#f59e0b",
-      "price": null,
-      "rsi": 50,
-      "vol_ratio": 0,
-      "chg_pct": null,
-      "ma20": null,
-      "support": null,
-      "buy_price": null,
-      "stop_suggest": null,
-      "tf_scores": {
-        "short": {
-          "weighted": 0.0,
-          "final_score": 0.0,
-          "action": "中性觀望",
-          "action_color": "#888",
-          "buy_price": null,
-          "stop_suggest": null
-        },
-        "medium": {
-          "weighted": 50.0,
-          "final_score": 30.0,
-          "action": "觀察候選",
-          "action_color": "#f59e0b",
-          "buy_price": null,
-          "stop_suggest": null
-        },
-        "long": {
-          "weighted": 65.0,
-          "final_score": 39.0,
-          "action": "觀察候選",
-          "action_color": "#f59e0b",
-          "buy_price": null,
-          "stop_suggest": null
-        }
-      },
-      "earnings_date": null,
-      "sector": "ABF載板",
-      "streak_days": 0,
-      "in_strong_sector": false
-    }
-  ],
-  "sell_top": [
-    {
-      "stock_id": "3661",
-      "name": "世芯-KY",
-      "market": "TW",
-      "votes": {
-        "fundamental": -1,
-        "chip": 0,
-        "technical": 0
-      },
-      "vote_notes": {
-        "fundamental": "四維95分(A 體質優)｜營收衰退 YoY-60%｜毛利50.2%｜ROE13.2%",
-        "chip": "籌碼資料失敗:HTTPSConnectionPool(host='www.twse.com.tw', port=443): Max retries exceeded with url: /rwd/zh/fund/T86?date=20260701&selectType=ALLBUT0999&response=json (Caused by NameResolutionError(\"HTTPSConnection(host='www.twse.com.tw', port=443): Failed to resolve 'www.twse.com.tw' ([Errno 11001] getaddrinfo failed)\"))",
-        "technical": "資料不足"
-      },
-      "weighted": -50.0,
-      "strategy_score": 0,
-      "signals": [],
-      "final_score": -30.0,
-      "positives": 0,
-      "negatives": 1,
-      "action": "賣出/避開",
-      "action_color": "#dc2626",
-      "price": null,
-      "rsi": 50,
-      "vol_ratio": 0,
-      "chg_pct": null,
-      "ma20": null,
-      "support": null,
-      "buy_price": null,
-      "stop_suggest": null,
-      "tf_scores": {
-        "short": {
-          "weighted": 0.0,
-          "final_score": 0.0,
-          "action": "中性觀望",
-          "action_color": "#888",
-          "buy_price": null,
-          "stop_suggest": null
-        },
-        "medium": {
-          "weighted": -50.0,
-          "final_score": -30.0,
-          "action": "賣出/避開",
-          "action_color": "#dc2626",
-          "buy_price": null,
-          "stop_suggest": null
-        },
-        "long": {
-          "weighted": -65.0,
-          "final_score": -39.0,
-          "action": "賣出/避開",
-          "action_color": "#dc2626",
-          "buy_price": null,
-          "stop_suggest": null
-        }
-      },
-      "earnings_date": null,
-      "sector": "IC設計",
-      "streak_days": 0,
-      "in_strong_sector": true
-    }
-  ],
+  "watch_top": [],
+  "sell_top": [],
   "by_timeframe": {
     "short": {
       "buy_ids": [],
@@ -4208,36 +3657,14 @@
     "medium": {
       "buy_ids": [],
       "buy_folded": {},
-      "watch_ids": [
-        "3443",
-        "6669",
-        "3231",
-        "2382",
-        "2330",
-        "2303",
-        "6770",
-        "3037"
-      ],
-      "sell_ids": [
-        "3661"
-      ]
+      "watch_ids": [],
+      "sell_ids": []
     },
     "long": {
       "buy_ids": [],
       "buy_folded": {},
-      "watch_ids": [
-        "3443",
-        "6669",
-        "3231",
-        "2382",
-        "2330",
-        "2303",
-        "6770",
-        "3037"
-      ],
-      "sell_ids": [
-        "3661"
-      ]
+      "watch_ids": [],
+      "sell_ids": []
     }
   },
   "market_regime": null
