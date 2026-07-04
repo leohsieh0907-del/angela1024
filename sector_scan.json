@@ -1,5 +1,5 @@
 {
-  "scan_time": "2026-07-03T19:56:24.200075",
+  "scan_time": "2026-07-04T22:28:14.715677",
   "weight_source": "時間框架:中線",
   "weights": {
     "fundamental": 0.5,
@@ -38,14 +38,14 @@
       "consecutive": 3
     }
   ],
-  "scan_scope": "全21板塊×前3去重58檔",
-  "total_scanned": 58,
-  "valid_data": 58,
+  "scan_scope": "全21板塊×前3去重59檔",
+  "total_scanned": 59,
+  "valid_data": 59,
   "data_error": false,
   "results": [
     {
-      "stock_id": "5483",
-      "name": "中美晶",
+      "stock_id": "2615",
+      "name": "萬海",
       "market": "TW",
       "votes": {
         "fundamental": 1,
@@ -53,11 +53,142 @@
         "technical": 1
       },
       "vote_notes": {
-        "fundamental": "四維80分(A 體質優)｜強成長 YoY+54%｜毛利23.2%｜ROE21.1%",
+        "fundamental": "PER 7.4｜偏便宜｜PBR 0.81",
+        "chip": "外資買超10,357張｜融資大減(籌碼沉澱)",
+        "technical": "站上MA20+MA60（多頭排列）｜量比2.37x放量"
+      },
+      "weighted": 100.0,
+      "strategy_score": 6,
+      "signals": [
+        "📊 MA20>MA60多頭",
+        "📐 上升趨勢",
+        "🎯 雙線多頭排列",
+        "🔥 爆量2.56x"
+      ],
+      "final_score": 90.0,
+      "positives": 3,
+      "negatives": 0,
+      "action": "強力買進",
+      "action_color": "#16a34a",
+      "price": 82.8,
+      "rsi": 43.4,
+      "vol_ratio": 2.37,
+      "chg_pct": 4.94,
+      "ma20": 81.17,
+      "support": 76.7,
+      "buy_price": 81.17,
+      "stop_suggest": 75.17,
+      "tf_scores": {
+        "short": {
+          "weighted": 100.0,
+          "final_score": 90.0,
+          "action": "強力買進",
+          "action_color": "#16a34a",
+          "buy_price": 81.17,
+          "stop_suggest": 75.17
+        },
+        "medium": {
+          "weighted": 100.0,
+          "final_score": 90.0,
+          "action": "強力買進",
+          "action_color": "#16a34a",
+          "buy_price": 81.17,
+          "stop_suggest": 75.17
+        },
+        "long": {
+          "weighted": 100.0,
+          "final_score": 90.0,
+          "action": "強力買進",
+          "action_color": "#16a34a",
+          "buy_price": 81.17,
+          "stop_suggest": 75.17
+        }
+      },
+      "earnings_date": "2026-08-10",
+      "sector": "航運",
+      "streak_days": 2,
+      "in_strong_sector": true
+    },
+    {
+      "stock_id": "2609",
+      "name": "陽明",
+      "market": "TW",
+      "votes": {
+        "fundamental": 1,
+        "chip": 1.0,
+        "technical": 1
+      },
+      "vote_notes": {
+        "fundamental": "PER 10.7｜偏便宜｜PBR 0.56",
+        "chip": "外資買超12,552張｜融資大減(籌碼沉澱)",
+        "technical": "站上MA20+MA60（多頭排列）"
+      },
+      "weighted": 100.0,
+      "strategy_score": 4,
+      "signals": [
+        "📊 MA20>MA60多頭",
+        "📐 上升趨勢",
+        "🎯 雙線多頭排列"
+      ],
+      "final_score": 80.0,
+      "positives": 3,
+      "negatives": 0,
+      "action": "強力買進",
+      "action_color": "#16a34a",
+      "price": 52.4,
+      "rsi": 50.0,
+      "vol_ratio": 1.24,
+      "chg_pct": 2.75,
+      "ma20": 51.56,
+      "support": 50.1,
+      "buy_price": 51.56,
+      "stop_suggest": 49.1,
+      "tf_scores": {
+        "short": {
+          "weighted": 100.0,
+          "final_score": 80.0,
+          "action": "強力買進",
+          "action_color": "#16a34a",
+          "buy_price": 51.56,
+          "stop_suggest": 49.1
+        },
+        "medium": {
+          "weighted": 100.0,
+          "final_score": 80.0,
+          "action": "強力買進",
+          "action_color": "#16a34a",
+          "buy_price": 51.56,
+          "stop_suggest": 49.1
+        },
+        "long": {
+          "weighted": 100.0,
+          "final_score": 80.0,
+          "action": "強力買進",
+          "action_color": "#16a34a",
+          "buy_price": 51.56,
+          "stop_suggest": 49.1
+        }
+      },
+      "earnings_date": "2026-08-12",
+      "sector": "航運",
+      "streak_days": 1,
+      "in_strong_sector": true
+    },
+    {
+      "stock_id": "5483",
+      "name": "中美晶",
+      "market": "TW",
+      "votes": {
+        "fundamental": 0,
+        "chip": 1.0,
+        "technical": 1
+      },
+      "vote_notes": {
+        "fundamental": "PER 31.6｜偏貴(不否決)｜PBR 2.62",
         "chip": "外資買超5,108張｜(TWSE暫無→FinMind備援)",
         "technical": "站上MA20+MA60（多頭排列）｜RSI 75.9 超買（強勢續抱）"
       },
-      "weighted": 100.0,
+      "weighted": 50.0,
       "strategy_score": 8,
       "signals": [
         "📊 MA20>MA60多頭",
@@ -65,14 +196,14 @@
         "🔢 扣抵有利",
         "📐 上升趨勢"
       ],
-      "final_score": 100.0,
-      "positives": 3,
+      "final_score": 70.0,
+      "positives": 2,
       "negatives": 0,
       "action": "強力買進",
       "action_color": "#16a34a",
       "price": 210.5,
       "rsi": 75.9,
-      "vol_ratio": 1.32,
+      "vol_ratio": 1.31,
       "chg_pct": 4.73,
       "ma20": 171.12,
       "support": 141.0,
@@ -88,16 +219,16 @@
           "stop_suggest": 193.66
         },
         "medium": {
-          "weighted": 100.0,
-          "final_score": 100.0,
+          "weighted": 50.0,
+          "final_score": 70.0,
           "action": "強力買進",
           "action_color": "#16a34a",
           "buy_price": 210.5,
           "stop_suggest": 193.66
         },
         "long": {
-          "weighted": 100.0,
-          "final_score": 100.0,
+          "weighted": 35.0,
+          "final_score": 61.0,
           "action": "強力買進",
           "action_color": "#16a34a",
           "buy_price": 210.5,
@@ -106,7 +237,7 @@
       },
       "earnings_date": null,
       "sector": "半導體材料",
-      "streak_days": 2,
+      "streak_days": 3,
       "in_strong_sector": true
     },
     {
@@ -114,16 +245,16 @@
       "name": "台光電",
       "market": "TW",
       "votes": {
-        "fundamental": 1,
+        "fundamental": 0,
         "chip": 0.02,
         "technical": 1
       },
       "vote_notes": {
-        "fundamental": "四維78分(B 體質良)｜強成長 YoY+121%｜毛利29.4%｜ROE44.5%",
+        "fundamental": "PER 131.6｜偏貴(不否決)｜PBR 45.44",
         "chip": "外資+334張(中性)",
-        "technical": "站上MA20+MA60（多頭排列）｜量比1.59x放量｜RSI 73.4 超買（強勢續抱）"
+        "technical": "站上MA20+MA60（多頭排列）｜RSI 73.4 超買（強勢續抱）"
       },
-      "weighted": 75.5,
+      "weighted": 25.5,
       "strategy_score": 9,
       "signals": [
         "📊 MA20>MA60多頭",
@@ -131,14 +262,14 @@
         "🔢 扣抵有利",
         "📐 上升趨勢"
       ],
-      "final_score": 90.3,
-      "positives": 3,
+      "final_score": 60.3,
+      "positives": 2,
       "negatives": 0,
       "action": "強力買進",
       "action_color": "#16a34a",
       "price": 6080.0,
       "rsi": 73.4,
-      "vol_ratio": 1.59,
+      "vol_ratio": 1.45,
       "chg_pct": 7.52,
       "ma20": 5331.25,
       "support": 4770.0,
@@ -154,56 +285,254 @@
           "stop_suggest": 5593.6
         },
         "medium": {
-          "weighted": 75.5,
-          "final_score": 90.3,
+          "weighted": 25.5,
+          "final_score": 60.3,
           "action": "強力買進",
           "action_color": "#16a34a",
           "buy_price": 6080.0,
           "stop_suggest": 5593.6
         },
         "long": {
-          "weighted": 80.4,
-          "final_score": 93.2,
-          "action": "強力買進",
+          "weighted": 15.4,
+          "final_score": 54.2,
+          "action": "買進",
           "action_color": "#16a34a",
           "buy_price": 6080.0,
           "stop_suggest": 5593.6
         }
       },
       "earnings_date": "2026-07-29",
-      "sector": "ABF載板",
-      "streak_days": 2,
+      "sector": "ABF材料/CCL",
+      "streak_days": 3,
       "in_strong_sector": true
+    },
+    {
+      "stock_id": "3189",
+      "name": "景碩",
+      "market": "TW",
+      "votes": {
+        "fundamental": 0,
+        "chip": 1.0,
+        "technical": 1
+      },
+      "vote_notes": {
+        "fundamental": "PER 243.6｜偏貴(不否決)｜PBR 10.17",
+        "chip": "外資買超1,217張｜投信賣超596張｜融資大減(籌碼沉澱)",
+        "technical": "站上MA20+MA60（多頭排列）｜量比0.13x量縮｜RSI 70.5 超買（強勢續抱）"
+      },
+      "weighted": 50.0,
+      "strategy_score": 6,
+      "signals": [
+        "📊 MA20>MA60多頭",
+        "🔢 扣抵有利",
+        "📐 上升趨勢",
+        "🎯 雙線多頭排列"
+      ],
+      "final_score": 60.0,
+      "positives": 2,
+      "negatives": 0,
+      "action": "強力買進",
+      "action_color": "#16a34a",
+      "price": 833.0,
+      "rsi": 70.5,
+      "vol_ratio": 0.13,
+      "chg_pct": 0.36,
+      "ma20": 742.27,
+      "support": 608.96,
+      "buy_price": 742.27,
+      "stop_suggest": 682.89,
+      "tf_scores": {
+        "short": {
+          "weighted": 100.0,
+          "final_score": 90.0,
+          "action": "強力買進",
+          "action_color": "#16a34a",
+          "buy_price": 742.27,
+          "stop_suggest": 682.89
+        },
+        "medium": {
+          "weighted": 50.0,
+          "final_score": 60.0,
+          "action": "強力買進",
+          "action_color": "#16a34a",
+          "buy_price": 742.27,
+          "stop_suggest": 682.89
+        },
+        "long": {
+          "weighted": 35.0,
+          "final_score": 51.0,
+          "action": "買進",
+          "action_color": "#16a34a",
+          "buy_price": 742.27,
+          "stop_suggest": 682.89
+        }
+      },
+      "earnings_date": "2026-07-27",
+      "sector": "ABF載板",
+      "streak_days": 1,
+      "in_strong_sector": true
+    },
+    {
+      "stock_id": "3019",
+      "name": "亞光",
+      "market": "TW",
+      "votes": {
+        "fundamental": 0,
+        "chip": 1.0,
+        "technical": 1
+      },
+      "vote_notes": {
+        "fundamental": "PER 23.3｜中性｜PBR 2.97",
+        "chip": "外資買超1,214張",
+        "technical": "站上MA20+MA60（多頭排列）｜量比0.75x量縮"
+      },
+      "weighted": 50.0,
+      "strategy_score": 6,
+      "signals": [
+        "📊 MA20>MA60多頭",
+        "🔢 扣抵有利",
+        "📐 上升趨勢",
+        "🎯 雙線多頭排列"
+      ],
+      "final_score": 60.0,
+      "positives": 2,
+      "negatives": 0,
+      "action": "強力買進",
+      "action_color": "#16a34a",
+      "price": 152.0,
+      "rsi": 57.4,
+      "vol_ratio": 0.75,
+      "chg_pct": 1.67,
+      "ma20": 147.87,
+      "support": 137.84,
+      "buy_price": 147.87,
+      "stop_suggest": 136.04,
+      "tf_scores": {
+        "short": {
+          "weighted": 100.0,
+          "final_score": 90.0,
+          "action": "強力買進",
+          "action_color": "#16a34a",
+          "buy_price": 147.87,
+          "stop_suggest": 136.04
+        },
+        "medium": {
+          "weighted": 50.0,
+          "final_score": 60.0,
+          "action": "強力買進",
+          "action_color": "#16a34a",
+          "buy_price": 147.87,
+          "stop_suggest": 136.04
+        },
+        "long": {
+          "weighted": 35.0,
+          "final_score": 51.0,
+          "action": "買進",
+          "action_color": "#16a34a",
+          "buy_price": 147.87,
+          "stop_suggest": 136.04
+        }
+      },
+      "earnings_date": null,
+      "sector": "光學鏡頭",
+      "streak_days": 3,
+      "in_strong_sector": false
+    },
+    {
+      "stock_id": "2303",
+      "name": "聯電",
+      "market": "TW",
+      "votes": {
+        "fundamental": 0,
+        "chip": 0.6,
+        "technical": 1
+      },
+      "vote_notes": {
+        "fundamental": "PER 43.3｜偏貴(不否決)｜PBR 5.27",
+        "chip": "外資買超35,293張｜投信賣超12,953張｜融資大減(籌碼沉澱)",
+        "technical": "站上MA20+MA60（多頭排列）｜量比0.25x量縮｜RSI 74.3 超買（強勢續抱）"
+      },
+      "weighted": 40.0,
+      "strategy_score": 6,
+      "signals": [
+        "📊 MA20>MA60多頭",
+        "🔢 扣抵有利",
+        "📐 上升趨勢",
+        "🎯 雙線多頭排列"
+      ],
+      "final_score": 54.0,
+      "positives": 2,
+      "negatives": 0,
+      "action": "買進",
+      "action_color": "#16a34a",
+      "price": 170.5,
+      "rsi": 74.3,
+      "vol_ratio": 0.25,
+      "chg_pct": 3.02,
+      "ma20": 150.45,
+      "support": 118.5,
+      "buy_price": 150.45,
+      "stop_suggest": 138.41,
+      "tf_scores": {
+        "short": {
+          "weighted": 80.0,
+          "final_score": 78.0,
+          "action": "強力買進",
+          "action_color": "#16a34a",
+          "buy_price": 150.45,
+          "stop_suggest": 138.41
+        },
+        "medium": {
+          "weighted": 40.0,
+          "final_score": 54.0,
+          "action": "買進",
+          "action_color": "#16a34a",
+          "buy_price": 150.45,
+          "stop_suggest": 138.41
+        },
+        "long": {
+          "weighted": 27.0,
+          "final_score": 46.2,
+          "action": "買進",
+          "action_color": "#16a34a",
+          "buy_price": 150.45,
+          "stop_suggest": 138.41
+        }
+      },
+      "earnings_date": "2026-07-29",
+      "sector": "晶圓代工",
+      "streak_days": 3,
+      "in_strong_sector": false
     },
     {
       "stock_id": "2382",
       "name": "廣達",
       "market": "TW",
       "votes": {
-        "fundamental": 1,
+        "fundamental": 0,
         "chip": 1.0,
         "technical": 1
       },
       "vote_notes": {
-        "fundamental": "四維52分(C 體質中)｜強成長 YoY+94%｜毛利4.8%｜ROE41.1%",
-        "chip": "外資買超1,229張｜投信買超1,974張｜券資比8.9%(軋空潛力)",
-        "technical": "站上MA20+MA60（多頭排列）｜量比0.51x量縮"
+        "fundamental": "PER 19.9｜中性｜PBR 7.00",
+        "chip": "外資買超1,229張｜投信買超1,974張｜券資比8.3%(軋空潛力)",
+        "technical": "站上MA20+MA60（多頭排列）｜量比0.49x量縮"
       },
-      "weighted": 100.0,
+      "weighted": 50.0,
       "strategy_score": 4,
       "signals": [
         "📊 MA20>MA60多頭",
         "📐 上升趨勢",
         "🎯 雙線多頭排列"
       ],
-      "final_score": 80.0,
-      "positives": 3,
+      "final_score": 50.0,
+      "positives": 2,
       "negatives": 0,
-      "action": "強力買進",
+      "action": "買進",
       "action_color": "#16a34a",
       "price": 377.0,
       "rsi": 53.8,
-      "vol_ratio": 0.51,
+      "vol_ratio": 0.49,
       "chg_pct": 2.17,
       "ma20": 372.65,
       "support": 362.0,
@@ -219,24 +548,155 @@
           "stop_suggest": 354.76
         },
         "medium": {
-          "weighted": 100.0,
-          "final_score": 80.0,
-          "action": "強力買進",
+          "weighted": 50.0,
+          "final_score": 50.0,
+          "action": "買進",
           "action_color": "#16a34a",
           "buy_price": 372.65,
           "stop_suggest": 354.76
         },
         "long": {
-          "weighted": 100.0,
-          "final_score": 80.0,
-          "action": "強力買進",
-          "action_color": "#16a34a",
+          "weighted": 35.0,
+          "final_score": 41.0,
+          "action": "中性偏多觀望",
+          "action_color": "#84cc16",
           "buy_price": 372.65,
           "stop_suggest": 354.76
         }
       },
       "earnings_date": "2026-08-12",
       "sector": "AI伺服器",
+      "streak_days": 2,
+      "in_strong_sector": false
+    },
+    {
+      "stock_id": "2377",
+      "name": "微星",
+      "market": "TW",
+      "votes": {
+        "fundamental": 0,
+        "chip": 1.0,
+        "technical": 1
+      },
+      "vote_notes": {
+        "fundamental": "PER 21.2｜中性｜PBR 2.20",
+        "chip": "外資-592張(中性)｜投信買超2,889張｜融資大減(籌碼沉澱)｜券資比7.2%(軋空潛力)｜投信領先卡位",
+        "technical": "站上MA20+MA60（多頭排列）｜量比0.5x量縮"
+      },
+      "weighted": 50.0,
+      "strategy_score": 4,
+      "signals": [
+        "📊 MA20>MA60多頭",
+        "📐 上升趨勢",
+        "🎯 雙線多頭排列"
+      ],
+      "final_score": 50.0,
+      "positives": 2,
+      "negatives": 0,
+      "action": "買進",
+      "action_color": "#16a34a",
+      "price": 143.0,
+      "rsi": 59.7,
+      "vol_ratio": 0.5,
+      "chg_pct": 0.0,
+      "ma20": 137.62,
+      "support": 131.5,
+      "buy_price": 137.62,
+      "stop_suggest": 128.87,
+      "tf_scores": {
+        "short": {
+          "weighted": 100.0,
+          "final_score": 80.0,
+          "action": "強力買進",
+          "action_color": "#16a34a",
+          "buy_price": 137.62,
+          "stop_suggest": 128.87
+        },
+        "medium": {
+          "weighted": 50.0,
+          "final_score": 50.0,
+          "action": "買進",
+          "action_color": "#16a34a",
+          "buy_price": 137.62,
+          "stop_suggest": 128.87
+        },
+        "long": {
+          "weighted": 35.0,
+          "final_score": 41.0,
+          "action": "中性偏多觀望",
+          "action_color": "#84cc16",
+          "buy_price": 137.62,
+          "stop_suggest": 128.87
+        }
+      },
+      "earnings_date": null,
+      "sector": "PC品牌系統",
+      "streak_days": 3,
+      "in_strong_sector": false
+    },
+    {
+      "stock_id": "2886",
+      "name": "兆豐金",
+      "market": "TW",
+      "votes": {
+        "fundamental": 0,
+        "chip": 0.3,
+        "technical": 1
+      },
+      "vote_notes": {
+        "fundamental": "PER 19.3｜中性｜PBR 1.68",
+        "chip": "外資賣超2,263張｜投信買超4,672張｜券資比7.5%(軋空潛力)｜投信領先卡位",
+        "technical": "站上MA20+MA60（多頭排列）｜量比0.47x量縮"
+      },
+      "weighted": 32.5,
+      "strategy_score": 6,
+      "signals": [
+        "📊 MA20>MA60多頭",
+        "🔢 扣抵有利",
+        "📐 上升趨勢",
+        "🎯 雙線多頭排列"
+      ],
+      "final_score": 49.5,
+      "positives": 2,
+      "negatives": 0,
+      "action": "買進",
+      "action_color": "#16a34a",
+      "price": 45.5,
+      "rsi": 64.2,
+      "vol_ratio": 0.47,
+      "chg_pct": -1.09,
+      "ma20": 44.66,
+      "support": 41.2,
+      "buy_price": 44.66,
+      "stop_suggest": 41.09,
+      "tf_scores": {
+        "short": {
+          "weighted": 65.0,
+          "final_score": 69.0,
+          "action": "強力買進",
+          "action_color": "#16a34a",
+          "buy_price": 44.66,
+          "stop_suggest": 41.09
+        },
+        "medium": {
+          "weighted": 32.5,
+          "final_score": 49.5,
+          "action": "買進",
+          "action_color": "#16a34a",
+          "buy_price": 44.66,
+          "stop_suggest": 41.09
+        },
+        "long": {
+          "weighted": 21.0,
+          "final_score": 42.6,
+          "action": "中性偏多觀望",
+          "action_color": "#84cc16",
+          "buy_price": 44.66,
+          "stop_suggest": 41.09
+        }
+      },
+      "earnings_date": null,
+      "sector": "金融保險",
       "streak_days": 1,
       "in_strong_sector": false
     },
@@ -245,16 +705,16 @@
       "name": "中信金",
       "market": "TW",
       "votes": {
-        "fundamental": 1,
+        "fundamental": 0,
         "chip": 0.3,
         "technical": 1
       },
       "vote_notes": {
-        "fundamental": "四維18分(D 體質弱)｜強成長 YoY+76%",
+        "fundamental": "PER 17.4｜中性｜PBR 2.60",
         "chip": "外資賣超4,144張｜投信買超3,145張｜投信領先卡位",
         "technical": "站上MA20+MA60（多頭排列）｜量比0.7x量縮"
       },
-      "weighted": 82.5,
+      "weighted": 32.5,
       "strategy_score": 6,
       "signals": [
         "📊 MA20>MA60多頭",
@@ -262,10 +722,10 @@
         "📐 上升趨勢",
         "🎯 雙線多頭排列"
       ],
-      "final_score": 79.5,
-      "positives": 3,
+      "final_score": 49.5,
+      "positives": 2,
       "negatives": 0,
-      "action": "強力買進",
+      "action": "買進",
       "action_color": "#16a34a",
       "price": 70.6,
       "rsi": 61.0,
@@ -285,156 +745,25 @@
           "stop_suggest": 64.14
         },
         "medium": {
-          "weighted": 82.5,
-          "final_score": 79.5,
-          "action": "強力買進",
+          "weighted": 32.5,
+          "final_score": 49.5,
+          "action": "買進",
           "action_color": "#16a34a",
           "buy_price": 69.72,
           "stop_suggest": 64.14
         },
         "long": {
-          "weighted": 86.0,
-          "final_score": 81.6,
-          "action": "強力買進",
-          "action_color": "#16a34a",
+          "weighted": 21.0,
+          "final_score": 42.6,
+          "action": "中性偏多觀望",
+          "action_color": "#84cc16",
           "buy_price": 69.72,
           "stop_suggest": 64.14
         }
       },
       "earnings_date": "2026-08-21",
       "sector": "金融保險",
-      "streak_days": 2,
-      "in_strong_sector": false
-    },
-    {
-      "stock_id": "2327",
-      "name": "國巨",
-      "market": "TW",
-      "votes": {
-        "fundamental": 1,
-        "chip": 0.28,
-        "technical": 1
-      },
-      "vote_notes": {
-        "fundamental": "四維84分(A 體質優)｜強成長 YoY+48%｜毛利38.1%｜ROE19.3%",
-        "chip": "外資-183張(中性)｜融資大減(籌碼沉澱)",
-        "technical": "站上MA20+MA60（多頭排列）｜量比0.66x量縮"
-      },
-      "weighted": 82.0,
-      "strategy_score": 6,
-      "signals": [
-        "📊 MA20>MA60多頭",
-        "🔢 扣抵有利",
-        "📐 上升趨勢",
-        "🎯 雙線多頭排列"
-      ],
-      "final_score": 79.2,
-      "positives": 3,
-      "negatives": 0,
-      "action": "強力買進",
-      "action_color": "#16a34a",
-      "price": 1045.0,
-      "rsi": 63.2,
-      "vol_ratio": 0.66,
-      "chg_pct": -0.95,
-      "ma20": 974.12,
-      "support": 745.65,
-      "buy_price": 992.75,
-      "stop_suggest": 913.33,
-      "tf_scores": {
-        "short": {
-          "weighted": 64.0,
-          "final_score": 68.4,
-          "action": "強力買進",
-          "action_color": "#16a34a",
-          "buy_price": 992.75,
-          "stop_suggest": 913.33
-        },
-        "medium": {
-          "weighted": 82.0,
-          "final_score": 79.2,
-          "action": "強力買進",
-          "action_color": "#16a34a",
-          "buy_price": 992.75,
-          "stop_suggest": 913.33
-        },
-        "long": {
-          "weighted": 85.6,
-          "final_score": 81.4,
-          "action": "強力買進",
-          "action_color": "#16a34a",
-          "buy_price": 992.75,
-          "stop_suggest": 913.33
-        }
-      },
-      "earnings_date": null,
-      "sector": "被動元件",
-      "streak_days": 2,
-      "in_strong_sector": false
-    },
-    {
-      "stock_id": "2377",
-      "name": "微星",
-      "market": "TW",
-      "votes": {
-        "fundamental": 1,
-        "chip": 0.78,
-        "technical": 1
-      },
-      "vote_notes": {
-        "fundamental": "四維78分(B 體質良)｜強成長 YoY+218%｜毛利15.0%｜ROE24.9%",
-        "chip": "外資-592張(中性)｜投信買超2,889張｜券資比7.2%(軋空潛力)｜投信領先卡位",
-        "technical": "站上MA20+MA60（多頭排列）｜量比0.5x量縮"
-      },
-      "weighted": 94.5,
-      "strategy_score": 4,
-      "signals": [
-        "📊 MA20>MA60多頭",
-        "📐 上升趨勢",
-        "🎯 雙線多頭排列"
-      ],
-      "final_score": 76.7,
-      "positives": 3,
-      "negatives": 0,
-      "action": "強力買進",
-      "action_color": "#16a34a",
-      "price": 143.0,
-      "rsi": 59.7,
-      "vol_ratio": 0.5,
-      "chg_pct": 0.0,
-      "ma20": 137.62,
-      "support": 131.5,
-      "buy_price": 137.62,
-      "stop_suggest": 128.87,
-      "tf_scores": {
-        "short": {
-          "weighted": 89.0,
-          "final_score": 73.4,
-          "action": "強力買進",
-          "action_color": "#16a34a",
-          "buy_price": 137.62,
-          "stop_suggest": 128.87
-        },
-        "medium": {
-          "weighted": 94.5,
-          "final_score": 76.7,
-          "action": "強力買進",
-          "action_color": "#16a34a",
-          "buy_price": 137.62,
-          "stop_suggest": 128.87
-        },
-        "long": {
-          "weighted": 95.6,
-          "final_score": 77.4,
-          "action": "強力買進",
-          "action_color": "#16a34a",
-          "buy_price": 137.62,
-          "stop_suggest": 128.87
-        }
-      },
-      "earnings_date": null,
-      "sector": "PC品牌系統",
-      "streak_days": 2,
+      "streak_days": 3,
       "in_strong_sector": false
     },
     {
@@ -442,16 +771,16 @@
       "name": "亞翔",
       "market": "TW",
       "votes": {
-        "fundamental": 1,
+        "fundamental": 0,
         "chip": 0.11,
         "technical": 1
       },
       "vote_notes": {
-        "fundamental": "四維56分(C 體質中)｜強成長 YoY+149%｜毛利18.7%｜ROE54.5%",
+        "fundamental": "PER 31.2｜偏貴(不否決)｜PBR 10.20",
         "chip": "外資-62張(中性)｜投信買超550張",
         "technical": "站上MA20+MA60（多頭排列）"
       },
-      "weighted": 77.8,
+      "weighted": 27.8,
       "strategy_score": 6,
       "signals": [
         "📊 MA20>MA60多頭",
@@ -459,14 +788,14 @@
         "📐 上升趨勢",
         "🎯 雙線多頭排列"
       ],
-      "final_score": 76.7,
-      "positives": 3,
+      "final_score": 46.7,
+      "positives": 2,
       "negatives": 0,
-      "action": "強力買進",
+      "action": "買進",
       "action_color": "#16a34a",
       "price": 948.0,
       "rsi": 65.9,
-      "vol_ratio": 1.08,
+      "vol_ratio": 1.05,
       "chg_pct": 0.96,
       "ma20": 836.7,
       "support": 728.0,
@@ -482,25 +811,25 @@
           "stop_suggest": 769.76
         },
         "medium": {
-          "weighted": 77.8,
-          "final_score": 76.7,
-          "action": "強力買進",
+          "weighted": 27.8,
+          "final_score": 46.7,
+          "action": "買進",
           "action_color": "#16a34a",
           "buy_price": 836.7,
           "stop_suggest": 769.76
         },
         "long": {
-          "weighted": 82.2,
-          "final_score": 79.3,
-          "action": "強力買進",
-          "action_color": "#16a34a",
+          "weighted": 17.2,
+          "final_score": 40.3,
+          "action": "中性偏多觀望",
+          "action_color": "#84cc16",
           "buy_price": 836.7,
           "stop_suggest": 769.76
         }
       },
       "earnings_date": null,
       "sector": "重電廠務",
-      "streak_days": 2,
+      "streak_days": 3,
       "in_strong_sector": false
     },
     {
@@ -508,16 +837,16 @@
       "name": "台燿",
       "market": "TW",
       "votes": {
-        "fundamental": 1,
+        "fundamental": 0,
         "chip": 0.05,
         "technical": 1
       },
       "vote_notes": {
-        "fundamental": "四維72分(B 體質良)｜強成長 YoY+124%｜毛利25.1%｜ROE27.9%",
+        "fundamental": "PER 128.2｜偏貴(不否決)｜PBR 28.62",
         "chip": "外資+65張(中性)｜(TWSE暫無→FinMind備援)",
         "technical": "站上MA20+MA60（多頭排列）"
       },
-      "weighted": 76.2,
+      "weighted": 26.2,
       "strategy_score": 6,
       "signals": [
         "📊 MA20>MA60多頭",
@@ -525,14 +854,14 @@
         "📐 上升趨勢",
         "🎯 雙線多頭排列"
       ],
-      "final_score": 75.8,
-      "positives": 3,
+      "final_score": 45.8,
+      "positives": 2,
       "negatives": 0,
-      "action": "強力買進",
+      "action": "買進",
       "action_color": "#16a34a",
       "price": 1790.0,
       "rsi": 66.2,
-      "vol_ratio": 1.27,
+      "vol_ratio": 1.22,
       "chg_pct": 5.92,
       "ma20": 1646.75,
       "support": 1430.0,
@@ -548,108 +877,42 @@
           "stop_suggest": 1515.01
         },
         "medium": {
-          "weighted": 76.2,
-          "final_score": 75.8,
-          "action": "強力買進",
+          "weighted": 26.2,
+          "final_score": 45.8,
+          "action": "買進",
           "action_color": "#16a34a",
           "buy_price": 1646.75,
           "stop_suggest": 1515.01
         },
         "long": {
-          "weighted": 81.0,
-          "final_score": 78.6,
-          "action": "強力買進",
-          "action_color": "#16a34a",
+          "weighted": 16.0,
+          "final_score": 39.6,
+          "action": "中性偏多觀望",
+          "action_color": "#84cc16",
           "buy_price": 1646.75,
           "stop_suggest": 1515.01
         }
       },
       "earnings_date": null,
       "sector": "ABF材料/CCL",
-      "streak_days": 2,
+      "streak_days": 3,
       "in_strong_sector": true
     },
     {
-      "stock_id": "2059",
-      "name": "川湖",
+      "stock_id": "3661",
+      "name": "世芯-KY",
       "market": "TW",
       "votes": {
-        "fundamental": 1,
+        "fundamental": 0,
         "chip": 0.01,
         "technical": 1
       },
       "vote_notes": {
-        "fundamental": "四維100分(A 體質優)｜強成長 YoY+172%｜毛利77.7%｜ROE44.2%",
-        "chip": "外資-42張(中性)",
-        "technical": "站上MA20+MA60（多頭排列）｜量比0.58x量縮"
+        "fundamental": "PER 69.0｜偏貴(不否決)｜PBR 8.79",
+        "chip": "外資-548張(中性)",
+        "technical": "站上MA20+MA60（多頭排列）｜量比1.57x放量"
       },
-      "weighted": 75.2,
-      "strategy_score": 6,
-      "signals": [
-        "📊 MA20>MA60多頭",
-        "💥 突破20日高點(量不足)",
-        "🔢 扣抵有利",
-        "📐 上升趨勢"
-      ],
-      "final_score": 75.2,
-      "positives": 3,
-      "negatives": 0,
-      "action": "強力買進",
-      "action_color": "#16a34a",
-      "price": 8000.0,
-      "rsi": 68.5,
-      "vol_ratio": 0.58,
-      "chg_pct": 1.52,
-      "ma20": 7010.5,
-      "support": 5620.0,
-      "buy_price": 7010.5,
-      "stop_suggest": 6449.66,
-      "tf_scores": {
-        "short": {
-          "weighted": 50.5,
-          "final_score": 60.3,
-          "action": "強力買進",
-          "action_color": "#16a34a",
-          "buy_price": 7010.5,
-          "stop_suggest": 6449.66
-        },
-        "medium": {
-          "weighted": 75.2,
-          "final_score": 75.2,
-          "action": "強力買進",
-          "action_color": "#16a34a",
-          "buy_price": 7010.5,
-          "stop_suggest": 6449.66
-        },
-        "long": {
-          "weighted": 80.2,
-          "final_score": 78.1,
-          "action": "強力買進",
-          "action_color": "#16a34a",
-          "buy_price": 7010.5,
-          "stop_suggest": 6449.66
-        }
-      },
-      "earnings_date": null,
-      "sector": "AI伺服器",
-      "streak_days": 2,
-      "in_strong_sector": false
-    },
-    {
-      "stock_id": "3131",
-      "name": "弘塑",
-      "market": "TW",
-      "votes": {
-        "fundamental": 1,
-        "chip": 0.01,
-        "technical": 1
-      },
-      "vote_notes": {
-        "fundamental": "四維78分(B 體質良)｜強成長 YoY+84%｜毛利33.8%｜ROE46.7%",
-        "chip": "外資-29張(中性)｜(TWSE暫無→FinMind備援)",
-        "technical": "站上MA20+MA60（多頭排列）"
-      },
-      "weighted": 75.2,
+      "weighted": 25.2,
       "strategy_score": 6,
       "signals": [
         "📊 MA20>MA60多頭",
@@ -657,14 +920,146 @@
         "📐 上升趨勢",
         "🎯 雙線多頭排列"
       ],
-      "final_score": 75.2,
-      "positives": 3,
+      "final_score": 45.1,
+      "positives": 2,
       "negatives": 0,
-      "action": "強力買進",
+      "action": "買進",
+      "action_color": "#16a34a",
+      "price": 4650.0,
+      "rsi": 62.6,
+      "vol_ratio": 1.57,
+      "chg_pct": -5.01,
+      "ma20": 4273.25,
+      "support": 3870.0,
+      "buy_price": 4273.25,
+      "stop_suggest": 3931.39,
+      "tf_scores": {
+        "short": {
+          "weighted": 50.5,
+          "final_score": 60.3,
+          "action": "強力買進",
+          "action_color": "#16a34a",
+          "buy_price": 4273.25,
+          "stop_suggest": 3931.39
+        },
+        "medium": {
+          "weighted": 25.2,
+          "final_score": 45.1,
+          "action": "買進",
+          "action_color": "#16a34a",
+          "buy_price": 4273.25,
+          "stop_suggest": 3931.39
+        },
+        "long": {
+          "weighted": 15.2,
+          "final_score": 39.1,
+          "action": "中性偏多觀望",
+          "action_color": "#84cc16",
+          "buy_price": 4273.25,
+          "stop_suggest": 3931.39
+        }
+      },
+      "earnings_date": null,
+      "sector": "IC設計",
+      "streak_days": 1,
+      "in_strong_sector": false
+    },
+    {
+      "stock_id": "6223",
+      "name": "旺矽",
+      "market": "TW",
+      "votes": {
+        "fundamental": 0,
+        "chip": 0.01,
+        "technical": 1
+      },
+      "vote_notes": {
+        "fundamental": "PER 222.2｜偏貴(不否決)｜PBR 45.89",
+        "chip": "外資+40張(中性)｜(TWSE暫無→FinMind備援)",
+        "technical": "站上MA20+MA60（多頭排列）｜量比0.57x量縮"
+      },
+      "weighted": 25.2,
+      "strategy_score": 6,
+      "signals": [
+        "📊 MA20>MA60多頭",
+        "💥 突破20日高點(量不足)",
+        "🔢 扣抵有利",
+        "📐 上升趨勢"
+      ],
+      "final_score": 45.1,
+      "positives": 2,
+      "negatives": 0,
+      "action": "買進",
+      "action_color": "#16a34a",
+      "price": 7380.0,
+      "rsi": 63.6,
+      "vol_ratio": 0.57,
+      "chg_pct": 1.72,
+      "ma20": 6419.5,
+      "support": 5515.0,
+      "buy_price": 6419.5,
+      "stop_suggest": 5905.94,
+      "tf_scores": {
+        "short": {
+          "weighted": 50.5,
+          "final_score": 60.3,
+          "action": "強力買進",
+          "action_color": "#16a34a",
+          "buy_price": 6419.5,
+          "stop_suggest": 5905.94
+        },
+        "medium": {
+          "weighted": 25.2,
+          "final_score": 45.1,
+          "action": "買進",
+          "action_color": "#16a34a",
+          "buy_price": 6419.5,
+          "stop_suggest": 5905.94
+        },
+        "long": {
+          "weighted": 15.2,
+          "final_score": 39.1,
+          "action": "中性偏多觀望",
+          "action_color": "#84cc16",
+          "buy_price": 6419.5,
+          "stop_suggest": 5905.94
+        }
+      },
+      "earnings_date": null,
+      "sector": "IC測試",
+      "streak_days": 1,
+      "in_strong_sector": false
+    },
+    {
+      "stock_id": "3131",
+      "name": "弘塑",
+      "market": "TW",
+      "votes": {
+        "fundamental": 0,
+        "chip": 0.01,
+        "technical": 1
+      },
+      "vote_notes": {
+        "fundamental": "PER 86.2｜偏貴(不否決)｜PBR 27.10",
+        "chip": "外資-29張(中性)｜(TWSE暫無→FinMind備援)",
+        "technical": "站上MA20+MA60（多頭排列）｜量比0.75x量縮"
+      },
+      "weighted": 25.2,
+      "strategy_score": 6,
+      "signals": [
+        "📊 MA20>MA60多頭",
+        "🔢 扣抵有利",
+        "📐 上升趨勢",
+        "🎯 雙線多頭排列"
+      ],
+      "final_score": 45.1,
+      "positives": 2,
+      "negatives": 0,
+      "action": "買進",
       "action_color": "#16a34a",
       "price": 3785.0,
       "rsi": 66.2,
-      "vol_ratio": 0.8,
+      "vol_ratio": 0.75,
       "chg_pct": -3.07,
       "ma20": 3406.75,
       "support": 3030.0,
@@ -680,25 +1075,25 @@
           "stop_suggest": 3134.21
         },
         "medium": {
-          "weighted": 75.2,
-          "final_score": 75.2,
-          "action": "強力買進",
+          "weighted": 25.2,
+          "final_score": 45.1,
+          "action": "買進",
           "action_color": "#16a34a",
           "buy_price": 3406.75,
           "stop_suggest": 3134.21
         },
         "long": {
-          "weighted": 80.2,
-          "final_score": 78.1,
-          "action": "強力買進",
-          "action_color": "#16a34a",
+          "weighted": 15.2,
+          "final_score": 39.1,
+          "action": "中性偏多觀望",
+          "action_color": "#84cc16",
           "buy_price": 3406.75,
           "stop_suggest": 3134.21
         }
       },
       "earnings_date": null,
       "sector": "半導體設備",
-      "streak_days": 2,
+      "streak_days": 3,
       "in_strong_sector": false
     },
     {
@@ -706,16 +1101,16 @@
       "name": "智邦",
       "market": "TW",
       "votes": {
-        "fundamental": 1,
+        "fundamental": 0,
         "chip": 0.01,
         "technical": 1
       },
       "vote_notes": {
-        "fundamental": "四維60分(B 體質良)｜強成長 YoY+64%｜毛利19.6%｜ROE51.0%",
+        "fundamental": "PER 58.5｜偏貴(不否決)｜PBR 23.40",
         "chip": "外資-189張(中性)",
         "technical": "站上MA20+MA60（多頭排列）"
       },
-      "weighted": 75.2,
+      "weighted": 25.2,
       "strategy_score": 6,
       "signals": [
         "📊 MA20>MA60多頭",
@@ -723,14 +1118,14 @@
         "📐 上升趨勢",
         "🎯 雙線多頭排列"
       ],
-      "final_score": 75.2,
-      "positives": 3,
+      "final_score": 45.1,
+      "positives": 2,
       "negatives": 0,
-      "action": "強力買進",
+      "action": "買進",
       "action_color": "#16a34a",
       "price": 2735.0,
       "rsi": 67.9,
-      "vol_ratio": 0.9,
+      "vol_ratio": 0.87,
       "chg_pct": -0.55,
       "ma20": 2469.25,
       "support": 2275.0,
@@ -746,42 +1141,42 @@
           "stop_suggest": 2271.71
         },
         "medium": {
-          "weighted": 75.2,
-          "final_score": 75.2,
-          "action": "強力買進",
+          "weighted": 25.2,
+          "final_score": 45.1,
+          "action": "買進",
           "action_color": "#16a34a",
           "buy_price": 2469.25,
           "stop_suggest": 2271.71
         },
         "long": {
-          "weighted": 80.2,
-          "final_score": 78.1,
-          "action": "強力買進",
-          "action_color": "#16a34a",
+          "weighted": 15.2,
+          "final_score": 39.1,
+          "action": "中性偏多觀望",
+          "action_color": "#84cc16",
           "buy_price": 2469.25,
           "stop_suggest": 2271.71
         }
       },
       "earnings_date": "2026-08-06",
       "sector": "網通設備",
-      "streak_days": 2,
+      "streak_days": 3,
       "in_strong_sector": false
     },
     {
-      "stock_id": "2303",
-      "name": "聯電",
+      "stock_id": "3583",
+      "name": "辛耘",
       "market": "TW",
       "votes": {
-        "fundamental": 1,
-        "chip": 0.0,
+        "fundamental": 0,
+        "chip": -0.0,
         "technical": 1
       },
       "vote_notes": {
-        "fundamental": "四維94分(A 體質優)｜強成長 YoY+108%｜毛利29.2%｜ROE15.9%",
-        "chip": "外資買超35,293張｜投信賣超12,953張｜融資暴增(散戶追)",
-        "technical": "站上MA20+MA60（多頭排列）｜量比0.25x量縮｜RSI 74.3 超買（強勢續抱）"
+        "fundamental": "PER 63.7｜偏貴(不否決)｜PBR 8.95",
+        "chip": "外資-956張(中性)",
+        "technical": "站上MA20+MA60（多頭排列）"
       },
-      "weighted": 75.0,
+      "weighted": 25.0,
       "strategy_score": 6,
       "signals": [
         "📊 MA20>MA60多頭",
@@ -789,48 +1184,48 @@
         "📐 上升趨勢",
         "🎯 雙線多頭排列"
       ],
-      "final_score": 75.0,
-      "positives": 2,
+      "final_score": 45.0,
+      "positives": 1,
       "negatives": 0,
-      "action": "強力買進",
+      "action": "買進",
       "action_color": "#16a34a",
-      "price": 170.5,
-      "rsi": 74.3,
-      "vol_ratio": 0.25,
-      "chg_pct": 3.02,
-      "ma20": 150.45,
-      "support": 118.5,
-      "buy_price": 150.45,
-      "stop_suggest": 138.41,
+      "price": 851.0,
+      "rsi": 57.6,
+      "vol_ratio": 1.28,
+      "chg_pct": -6.28,
+      "ma20": 849.55,
+      "support": 786.0,
+      "buy_price": 849.55,
+      "stop_suggest": 781.59,
       "tf_scores": {
         "short": {
           "weighted": 50.0,
           "final_score": 60.0,
           "action": "強力買進",
           "action_color": "#16a34a",
-          "buy_price": 150.45,
-          "stop_suggest": 138.41
+          "buy_price": 849.55,
+          "stop_suggest": 781.59
         },
         "medium": {
-          "weighted": 75.0,
-          "final_score": 75.0,
-          "action": "強力買進",
+          "weighted": 25.0,
+          "final_score": 45.0,
+          "action": "買進",
           "action_color": "#16a34a",
-          "buy_price": 150.45,
-          "stop_suggest": 138.41
+          "buy_price": 849.55,
+          "stop_suggest": 781.59
         },
         "long": {
-          "weighted": 80.0,
-          "final_score": 78.0,
-          "action": "強力買進",
-          "action_color": "#16a34a",
-          "buy_price": 150.45,
-          "stop_suggest": 138.41
+          "weighted": 15.0,
+          "final_score": 39.0,
+          "action": "中性偏多觀望",
+          "action_color": "#84cc16",
+          "buy_price": 849.55,
+          "stop_suggest": 781.59
         }
       },
-      "earnings_date": "2026-07-29",
-      "sector": "晶圓代工",
-      "streak_days": 2,
+      "earnings_date": null,
+      "sector": "半導體設備",
+      "streak_days": 1,
       "in_strong_sector": false
     },
     {
@@ -838,29 +1233,29 @@
       "name": "光洋科",
       "market": "TW",
       "votes": {
-        "fundamental": 1,
+        "fundamental": 0,
         "chip": 1.0,
         "technical": 1
       },
       "vote_notes": {
-        "fundamental": "四維66分(B 體質良)｜強成長 YoY+323%｜毛利18.2%｜ROE38.3%",
+        "fundamental": "PER 49.7｜偏貴(不否決)｜PBR 5.59",
         "chip": "外資買超2,636張｜(TWSE暫無→FinMind備援)",
-        "technical": "站上MA20+MA60（多頭排列）｜量比2.15x放量"
+        "technical": "站上MA20+MA60（多頭排列）｜量比2.14x放量"
       },
-      "weighted": 100.0,
+      "weighted": 50.0,
       "strategy_score": 3,
       "signals": [
         "🔢 扣抵有利",
-        "🔥 爆量2.34x"
+        "🔥 爆量2.32x"
       ],
-      "final_score": 75.0,
-      "positives": 3,
+      "final_score": 45.0,
+      "positives": 2,
       "negatives": 0,
-      "action": "強力買進",
+      "action": "買進",
       "action_color": "#16a34a",
       "price": 156.0,
       "rsi": 64.1,
-      "vol_ratio": 2.15,
+      "vol_ratio": 2.14,
       "chg_pct": 2.63,
       "ma20": 142.9,
       "support": 130.5,
@@ -876,938 +1271,26 @@
           "stop_suggest": 131.47
         },
         "medium": {
-          "weighted": 100.0,
-          "final_score": 75.0,
-          "action": "強力買進",
+          "weighted": 50.0,
+          "final_score": 45.0,
+          "action": "買進",
           "action_color": "#16a34a",
           "buy_price": 142.9,
           "stop_suggest": 131.47
-        },
-        "long": {
-          "weighted": 100.0,
-          "final_score": 75.0,
-          "action": "強力買進",
-          "action_color": "#16a34a",
-          "buy_price": 142.9,
-          "stop_suggest": 131.47
-        }
-      },
-      "earnings_date": null,
-      "sector": "半導體材料",
-      "streak_days": 2,
-      "in_strong_sector": true
-    },
-    {
-      "stock_id": "3019",
-      "name": "亞光",
-      "market": "TW",
-      "votes": {
-        "fundamental": 1,
-        "chip": 0.0,
-        "technical": 1
-      },
-      "vote_notes": {
-        "fundamental": "四維77分(B 體質良)｜強成長 YoY+33%｜毛利17.3%｜ROE9.9%",
-        "chip": "外資-590張(中性)",
-        "technical": "站上MA20+MA60（多頭排列）｜量比0.76x量縮"
-      },
-      "weighted": 75.0,
-      "strategy_score": 6,
-      "signals": [
-        "📊 MA20>MA60多頭",
-        "🔢 扣抵有利",
-        "📐 上升趨勢",
-        "🎯 雙線多頭排列"
-      ],
-      "final_score": 75.0,
-      "positives": 2,
-      "negatives": 0,
-      "action": "強力買進",
-      "action_color": "#16a34a",
-      "price": 152.0,
-      "rsi": 57.4,
-      "vol_ratio": 0.76,
-      "chg_pct": 1.67,
-      "ma20": 147.87,
-      "support": 137.84,
-      "buy_price": 147.87,
-      "stop_suggest": 136.04,
-      "tf_scores": {
-        "short": {
-          "weighted": 50.0,
-          "final_score": 60.0,
-          "action": "強力買進",
-          "action_color": "#16a34a",
-          "buy_price": 147.87,
-          "stop_suggest": 136.04
-        },
-        "medium": {
-          "weighted": 75.0,
-          "final_score": 75.0,
-          "action": "強力買進",
-          "action_color": "#16a34a",
-          "buy_price": 147.87,
-          "stop_suggest": 136.04
-        },
-        "long": {
-          "weighted": 80.0,
-          "final_score": 78.0,
-          "action": "強力買進",
-          "action_color": "#16a34a",
-          "buy_price": 147.87,
-          "stop_suggest": 136.04
-        }
-      },
-      "earnings_date": null,
-      "sector": "光學鏡頭",
-      "streak_days": 2,
-      "in_strong_sector": false
-    },
-    {
-      "stock_id": "2492",
-      "name": "華新科",
-      "market": "TW",
-      "votes": {
-        "fundamental": 1,
-        "chip": -0.01,
-        "technical": 1
-      },
-      "vote_notes": {
-        "fundamental": "四維69分(B 體質良)｜強成長 YoY+40%｜毛利18.3%｜ROE7.4%",
-        "chip": "外資-410張(中性)",
-        "technical": "站上MA20+MA60（多頭排列）｜量比0.23x量縮"
-      },
-      "weighted": 74.8,
-      "strategy_score": 6,
-      "signals": [
-        "📊 MA20>MA60多頭",
-        "🔢 扣抵有利",
-        "📐 上升趨勢",
-        "🎯 雙線多頭排列"
-      ],
-      "final_score": 74.8,
-      "positives": 2,
-      "negatives": 1,
-      "action": "強力買進",
-      "action_color": "#16a34a",
-      "price": 563.0,
-      "rsi": 65.8,
-      "vol_ratio": 0.23,
-      "chg_pct": 0.36,
-      "ma20": 513.27,
-      "support": 400.0,
-      "buy_price": 513.27,
-      "stop_suggest": 472.21,
-      "tf_scores": {
-        "short": {
-          "weighted": 49.5,
-          "final_score": 59.7,
-          "action": "買進",
-          "action_color": "#16a34a",
-          "buy_price": 513.27,
-          "stop_suggest": 472.21
-        },
-        "medium": {
-          "weighted": 74.8,
-          "final_score": 74.8,
-          "action": "強力買進",
-          "action_color": "#16a34a",
-          "buy_price": 513.27,
-          "stop_suggest": 472.21
-        },
-        "long": {
-          "weighted": 79.8,
-          "final_score": 77.9,
-          "action": "強力買進",
-          "action_color": "#16a34a",
-          "buy_price": 513.27,
-          "stop_suggest": 472.21
-        }
-      },
-      "earnings_date": "2026-07-29",
-      "sector": "被動元件",
-      "streak_days": 2,
-      "in_strong_sector": false
-    },
-    {
-      "stock_id": "6488",
-      "name": "環球晶",
-      "market": "TW",
-      "votes": {
-        "fundamental": 1,
-        "chip": -0.13,
-        "technical": 1
-      },
-      "vote_notes": {
-        "fundamental": "四維74分(B 體質良)｜強成長 YoY+30%｜毛利20.8%｜ROE8.1%",
-        "chip": "外資+257張(中性)｜投信賣超626張｜(TWSE暫無→FinMind備援)",
-        "technical": "站上MA20+MA60（多頭排列）｜RSI 70.8 超買（強勢續抱）"
-      },
-      "weighted": 71.8,
-      "strategy_score": 6,
-      "signals": [
-        "📊 MA20>MA60多頭",
-        "💥 突破20日高點(量不足)",
-        "🔢 扣抵有利",
-        "📐 上升趨勢"
-      ],
-      "final_score": 73.0,
-      "positives": 2,
-      "negatives": 1,
-      "action": "強力買進",
-      "action_color": "#16a34a",
-      "price": 1255.0,
-      "rsi": 70.8,
-      "vol_ratio": 0.91,
-      "chg_pct": 4.15,
-      "ma20": 978.15,
-      "support": 768.0,
-      "buy_price": 978.15,
-      "stop_suggest": 899.9,
-      "tf_scores": {
-        "short": {
-          "weighted": 43.5,
-          "final_score": 56.1,
-          "action": "買進",
-          "action_color": "#16a34a",
-          "buy_price": 978.15,
-          "stop_suggest": 899.9
-        },
-        "medium": {
-          "weighted": 71.8,
-          "final_score": 73.0,
-          "action": "強力買進",
-          "action_color": "#16a34a",
-          "buy_price": 978.15,
-          "stop_suggest": 899.9
-        },
-        "long": {
-          "weighted": 77.4,
-          "final_score": 76.4,
-          "action": "強力買進",
-          "action_color": "#16a34a",
-          "buy_price": 978.15,
-          "stop_suggest": 899.9
-        }
-      },
-      "earnings_date": null,
-      "sector": "半導體材料",
-      "streak_days": 2,
-      "in_strong_sector": true
-    },
-    {
-      "stock_id": "6239",
-      "name": "力成",
-      "market": "TW",
-      "votes": {
-        "fundamental": 1,
-        "chip": 0.5,
-        "technical": 1
-      },
-      "vote_notes": {
-        "fundamental": "四維78分(B 體質良)｜強成長 YoY+58%｜毛利19.4%｜ROE16.4%",
-        "chip": "外資買超3,140張｜投信賣超2,521張",
-        "technical": "站上MA20+MA60（多頭排列）｜量比0.53x量縮"
-      },
-      "weighted": 87.5,
-      "strategy_score": 4,
-      "signals": [
-        "📊 MA20>MA60多頭",
-        "📐 上升趨勢",
-        "🎯 雙線多頭排列"
-      ],
-      "final_score": 72.5,
-      "positives": 3,
-      "negatives": 0,
-      "action": "強力買進",
-      "action_color": "#16a34a",
-      "price": 338.0,
-      "rsi": 46.9,
-      "vol_ratio": 0.53,
-      "chg_pct": 1.35,
-      "ma20": 333.85,
-      "support": 303.0,
-      "buy_price": 333.85,
-      "stop_suggest": 307.14,
-      "tf_scores": {
-        "short": {
-          "weighted": 75.0,
-          "final_score": 65.0,
-          "action": "強力買進",
-          "action_color": "#16a34a",
-          "buy_price": 333.85,
-          "stop_suggest": 307.14
-        },
-        "medium": {
-          "weighted": 87.5,
-          "final_score": 72.5,
-          "action": "強力買進",
-          "action_color": "#16a34a",
-          "buy_price": 333.85,
-          "stop_suggest": 307.14
-        },
-        "long": {
-          "weighted": 90.0,
-          "final_score": 74.0,
-          "action": "強力買進",
-          "action_color": "#16a34a",
-          "buy_price": 333.85,
-          "stop_suggest": 307.14
-        }
-      },
-      "earnings_date": "2026-07-28",
-      "sector": "先進封裝",
-      "streak_days": 1,
-      "in_strong_sector": false
-    },
-    {
-      "stock_id": "4958",
-      "name": "臻鼎-KY",
-      "market": "TW",
-      "votes": {
-        "fundamental": 1,
-        "chip": -0.2,
-        "technical": 1
-      },
-      "vote_notes": {
-        "fundamental": "四維65分(B 體質良)｜強成長 YoY+102%｜毛利21.6%｜ROE6.5%",
-        "chip": "外資+21張(中性)｜投信賣超1,022張",
-        "technical": "站上MA20+MA60（多頭排列）｜量比0.68x量縮"
-      },
-      "weighted": 70.0,
-      "strategy_score": 6,
-      "signals": [
-        "📊 MA20>MA60多頭",
-        "🔢 扣抵有利",
-        "📐 上升趨勢",
-        "🎯 雙線多頭排列"
-      ],
-      "final_score": 72.0,
-      "positives": 2,
-      "negatives": 1,
-      "action": "強力買進",
-      "action_color": "#16a34a",
-      "price": 613.0,
-      "rsi": 60.4,
-      "vol_ratio": 0.68,
-      "chg_pct": 2.51,
-      "ma20": 581.53,
-      "support": 500.58,
-      "buy_price": 582.35,
-      "stop_suggest": 535.76,
-      "tf_scores": {
-        "short": {
-          "weighted": 40.0,
-          "final_score": 54.0,
-          "action": "買進",
-          "action_color": "#16a34a",
-          "buy_price": 582.35,
-          "stop_suggest": 535.76
-        },
-        "medium": {
-          "weighted": 70.0,
-          "final_score": 72.0,
-          "action": "強力買進",
-          "action_color": "#16a34a",
-          "buy_price": 582.35,
-          "stop_suggest": 535.76
-        },
-        "long": {
-          "weighted": 76.0,
-          "final_score": 75.6,
-          "action": "強力買進",
-          "action_color": "#16a34a",
-          "buy_price": 582.35,
-          "stop_suggest": 535.76
-        }
-      },
-      "earnings_date": "2026-08-11",
-      "sector": "ABF材料/CCL",
-      "streak_days": 2,
-      "in_strong_sector": true
-    },
-    {
-      "stock_id": "5269",
-      "name": "祥碩",
-      "market": "TW",
-      "votes": {
-        "fundamental": 1,
-        "chip": 0.06,
-        "technical": 1
-      },
-      "vote_notes": {
-        "fundamental": "四維100分(A 體質優)｜強成長 YoY+52%｜毛利50.8%｜ROE20.0%",
-        "chip": "外資-81張(中性)",
-        "technical": "站上MA20+MA60（多頭排列）｜量比1.58x放量｜RSI 71.2 超買（強勢續抱）"
-      },
-      "weighted": 76.5,
-      "strategy_score": 4,
-      "signals": [
-        "📊 MA20>MA60多頭",
-        "📐 上升趨勢",
-        "🎯 雙線多頭排列",
-        "📊 量增1.6x"
-      ],
-      "final_score": 65.9,
-      "positives": 3,
-      "negatives": 0,
-      "action": "強力買進",
-      "action_color": "#16a34a",
-      "price": 1530.0,
-      "rsi": 71.2,
-      "vol_ratio": 1.58,
-      "chg_pct": 0.66,
-      "ma20": 1430.0,
-      "support": 1325.0,
-      "buy_price": 1453.5,
-      "stop_suggest": 1337.22,
-      "tf_scores": {
-        "short": {
-          "weighted": 53.0,
-          "final_score": 51.8,
-          "action": "買進",
-          "action_color": "#16a34a",
-          "buy_price": 1453.5,
-          "stop_suggest": 1337.22
-        },
-        "medium": {
-          "weighted": 76.5,
-          "final_score": 65.9,
-          "action": "強力買進",
-          "action_color": "#16a34a",
-          "buy_price": 1453.5,
-          "stop_suggest": 1337.22
-        },
-        "long": {
-          "weighted": 81.2,
-          "final_score": 68.7,
-          "action": "強力買進",
-          "action_color": "#16a34a",
-          "buy_price": 1453.5,
-          "stop_suggest": 1337.22
-        }
-      },
-      "earnings_date": "2026-08-10",
-      "sector": "IC設計",
-      "streak_days": 1,
-      "in_strong_sector": false
-    },
-    {
-      "stock_id": "6669",
-      "name": "緯穎",
-      "market": "TW",
-      "votes": {
-        "fundamental": 1,
-        "chip": 0.06,
-        "technical": 1
-      },
-      "vote_notes": {
-        "fundamental": "四維60分(B 體質良)｜強成長 YoY+62%｜毛利7.6%｜ROE40.3%",
-        "chip": "外資-89張(中性)",
-        "technical": "站上MA20+MA60（多頭排列）"
-      },
-      "weighted": 76.5,
-      "strategy_score": 4,
-      "signals": [
-        "📊 MA20>MA60多頭",
-        "📐 上升趨勢",
-        "🎯 雙線多頭排列"
-      ],
-      "final_score": 65.9,
-      "positives": 3,
-      "negatives": 0,
-      "action": "強力買進",
-      "action_color": "#16a34a",
-      "price": 5265.0,
-      "rsi": 63.8,
-      "vol_ratio": 0.92,
-      "chg_pct": 1.25,
-      "ma20": 4863.92,
-      "support": 4280.0,
-      "buy_price": 4863.92,
-      "stop_suggest": 4474.81,
-      "tf_scores": {
-        "short": {
-          "weighted": 53.0,
-          "final_score": 51.8,
-          "action": "買進",
-          "action_color": "#16a34a",
-          "buy_price": 4863.92,
-          "stop_suggest": 4474.81
-        },
-        "medium": {
-          "weighted": 76.5,
-          "final_score": 65.9,
-          "action": "強力買進",
-          "action_color": "#16a34a",
-          "buy_price": 4863.92,
-          "stop_suggest": 4474.81
-        },
-        "long": {
-          "weighted": 81.2,
-          "final_score": 68.7,
-          "action": "強力買進",
-          "action_color": "#16a34a",
-          "buy_price": 4863.92,
-          "stop_suggest": 4474.81
-        }
-      },
-      "earnings_date": "2026-08-07",
-      "sector": "AI伺服器",
-      "streak_days": 2,
-      "in_strong_sector": false
-    },
-    {
-      "stock_id": "6515",
-      "name": "穎崴",
-      "market": "TW",
-      "votes": {
-        "fundamental": 1,
-        "chip": 0.03,
-        "technical": 1
-      },
-      "vote_notes": {
-        "fundamental": "四維94分(A 體質優)｜強成長 YoY+120%｜毛利43.0%｜ROE43.0%",
-        "chip": "外資-101張(中性)",
-        "technical": "站上MA20+MA60（多頭排列）｜量比1.64x放量"
-      },
-      "weighted": 75.8,
-      "strategy_score": 4,
-      "signals": [
-        "🔢 扣抵有利",
-        "📊 量增1.71x",
-        "🌙 MACD+KD金叉"
-      ],
-      "final_score": 65.4,
-      "positives": 3,
-      "negatives": 0,
-      "action": "強力買進",
-      "action_color": "#16a34a",
-      "price": 9900.0,
-      "rsi": 53.6,
-      "vol_ratio": 1.64,
-      "chg_pct": 6.34,
-      "ma20": 9026.0,
-      "support": 8015.0,
-      "buy_price": 9026.0,
-      "stop_suggest": 8303.92,
-      "tf_scores": {
-        "short": {
-          "weighted": 51.5,
-          "final_score": 50.9,
-          "action": "買進",
-          "action_color": "#16a34a",
-          "buy_price": 9026.0,
-          "stop_suggest": 8303.92
-        },
-        "medium": {
-          "weighted": 75.8,
-          "final_score": 65.4,
-          "action": "強力買進",
-          "action_color": "#16a34a",
-          "buy_price": 9026.0,
-          "stop_suggest": 8303.92
-        },
-        "long": {
-          "weighted": 80.6,
-          "final_score": 68.4,
-          "action": "強力買進",
-          "action_color": "#16a34a",
-          "buy_price": 9026.0,
-          "stop_suggest": 8303.92
-        }
-      },
-      "earnings_date": null,
-      "sector": "IC測試",
-      "streak_days": 1,
-      "in_strong_sector": false
-    },
-    {
-      "stock_id": "2360",
-      "name": "致茂",
-      "market": "TW",
-      "votes": {
-        "fundamental": 1,
-        "chip": -0.02,
-        "technical": 1
-      },
-      "vote_notes": {
-        "fundamental": "四維94分(A 體質優)｜強成長 YoY+133%｜毛利62.6%｜ROE56.9%",
-        "chip": "外資+99張(中性)",
-        "technical": "站上MA20+MA60（多頭排列）｜量比0.74x量縮"
-      },
-      "weighted": 74.5,
-      "strategy_score": 4,
-      "signals": [
-        "📊 MA20>MA60多頭",
-        "📐 上升趨勢",
-        "🎯 雙線多頭排列"
-      ],
-      "final_score": 64.7,
-      "positives": 2,
-      "negatives": 1,
-      "action": "強力買進",
-      "action_color": "#16a34a",
-      "price": 2265.0,
-      "rsi": 49.4,
-      "vol_ratio": 0.74,
-      "chg_pct": 2.49,
-      "ma20": 2250.66,
-      "support": 2035.0,
-      "buy_price": 2250.66,
-      "stop_suggest": 2070.61,
-      "tf_scores": {
-        "short": {
-          "weighted": 49.0,
-          "final_score": 49.4,
-          "action": "買進",
-          "action_color": "#16a34a",
-          "buy_price": 2250.66,
-          "stop_suggest": 2070.61
-        },
-        "medium": {
-          "weighted": 74.5,
-          "final_score": 64.7,
-          "action": "強力買進",
-          "action_color": "#16a34a",
-          "buy_price": 2250.66,
-          "stop_suggest": 2070.61
-        },
-        "long": {
-          "weighted": 79.6,
-          "final_score": 67.8,
-          "action": "強力買進",
-          "action_color": "#16a34a",
-          "buy_price": 2250.66,
-          "stop_suggest": 2070.61
-        }
-      },
-      "earnings_date": "2026-07-30",
-      "sector": "IC測試",
-      "streak_days": 1,
-      "in_strong_sector": false
-    },
-    {
-      "stock_id": "8046",
-      "name": "南電",
-      "market": "TW",
-      "votes": {
-        "fundamental": 1,
-        "chip": -0.77,
-        "technical": 1
-      },
-      "vote_notes": {
-        "fundamental": "四維79分(B 體質良)｜強成長 YoY+534%｜毛利15.8%｜ROE11.2%",
-        "chip": "外資賣超1,618張｜投信買超1,148張",
-        "technical": "站上MA20+MA60（多頭排列）｜量比0.73x量縮｜RSI 80.0 超買（強勢續抱）"
-      },
-      "weighted": 55.8,
-      "strategy_score": 6,
-      "signals": [
-        "📊 MA20>MA60多頭",
-        "🔢 扣抵有利",
-        "📐 上升趨勢",
-        "🎯 雙線多頭排列"
-      ],
-      "final_score": 63.4,
-      "positives": 2,
-      "negatives": 1,
-      "action": "強力買進",
-      "action_color": "#16a34a",
-      "price": 1185.0,
-      "rsi": 80.0,
-      "vol_ratio": 0.73,
-      "chg_pct": 3.49,
-      "ma20": 961.42,
-      "support": 805.31,
-      "buy_price": 961.42,
-      "stop_suggest": 884.51,
-      "tf_scores": {
-        "short": {
-          "weighted": 11.5,
-          "final_score": 36.9,
-          "action": "中性偏多觀望",
-          "action_color": "#84cc16",
-          "buy_price": 961.42,
-          "stop_suggest": 884.51
-        },
-        "medium": {
-          "weighted": 55.8,
-          "final_score": 63.4,
-          "action": "強力買進",
-          "action_color": "#16a34a",
-          "buy_price": 961.42,
-          "stop_suggest": 884.51
-        },
-        "long": {
-          "weighted": 64.6,
-          "final_score": 68.8,
-          "action": "強力買進",
-          "action_color": "#16a34a",
-          "buy_price": 961.42,
-          "stop_suggest": 884.51
-        }
-      },
-      "earnings_date": null,
-      "sector": "ABF載板",
-      "streak_days": 1,
-      "in_strong_sector": true
-    },
-    {
-      "stock_id": "2330",
-      "name": "台積電",
-      "market": "TW",
-      "votes": {
-        "fundamental": 1,
-        "chip": -1.0,
-        "technical": 1
-      },
-      "vote_notes": {
-        "fundamental": "四維100分(A 體質優)｜強成長 YoY+58%｜毛利66.2%｜ROE38.9%",
-        "chip": "外資賣超12,537張｜投信買超819張｜融資暴增(散戶追)｜外資重倒貨封頂",
-        "technical": "站上MA20+MA60（多頭排列）"
-      },
-      "weighted": 50.0,
-      "strategy_score": 6,
-      "signals": [
-        "📊 MA20>MA60多頭",
-        "🔢 扣抵有利",
-        "📐 上升趨勢",
-        "🎯 雙線多頭排列"
-      ],
-      "final_score": 60.0,
-      "positives": 2,
-      "negatives": 1,
-      "action": "強力買進",
-      "action_color": "#16a34a",
-      "price": 2445.0,
-      "rsi": 60.8,
-      "vol_ratio": 0.84,
-      "chg_pct": -0.81,
-      "ma20": 2382.02,
-      "support": 2249.0,
-      "buy_price": 2382.02,
-      "stop_suggest": 2204.02,
-      "tf_scores": {
-        "short": {
-          "weighted": 0.0,
-          "final_score": 30.0,
-          "action": "中性偏多觀望",
-          "action_color": "#84cc16",
-          "buy_price": 2382.02,
-          "stop_suggest": 2204.02
-        },
-        "medium": {
-          "weighted": 50.0,
-          "final_score": 60.0,
-          "action": "強力買進",
-          "action_color": "#16a34a",
-          "buy_price": 2382.02,
-          "stop_suggest": 2204.02
-        },
-        "long": {
-          "weighted": 60.0,
-          "final_score": 66.0,
-          "action": "強力買進",
-          "action_color": "#16a34a",
-          "buy_price": 2382.02,
-          "stop_suggest": 2204.02
-        }
-      },
-      "earnings_date": "2026-07-16",
-      "sector": "晶圓代工",
-      "streak_days": 2,
-      "in_strong_sector": false
-    },
-    {
-      "stock_id": "2615",
-      "name": "萬海",
-      "market": "TW",
-      "votes": {
-        "fundamental": 0,
-        "chip": 1.0,
-        "technical": 1
-      },
-      "vote_notes": {
-        "fundamental": "四維89分(A 體質優)｜成長平緩 YoY+23%｜毛利22.8%｜ROE10.7%",
-        "chip": "外資買超10,357張",
-        "technical": "站上MA20+MA60（多頭排列）｜量比2.38x放量"
-      },
-      "weighted": 50.0,
-      "strategy_score": 6,
-      "signals": [
-        "📊 MA20>MA60多頭",
-        "📐 上升趨勢",
-        "🎯 雙線多頭排列",
-        "🔥 爆量2.57x"
-      ],
-      "final_score": 60.0,
-      "positives": 2,
-      "negatives": 0,
-      "action": "強力買進",
-      "action_color": "#16a34a",
-      "price": 82.8,
-      "rsi": 43.4,
-      "vol_ratio": 2.38,
-      "chg_pct": 4.94,
-      "ma20": 81.17,
-      "support": 76.7,
-      "buy_price": 81.17,
-      "stop_suggest": 75.17,
-      "tf_scores": {
-        "short": {
-          "weighted": 100.0,
-          "final_score": 90.0,
-          "action": "強力買進",
-          "action_color": "#16a34a",
-          "buy_price": 81.17,
-          "stop_suggest": 75.17
-        },
-        "medium": {
-          "weighted": 50.0,
-          "final_score": 60.0,
-          "action": "強力買進",
-          "action_color": "#16a34a",
-          "buy_price": 81.17,
-          "stop_suggest": 75.17
         },
         "long": {
           "weighted": 35.0,
-          "final_score": 51.0,
-          "action": "買進",
-          "action_color": "#16a34a",
-          "buy_price": 81.17,
-          "stop_suggest": 75.17
+          "final_score": 36.0,
+          "action": "中性偏多觀望",
+          "action_color": "#84cc16",
+          "buy_price": 142.9,
+          "stop_suggest": 131.47
         }
       },
-      "earnings_date": "2026-08-10",
-      "sector": "航運",
-      "streak_days": 1,
+      "earnings_date": null,
+      "sector": "半導體材料",
+      "streak_days": 3,
       "in_strong_sector": true
-    },
-    {
-      "stock_id": "2368",
-      "name": "金像電",
-      "market": "TW",
-      "votes": {
-        "fundamental": 1,
-        "chip": 0.23,
-        "technical": 1
-      },
-      "vote_notes": {
-        "fundamental": "四維88分(A 體質優)｜強成長 YoY+91%｜毛利34.8%｜ROE39.9%",
-        "chip": "外資-372張(中性)｜投信買超1,137張",
-        "technical": "站上MA20+MA60（多頭排列）"
-      },
-      "weighted": 80.8,
-      "strategy_score": 2,
-      "signals": [
-        "📐 上升趨勢"
-      ],
-      "final_score": 58.4,
-      "positives": 3,
-      "negatives": 0,
-      "action": "買進",
-      "action_color": "#16a34a",
-      "price": 1305.0,
-      "rsi": 49.4,
-      "vol_ratio": 0.97,
-      "chg_pct": 5.67,
-      "ma20": 1299.97,
-      "support": 1155.0,
-      "buy_price": 1299.97,
-      "stop_suggest": 1195.97,
-      "tf_scores": {
-        "short": {
-          "weighted": 61.5,
-          "final_score": 46.9,
-          "action": "買進",
-          "action_color": "#16a34a",
-          "buy_price": 1299.97,
-          "stop_suggest": 1195.97
-        },
-        "medium": {
-          "weighted": 80.8,
-          "final_score": 58.4,
-          "action": "買進",
-          "action_color": "#16a34a",
-          "buy_price": 1299.97,
-          "stop_suggest": 1195.97
-        },
-        "long": {
-          "weighted": 84.6,
-          "final_score": 60.8,
-          "action": "強力買進",
-          "action_color": "#16a34a",
-          "buy_price": 1299.97,
-          "stop_suggest": 1195.97
-        }
-      },
-      "earnings_date": "2026-08-06",
-      "sector": "ABF載板",
-      "streak_days": 1,
-      "in_strong_sector": true
-    },
-    {
-      "stock_id": "3017",
-      "name": "奇鋐",
-      "market": "TW",
-      "votes": {
-        "fundamental": 1,
-        "chip": 0.08,
-        "technical": 1
-      },
-      "vote_notes": {
-        "fundamental": "四維78分(B 體質良)｜強成長 YoY+144%｜毛利29.8%｜ROE76.8%",
-        "chip": "外資+295張(中性)",
-        "technical": "站上MA20+MA60（多頭排列）"
-      },
-      "weighted": 77.0,
-      "strategy_score": 0,
-      "signals": [],
-      "final_score": 46.2,
-      "positives": 3,
-      "negatives": 0,
-      "action": "觀察候選",
-      "action_color": "#f59e0b",
-      "price": 2760.0,
-      "rsi": 67.8,
-      "vol_ratio": 1.17,
-      "chg_pct": 0.73,
-      "ma20": 2472.0,
-      "support": 2255.0,
-      "buy_price": 2472.0,
-      "stop_suggest": 2274.24,
-      "tf_scores": {
-        "short": {
-          "weighted": 54.0,
-          "final_score": 32.4,
-          "action": "觀察候選",
-          "action_color": "#f59e0b",
-          "buy_price": 2472.0,
-          "stop_suggest": 2274.24
-        },
-        "medium": {
-          "weighted": 77.0,
-          "final_score": 46.2,
-          "action": "觀察候選",
-          "action_color": "#f59e0b",
-          "buy_price": 2472.0,
-          "stop_suggest": 2274.24
-        },
-        "long": {
-          "weighted": 81.6,
-          "final_score": 49.0,
-          "action": "觀察候選",
-          "action_color": "#f59e0b",
-          "buy_price": 2472.0,
-          "stop_suggest": 2274.24
-        }
-      },
-      "earnings_date": "2026-08-11",
-      "sector": "散熱電源",
-      "streak_days": 0,
-      "in_strong_sector": false
     },
     {
       "stock_id": "2603",
@@ -1819,8 +1302,8 @@
         "technical": -1
       },
       "vote_notes": {
-        "fundamental": "四維67分(B 體質良)｜強成長 YoY+31%｜毛利15.5%｜ROE6.0%",
-        "chip": "外資買超6,656張",
+        "fundamental": "PER 6.2｜偏便宜｜PBR 0.73",
+        "chip": "外資買超6,656張｜融資大減(籌碼沉澱)",
         "technical": "跌破MA20（弱勢）"
       },
       "weighted": 50.0,
@@ -1836,7 +1319,7 @@
       "action_color": "#16a34a",
       "price": 195.0,
       "rsi": 31.5,
-      "vol_ratio": 1.16,
+      "vol_ratio": 1.14,
       "chg_pct": 5.12,
       "ma20": 196.27,
       "support": 181.0,
@@ -1870,8 +1353,338 @@
       },
       "earnings_date": "2026-08-13",
       "sector": "航運",
-      "streak_days": 1,
+      "streak_days": 2,
       "in_strong_sector": true
+    },
+    {
+      "stock_id": "3443",
+      "name": "創意",
+      "market": "TW",
+      "votes": {
+        "fundamental": 0,
+        "chip": -0.01,
+        "technical": 1
+      },
+      "vote_notes": {
+        "fundamental": "PER 151.5｜偏貴(不否決)｜PBR 46.31",
+        "chip": "外資-379張(中性)",
+        "technical": "站上MA20+MA60（多頭排列）｜量比0.79x量縮"
+      },
+      "weighted": 24.8,
+      "strategy_score": 6,
+      "signals": [
+        "📊 MA20>MA60多頭",
+        "🔢 扣抵有利",
+        "📐 上升趨勢",
+        "🎯 雙線多頭排列"
+      ],
+      "final_score": 44.9,
+      "positives": 1,
+      "negatives": 1,
+      "action": "中性偏多觀望",
+      "action_color": "#84cc16",
+      "price": 5040.0,
+      "rsi": 61.5,
+      "vol_ratio": 0.79,
+      "chg_pct": -5.44,
+      "ma20": 4672.25,
+      "support": 4025.0,
+      "buy_price": 4788.0,
+      "stop_suggest": 4404.96,
+      "tf_scores": {
+        "short": {
+          "weighted": 49.5,
+          "final_score": 59.7,
+          "action": "買進",
+          "action_color": "#16a34a",
+          "buy_price": 4788.0,
+          "stop_suggest": 4404.96
+        },
+        "medium": {
+          "weighted": 24.8,
+          "final_score": 44.9,
+          "action": "中性偏多觀望",
+          "action_color": "#84cc16",
+          "buy_price": 4788.0,
+          "stop_suggest": 4404.96
+        },
+        "long": {
+          "weighted": 14.8,
+          "final_score": 38.9,
+          "action": "中性偏多觀望",
+          "action_color": "#84cc16",
+          "buy_price": 4788.0,
+          "stop_suggest": 4404.96
+        }
+      },
+      "earnings_date": "2026-07-30",
+      "sector": "IC設計",
+      "streak_days": 0,
+      "in_strong_sector": false
+    },
+    {
+      "stock_id": "2492",
+      "name": "華新科",
+      "market": "TW",
+      "votes": {
+        "fundamental": 0,
+        "chip": -0.01,
+        "technical": 1
+      },
+      "vote_notes": {
+        "fundamental": "PER 119.0｜偏貴(不否決)｜PBR 5.10",
+        "chip": "外資-410張(中性)",
+        "technical": "站上MA20+MA60（多頭排列）｜量比0.22x量縮"
+      },
+      "weighted": 24.8,
+      "strategy_score": 6,
+      "signals": [
+        "📊 MA20>MA60多頭",
+        "🔢 扣抵有利",
+        "📐 上升趨勢",
+        "🎯 雙線多頭排列"
+      ],
+      "final_score": 44.9,
+      "positives": 1,
+      "negatives": 1,
+      "action": "中性偏多觀望",
+      "action_color": "#84cc16",
+      "price": 563.0,
+      "rsi": 65.8,
+      "vol_ratio": 0.22,
+      "chg_pct": 0.36,
+      "ma20": 513.27,
+      "support": 400.0,
+      "buy_price": 513.27,
+      "stop_suggest": 472.21,
+      "tf_scores": {
+        "short": {
+          "weighted": 49.5,
+          "final_score": 59.7,
+          "action": "買進",
+          "action_color": "#16a34a",
+          "buy_price": 513.27,
+          "stop_suggest": 472.21
+        },
+        "medium": {
+          "weighted": 24.8,
+          "final_score": 44.9,
+          "action": "中性偏多觀望",
+          "action_color": "#84cc16",
+          "buy_price": 513.27,
+          "stop_suggest": 472.21
+        },
+        "long": {
+          "weighted": 14.8,
+          "final_score": 38.9,
+          "action": "中性偏多觀望",
+          "action_color": "#84cc16",
+          "buy_price": 513.27,
+          "stop_suggest": 472.21
+        }
+      },
+      "earnings_date": "2026-07-29",
+      "sector": "被動元件",
+      "streak_days": 0,
+      "in_strong_sector": false
+    },
+    {
+      "stock_id": "2327",
+      "name": "國巨",
+      "market": "TW",
+      "votes": {
+        "fundamental": 0,
+        "chip": -0.02,
+        "technical": 1
+      },
+      "vote_notes": {
+        "fundamental": "PER 82.7｜偏貴(不否決)｜PBR 12.88",
+        "chip": "外資-183張(中性)",
+        "technical": "站上MA20+MA60（多頭排列）｜量比0.64x量縮"
+      },
+      "weighted": 24.5,
+      "strategy_score": 6,
+      "signals": [
+        "📊 MA20>MA60多頭",
+        "🔢 扣抵有利",
+        "📐 上升趨勢",
+        "🎯 雙線多頭排列"
+      ],
+      "final_score": 44.7,
+      "positives": 1,
+      "negatives": 1,
+      "action": "中性偏多觀望",
+      "action_color": "#84cc16",
+      "price": 1045.0,
+      "rsi": 63.2,
+      "vol_ratio": 0.64,
+      "chg_pct": -0.95,
+      "ma20": 974.12,
+      "support": 745.65,
+      "buy_price": 992.75,
+      "stop_suggest": 913.33,
+      "tf_scores": {
+        "short": {
+          "weighted": 49.0,
+          "final_score": 59.4,
+          "action": "買進",
+          "action_color": "#16a34a",
+          "buy_price": 992.75,
+          "stop_suggest": 913.33
+        },
+        "medium": {
+          "weighted": 24.5,
+          "final_score": 44.7,
+          "action": "中性偏多觀望",
+          "action_color": "#84cc16",
+          "buy_price": 992.75,
+          "stop_suggest": 913.33
+        },
+        "long": {
+          "weighted": 14.6,
+          "final_score": 38.8,
+          "action": "中性偏多觀望",
+          "action_color": "#84cc16",
+          "buy_price": 992.75,
+          "stop_suggest": 913.33
+        }
+      },
+      "earnings_date": null,
+      "sector": "被動元件",
+      "streak_days": 0,
+      "in_strong_sector": false
+    },
+    {
+      "stock_id": "6488",
+      "name": "環球晶",
+      "market": "TW",
+      "votes": {
+        "fundamental": 0,
+        "chip": -0.05,
+        "technical": 1
+      },
+      "vote_notes": {
+        "fundamental": "PER 82.0｜偏貴(不否決)｜PBR 6.43",
+        "chip": "外資+257張(中性)｜(TWSE暫無→FinMind備援)",
+        "technical": "站上MA20+MA60（多頭排列）｜RSI 70.8 超買（強勢續抱）"
+      },
+      "weighted": 23.8,
+      "strategy_score": 6,
+      "signals": [
+        "📊 MA20>MA60多頭",
+        "💥 突破20日高點(量不足)",
+        "🔢 扣抵有利",
+        "📐 上升趨勢"
+      ],
+      "final_score": 44.2,
+      "positives": 1,
+      "negatives": 1,
+      "action": "中性偏多觀望",
+      "action_color": "#84cc16",
+      "price": 1255.0,
+      "rsi": 70.8,
+      "vol_ratio": 0.89,
+      "chg_pct": 4.15,
+      "ma20": 978.15,
+      "support": 768.0,
+      "buy_price": 978.15,
+      "stop_suggest": 899.9,
+      "tf_scores": {
+        "short": {
+          "weighted": 47.5,
+          "final_score": 58.5,
+          "action": "買進",
+          "action_color": "#16a34a",
+          "buy_price": 978.15,
+          "stop_suggest": 899.9
+        },
+        "medium": {
+          "weighted": 23.8,
+          "final_score": 44.2,
+          "action": "中性偏多觀望",
+          "action_color": "#84cc16",
+          "buy_price": 978.15,
+          "stop_suggest": 899.9
+        },
+        "long": {
+          "weighted": 14.0,
+          "final_score": 38.4,
+          "action": "中性偏多觀望",
+          "action_color": "#84cc16",
+          "buy_price": 978.15,
+          "stop_suggest": 899.9
+        }
+      },
+      "earnings_date": null,
+      "sector": "半導體材料",
+      "streak_days": 0,
+      "in_strong_sector": true
+    },
+    {
+      "stock_id": "2404",
+      "name": "漢唐",
+      "market": "TW",
+      "votes": {
+        "fundamental": 0,
+        "chip": -0.06,
+        "technical": 1
+      },
+      "vote_notes": {
+        "fundamental": "PER 28.2｜中性｜PBR 17.73",
+        "chip": "外資-65張(中性)",
+        "technical": "站上MA20+MA60（多頭排列）｜量比0.42x量縮"
+      },
+      "weighted": 23.5,
+      "strategy_score": 6,
+      "signals": [
+        "📊 MA20>MA60多頭",
+        "🔢 扣抵有利",
+        "📐 上升趨勢",
+        "🎯 雙線多頭排列"
+      ],
+      "final_score": 44.1,
+      "positives": 1,
+      "negatives": 1,
+      "action": "中性偏多觀望",
+      "action_color": "#84cc16",
+      "price": 1350.0,
+      "rsi": 53.2,
+      "vol_ratio": 0.42,
+      "chg_pct": -2.53,
+      "ma20": 1277.25,
+      "support": 1110.0,
+      "buy_price": 1282.5,
+      "stop_suggest": 1179.9,
+      "tf_scores": {
+        "short": {
+          "weighted": 47.0,
+          "final_score": 58.2,
+          "action": "買進",
+          "action_color": "#16a34a",
+          "buy_price": 1282.5,
+          "stop_suggest": 1179.9
+        },
+        "medium": {
+          "weighted": 23.5,
+          "final_score": 44.1,
+          "action": "中性偏多觀望",
+          "action_color": "#84cc16",
+          "buy_price": 1282.5,
+          "stop_suggest": 1179.9
+        },
+        "long": {
+          "weighted": 13.8,
+          "final_score": 38.3,
+          "action": "中性偏多觀望",
+          "action_color": "#84cc16",
+          "buy_price": 1282.5,
+          "stop_suggest": 1179.9
+        }
+      },
+      "earnings_date": null,
+      "sector": "重電廠務",
+      "streak_days": 0,
+      "in_strong_sector": false
     },
     {
       "stock_id": "2357",
@@ -1883,9 +1696,9 @@
         "technical": -1
       },
       "vote_notes": {
-        "fundamental": "四維62分(B 體質良)｜強成長 YoY+41%｜毛利14.9%｜ROE15.6%",
+        "fundamental": "PER 11.3｜偏便宜｜PBR 1.75",
         "chip": "外資買超1,312張｜投信賣超730張",
-        "technical": "跌破MA20（弱勢）｜量比0.58x量縮｜RSI 27.3 超賣"
+        "technical": "跌破MA20（弱勢）｜量比0.57x量縮｜RSI 27.3 超賣"
       },
       "weighted": 46.2,
       "strategy_score": 3,
@@ -1900,7 +1713,7 @@
       "action_color": "#84cc16",
       "price": 675.0,
       "rsi": 27.3,
-      "vol_ratio": 0.58,
+      "vol_ratio": 0.57,
       "chg_pct": 1.2,
       "ma20": 726.46,
       "support": 657.0,
@@ -1938,8 +1751,73 @@
       "in_strong_sector": false
     },
     {
-      "stock_id": "2481",
-      "name": "強茂",
+      "stock_id": "6239",
+      "name": "力成",
+      "market": "TW",
+      "votes": {
+        "fundamental": 0,
+        "chip": 0.5,
+        "technical": 1
+      },
+      "vote_notes": {
+        "fundamental": "PER 40.3｜偏貴(不否決)｜PBR 4.28",
+        "chip": "外資買超3,140張｜投信賣超2,521張",
+        "technical": "站上MA20+MA60（多頭排列）｜量比0.52x量縮"
+      },
+      "weighted": 37.5,
+      "strategy_score": 4,
+      "signals": [
+        "📊 MA20>MA60多頭",
+        "📐 上升趨勢",
+        "🎯 雙線多頭排列"
+      ],
+      "final_score": 42.5,
+      "positives": 2,
+      "negatives": 0,
+      "action": "中性偏多觀望",
+      "action_color": "#84cc16",
+      "price": 338.0,
+      "rsi": 46.9,
+      "vol_ratio": 0.52,
+      "chg_pct": 1.35,
+      "ma20": 333.85,
+      "support": 303.0,
+      "buy_price": 333.85,
+      "stop_suggest": 307.14,
+      "tf_scores": {
+        "short": {
+          "weighted": 75.0,
+          "final_score": 65.0,
+          "action": "強力買進",
+          "action_color": "#16a34a",
+          "buy_price": 333.85,
+          "stop_suggest": 307.14
+        },
+        "medium": {
+          "weighted": 37.5,
+          "final_score": 42.5,
+          "action": "中性偏多觀望",
+          "action_color": "#84cc16",
+          "buy_price": 333.85,
+          "stop_suggest": 307.14
+        },
+        "long": {
+          "weighted": 25.0,
+          "final_score": 35.0,
+          "action": "中性偏多觀望",
+          "action_color": "#84cc16",
+          "buy_price": 333.85,
+          "stop_suggest": 307.14
+        }
+      },
+      "earnings_date": "2026-07-28",
+      "sector": "先進封裝",
+      "streak_days": 0,
+      "in_strong_sector": false
+    },
+    {
+      "stock_id": "4958",
+      "name": "臻鼎-KY",
       "market": "TW",
       "votes": {
         "fundamental": 0,
@@ -1947,9 +1825,9 @@
         "technical": 1
       },
       "vote_notes": {
-        "fundamental": "四維76分(B 體質良)｜成長平緩 YoY+14%｜毛利32.7%｜ROE8.5%",
-        "chip": "外資-169張(中性)｜融資暴增(散戶追)｜券資比5.4%(軋空潛力)",
-        "technical": "站上MA20+MA60（多頭排列）｜量比0.28x量縮｜RSI 71.7 超買（強勢續抱）"
+        "fundamental": "PER 90.9｜偏貴(不否決)｜PBR 5.22",
+        "chip": "外資+21張(中性)｜投信賣超1,022張",
+        "technical": "站上MA20+MA60（多頭排列）｜量比0.66x量縮"
       },
       "weighted": 20.0,
       "strategy_score": 6,
@@ -1964,236 +1842,237 @@
       "negatives": 1,
       "action": "中性偏多觀望",
       "action_color": "#84cc16",
-      "price": 207.0,
-      "rsi": 71.7,
-      "vol_ratio": 0.28,
-      "chg_pct": -3.04,
-      "ma20": 168.0,
-      "support": 135.5,
-      "buy_price": 168.0,
-      "stop_suggest": 154.56,
+      "price": 613.0,
+      "rsi": 60.4,
+      "vol_ratio": 0.66,
+      "chg_pct": 2.51,
+      "ma20": 581.53,
+      "support": 500.58,
+      "buy_price": 582.35,
+      "stop_suggest": 535.76,
       "tf_scores": {
         "short": {
           "weighted": 40.0,
           "final_score": 54.0,
           "action": "買進",
           "action_color": "#16a34a",
-          "buy_price": 168.0,
-          "stop_suggest": 154.56
+          "buy_price": 582.35,
+          "stop_suggest": 535.76
         },
         "medium": {
           "weighted": 20.0,
           "final_score": 42.0,
           "action": "中性偏多觀望",
           "action_color": "#84cc16",
-          "buy_price": 168.0,
-          "stop_suggest": 154.56
+          "buy_price": 582.35,
+          "stop_suggest": 535.76
         },
         "long": {
           "weighted": 11.0,
           "final_score": 36.6,
           "action": "中性偏多觀望",
           "action_color": "#84cc16",
-          "buy_price": 168.0,
-          "stop_suggest": 154.56
+          "buy_price": 582.35,
+          "stop_suggest": 535.76
         }
       },
-      "earnings_date": null,
-      "sector": "先進封裝",
+      "earnings_date": "2026-08-11",
+      "sector": "ABF材料/CCL",
       "streak_days": 0,
-      "in_strong_sector": false
+      "in_strong_sector": true
     },
     {
-      "stock_id": "3406",
-      "name": "玉晶光",
+      "stock_id": "2352",
+      "name": "佳世達",
       "market": "TW",
       "votes": {
-        "fundamental": 1,
-        "chip": 0.0,
-        "technical": -1
+        "fundamental": 0,
+        "chip": 0.3,
+        "technical": 1
       },
       "vote_notes": {
-        "fundamental": "四維79分(B 體質良)｜強成長 YoY+30%｜毛利33.6%｜ROE13.7%",
-        "chip": "外資-105張(中性)｜(TWSE暫無→FinMind備援)",
-        "technical": "跌破MA20（弱勢）｜量比0.21x量縮"
+        "fundamental": "PER 50.3｜偏貴(不否決)｜PBR 1.74",
+        "chip": "外資賣超4,255張｜投信買超5,922張｜融資大減(籌碼沉澱)｜投信領先卡位",
+        "technical": "站上MA20+MA60（多頭排列）"
       },
-      "weighted": 25.0,
-      "strategy_score": 5,
+      "weighted": 32.5,
+      "strategy_score": 4,
       "signals": [
         "📊 MA20>MA60多頭",
-        "🔢 扣抵有利",
-        "📐 上升趨勢"
-      ],
-      "final_score": 40.0,
-      "positives": 1,
-      "negatives": 1,
-      "action": "中性偏多觀望",
-      "action_color": "#84cc16",
-      "price": 636.0,
-      "rsi": 46.3,
-      "vol_ratio": 0.21,
-      "chg_pct": -1.24,
-      "ma20": 698.05,
-      "support": 636.0,
-      "buy_price": 616.92,
-      "stop_suggest": 567.57,
-      "tf_scores": {
-        "short": {
-          "weighted": -50.0,
-          "final_score": -5.0,
-          "action": "中性觀望",
-          "action_color": "#888",
-          "buy_price": null,
-          "stop_suggest": null
-        },
-        "medium": {
-          "weighted": 25.0,
-          "final_score": 40.0,
-          "action": "中性偏多觀望",
-          "action_color": "#84cc16",
-          "buy_price": 616.92,
-          "stop_suggest": 567.57
-        },
-        "long": {
-          "weighted": 50.0,
-          "final_score": 55.0,
-          "action": "買進",
-          "action_color": "#16a34a",
-          "buy_price": 616.92,
-          "stop_suggest": 567.57
-        }
-      },
-      "earnings_date": null,
-      "sector": "光學鏡頭",
-      "streak_days": 0,
-      "in_strong_sector": false
-    },
-    {
-      "stock_id": "3008",
-      "name": "大立光",
-      "market": "TW",
-      "votes": {
-        "fundamental": 1,
-        "chip": -0.03,
-        "technical": -1
-      },
-      "vote_notes": {
-        "fundamental": "四維95分(A 體質優)｜強成長 YoY+42%｜毛利49.4%｜ROE13.4%",
-        "chip": "外資-302張(中性)",
-        "technical": "跌破MA20（弱勢）｜量比0.52x量縮"
-      },
-      "weighted": 24.2,
-      "strategy_score": 5,
-      "signals": [
-        "📊 MA20>MA60多頭",
-        "🔢 扣抵有利",
-        "📐 上升趨勢"
+        "📐 上升趨勢",
+        "🎯 雙線多頭排列"
       ],
       "final_score": 39.5,
-      "positives": 1,
-      "negatives": 2,
+      "positives": 2,
+      "negatives": 0,
       "action": "中性偏多觀望",
       "action_color": "#84cc16",
-      "price": 4230.0,
-      "rsi": 53.8,
-      "vol_ratio": 0.52,
-      "chg_pct": -1.51,
-      "ma20": 4476.5,
-      "support": 3535.0,
-      "buy_price": 4018.5,
-      "stop_suggest": 3697.02,
+      "price": 32.2,
+      "rsi": 55.0,
+      "vol_ratio": 1.4,
+      "chg_pct": 0.94,
+      "ma20": 31.03,
+      "support": 29.3,
+      "buy_price": 31.03,
+      "stop_suggest": 28.71,
       "tf_scores": {
         "short": {
-          "weighted": -51.5,
-          "final_score": -5.9,
-          "action": "中性觀望",
-          "action_color": "#888",
-          "buy_price": null,
-          "stop_suggest": null
+          "weighted": 65.0,
+          "final_score": 59.0,
+          "action": "買進",
+          "action_color": "#16a34a",
+          "buy_price": 31.03,
+          "stop_suggest": 28.71
         },
         "medium": {
-          "weighted": 24.2,
+          "weighted": 32.5,
           "final_score": 39.5,
           "action": "中性偏多觀望",
           "action_color": "#84cc16",
-          "buy_price": 4018.5,
-          "stop_suggest": 3697.02
+          "buy_price": 31.03,
+          "stop_suggest": 28.71
         },
         "long": {
-          "weighted": 49.4,
-          "final_score": 54.6,
-          "action": "買進",
-          "action_color": "#16a34a",
-          "buy_price": 4018.5,
-          "stop_suggest": 3697.02
+          "weighted": 21.0,
+          "final_score": 32.6,
+          "action": "中性偏多觀望",
+          "action_color": "#84cc16",
+          "buy_price": 31.03,
+          "stop_suggest": 28.71
         }
       },
-      "earnings_date": null,
-      "sector": "光學鏡頭",
+      "earnings_date": "2026-08-06",
+      "sector": "網通設備",
       "streak_days": 0,
       "in_strong_sector": false
     },
     {
-      "stock_id": "2353",
-      "name": "宏碁",
+      "stock_id": "6669",
+      "name": "緯穎",
       "market": "TW",
       "votes": {
-        "fundamental": 1,
-        "chip": 0.5,
-        "technical": -1
+        "fundamental": 0,
+        "chip": 0.06,
+        "technical": 1
       },
       "vote_notes": {
-        "fundamental": "四維33分(D 體質弱)｜強成長 YoY+36%｜毛利11.2%｜ROE7.4%",
-        "chip": "外資買超6,948張｜投信賣超9,400張｜券資比33.2%(軋空潛力)",
-        "technical": "跌破MA20（弱勢）｜量比0.62x量縮"
+        "fundamental": "PER 19.8｜中性｜PBR 6.98",
+        "chip": "外資-89張(中性)",
+        "technical": "站上MA20+MA60（多頭排列）"
       },
-      "weighted": 37.5,
-      "strategy_score": 3,
+      "weighted": 26.5,
+      "strategy_score": 4,
       "signals": [
         "📊 MA20>MA60多頭",
-        "📐 上升趨勢"
+        "📐 上升趨勢",
+        "🎯 雙線多頭排列"
       ],
-      "final_score": 37.5,
+      "final_score": 35.9,
       "positives": 2,
-      "negatives": 1,
+      "negatives": 0,
       "action": "中性偏多觀望",
       "action_color": "#84cc16",
-      "price": 32.9,
-      "rsi": 39.8,
-      "vol_ratio": 0.62,
-      "chg_pct": 2.81,
-      "ma20": 34.34,
-      "support": 31.9,
-      "buy_price": 31.9,
-      "stop_suggest": 29.35,
+      "price": 5265.0,
+      "rsi": 63.8,
+      "vol_ratio": 0.81,
+      "chg_pct": 1.25,
+      "ma20": 4863.92,
+      "support": 4280.0,
+      "buy_price": 4863.92,
+      "stop_suggest": 4474.81,
       "tf_scores": {
         "short": {
-          "weighted": -25.0,
-          "final_score": 0.0,
+          "weighted": 53.0,
+          "final_score": 51.8,
+          "action": "買進",
+          "action_color": "#16a34a",
+          "buy_price": 4863.92,
+          "stop_suggest": 4474.81
+        },
+        "medium": {
+          "weighted": 26.5,
+          "final_score": 35.9,
+          "action": "中性偏多觀望",
+          "action_color": "#84cc16",
+          "buy_price": 4863.92,
+          "stop_suggest": 4474.81
+        },
+        "long": {
+          "weighted": 16.2,
+          "final_score": 29.7,
           "action": "中性觀望",
           "action_color": "#888",
           "buy_price": null,
           "stop_suggest": null
-        },
-        "medium": {
-          "weighted": 37.5,
-          "final_score": 37.5,
-          "action": "中性偏多觀望",
-          "action_color": "#84cc16",
-          "buy_price": 31.9,
-          "stop_suggest": 29.35
-        },
-        "long": {
-          "weighted": 60.0,
-          "final_score": 51.0,
-          "action": "買進",
-          "action_color": "#16a34a",
-          "buy_price": 31.9,
-          "stop_suggest": 29.35
         }
       },
-      "earnings_date": "2026-08-06",
-      "sector": "PC品牌系統",
+      "earnings_date": "2026-08-07",
+      "sector": "AI伺服器",
+      "streak_days": 0,
+      "in_strong_sector": false
+    },
+    {
+      "stock_id": "6515",
+      "name": "穎崴",
+      "market": "TW",
+      "votes": {
+        "fundamental": 0,
+        "chip": 0.03,
+        "technical": 1
+      },
+      "vote_notes": {
+        "fundamental": "PER 212.8｜偏貴(不否決)｜PBR 54.92",
+        "chip": "外資-101張(中性)",
+        "technical": "站上MA20+MA60（多頭排列）"
+      },
+      "weighted": 25.8,
+      "strategy_score": 4,
+      "signals": [
+        "🔢 扣抵有利",
+        "📊 量增1.52x",
+        "🌙 MACD+KD金叉"
+      ],
+      "final_score": 35.5,
+      "positives": 2,
+      "negatives": 0,
+      "action": "中性偏多觀望",
+      "action_color": "#84cc16",
+      "price": 9900.0,
+      "rsi": 53.6,
+      "vol_ratio": 1.47,
+      "chg_pct": 6.34,
+      "ma20": 9026.0,
+      "support": 8015.0,
+      "buy_price": 9026.0,
+      "stop_suggest": 8303.92,
+      "tf_scores": {
+        "short": {
+          "weighted": 51.5,
+          "final_score": 50.9,
+          "action": "買進",
+          "action_color": "#16a34a",
+          "buy_price": 9026.0,
+          "stop_suggest": 8303.92
+        },
+        "medium": {
+          "weighted": 25.8,
+          "final_score": 35.5,
+          "action": "中性偏多觀望",
+          "action_color": "#84cc16",
+          "buy_price": 9026.0,
+          "stop_suggest": 8303.92
+        },
+        "long": {
+          "weighted": 15.6,
+          "final_score": 29.4,
+          "action": "中性觀望",
+          "action_color": "#888",
+          "buy_price": null,
+          "stop_suggest": null
+        }
+      },
+      "earnings_date": null,
+      "sector": "IC測試",
       "streak_days": 0,
       "in_strong_sector": false
     },
@@ -2207,9 +2086,9 @@
         "technical": 1
       },
       "vote_notes": {
-        "fundamental": "四維80分(A 體質優)｜成長平緩 YoY+9%｜毛利26.0%｜ROE17.8%",
+        "fundamental": "PER 21.9｜中性｜PBR 4.05",
         "chip": "外資+14張(中性)",
-        "technical": "站上MA20+MA60（多頭排列）｜量比0.24x量縮"
+        "technical": "站上MA20+MA60（多頭排列）｜量比0.23x量縮"
       },
       "weighted": 25.5,
       "strategy_score": 4,
@@ -2225,7 +2104,7 @@
       "action_color": "#84cc16",
       "price": 176.5,
       "rsi": 64.6,
-      "vol_ratio": 0.24,
+      "vol_ratio": 0.23,
       "chg_pct": 0.0,
       "ma20": 174.15,
       "support": 164.0,
@@ -2263,38 +2142,748 @@
       "in_strong_sector": false
     },
     {
-      "stock_id": "7769",
-      "name": "鴻勁",
+      "stock_id": "8046",
+      "name": "南電",
       "market": "TW",
       "votes": {
-        "fundamental": 1,
-        "chip": -0.0,
-        "technical": -1
+        "fundamental": 0,
+        "chip": -0.77,
+        "technical": 1
       },
       "vote_notes": {
-        "fundamental": "四維100分(A 體質優)｜強成長 YoY+81%｜毛利56.2%｜ROE29.5%",
-        "chip": "外資-87張(中性)",
-        "technical": "跌破MA20（弱勢）"
+        "fundamental": "PER 400.3｜偏貴(不否決)｜PBR 16.39",
+        "chip": "外資賣超1,618張｜投信買超1,168張",
+        "technical": "站上MA20+MA60（多頭排列）｜量比0.71x量縮｜RSI 80.0 超買（強勢續抱）"
       },
-      "weighted": 25.0,
-      "strategy_score": 3,
+      "weighted": 5.8,
+      "strategy_score": 6,
       "signals": [
         "📊 MA20>MA60多頭",
-        "📐 上升趨勢"
+        "🔢 扣抵有利",
+        "📐 上升趨勢",
+        "🎯 雙線多頭排列"
+      ],
+      "final_score": 33.5,
+      "positives": 1,
+      "negatives": 1,
+      "action": "中性偏多觀望",
+      "action_color": "#84cc16",
+      "price": 1185.0,
+      "rsi": 80.0,
+      "vol_ratio": 0.71,
+      "chg_pct": 3.49,
+      "ma20": 961.42,
+      "support": 805.31,
+      "buy_price": 961.42,
+      "stop_suggest": 884.51,
+      "tf_scores": {
+        "short": {
+          "weighted": 11.5,
+          "final_score": 36.9,
+          "action": "中性偏多觀望",
+          "action_color": "#84cc16",
+          "buy_price": 961.42,
+          "stop_suggest": 884.51
+        },
+        "medium": {
+          "weighted": 5.8,
+          "final_score": 33.5,
+          "action": "中性偏多觀望",
+          "action_color": "#84cc16",
+          "buy_price": 961.42,
+          "stop_suggest": 884.51
+        },
+        "long": {
+          "weighted": -0.4,
+          "final_score": 29.8,
+          "action": "中性觀望",
+          "action_color": "#888",
+          "buy_price": null,
+          "stop_suggest": null
+        }
+      },
+      "earnings_date": null,
+      "sector": "ABF載板",
+      "streak_days": 0,
+      "in_strong_sector": true
+    },
+    {
+      "stock_id": "2330",
+      "name": "台積電",
+      "market": "TW",
+      "votes": {
+        "fundamental": 0,
+        "chip": -0.84,
+        "technical": 1
+      },
+      "vote_notes": {
+        "fundamental": "PER 33.2｜偏貴(不否決)｜PBR 10.76",
+        "chip": "外資賣超12,537張｜投信買超820張｜外資重倒貨封頂",
+        "technical": "站上MA20+MA60（多頭排列）｜量比0.76x量縮"
+      },
+      "weighted": 4.0,
+      "strategy_score": 6,
+      "signals": [
+        "📊 MA20>MA60多頭",
+        "🔢 扣抵有利",
+        "📐 上升趨勢",
+        "🎯 雙線多頭排列"
+      ],
+      "final_score": 32.4,
+      "positives": 1,
+      "negatives": 1,
+      "action": "中性偏多觀望",
+      "action_color": "#84cc16",
+      "price": 2445.0,
+      "rsi": 60.8,
+      "vol_ratio": 0.76,
+      "chg_pct": -0.81,
+      "ma20": 2382.02,
+      "support": 2249.0,
+      "buy_price": 2382.02,
+      "stop_suggest": 2204.02,
+      "tf_scores": {
+        "short": {
+          "weighted": 8.0,
+          "final_score": 34.8,
+          "action": "中性偏多觀望",
+          "action_color": "#84cc16",
+          "buy_price": 2382.02,
+          "stop_suggest": 2204.02
+        },
+        "medium": {
+          "weighted": 4.0,
+          "final_score": 32.4,
+          "action": "中性偏多觀望",
+          "action_color": "#84cc16",
+          "buy_price": 2382.02,
+          "stop_suggest": 2204.02
+        },
+        "long": {
+          "weighted": -1.8,
+          "final_score": 28.9,
+          "action": "中性觀望",
+          "action_color": "#888",
+          "buy_price": null,
+          "stop_suggest": null
+        }
+      },
+      "earnings_date": "2026-07-16",
+      "sector": "晶圓代工",
+      "streak_days": 0,
+      "in_strong_sector": false
+    },
+    {
+      "stock_id": "3711",
+      "name": "日月光投控",
+      "market": "TW",
+      "votes": {
+        "fundamental": 0,
+        "chip": -1.0,
+        "technical": 1
+      },
+      "vote_notes": {
+        "fundamental": "PER 67.1｜偏貴(不否決)｜PBR 8.54",
+        "chip": "外資賣超18,338張｜投信買超610張｜融資暴增(散戶追)｜外資重倒貨封頂",
+        "technical": "站上MA20+MA60（多頭排列）"
+      },
+      "weighted": 0.0,
+      "strategy_score": 6,
+      "signals": [
+        "📊 MA20>MA60多頭",
+        "🔢 扣抵有利",
+        "📐 上升趨勢",
+        "🎯 雙線多頭排列"
       ],
       "final_score": 30.0,
       "positives": 1,
       "negatives": 1,
       "action": "中性偏多觀望",
       "action_color": "#84cc16",
-      "price": 6865.0,
-      "rsi": 42.4,
-      "vol_ratio": 1.0,
-      "chg_pct": -2.35,
-      "ma20": 6942.5,
-      "support": 6395.0,
-      "buy_price": 6521.75,
-      "stop_suggest": 6267.1,
+      "price": 682.0,
+      "rsi": 68.2,
+      "vol_ratio": 1.41,
+      "chg_pct": -5.33,
+      "ma20": 616.18,
+      "support": 534.12,
+      "buy_price": 616.18,
+      "stop_suggest": 566.89,
+      "tf_scores": {
+        "short": {
+          "weighted": 0.0,
+          "final_score": 30.0,
+          "action": "中性偏多觀望",
+          "action_color": "#84cc16",
+          "buy_price": 616.18,
+          "stop_suggest": 566.89
+        },
+        "medium": {
+          "weighted": 0.0,
+          "final_score": 30.0,
+          "action": "中性偏多觀望",
+          "action_color": "#84cc16",
+          "buy_price": 616.18,
+          "stop_suggest": 566.89
+        },
+        "long": {
+          "weighted": -5.0,
+          "final_score": 27.0,
+          "action": "中性觀望",
+          "action_color": "#888",
+          "buy_price": null,
+          "stop_suggest": null
+        }
+      },
+      "earnings_date": "2026-07-30",
+      "sector": "先進封裝",
+      "streak_days": 0,
+      "in_strong_sector": false
+    },
+    {
+      "stock_id": "3037",
+      "name": "欣興",
+      "market": "TW",
+      "votes": {
+        "fundamental": 0,
+        "chip": -0.9,
+        "technical": 1
+      },
+      "vote_notes": {
+        "fundamental": "PER 222.2｜偏貴(不否決)｜PBR 13.57",
+        "chip": "外資賣超3,715張｜投信買超504張",
+        "technical": "站上MA20+MA60（多頭排列）｜量比0.67x量縮"
+      },
+      "weighted": 2.5,
+      "strategy_score": 4,
+      "signals": [
+        "📊 MA20>MA60多頭",
+        "📐 上升趨勢",
+        "🎯 雙線多頭排列"
+      ],
+      "final_score": 21.5,
+      "positives": 1,
+      "negatives": 1,
+      "action": "中性觀望",
+      "action_color": "#888",
+      "price": 969.0,
+      "rsi": 56.1,
+      "vol_ratio": 0.67,
+      "chg_pct": -1.02,
+      "ma20": 964.45,
+      "support": 854.0,
+      "buy_price": null,
+      "stop_suggest": null,
+      "tf_scores": {
+        "short": {
+          "weighted": 5.0,
+          "final_score": 23.0,
+          "action": "中性觀望",
+          "action_color": "#888",
+          "buy_price": null,
+          "stop_suggest": null
+        },
+        "medium": {
+          "weighted": 2.5,
+          "final_score": 21.5,
+          "action": "中性觀望",
+          "action_color": "#888",
+          "buy_price": null,
+          "stop_suggest": null
+        },
+        "long": {
+          "weighted": -3.0,
+          "final_score": 18.2,
+          "action": "中性觀望",
+          "action_color": "#888",
+          "buy_price": null,
+          "stop_suggest": null
+        }
+      },
+      "earnings_date": "2026-07-28",
+      "sector": "ABF載板",
+      "streak_days": 0,
+      "in_strong_sector": true
+    },
+    {
+      "stock_id": "2882",
+      "name": "國泰金",
+      "market": "TW",
+      "votes": {
+        "fundamental": 0,
+        "chip": 0.65,
+        "technical": -1
+      },
+      "vote_notes": {
+        "fundamental": "PER 13.3｜中性｜PBR 1.73",
+        "chip": "外資買超10,200張｜投信賣超1,762張",
+        "technical": "跌破MA20（弱勢）｜量比0.78x量縮"
+      },
+      "weighted": -8.8,
+      "strategy_score": 5,
+      "signals": [
+        "📊 MA20>MA60多頭",
+        "🔢 扣抵有利",
+        "📐 上升趨勢"
+      ],
+      "final_score": 19.8,
+      "positives": 1,
+      "negatives": 1,
+      "action": "中性觀望",
+      "action_color": "#888",
+      "price": 93.6,
+      "rsi": 45.4,
+      "vol_ratio": 0.78,
+      "chg_pct": 0.11,
+      "ma20": 100.99,
+      "support": 91.72,
+      "buy_price": null,
+      "stop_suggest": null,
+      "tf_scores": {
+        "short": {
+          "weighted": -17.5,
+          "final_score": 14.5,
+          "action": "中性觀望",
+          "action_color": "#888",
+          "buy_price": null,
+          "stop_suggest": null
+        },
+        "medium": {
+          "weighted": -8.8,
+          "final_score": 19.8,
+          "action": "中性觀望",
+          "action_color": "#888",
+          "buy_price": null,
+          "stop_suggest": null
+        },
+        "long": {
+          "weighted": -2.0,
+          "final_score": 23.8,
+          "action": "中性觀望",
+          "action_color": "#888",
+          "buy_price": null,
+          "stop_suggest": null
+        }
+      },
+      "earnings_date": "2026-08-28",
+      "sector": "金融保險",
+      "streak_days": 0,
+      "in_strong_sector": false
+    },
+    {
+      "stock_id": "3017",
+      "name": "奇鋐",
+      "market": "TW",
+      "votes": {
+        "fundamental": 0,
+        "chip": 0.08,
+        "technical": 1
+      },
+      "vote_notes": {
+        "fundamental": "PER 46.1｜偏貴(不否決)｜PBR 23.97",
+        "chip": "外資+295張(中性)",
+        "technical": "站上MA20+MA60（多頭排列）"
+      },
+      "weighted": 27.0,
+      "strategy_score": 0,
+      "signals": [],
+      "final_score": 16.2,
+      "positives": 2,
+      "negatives": 0,
+      "action": "中性觀望",
+      "action_color": "#888",
+      "price": 2760.0,
+      "rsi": 67.8,
+      "vol_ratio": 1.08,
+      "chg_pct": 0.73,
+      "ma20": 2472.0,
+      "support": 2255.0,
+      "buy_price": null,
+      "stop_suggest": null,
+      "tf_scores": {
+        "short": {
+          "weighted": 54.0,
+          "final_score": 32.4,
+          "action": "觀察候選",
+          "action_color": "#f59e0b",
+          "buy_price": 2472.0,
+          "stop_suggest": 2274.24
+        },
+        "medium": {
+          "weighted": 27.0,
+          "final_score": 16.2,
+          "action": "中性觀望",
+          "action_color": "#888",
+          "buy_price": null,
+          "stop_suggest": null
+        },
+        "long": {
+          "weighted": 16.6,
+          "final_score": 10.0,
+          "action": "中性觀望",
+          "action_color": "#888",
+          "buy_price": null,
+          "stop_suggest": null
+        }
+      },
+      "earnings_date": "2026-08-11",
+      "sector": "散熱電源",
+      "streak_days": 0,
+      "in_strong_sector": false
+    },
+    {
+      "stock_id": "3406",
+      "name": "玉晶光",
+      "market": "TW",
+      "votes": {
+        "fundamental": 0,
+        "chip": 0.0,
+        "technical": -1
+      },
+      "vote_notes": {
+        "fundamental": "PER 19.4｜中性｜PBR 2.75",
+        "chip": "外資-106張(中性)",
+        "technical": "跌破MA20（弱勢）｜量比0.2x量縮"
+      },
+      "weighted": -25.0,
+      "strategy_score": 5,
+      "signals": [
+        "📊 MA20>MA60多頭",
+        "🔢 扣抵有利",
+        "📐 上升趨勢"
+      ],
+      "final_score": 10.0,
+      "positives": 0,
+      "negatives": 1,
+      "action": "中性觀望",
+      "action_color": "#888",
+      "price": 636.0,
+      "rsi": 46.3,
+      "vol_ratio": 0.2,
+      "chg_pct": -1.24,
+      "ma20": 698.05,
+      "support": 636.0,
+      "buy_price": null,
+      "stop_suggest": null,
+      "tf_scores": {
+        "short": {
+          "weighted": -50.0,
+          "final_score": -5.0,
+          "action": "中性觀望",
+          "action_color": "#888",
+          "buy_price": null,
+          "stop_suggest": null
+        },
+        "medium": {
+          "weighted": -25.0,
+          "final_score": 10.0,
+          "action": "中性觀望",
+          "action_color": "#888",
+          "buy_price": null,
+          "stop_suggest": null
+        },
+        "long": {
+          "weighted": -15.0,
+          "final_score": 16.0,
+          "action": "中性觀望",
+          "action_color": "#888",
+          "buy_price": null,
+          "stop_suggest": null
+        }
+      },
+      "earnings_date": null,
+      "sector": "光學鏡頭",
+      "streak_days": 0,
+      "in_strong_sector": false
+    },
+    {
+      "stock_id": "3008",
+      "name": "大立光",
+      "market": "TW",
+      "votes": {
+        "fundamental": 0,
+        "chip": -0.03,
+        "technical": -1
+      },
+      "vote_notes": {
+        "fundamental": "PER 26.9｜中性｜PBR 3.06",
+        "chip": "外資-302張(中性)",
+        "technical": "跌破MA20（弱勢）｜量比0.47x量縮"
+      },
+      "weighted": -25.8,
+      "strategy_score": 5,
+      "signals": [
+        "📊 MA20>MA60多頭",
+        "🔢 扣抵有利",
+        "📐 上升趨勢"
+      ],
+      "final_score": 9.6,
+      "positives": 0,
+      "negatives": 2,
+      "action": "中性觀望",
+      "action_color": "#888",
+      "price": 4230.0,
+      "rsi": 53.8,
+      "vol_ratio": 0.47,
+      "chg_pct": -1.51,
+      "ma20": 4476.5,
+      "support": 3535.0,
+      "buy_price": null,
+      "stop_suggest": null,
+      "tf_scores": {
+        "short": {
+          "weighted": -51.5,
+          "final_score": -5.9,
+          "action": "中性觀望",
+          "action_color": "#888",
+          "buy_price": null,
+          "stop_suggest": null
+        },
+        "medium": {
+          "weighted": -25.8,
+          "final_score": 9.6,
+          "action": "中性觀望",
+          "action_color": "#888",
+          "buy_price": null,
+          "stop_suggest": null
+        },
+        "long": {
+          "weighted": -15.6,
+          "final_score": 15.6,
+          "action": "中性觀望",
+          "action_color": "#888",
+          "buy_price": null,
+          "stop_suggest": null
+        }
+      },
+      "earnings_date": null,
+      "sector": "光學鏡頭",
+      "streak_days": 0,
+      "in_strong_sector": false
+    },
+    {
+      "stock_id": "2353",
+      "name": "宏碁",
+      "market": "TW",
+      "votes": {
+        "fundamental": 0,
+        "chip": 0.5,
+        "technical": -1
+      },
+      "vote_notes": {
+        "fundamental": "PER 26.3｜中性｜PBR 1.36",
+        "chip": "外資買超6,948張｜投信賣超9,400張｜券資比26.3%(軋空潛力)",
+        "technical": "跌破MA20（弱勢）｜量比0.62x量縮"
+      },
+      "weighted": -12.5,
+      "strategy_score": 3,
+      "signals": [
+        "📊 MA20>MA60多頭",
+        "📐 上升趨勢"
+      ],
+      "final_score": 7.5,
+      "positives": 1,
+      "negatives": 1,
+      "action": "中性觀望",
+      "action_color": "#888",
+      "price": 32.9,
+      "rsi": 39.8,
+      "vol_ratio": 0.62,
+      "chg_pct": 2.81,
+      "ma20": 34.34,
+      "support": 31.9,
+      "buy_price": null,
+      "stop_suggest": null,
+      "tf_scores": {
+        "short": {
+          "weighted": -25.0,
+          "final_score": 0.0,
+          "action": "中性觀望",
+          "action_color": "#888",
+          "buy_price": null,
+          "stop_suggest": null
+        },
+        "medium": {
+          "weighted": -12.5,
+          "final_score": 7.5,
+          "action": "中性觀望",
+          "action_color": "#888",
+          "buy_price": null,
+          "stop_suggest": null
+        },
+        "long": {
+          "weighted": -5.0,
+          "final_score": 12.0,
+          "action": "中性觀望",
+          "action_color": "#888",
+          "buy_price": null,
+          "stop_suggest": null
+        }
+      },
+      "earnings_date": "2026-08-06",
+      "sector": "PC品牌系統",
+      "streak_days": 0,
+      "in_strong_sector": false
+    },
+    {
+      "stock_id": "2337",
+      "name": "旺宏",
+      "market": "TW",
+      "votes": {
+        "fundamental": 1,
+        "chip": -1.0,
+        "technical": -1
+      },
+      "vote_notes": {
+        "fundamental": "PER 4.0｜偏便宜｜PBR 5.43",
+        "chip": "外資賣超14,988張｜融資暴增(散戶追)｜外資重倒貨封頂",
+        "technical": "跌破MA20（弱勢）｜量比0.6x量縮"
+      },
+      "weighted": 0.0,
+      "strategy_score": 1,
+      "signals": [
+        "📊 MA20>MA60多頭"
+      ],
+      "final_score": 5.0,
+      "positives": 1,
+      "negatives": 2,
+      "action": "中性觀望",
+      "action_color": "#888",
+      "price": 142.5,
+      "rsi": 48.0,
+      "vol_ratio": 0.6,
+      "chg_pct": -2.06,
+      "ma20": 155.78,
+      "support": 135.0,
+      "buy_price": null,
+      "stop_suggest": null,
+      "tf_scores": {
+        "short": {
+          "weighted": -100.0,
+          "final_score": -55.0,
+          "action": "賣出/避開",
+          "action_color": "#dc2626",
+          "buy_price": null,
+          "stop_suggest": null
+        },
+        "medium": {
+          "weighted": 0.0,
+          "final_score": 5.0,
+          "action": "中性觀望",
+          "action_color": "#888",
+          "buy_price": null,
+          "stop_suggest": null
+        },
+        "long": {
+          "weighted": 30.0,
+          "final_score": 23.0,
+          "action": "中性觀望",
+          "action_color": "#888",
+          "buy_price": null,
+          "stop_suggest": null
+        }
+      },
+      "earnings_date": null,
+      "sector": "記憶體",
+      "streak_days": 0,
+      "in_strong_sector": false
+    },
+    {
+      "stock_id": "3231",
+      "name": "緯創",
+      "market": "TW",
+      "votes": {
+        "fundamental": 0,
+        "chip": 0.3,
+        "technical": -1
+      },
+      "vote_notes": {
+        "fundamental": "PER 18.9｜中性｜PBR 2.66",
+        "chip": "外資賣超6,264張｜投信買超4,536張｜投信領先卡位",
+        "technical": "跌破MA20（弱勢）｜量比0.58x量縮"
+      },
+      "weighted": -17.5,
+      "strategy_score": 3,
+      "signals": [
+        "📊 MA20>MA60多頭",
+        "📐 上升趨勢"
+      ],
+      "final_score": 4.5,
+      "positives": 1,
+      "negatives": 1,
+      "action": "中性觀望",
+      "action_color": "#888",
+      "price": 159.0,
+      "rsi": 53.9,
+      "vol_ratio": 0.58,
+      "chg_pct": 0.32,
+      "ma20": 159.57,
+      "support": 152.5,
+      "buy_price": null,
+      "stop_suggest": null,
+      "tf_scores": {
+        "short": {
+          "weighted": -35.0,
+          "final_score": -6.0,
+          "action": "中性觀望",
+          "action_color": "#888",
+          "buy_price": null,
+          "stop_suggest": null
+        },
+        "medium": {
+          "weighted": -17.5,
+          "final_score": 4.5,
+          "action": "中性觀望",
+          "action_color": "#888",
+          "buy_price": null,
+          "stop_suggest": null
+        },
+        "long": {
+          "weighted": -9.0,
+          "final_score": 9.6,
+          "action": "中性觀望",
+          "action_color": "#888",
+          "buy_price": null,
+          "stop_suggest": null
+        }
+      },
+      "earnings_date": null,
+      "sector": "AI伺服器",
+      "streak_days": 0,
+      "in_strong_sector": false
+    },
+    {
+      "stock_id": "6285",
+      "name": "啟碁",
+      "market": "TW",
+      "votes": {
+        "fundamental": 0,
+        "chip": 0.0,
+        "technical": -1
+      },
+      "vote_notes": {
+        "fundamental": "PER 41.1｜偏貴(不否決)｜PBR 3.57",
+        "chip": "外資+416張(中性)",
+        "technical": "跌破MA20（弱勢）｜量比0.44x量縮"
+      },
+      "weighted": -25.0,
+      "strategy_score": 3,
+      "signals": [
+        "📊 MA20>MA60多頭",
+        "📐 上升趨勢"
+      ],
+      "final_score": 0.0,
+      "positives": 0,
+      "negatives": 1,
+      "action": "中性觀望",
+      "action_color": "#888",
+      "price": 258.0,
+      "rsi": 46.3,
+      "vol_ratio": 0.44,
+      "chg_pct": 0.0,
+      "ma20": 260.21,
+      "support": 232.09,
+      "buy_price": null,
+      "stop_suggest": null,
       "tf_scores": {
         "short": {
           "weighted": -50.0,
@@ -2305,120 +2894,56 @@
           "stop_suggest": null
         },
         "medium": {
-          "weighted": 25.0,
-          "final_score": 30.0,
-          "action": "中性偏多觀望",
-          "action_color": "#84cc16",
-          "buy_price": 6521.75,
-          "stop_suggest": 6267.1
-        },
-        "long": {
-          "weighted": 50.0,
-          "final_score": 45.0,
-          "action": "買進",
-          "action_color": "#16a34a",
-          "buy_price": 6521.75,
-          "stop_suggest": 6267.1
-        }
-      },
-      "earnings_date": "2026-08-03",
-      "sector": "半導體設備",
-      "streak_days": 0,
-      "in_strong_sector": false
-    },
-    {
-      "stock_id": "8299",
-      "name": "群聯",
-      "market": "TW",
-      "votes": {
-        "fundamental": 1,
-        "chip": -0.06,
-        "technical": -1
-      },
-      "vote_notes": {
-        "fundamental": "四維82分(A 體質優)｜強成長 YoY+1144%｜毛利61.8%｜ROE81.9%",
-        "chip": "外資+706張(中性)｜(TWSE暫無→FinMind備援)",
-        "technical": "跌破MA20（弱勢）｜量比0.65x量縮"
-      },
-      "weighted": 23.5,
-      "strategy_score": 3,
-      "signals": [
-        "📊 MA20>MA60多頭",
-        "📐 上升趨勢"
-      ],
-      "final_score": 29.1,
-      "positives": 1,
-      "negatives": 2,
-      "action": "中性觀望",
-      "action_color": "#888",
-      "price": 2295.0,
-      "rsi": 50.1,
-      "vol_ratio": 0.65,
-      "chg_pct": 2.46,
-      "ma20": 2341.51,
-      "support": 2139.38,
-      "buy_price": null,
-      "stop_suggest": null,
-      "tf_scores": {
-        "short": {
-          "weighted": -53.0,
-          "final_score": -16.8,
-          "action": "中性觀望",
-          "action_color": "#888",
-          "buy_price": null,
-          "stop_suggest": null
-        },
-        "medium": {
-          "weighted": 23.5,
-          "final_score": 29.1,
+          "weighted": -25.0,
+          "final_score": 0.0,
           "action": "中性觀望",
           "action_color": "#888",
           "buy_price": null,
           "stop_suggest": null
         },
         "long": {
-          "weighted": 48.8,
-          "final_score": 44.3,
-          "action": "中性偏多觀望",
-          "action_color": "#84cc16",
-          "buy_price": 2180.25,
-          "stop_suggest": 2096.59
+          "weighted": -15.0,
+          "final_score": 6.0,
+          "action": "中性觀望",
+          "action_color": "#888",
+          "buy_price": null,
+          "stop_suggest": null
         }
       },
       "earnings_date": null,
-      "sector": "記憶體",
+      "sector": "低軌衛星",
       "streak_days": 0,
-      "in_strong_sector": false
+      "in_strong_sector": true
     },
     {
       "stock_id": "2408",
       "name": "南亞科",
       "market": "TW",
       "votes": {
-        "fundamental": 1,
+        "fundamental": 0,
         "chip": -1.0,
         "technical": -1
       },
       "vote_notes": {
-        "fundamental": "四維100分(A 體質優)｜強成長 YoY+1435%｜毛利67.9%｜ROE54.0%",
-        "chip": "外資賣超7,403張｜投信賣超3,088張｜融資大減(籌碼沉澱)",
-        "technical": "跌破MA20（弱勢）｜量比0.56x量縮"
+        "fundamental": "PER 37.9｜偏貴(不否決)｜PBR 6.58",
+        "chip": "外資賣超7,403張｜投信賣超6,391張｜融資暴增(散戶追)",
+        "technical": "跌破MA20（弱勢）｜量比0.55x量縮"
       },
-      "weighted": 0.0,
+      "weighted": -50.0,
       "strategy_score": 5,
       "signals": [
         "📊 MA20>MA60多頭",
         "🔢 扣抵有利",
         "📐 上升趨勢"
       ],
-      "final_score": 25.0,
-      "positives": 1,
+      "final_score": -5.0,
+      "positives": 0,
       "negatives": 2,
       "action": "中性觀望",
       "action_color": "#888",
       "price": 409.5,
       "rsi": 55.8,
-      "vol_ratio": 0.56,
+      "vol_ratio": 0.55,
       "chg_pct": 0.61,
       "ma20": 414.93,
       "support": 333.0,
@@ -2434,20 +2959,20 @@
           "stop_suggest": null
         },
         "medium": {
-          "weighted": 0.0,
-          "final_score": 25.0,
+          "weighted": -50.0,
+          "final_score": -5.0,
           "action": "中性觀望",
           "action_color": "#888",
           "buy_price": null,
           "stop_suggest": null
         },
         "long": {
-          "weighted": 30.0,
-          "final_score": 43.0,
-          "action": "中性偏多觀望",
-          "action_color": "#84cc16",
-          "buy_price": 389.02,
-          "stop_suggest": 357.9
+          "weighted": -35.0,
+          "final_score": 4.0,
+          "action": "中性觀望",
+          "action_color": "#888",
+          "buy_price": null,
+          "stop_suggest": null
         }
       },
       "earnings_date": "2026-07-10",
@@ -2460,30 +2985,30 @@
       "name": "華邦電",
       "market": "TW",
       "votes": {
-        "fundamental": 1,
+        "fundamental": 0,
         "chip": -1.0,
         "technical": -1
       },
       "vote_notes": {
-        "fundamental": "四維90分(A 體質優)｜強成長 YoY+1038%｜毛利53.4%｜ROE34.7%",
-        "chip": "外資賣超10,317張｜投信賣超18,106張｜融資大減(籌碼沉澱)｜外資重倒貨封頂",
-        "technical": "跌破MA20（弱勢）｜量比0.61x量縮"
+        "fundamental": "PER 207.3｜偏貴(不否決)｜PBR 7.12",
+        "chip": "外資賣超10,317張｜投信賣超18,106張｜融資暴增(散戶追)｜外資重倒貨封頂",
+        "technical": "跌破MA20（弱勢）｜量比0.6x量縮"
       },
-      "weighted": 0.0,
+      "weighted": -50.0,
       "strategy_score": 5,
       "signals": [
         "📊 MA20>MA60多頭",
         "🔢 扣抵有利",
         "📐 上升趨勢"
       ],
-      "final_score": 25.0,
-      "positives": 1,
+      "final_score": -5.0,
+      "positives": 0,
       "negatives": 2,
       "action": "中性觀望",
       "action_color": "#888",
       "price": 184.5,
       "rsi": 54.9,
-      "vol_ratio": 0.61,
+      "vol_ratio": 0.6,
       "chg_pct": 0.54,
       "ma20": 189.32,
       "support": 149.0,
@@ -2499,20 +3024,20 @@
           "stop_suggest": null
         },
         "medium": {
-          "weighted": 0.0,
-          "final_score": 25.0,
+          "weighted": -50.0,
+          "final_score": -5.0,
           "action": "中性觀望",
           "action_color": "#888",
           "buy_price": null,
           "stop_suggest": null
         },
         "long": {
-          "weighted": 30.0,
-          "final_score": 43.0,
-          "action": "中性偏多觀望",
-          "action_color": "#84cc16",
-          "buy_price": 175.28,
-          "stop_suggest": 161.26
+          "weighted": -35.0,
+          "final_score": 4.0,
+          "action": "中性觀望",
+          "action_color": "#888",
+          "buy_price": null,
+          "stop_suggest": null
         }
       },
       "earnings_date": "2026-08-04",
@@ -2525,28 +3050,28 @@
       "name": "精測",
       "market": "TW",
       "votes": {
-        "fundamental": 1,
+        "fundamental": 0,
         "chip": -0.01,
         "technical": -1
       },
       "vote_notes": {
-        "fundamental": "四維95分(A 體質優)｜強成長 YoY+54%｜毛利56.8%｜ROE13.8%",
+        "fundamental": "PER 109.9｜偏貴(不否決)｜PBR 11.10",
         "chip": "外資+26張(中性)｜(TWSE暫無→FinMind備援)",
-        "technical": "跌破MA20（弱勢）｜量比0.45x量縮"
+        "technical": "跌破MA20（弱勢）｜量比0.43x量縮"
       },
-      "weighted": 24.8,
+      "weighted": -25.2,
       "strategy_score": 2,
       "signals": [
         "🔢 扣抵有利"
       ],
-      "final_score": 24.9,
-      "positives": 1,
+      "final_score": -5.1,
+      "positives": 0,
       "negatives": 2,
       "action": "中性觀望",
       "action_color": "#888",
       "price": 3320.0,
       "rsi": 40.0,
-      "vol_ratio": 0.45,
+      "vol_ratio": 0.43,
       "chg_pct": 2.47,
       "ma20": 3397.5,
       "support": 3035.0,
@@ -2562,20 +3087,20 @@
           "stop_suggest": null
         },
         "medium": {
-          "weighted": 24.8,
-          "final_score": 24.9,
+          "weighted": -25.2,
+          "final_score": -5.1,
           "action": "中性觀望",
           "action_color": "#888",
           "buy_price": null,
           "stop_suggest": null
         },
         "long": {
-          "weighted": 49.8,
-          "final_score": 39.9,
-          "action": "中性偏多觀望",
-          "action_color": "#84cc16",
-          "buy_price": 3154.0,
-          "stop_suggest": 2974.3
+          "weighted": -15.2,
+          "final_score": 0.9,
+          "action": "中性觀望",
+          "action_color": "#888",
+          "buy_price": null,
+          "stop_suggest": null
         }
       },
       "earnings_date": null,
@@ -2584,226 +3109,32 @@
       "in_strong_sector": false
     },
     {
-      "stock_id": "3665",
-      "name": "貿聯",
-      "market": "TW",
-      "votes": {
-        "fundamental": 1,
-        "chip": -0.07,
-        "technical": -1
-      },
-      "vote_notes": {
-        "fundamental": "四維84分(A 體質優)｜強成長 YoY+41%｜毛利28.8%｜ROE19.5%",
-        "chip": "外資+131張(中性)",
-        "technical": "跌破MA20（弱勢）｜量比0.77x量縮｜RSI 28.6 超賣"
-      },
-      "weighted": 23.2,
-      "strategy_score": 2,
-      "signals": [
-        "🌙 MACD+KD金叉"
-      ],
-      "final_score": 23.9,
-      "positives": 1,
-      "negatives": 2,
-      "action": "中性觀望",
-      "action_color": "#888",
-      "price": 1995.0,
-      "rsi": 28.6,
-      "vol_ratio": 0.77,
-      "chg_pct": -2.21,
-      "ma20": 2063.0,
-      "support": 1855.0,
-      "buy_price": null,
-      "stop_suggest": null,
-      "tf_scores": {
-        "short": {
-          "weighted": -53.5,
-          "final_score": -22.1,
-          "action": "中性觀望",
-          "action_color": "#888",
-          "buy_price": null,
-          "stop_suggest": null
-        },
-        "medium": {
-          "weighted": 23.2,
-          "final_score": 23.9,
-          "action": "中性觀望",
-          "action_color": "#888",
-          "buy_price": null,
-          "stop_suggest": null
-        },
-        "long": {
-          "weighted": 48.6,
-          "final_score": 39.2,
-          "action": "中性偏多觀望",
-          "action_color": "#84cc16",
-          "buy_price": 1895.25,
-          "stop_suggest": 1817.9
-        }
-      },
-      "earnings_date": "2026-08-21",
-      "sector": "AI連接器",
-      "streak_days": 0,
-      "in_strong_sector": false
-    },
-    {
-      "stock_id": "2609",
-      "name": "陽明",
-      "market": "TW",
-      "votes": {
-        "fundamental": -1,
-        "chip": 1.0,
-        "technical": 1
-      },
-      "vote_notes": {
-        "fundamental": "四維54分(C 體質中)｜營收衰退 YoY-15%｜毛利7.3%｜ROE1.8%",
-        "chip": "外資買超12,552張",
-        "technical": "站上MA20+MA60（多頭排列）"
-      },
-      "weighted": 0.0,
-      "strategy_score": 4,
-      "signals": [
-        "📊 MA20>MA60多頭",
-        "📐 上升趨勢",
-        "🎯 雙線多頭排列"
-      ],
-      "final_score": 20.0,
-      "positives": 2,
-      "negatives": 1,
-      "action": "中性觀望",
-      "action_color": "#888",
-      "price": 52.4,
-      "rsi": 50.0,
-      "vol_ratio": 1.24,
-      "chg_pct": 2.75,
-      "ma20": 51.56,
-      "support": 50.1,
-      "buy_price": null,
-      "stop_suggest": null,
-      "tf_scores": {
-        "short": {
-          "weighted": 100.0,
-          "final_score": 80.0,
-          "action": "強力買進",
-          "action_color": "#16a34a",
-          "buy_price": 51.56,
-          "stop_suggest": 49.1
-        },
-        "medium": {
-          "weighted": 0.0,
-          "final_score": 20.0,
-          "action": "中性觀望",
-          "action_color": "#888",
-          "buy_price": null,
-          "stop_suggest": null
-        },
-        "long": {
-          "weighted": -30.0,
-          "final_score": 2.0,
-          "action": "中性觀望",
-          "action_color": "#888",
-          "buy_price": null,
-          "stop_suggest": null
-        }
-      },
-      "earnings_date": "2026-08-12",
-      "sector": "航運",
-      "streak_days": 0,
-      "in_strong_sector": true
-    },
-    {
-      "stock_id": "2886",
-      "name": "兆豐金",
-      "market": "TW",
-      "votes": {
-        "fundamental": -1,
-        "chip": 0.3,
-        "technical": 1
-      },
-      "vote_notes": {
-        "fundamental": "四維6分(D 體質弱)｜成長平緩 YoY+22%",
-        "chip": "外資賣超2,263張｜投信買超4,672張｜券資比9.3%(軋空潛力)｜投信領先卡位",
-        "technical": "站上MA20+MA60（多頭排列）｜量比0.48x量縮"
-      },
-      "weighted": -17.5,
-      "strategy_score": 6,
-      "signals": [
-        "📊 MA20>MA60多頭",
-        "🔢 扣抵有利",
-        "📐 上升趨勢",
-        "🎯 雙線多頭排列"
-      ],
-      "final_score": 19.5,
-      "positives": 2,
-      "negatives": 1,
-      "action": "中性觀望",
-      "action_color": "#888",
-      "price": 45.5,
-      "rsi": 64.2,
-      "vol_ratio": 0.48,
-      "chg_pct": -1.09,
-      "ma20": 44.66,
-      "support": 41.2,
-      "buy_price": null,
-      "stop_suggest": null,
-      "tf_scores": {
-        "short": {
-          "weighted": 65.0,
-          "final_score": 69.0,
-          "action": "強力買進",
-          "action_color": "#16a34a",
-          "buy_price": 44.66,
-          "stop_suggest": 41.09
-        },
-        "medium": {
-          "weighted": -17.5,
-          "final_score": 19.5,
-          "action": "中性觀望",
-          "action_color": "#888",
-          "buy_price": null,
-          "stop_suggest": null
-        },
-        "long": {
-          "weighted": -44.0,
-          "final_score": 3.6,
-          "action": "中性觀望",
-          "action_color": "#888",
-          "buy_price": null,
-          "stop_suggest": null
-        }
-      },
-      "earnings_date": null,
-      "sector": "金融保險",
-      "streak_days": 0,
-      "in_strong_sector": false
-    },
-    {
       "stock_id": "2308",
       "name": "台達電",
       "market": "TW",
       "votes": {
-        "fundamental": 1,
+        "fundamental": 0,
         "chip": -0.09,
         "technical": -1
       },
       "vote_notes": {
-        "fundamental": "四維88分(A 體質優)｜強成長 YoY+101%｜毛利37.0%｜ROE31.8%",
+        "fundamental": "PER 90.1｜偏貴(不否決)｜PBR 17.99",
         "chip": "外資+437張(中性)",
         "technical": "跌破MA20（弱勢）"
       },
-      "weighted": 22.7,
+      "weighted": -27.3,
       "strategy_score": 1,
       "signals": [
         "📊 MA20>MA60多頭"
       ],
-      "final_score": 18.6,
-      "positives": 1,
+      "final_score": -11.4,
+      "positives": 0,
       "negatives": 2,
       "action": "中性觀望",
       "action_color": "#888",
       "price": 2075.0,
       "rsi": 41.3,
-      "vol_ratio": 1.19,
+      "vol_ratio": 1.12,
       "chg_pct": 5.33,
       "ma20": 2105.32,
       "support": 1810.0,
@@ -2819,20 +3150,20 @@
           "stop_suggest": null
         },
         "medium": {
-          "weighted": 22.7,
-          "final_score": 18.6,
+          "weighted": -27.3,
+          "final_score": -11.4,
           "action": "中性觀望",
           "action_color": "#888",
           "buy_price": null,
           "stop_suggest": null
         },
         "long": {
-          "weighted": 48.2,
-          "final_score": 33.9,
-          "action": "中性偏多觀望",
-          "action_color": "#84cc16",
-          "buy_price": 1971.25,
-          "stop_suggest": 1813.55
+          "weighted": -16.8,
+          "final_score": -5.1,
+          "action": "中性觀望",
+          "action_color": "#888",
+          "buy_price": null,
+          "stop_suggest": null
         }
       },
       "earnings_date": "2026-07-29",
@@ -2841,27 +3172,88 @@
       "in_strong_sector": false
     },
     {
+      "stock_id": "6442",
+      "name": "光聖",
+      "market": "TW",
+      "votes": {
+        "fundamental": 0,
+        "chip": 0.01,
+        "technical": -1
+      },
+      "vote_notes": {
+        "fundamental": "PER 71.9｜偏貴(不否決)｜PBR 18.12",
+        "chip": "外資-183張(中性)",
+        "technical": "跌破MA20（弱勢）"
+      },
+      "weighted": -24.8,
+      "strategy_score": 0,
+      "signals": [],
+      "final_score": -14.8,
+      "positives": 1,
+      "negatives": 1,
+      "action": "中性觀望",
+      "action_color": "#888",
+      "price": 1640.0,
+      "rsi": 39.8,
+      "vol_ratio": 0.98,
+      "chg_pct": 0.31,
+      "ma20": 1845.0,
+      "support": 1575.0,
+      "buy_price": null,
+      "stop_suggest": null,
+      "tf_scores": {
+        "short": {
+          "weighted": -49.5,
+          "final_score": -29.7,
+          "action": "中性觀望",
+          "action_color": "#888",
+          "buy_price": null,
+          "stop_suggest": null
+        },
+        "medium": {
+          "weighted": -24.8,
+          "final_score": -14.8,
+          "action": "中性觀望",
+          "action_color": "#888",
+          "buy_price": null,
+          "stop_suggest": null
+        },
+        "long": {
+          "weighted": -14.8,
+          "final_score": -8.9,
+          "action": "中性觀望",
+          "action_color": "#888",
+          "buy_price": null,
+          "stop_suggest": null
+        }
+      },
+      "earnings_date": null,
+      "sector": "CPO光通訊",
+      "streak_days": 0,
+      "in_strong_sector": true
+    },
+    {
       "stock_id": "6770",
       "name": "力積電",
       "market": "TW",
       "votes": {
-        "fundamental": 1,
+        "fundamental": 0,
         "chip": -1.0,
         "technical": -1
       },
       "vote_notes": {
-        "fundamental": "四維82分(A 體質優)｜強成長 YoY+1392%｜毛利10.2%｜ROE58.9%",
+        "fundamental": "PER 43.7｜偏貴(不否決)｜PBR 3.23",
         "chip": "外資賣超15,107張｜投信賣超3,026張｜融資暴增(散戶追)｜外資重倒貨封頂",
         "technical": "跌破MA20（弱勢）｜量比0.49x量縮"
       },
-      "weighted": 0.0,
+      "weighted": -50.0,
       "strategy_score": 3,
       "signals": [
         "📊 MA20>MA60多頭",
         "📐 上升趨勢"
       ],
-      "final_score": 15.0,
-      "positives": 1,
+      "final_score": -15.0,
+      "positives": 0,
       "negatives": 2,
       "action": "中性觀望",
       "action_color": "#888",
@@ -2883,20 +3275,20 @@
           "stop_suggest": null
         },
         "medium": {
-          "weighted": 0.0,
-          "final_score": 15.0,
+          "weighted": -50.0,
+          "final_score": -15.0,
           "action": "中性觀望",
           "action_color": "#888",
           "buy_price": null,
           "stop_suggest": null
         },
         "long": {
-          "weighted": 30.0,
-          "final_score": 33.0,
-          "action": "中性偏多觀望",
-          "action_color": "#84cc16",
-          "buy_price": 69.73,
-          "stop_suggest": 64.15
+          "weighted": -35.0,
+          "final_score": -6.0,
+          "action": "中性觀望",
+          "action_color": "#888",
+          "buy_price": null,
+          "stop_suggest": null
         }
       },
       "earnings_date": null,
@@ -2905,444 +3297,72 @@
       "in_strong_sector": false
     },
     {
-      "stock_id": "6187",
-      "name": "萬潤",
+      "stock_id": "2454",
+      "name": "聯發科",
       "market": "TW",
       "votes": {
-        "fundamental": 1,
-        "chip": 0.0,
+        "fundamental": 0,
+        "chip": -1.0,
         "technical": -1
       },
       "vote_notes": {
-        "fundamental": "四維100分(A 體質優)｜強成長 YoY+44%｜毛利51.8%｜ROE18.7%",
-        "chip": "外資+657張(中性)｜(TWSE暫無→FinMind備援)",
+        "fundamental": "PER 63.7｜偏貴(不否決)｜PBR 17.16",
+        "chip": "外資賣超3,367張",
         "technical": "跌破MA20（弱勢）"
       },
-      "weighted": 25.0,
-      "strategy_score": 0,
-      "signals": [],
-      "final_score": 15.0,
-      "positives": 1,
-      "negatives": 1,
-      "action": "中性觀望",
-      "action_color": "#888",
-      "price": 1030.0,
-      "rsi": 46.2,
-      "vol_ratio": 1.09,
-      "chg_pct": 2.49,
-      "ma20": 1095.9,
-      "support": 980.0,
-      "buy_price": null,
-      "stop_suggest": null,
-      "tf_scores": {
-        "short": {
-          "weighted": -50.0,
-          "final_score": -30.0,
-          "action": "賣出/避開",
-          "action_color": "#dc2626",
-          "buy_price": null,
-          "stop_suggest": null
-        },
-        "medium": {
-          "weighted": 25.0,
-          "final_score": 15.0,
-          "action": "中性觀望",
-          "action_color": "#888",
-          "buy_price": null,
-          "stop_suggest": null
-        },
-        "long": {
-          "weighted": 50.0,
-          "final_score": 30.0,
-          "action": "觀察候選",
-          "action_color": "#f59e0b",
-          "buy_price": 980.0,
-          "stop_suggest": 901.6
-        }
-      },
-      "earnings_date": "2026-08-07",
-      "sector": "半導體設備",
-      "streak_days": 0,
-      "in_strong_sector": false
-    },
-    {
-      "stock_id": "3491",
-      "name": "昇達科",
-      "market": "TW",
-      "votes": {
-        "fundamental": 1,
-        "chip": -0.0,
-        "technical": -1
-      },
-      "vote_notes": {
-        "fundamental": "四維96分(A 體質優)｜強成長 YoY+66%｜毛利58.0%｜ROE29.1%",
-        "chip": "外資-23張(中性)｜(TWSE暫無→FinMind備援)",
-        "technical": "跌破MA20（弱勢）｜量比0.44x量縮"
-      },
-      "weighted": 25.0,
-      "strategy_score": 0,
-      "signals": [],
-      "final_score": 15.0,
-      "positives": 1,
-      "negatives": 1,
-      "action": "中性觀望",
-      "action_color": "#888",
-      "price": 1340.0,
-      "rsi": 31.0,
-      "vol_ratio": 0.44,
-      "chg_pct": 5.93,
-      "ma20": 1505.25,
-      "support": 1230.0,
-      "buy_price": null,
-      "stop_suggest": null,
-      "tf_scores": {
-        "short": {
-          "weighted": -50.0,
-          "final_score": -30.0,
-          "action": "賣出/避開",
-          "action_color": "#dc2626",
-          "buy_price": null,
-          "stop_suggest": null
-        },
-        "medium": {
-          "weighted": 25.0,
-          "final_score": 15.0,
-          "action": "中性觀望",
-          "action_color": "#888",
-          "buy_price": null,
-          "stop_suggest": null
-        },
-        "long": {
-          "weighted": 50.0,
-          "final_score": 30.0,
-          "action": "觀察候選",
-          "action_color": "#f59e0b",
-          "buy_price": 1273.0,
-          "stop_suggest": 1205.4
-        }
-      },
-      "earnings_date": null,
-      "sector": "低軌衛星",
-      "streak_days": 0,
-      "in_strong_sector": true
-    },
-    {
-      "stock_id": "5388",
-      "name": "中磊",
-      "market": "TW",
-      "votes": {
-        "fundamental": 1,
-        "chip": 0.0,
-        "technical": -1
-      },
-      "vote_notes": {
-        "fundamental": "四維33分(D 體質弱)｜強成長 YoY+70%｜毛利13.7%｜ROE7.7%",
-        "chip": "外資+869張(中性)",
-        "technical": "跌破MA20（弱勢）｜量比0.58x量縮"
-      },
-      "weighted": 25.0,
-      "strategy_score": 0,
-      "signals": [],
-      "final_score": 15.0,
-      "positives": 1,
-      "negatives": 1,
-      "action": "中性觀望",
-      "action_color": "#888",
-      "price": 81.6,
-      "rsi": 42.4,
-      "vol_ratio": 0.58,
-      "chg_pct": 1.37,
-      "ma20": 82.75,
-      "support": 76.6,
-      "buy_price": null,
-      "stop_suggest": null,
-      "tf_scores": {
-        "short": {
-          "weighted": -50.0,
-          "final_score": -30.0,
-          "action": "賣出/避開",
-          "action_color": "#dc2626",
-          "buy_price": null,
-          "stop_suggest": null
-        },
-        "medium": {
-          "weighted": 25.0,
-          "final_score": 15.0,
-          "action": "中性觀望",
-          "action_color": "#888",
-          "buy_price": null,
-          "stop_suggest": null
-        },
-        "long": {
-          "weighted": 50.0,
-          "final_score": 30.0,
-          "action": "觀察候選",
-          "action_color": "#f59e0b",
-          "buy_price": 77.52,
-          "stop_suggest": 75.07
-        }
-      },
-      "earnings_date": null,
-      "sector": "低軌衛星",
-      "streak_days": 0,
-      "in_strong_sector": true
-    },
-    {
-      "stock_id": "3081",
-      "name": "聯亞",
-      "market": "TW",
-      "votes": {
-        "fundamental": 1,
-        "chip": -0.03,
-        "technical": -1
-      },
-      "vote_notes": {
-        "fundamental": "四維100分(A 體質優)｜強成長 YoY+648%｜毛利54.8%｜ROE30.0%",
-        "chip": "外資+99張(中性)｜(TWSE暫無→FinMind備援)",
-        "technical": "跌破MA20（弱勢）"
-      },
-      "weighted": 24.2,
-      "strategy_score": 0,
-      "signals": [],
-      "final_score": 14.5,
-      "positives": 1,
-      "negatives": 2,
-      "action": "中性觀望",
-      "action_color": "#888",
-      "price": 2100.0,
-      "rsi": 45.6,
-      "vol_ratio": 1.08,
-      "chg_pct": 8.25,
-      "ma20": 2229.5,
-      "support": 1940.0,
-      "buy_price": null,
-      "stop_suggest": null,
-      "tf_scores": {
-        "short": {
-          "weighted": -51.5,
-          "final_score": -30.9,
-          "action": "賣出/避開",
-          "action_color": "#dc2626",
-          "buy_price": null,
-          "stop_suggest": null
-        },
-        "medium": {
-          "weighted": 24.2,
-          "final_score": 14.5,
-          "action": "中性觀望",
-          "action_color": "#888",
-          "buy_price": null,
-          "stop_suggest": null
-        },
-        "long": {
-          "weighted": 49.4,
-          "final_score": 29.6,
-          "action": "中性觀望",
-          "action_color": "#888",
-          "buy_price": null,
-          "stop_suggest": null
-        }
-      },
-      "earnings_date": null,
-      "sector": "CPO光通訊",
-      "streak_days": 0,
-      "in_strong_sector": true
-    },
-    {
-      "stock_id": "3653",
-      "name": "健策",
-      "market": "TW",
-      "votes": {
-        "fundamental": 1,
-        "chip": -0.03,
-        "technical": -1
-      },
-      "vote_notes": {
-        "fundamental": "四維100分(A 體質優)｜強成長 YoY+38%｜毛利41.8%｜ROE26.5%",
-        "chip": "外資+11張(中性)",
-        "technical": "跌破MA20（弱勢）｜量比0.76x量縮"
-      },
-      "weighted": 24.2,
-      "strategy_score": 0,
-      "signals": [],
-      "final_score": 14.5,
-      "positives": 1,
-      "negatives": 2,
-      "action": "中性觀望",
-      "action_color": "#888",
-      "price": 3420.0,
-      "rsi": 40.1,
-      "vol_ratio": 0.76,
-      "chg_pct": -1.58,
-      "ma20": 3661.0,
-      "support": 3320.0,
-      "buy_price": null,
-      "stop_suggest": null,
-      "tf_scores": {
-        "short": {
-          "weighted": -51.5,
-          "final_score": -30.9,
-          "action": "賣出/避開",
-          "action_color": "#dc2626",
-          "buy_price": null,
-          "stop_suggest": null
-        },
-        "medium": {
-          "weighted": 24.2,
-          "final_score": 14.5,
-          "action": "中性觀望",
-          "action_color": "#888",
-          "buy_price": null,
-          "stop_suggest": null
-        },
-        "long": {
-          "weighted": 49.4,
-          "final_score": 29.6,
-          "action": "中性觀望",
-          "action_color": "#888",
-          "buy_price": null,
-          "stop_suggest": null
-        }
-      },
-      "earnings_date": "2026-08-11",
-      "sector": "散熱電源",
-      "streak_days": 0,
-      "in_strong_sector": false
-    },
-    {
-      "stock_id": "2352",
-      "name": "佳世達",
-      "market": "TW",
-      "votes": {
-        "fundamental": -1,
-        "chip": 0.3,
-        "technical": 1
-      },
-      "vote_notes": {
-        "fundamental": "四維29分(D 體質弱)｜成長平緩 YoY+4%｜毛利16.7%｜ROE5.1%",
-        "chip": "外資賣超4,255張｜投信買超5,922張｜融資大減(籌碼沉澱)｜券資比5.6%(軋空潛力)｜投信領先卡位",
-        "technical": "站上MA20+MA60（多頭排列）"
-      },
-      "weighted": -17.5,
-      "strategy_score": 4,
+      "weighted": -50.0,
+      "strategy_score": 3,
       "signals": [
         "📊 MA20>MA60多頭",
-        "📐 上升趨勢",
-        "🎯 雙線多頭排列"
+        "📐 上升趨勢"
       ],
-      "final_score": 9.5,
-      "positives": 2,
-      "negatives": 1,
-      "action": "中性觀望",
-      "action_color": "#888",
-      "price": 32.2,
-      "rsi": 55.0,
-      "vol_ratio": 1.4,
-      "chg_pct": 0.94,
-      "ma20": 31.03,
-      "support": 29.3,
-      "buy_price": null,
-      "stop_suggest": null,
-      "tf_scores": {
-        "short": {
-          "weighted": 65.0,
-          "final_score": 59.0,
-          "action": "買進",
-          "action_color": "#16a34a",
-          "buy_price": 31.03,
-          "stop_suggest": 28.71
-        },
-        "medium": {
-          "weighted": -17.5,
-          "final_score": 9.5,
-          "action": "中性觀望",
-          "action_color": "#888",
-          "buy_price": null,
-          "stop_suggest": null
-        },
-        "long": {
-          "weighted": -44.0,
-          "final_score": -6.4,
-          "action": "中性觀望",
-          "action_color": "#888",
-          "buy_price": null,
-          "stop_suggest": null
-        }
-      },
-      "earnings_date": "2026-08-06",
-      "sector": "網通設備",
-      "streak_days": 0,
-      "in_strong_sector": false
-    },
-    {
-      "stock_id": "3034",
-      "name": "聯詠",
-      "market": "TW",
-      "votes": {
-        "fundamental": -1,
-        "chip": -0.71,
-        "technical": 1
-      },
-      "vote_notes": {
-        "fundamental": "四維94分(A 體質優)｜營收衰退 YoY-15%｜毛利39.1%｜ROE20.9%",
-        "chip": "外資賣超1,116張｜券資比5.4%(軋空潛力)",
-        "technical": "站上MA20+MA60（多頭排列）｜量比0.41x量縮"
-      },
-      "weighted": -42.8,
-      "strategy_score": 6,
-      "signals": [
-        "📊 MA20>MA60多頭",
-        "🔢 扣抵有利",
-        "📐 上升趨勢",
-        "🎯 雙線多頭排列"
-      ],
-      "final_score": 4.4,
-      "positives": 1,
+      "final_score": -15.0,
+      "positives": 0,
       "negatives": 2,
       "action": "中性觀望",
       "action_color": "#888",
-      "price": 538.0,
-      "rsi": 61.9,
-      "vol_ratio": 0.41,
-      "chg_pct": -0.55,
-      "ma20": 516.27,
-      "support": 473.0,
+      "price": 4195.0,
+      "rsi": 50.4,
+      "vol_ratio": 0.93,
+      "chg_pct": -3.45,
+      "ma20": 4282.5,
+      "support": 3880.0,
       "buy_price": null,
       "stop_suggest": null,
       "tf_scores": {
         "short": {
-          "weighted": 14.5,
-          "final_score": 38.7,
-          "action": "中性偏多觀望",
-          "action_color": "#84cc16",
-          "buy_price": 516.27,
-          "stop_suggest": 474.97
+          "weighted": -100.0,
+          "final_score": -45.0,
+          "action": "賣出/避開",
+          "action_color": "#dc2626",
+          "buy_price": null,
+          "stop_suggest": null
         },
         "medium": {
-          "weighted": -42.8,
-          "final_score": 4.4,
+          "weighted": -50.0,
+          "final_score": -15.0,
           "action": "中性觀望",
           "action_color": "#888",
           "buy_price": null,
           "stop_suggest": null
         },
         "long": {
-          "weighted": -64.2,
-          "final_score": -8.5,
+          "weighted": -35.0,
+          "final_score": -6.0,
           "action": "中性觀望",
           "action_color": "#888",
           "buy_price": null,
           "stop_suggest": null
         }
       },
-      "earnings_date": "2026-08-05",
+      "earnings_date": "2026-07-29",
       "sector": "IC設計",
       "streak_days": 0,
       "in_strong_sector": false
     },
     {
-      "stock_id": "2455",
-      "name": "全新",
+      "stock_id": "4977",
+      "name": "眾達-KY",
       "market": "TW",
       "votes": {
         "fundamental": 0,
@@ -3350,40 +3370,38 @@
         "technical": -1
       },
       "vote_notes": {
-        "fundamental": "四維94分(A 體質優)｜成長平緩 YoY+25%｜毛利38.1%｜ROE21.3%",
-        "chip": "外資-502張(中性)",
-        "technical": "跌破MA20（弱勢）｜量比0.27x量縮"
+        "fundamental": "PER 36.7｜偏貴(不否決)｜PBR 3.34",
+        "chip": "外資-152張(中性)",
+        "technical": "跌破MA20（弱勢）"
       },
       "weighted": -25.0,
-      "strategy_score": 1,
-      "signals": [
-        "📊 MA20>MA60多頭"
-      ],
-      "final_score": -10.0,
+      "strategy_score": 0,
+      "signals": [],
+      "final_score": -15.0,
       "positives": 0,
       "negatives": 1,
       "action": "中性觀望",
       "action_color": "#888",
-      "price": 358.0,
-      "rsi": 52.0,
-      "vol_ratio": 0.27,
-      "chg_pct": 2.87,
-      "ma20": 372.58,
-      "support": 317.84,
+      "price": 162.0,
+      "rsi": 35.4,
+      "vol_ratio": 0.93,
+      "chg_pct": 0.93,
+      "ma20": 177.2,
+      "support": 157.0,
       "buy_price": null,
       "stop_suggest": null,
       "tf_scores": {
         "short": {
           "weighted": -50.0,
-          "final_score": -25.0,
-          "action": "中性觀望",
-          "action_color": "#888",
+          "final_score": -30.0,
+          "action": "賣出/避開",
+          "action_color": "#dc2626",
           "buy_price": null,
           "stop_suggest": null
         },
         "medium": {
           "weighted": -25.0,
-          "final_score": -10.0,
+          "final_score": -15.0,
           "action": "中性觀望",
           "action_color": "#888",
           "buy_price": null,
@@ -3391,7 +3409,7 @@
         },
         "long": {
           "weighted": -15.0,
-          "final_score": -4.0,
+          "final_score": -9.0,
           "action": "中性觀望",
           "action_color": "#888",
           "buy_price": null,
@@ -3402,132 +3420,6 @@
       "sector": "CPO光通訊",
       "streak_days": 0,
       "in_strong_sector": true
-    },
-    {
-      "stock_id": "2882",
-      "name": "國泰金",
-      "market": "TW",
-      "votes": {
-        "fundamental": -1,
-        "chip": 0.65,
-        "technical": -1
-      },
-      "vote_notes": {
-        "fundamental": "四維6分(D 體質弱)｜營收衰退 YoY-32%",
-        "chip": "外資買超10,200張｜投信賣超1,762張",
-        "technical": "跌破MA20（弱勢）｜量比0.78x量縮"
-      },
-      "weighted": -58.8,
-      "strategy_score": 5,
-      "signals": [
-        "📊 MA20>MA60多頭",
-        "🔢 扣抵有利",
-        "📐 上升趨勢"
-      ],
-      "final_score": -10.2,
-      "positives": 1,
-      "negatives": 2,
-      "action": "中性觀望",
-      "action_color": "#888",
-      "price": 93.6,
-      "rsi": 45.4,
-      "vol_ratio": 0.78,
-      "chg_pct": 0.11,
-      "ma20": 100.99,
-      "support": 91.72,
-      "buy_price": null,
-      "stop_suggest": null,
-      "tf_scores": {
-        "short": {
-          "weighted": -17.5,
-          "final_score": 14.5,
-          "action": "中性觀望",
-          "action_color": "#888",
-          "buy_price": null,
-          "stop_suggest": null
-        },
-        "medium": {
-          "weighted": -58.8,
-          "final_score": -10.2,
-          "action": "中性觀望",
-          "action_color": "#888",
-          "buy_price": null,
-          "stop_suggest": null
-        },
-        "long": {
-          "weighted": -67.0,
-          "final_score": -15.2,
-          "action": "中性觀望",
-          "action_color": "#888",
-          "buy_price": null,
-          "stop_suggest": null
-        }
-      },
-      "earnings_date": "2026-08-28",
-      "sector": "金融保險",
-      "streak_days": 0,
-      "in_strong_sector": false
-    },
-    {
-      "stock_id": "4966",
-      "name": "譜瑞-KY",
-      "market": "TW",
-      "votes": {
-        "fundamental": 0,
-        "chip": 0.05,
-        "technical": -1
-      },
-      "vote_notes": {
-        "fundamental": "四維91分(A 體質優)｜成長平緩 YoY+1%｜毛利40.3%｜ROE9.5%",
-        "chip": "外資-144張(中性)｜(TWSE暫無→FinMind備援)",
-        "technical": "跌破MA20（弱勢）｜量比0.5x量縮"
-      },
-      "weighted": -23.8,
-      "strategy_score": 0,
-      "signals": [],
-      "final_score": -14.2,
-      "positives": 1,
-      "negatives": 1,
-      "action": "中性觀望",
-      "action_color": "#888",
-      "price": 654.0,
-      "rsi": 45.0,
-      "vol_ratio": 0.5,
-      "chg_pct": -0.3,
-      "ma20": 663.3,
-      "support": 608.0,
-      "buy_price": null,
-      "stop_suggest": null,
-      "tf_scores": {
-        "short": {
-          "weighted": -47.5,
-          "final_score": -28.5,
-          "action": "中性觀望",
-          "action_color": "#888",
-          "buy_price": null,
-          "stop_suggest": null
-        },
-        "medium": {
-          "weighted": -23.8,
-          "final_score": -14.2,
-          "action": "中性觀望",
-          "action_color": "#888",
-          "buy_price": null,
-          "stop_suggest": null
-        },
-        "long": {
-          "weighted": -14.0,
-          "final_score": -8.4,
-          "action": "中性觀望",
-          "action_color": "#888",
-          "buy_price": null,
-          "stop_suggest": null
-        }
-      },
-      "earnings_date": null,
-      "sector": "IC設計",
-      "streak_days": 0,
-      "in_strong_sector": false
     },
     {
       "stock_id": "6147",
@@ -3539,7 +3431,7 @@
         "technical": -1
       },
       "vote_notes": {
-        "fundamental": "四維56分(C 體質中)｜成長平緩 YoY+19%｜毛利23.5%｜ROE3.7%",
+        "fundamental": "PER 58.4｜偏貴(不否決)｜PBR 3.42",
         "chip": "外資賣超2,019張｜投信賣超771張｜(TWSE暫無→FinMind備援)",
         "technical": "跌破MA20（弱勢）"
       },
@@ -3556,7 +3448,7 @@
       "action_color": "#888",
       "price": 215.5,
       "rsi": 48.1,
-      "vol_ratio": 0.84,
+      "vol_ratio": 0.83,
       "chg_pct": 1.89,
       "ma20": 233.31,
       "support": 211.0,
@@ -3594,155 +3486,33 @@
       "in_strong_sector": false
     },
     {
-      "stock_id": "1519",
-      "name": "華城",
+      "stock_id": "6187",
+      "name": "萬潤",
       "market": "TW",
       "votes": {
         "fundamental": 0,
-        "chip": -0.02,
-        "technical": -1
-      },
-      "vote_notes": {
-        "fundamental": "四維84分(A 體質優)｜成長平緩 YoY+10%｜毛利43.6%｜ROE49.3%",
-        "chip": "外資+136張(中性)",
-        "technical": "跌破MA20（弱勢）｜量比0.38x量縮"
-      },
-      "weighted": -25.5,
-      "strategy_score": 0,
-      "signals": [],
-      "final_score": -15.3,
-      "positives": 0,
-      "negatives": 2,
-      "action": "中性觀望",
-      "action_color": "#888",
-      "price": 773.0,
-      "rsi": 44.8,
-      "vol_ratio": 0.38,
-      "chg_pct": 0.39,
-      "ma20": 799.0,
-      "support": 757.0,
-      "buy_price": null,
-      "stop_suggest": null,
-      "tf_scores": {
-        "short": {
-          "weighted": -51.0,
-          "final_score": -30.6,
-          "action": "賣出/避開",
-          "action_color": "#dc2626",
-          "buy_price": null,
-          "stop_suggest": null
-        },
-        "medium": {
-          "weighted": -25.5,
-          "final_score": -15.3,
-          "action": "中性觀望",
-          "action_color": "#888",
-          "buy_price": null,
-          "stop_suggest": null
-        },
-        "long": {
-          "weighted": -15.4,
-          "final_score": -9.2,
-          "action": "中性觀望",
-          "action_color": "#888",
-          "buy_price": null,
-          "stop_suggest": null
-        }
-      },
-      "earnings_date": null,
-      "sector": "重電廠務",
-      "streak_days": 0,
-      "in_strong_sector": false
-    },
-    {
-      "stock_id": "2313",
-      "name": "華通",
-      "market": "TW",
-      "votes": {
-        "fundamental": 0,
-        "chip": -0.98,
-        "technical": -1
-      },
-      "vote_notes": {
-        "fundamental": "四維73分(B 體質良)｜成長平緩 YoY+17%｜毛利18.0%｜ROE12.8%",
-        "chip": "外資賣超1,399張",
-        "technical": "跌破MA20（弱勢）｜量比0.61x量縮"
-      },
-      "weighted": -49.5,
-      "strategy_score": 0,
-      "signals": [],
-      "final_score": -29.7,
-      "positives": 0,
-      "negatives": 2,
-      "action": "中性觀望",
-      "action_color": "#888",
-      "price": 229.5,
-      "rsi": 34.5,
-      "vol_ratio": 0.61,
-      "chg_pct": 0.44,
-      "ma20": 246.88,
-      "support": 220.0,
-      "buy_price": null,
-      "stop_suggest": null,
-      "tf_scores": {
-        "short": {
-          "weighted": -99.0,
-          "final_score": -59.4,
-          "action": "賣出/避開",
-          "action_color": "#dc2626",
-          "buy_price": null,
-          "stop_suggest": null
-        },
-        "medium": {
-          "weighted": -49.5,
-          "final_score": -29.7,
-          "action": "中性觀望",
-          "action_color": "#888",
-          "buy_price": null,
-          "stop_suggest": null
-        },
-        "long": {
-          "weighted": -34.6,
-          "final_score": -20.8,
-          "action": "中性觀望",
-          "action_color": "#888",
-          "buy_price": null,
-          "stop_suggest": null
-        }
-      },
-      "earnings_date": "2026-08-06",
-      "sector": "低軌衛星",
-      "streak_days": 0,
-      "in_strong_sector": true
-    },
-    {
-      "stock_id": "4977",
-      "name": "眾達-KY",
-      "market": "TW",
-      "votes": {
-        "fundamental": -1,
         "chip": 0.0,
         "technical": -1
       },
       "vote_notes": {
-        "fundamental": "四維37分(D 體質弱)｜營收衰退 YoY-24%｜毛利19.7%｜ROE-9.7%",
-        "chip": "外資-152張(中性)",
+        "fundamental": "PER 67.1｜偏貴(不否決)｜PBR 14.60",
+        "chip": "外資+657張(中性)｜(TWSE暫無→FinMind備援)",
         "technical": "跌破MA20（弱勢）"
       },
-      "weighted": -75.0,
+      "weighted": -25.0,
       "strategy_score": 0,
       "signals": [],
-      "final_score": -45.0,
+      "final_score": -15.0,
       "positives": 0,
-      "negatives": 2,
-      "action": "賣出/避開",
-      "action_color": "#dc2626",
-      "price": 162.0,
-      "rsi": 35.4,
-      "vol_ratio": 0.95,
-      "chg_pct": 0.93,
-      "ma20": 177.2,
-      "support": 157.0,
+      "negatives": 1,
+      "action": "中性觀望",
+      "action_color": "#888",
+      "price": 1030.0,
+      "rsi": 46.2,
+      "vol_ratio": 1.06,
+      "chg_pct": 2.49,
+      "ma20": 1095.9,
+      "support": 980.0,
       "buy_price": null,
       "stop_suggest": null,
       "tf_scores": {
@@ -3755,18 +3525,201 @@
           "stop_suggest": null
         },
         "medium": {
-          "weighted": -75.0,
-          "final_score": -45.0,
+          "weighted": -25.0,
+          "final_score": -15.0,
+          "action": "中性觀望",
+          "action_color": "#888",
+          "buy_price": null,
+          "stop_suggest": null
+        },
+        "long": {
+          "weighted": -15.0,
+          "final_score": -9.0,
+          "action": "中性觀望",
+          "action_color": "#888",
+          "buy_price": null,
+          "stop_suggest": null
+        }
+      },
+      "earnings_date": "2026-08-07",
+      "sector": "半導體設備",
+      "streak_days": 0,
+      "in_strong_sector": false
+    },
+    {
+      "stock_id": "3491",
+      "name": "昇達科",
+      "market": "TW",
+      "votes": {
+        "fundamental": 0,
+        "chip": -0.0,
+        "technical": -1
+      },
+      "vote_notes": {
+        "fundamental": "PER 178.7｜偏貴(不否決)｜PBR 26.46",
+        "chip": "外資-23張(中性)｜(TWSE暫無→FinMind備援)",
+        "technical": "跌破MA20（弱勢）｜量比0.41x量縮"
+      },
+      "weighted": -25.0,
+      "strategy_score": 0,
+      "signals": [],
+      "final_score": -15.0,
+      "positives": 0,
+      "negatives": 1,
+      "action": "中性觀望",
+      "action_color": "#888",
+      "price": 1340.0,
+      "rsi": 31.0,
+      "vol_ratio": 0.41,
+      "chg_pct": 5.93,
+      "ma20": 1505.25,
+      "support": 1230.0,
+      "buy_price": null,
+      "stop_suggest": null,
+      "tf_scores": {
+        "short": {
+          "weighted": -50.0,
+          "final_score": -30.0,
           "action": "賣出/避開",
           "action_color": "#dc2626",
           "buy_price": null,
           "stop_suggest": null
         },
+        "medium": {
+          "weighted": -25.0,
+          "final_score": -15.0,
+          "action": "中性觀望",
+          "action_color": "#888",
+          "buy_price": null,
+          "stop_suggest": null
+        },
         "long": {
-          "weighted": -80.0,
-          "final_score": -48.0,
+          "weighted": -15.0,
+          "final_score": -9.0,
+          "action": "中性觀望",
+          "action_color": "#888",
+          "buy_price": null,
+          "stop_suggest": null
+        }
+      },
+      "earnings_date": null,
+      "sector": "低軌衛星",
+      "streak_days": 0,
+      "in_strong_sector": true
+    },
+    {
+      "stock_id": "5388",
+      "name": "中磊",
+      "market": "TW",
+      "votes": {
+        "fundamental": 0,
+        "chip": 0.0,
+        "technical": -1
+      },
+      "vote_notes": {
+        "fundamental": "PER 20.7｜中性｜PBR 1.56",
+        "chip": "外資+869張(中性)",
+        "technical": "跌破MA20（弱勢）｜量比0.58x量縮"
+      },
+      "weighted": -25.0,
+      "strategy_score": 0,
+      "signals": [],
+      "final_score": -15.0,
+      "positives": 0,
+      "negatives": 1,
+      "action": "中性觀望",
+      "action_color": "#888",
+      "price": 81.6,
+      "rsi": 42.4,
+      "vol_ratio": 0.58,
+      "chg_pct": 1.37,
+      "ma20": 82.75,
+      "support": 76.6,
+      "buy_price": null,
+      "stop_suggest": null,
+      "tf_scores": {
+        "short": {
+          "weighted": -50.0,
+          "final_score": -30.0,
           "action": "賣出/避開",
           "action_color": "#dc2626",
+          "buy_price": null,
+          "stop_suggest": null
+        },
+        "medium": {
+          "weighted": -25.0,
+          "final_score": -15.0,
+          "action": "中性觀望",
+          "action_color": "#888",
+          "buy_price": null,
+          "stop_suggest": null
+        },
+        "long": {
+          "weighted": -15.0,
+          "final_score": -9.0,
+          "action": "中性觀望",
+          "action_color": "#888",
+          "buy_price": null,
+          "stop_suggest": null
+        }
+      },
+      "earnings_date": null,
+      "sector": "低軌衛星",
+      "streak_days": 0,
+      "in_strong_sector": true
+    },
+    {
+      "stock_id": "3081",
+      "name": "聯亞",
+      "market": "TW",
+      "votes": {
+        "fundamental": 0,
+        "chip": -0.03,
+        "technical": -1
+      },
+      "vote_notes": {
+        "fundamental": "PER 277.8｜偏貴(不否決)｜PBR 45.83",
+        "chip": "外資+99張(中性)｜(TWSE暫無→FinMind備援)",
+        "technical": "跌破MA20（弱勢）"
+      },
+      "weighted": -25.8,
+      "strategy_score": 0,
+      "signals": [],
+      "final_score": -15.4,
+      "positives": 0,
+      "negatives": 2,
+      "action": "中性觀望",
+      "action_color": "#888",
+      "price": 2100.0,
+      "rsi": 45.6,
+      "vol_ratio": 1.04,
+      "chg_pct": 8.25,
+      "ma20": 2229.5,
+      "support": 1940.0,
+      "buy_price": null,
+      "stop_suggest": null,
+      "tf_scores": {
+        "short": {
+          "weighted": -51.5,
+          "final_score": -30.9,
+          "action": "賣出/避開",
+          "action_color": "#dc2626",
+          "buy_price": null,
+          "stop_suggest": null
+        },
+        "medium": {
+          "weighted": -25.8,
+          "final_score": -15.4,
+          "action": "中性觀望",
+          "action_color": "#888",
+          "buy_price": null,
+          "stop_suggest": null
+        },
+        "long": {
+          "weighted": -15.6,
+          "final_score": -9.4,
+          "action": "中性觀望",
+          "action_color": "#888",
           "buy_price": null,
           "stop_suggest": null
         }
@@ -3775,237 +3728,161 @@
       "sector": "CPO光通訊",
       "streak_days": 0,
       "in_strong_sector": true
+    },
+    {
+      "stock_id": "3653",
+      "name": "健策",
+      "market": "TW",
+      "votes": {
+        "fundamental": 0,
+        "chip": -0.03,
+        "technical": -1
+      },
+      "vote_notes": {
+        "fundamental": "PER 94.3｜偏貴(不否決)｜PBR 23.69",
+        "chip": "外資+11張(中性)",
+        "technical": "跌破MA20（弱勢）｜量比0.73x量縮"
+      },
+      "weighted": -25.8,
+      "strategy_score": 0,
+      "signals": [],
+      "final_score": -15.4,
+      "positives": 0,
+      "negatives": 2,
+      "action": "中性觀望",
+      "action_color": "#888",
+      "price": 3420.0,
+      "rsi": 40.1,
+      "vol_ratio": 0.73,
+      "chg_pct": -1.58,
+      "ma20": 3661.0,
+      "support": 3320.0,
+      "buy_price": null,
+      "stop_suggest": null,
+      "tf_scores": {
+        "short": {
+          "weighted": -51.5,
+          "final_score": -30.9,
+          "action": "賣出/避開",
+          "action_color": "#dc2626",
+          "buy_price": null,
+          "stop_suggest": null
+        },
+        "medium": {
+          "weighted": -25.8,
+          "final_score": -15.4,
+          "action": "中性觀望",
+          "action_color": "#888",
+          "buy_price": null,
+          "stop_suggest": null
+        },
+        "long": {
+          "weighted": -15.6,
+          "final_score": -9.4,
+          "action": "中性觀望",
+          "action_color": "#888",
+          "buy_price": null,
+          "stop_suggest": null
+        }
+      },
+      "earnings_date": "2026-08-11",
+      "sector": "散熱電源",
+      "streak_days": 0,
+      "in_strong_sector": false
+    },
+    {
+      "stock_id": "3665",
+      "name": "貿聯",
+      "market": "TW",
+      "votes": {
+        "fundamental": 0,
+        "chip": -0.07,
+        "technical": -1
+      },
+      "vote_notes": {
+        "fundamental": "PER 43.1｜偏貴(不否決)｜PBR 8.35",
+        "chip": "外資+131張(中性)",
+        "technical": "跌破MA20（弱勢）｜量比0.73x量縮｜RSI 28.6 超賣"
+      },
+      "weighted": -26.8,
+      "strategy_score": 0,
+      "signals": [],
+      "final_score": -16.1,
+      "positives": 0,
+      "negatives": 2,
+      "action": "中性觀望",
+      "action_color": "#888",
+      "price": 1995.0,
+      "rsi": 28.6,
+      "vol_ratio": 0.73,
+      "chg_pct": -2.21,
+      "ma20": 2063.0,
+      "support": 1855.0,
+      "buy_price": null,
+      "stop_suggest": null,
+      "tf_scores": {
+        "short": {
+          "weighted": -53.5,
+          "final_score": -32.1,
+          "action": "賣出/避開",
+          "action_color": "#dc2626",
+          "buy_price": null,
+          "stop_suggest": null
+        },
+        "medium": {
+          "weighted": -26.8,
+          "final_score": -16.1,
+          "action": "中性觀望",
+          "action_color": "#888",
+          "buy_price": null,
+          "stop_suggest": null
+        },
+        "long": {
+          "weighted": -16.4,
+          "final_score": -9.8,
+          "action": "中性觀望",
+          "action_color": "#888",
+          "buy_price": null,
+          "stop_suggest": null
+        }
+      },
+      "earnings_date": "2026-08-21",
+      "sector": "AI連接器",
+      "streak_days": 0,
+      "in_strong_sector": false
     }
   ],
   "buy_top": [
-    {
-      "stock_id": "5483",
-      "name": "中美晶",
-      "market": "TW",
-      "votes": {
-        "fundamental": 1,
-        "chip": 1.0,
-        "technical": 1
-      },
-      "vote_notes": {
-        "fundamental": "四維80分(A 體質優)｜強成長 YoY+54%｜毛利23.2%｜ROE21.1%",
-        "chip": "外資買超5,108張｜(TWSE暫無→FinMind備援)",
-        "technical": "站上MA20+MA60（多頭排列）｜RSI 75.9 超買（強勢續抱）"
-      },
-      "weighted": 100.0,
-      "strategy_score": 8,
-      "signals": [
-        "📊 MA20>MA60多頭",
-        "💥 突破20日高點(量確認)",
-        "🔢 扣抵有利",
-        "📐 上升趨勢"
-      ],
-      "final_score": 100.0,
-      "positives": 3,
-      "negatives": 0,
-      "action": "強力買進",
-      "action_color": "#16a34a",
-      "price": 210.5,
-      "rsi": 75.9,
-      "vol_ratio": 1.32,
-      "chg_pct": 4.73,
-      "ma20": 171.12,
-      "support": 141.0,
-      "buy_price": 210.5,
-      "stop_suggest": 193.66,
-      "tf_scores": {
-        "short": {
-          "weighted": 100.0,
-          "final_score": 100.0,
-          "action": "強力買進",
-          "action_color": "#16a34a",
-          "buy_price": 210.5,
-          "stop_suggest": 193.66
-        },
-        "medium": {
-          "weighted": 100.0,
-          "final_score": 100.0,
-          "action": "強力買進",
-          "action_color": "#16a34a",
-          "buy_price": 210.5,
-          "stop_suggest": 193.66
-        },
-        "long": {
-          "weighted": 100.0,
-          "final_score": 100.0,
-          "action": "強力買進",
-          "action_color": "#16a34a",
-          "buy_price": 210.5,
-          "stop_suggest": 193.66
-        }
-      },
-      "earnings_date": null,
-      "sector": "半導體材料",
-      "streak_days": 2,
-      "in_strong_sector": true
-    },
-    {
-      "stock_id": "2383",
-      "name": "台光電",
-      "market": "TW",
-      "votes": {
-        "fundamental": 1,
-        "chip": 0.02,
-        "technical": 1
-      },
-      "vote_notes": {
-        "fundamental": "四維78分(B 體質良)｜強成長 YoY+121%｜毛利29.4%｜ROE44.5%",
-        "chip": "外資+334張(中性)",
-        "technical": "站上MA20+MA60（多頭排列）｜量比1.59x放量｜RSI 73.4 超買（強勢續抱）"
-      },
-      "weighted": 75.5,
-      "strategy_score": 9,
-      "signals": [
-        "📊 MA20>MA60多頭",
-        "💥 突破20日高點(量確認)",
-        "🔢 扣抵有利",
-        "📐 上升趨勢"
-      ],
-      "final_score": 90.3,
-      "positives": 3,
-      "negatives": 0,
-      "action": "強力買進",
-      "action_color": "#16a34a",
-      "price": 6080.0,
-      "rsi": 73.4,
-      "vol_ratio": 1.59,
-      "chg_pct": 7.52,
-      "ma20": 5331.25,
-      "support": 4770.0,
-      "buy_price": 6080.0,
-      "stop_suggest": 5593.6,
-      "tf_scores": {
-        "short": {
-          "weighted": 51.0,
-          "final_score": 75.6,
-          "action": "強力買進",
-          "action_color": "#16a34a",
-          "buy_price": 6080.0,
-          "stop_suggest": 5593.6
-        },
-        "medium": {
-          "weighted": 75.5,
-          "final_score": 90.3,
-          "action": "強力買進",
-          "action_color": "#16a34a",
-          "buy_price": 6080.0,
-          "stop_suggest": 5593.6
-        },
-        "long": {
-          "weighted": 80.4,
-          "final_score": 93.2,
-          "action": "強力買進",
-          "action_color": "#16a34a",
-          "buy_price": 6080.0,
-          "stop_suggest": 5593.6
-        }
-      },
-      "earnings_date": "2026-07-29",
-      "sector": "ABF載板",
-      "streak_days": 2,
-      "in_strong_sector": true
-    },
-    {
-      "stock_id": "6274",
-      "name": "台燿",
-      "market": "TW",
-      "votes": {
-        "fundamental": 1,
-        "chip": 0.05,
-        "technical": 1
-      },
-      "vote_notes": {
-        "fundamental": "四維72分(B 體質良)｜強成長 YoY+124%｜毛利25.1%｜ROE27.9%",
-        "chip": "外資+65張(中性)｜(TWSE暫無→FinMind備援)",
-        "technical": "站上MA20+MA60（多頭排列）"
-      },
-      "weighted": 76.2,
-      "strategy_score": 6,
-      "signals": [
-        "📊 MA20>MA60多頭",
-        "🔢 扣抵有利",
-        "📐 上升趨勢",
-        "🎯 雙線多頭排列"
-      ],
-      "final_score": 75.8,
-      "positives": 3,
-      "negatives": 0,
-      "action": "強力買進",
-      "action_color": "#16a34a",
-      "price": 1790.0,
-      "rsi": 66.2,
-      "vol_ratio": 1.27,
-      "chg_pct": 5.92,
-      "ma20": 1646.75,
-      "support": 1430.0,
-      "buy_price": 1646.75,
-      "stop_suggest": 1515.01,
-      "tf_scores": {
-        "short": {
-          "weighted": 52.5,
-          "final_score": 61.5,
-          "action": "強力買進",
-          "action_color": "#16a34a",
-          "buy_price": 1646.75,
-          "stop_suggest": 1515.01
-        },
-        "medium": {
-          "weighted": 76.2,
-          "final_score": 75.8,
-          "action": "強力買進",
-          "action_color": "#16a34a",
-          "buy_price": 1646.75,
-          "stop_suggest": 1515.01
-        },
-        "long": {
-          "weighted": 81.0,
-          "final_score": 78.6,
-          "action": "強力買進",
-          "action_color": "#16a34a",
-          "buy_price": 1646.75,
-          "stop_suggest": 1515.01
-        }
-      },
-      "earnings_date": null,
-      "sector": "ABF材料/CCL",
-      "streak_days": 2,
-      "in_strong_sector": true
-    },
     {
       "stock_id": "2615",
       "name": "萬海",
       "market": "TW",
       "votes": {
-        "fundamental": 0,
+        "fundamental": 1,
         "chip": 1.0,
         "technical": 1
       },
       "vote_notes": {
-        "fundamental": "四維89分(A 體質優)｜成長平緩 YoY+23%｜毛利22.8%｜ROE10.7%",
-        "chip": "外資買超10,357張",
-        "technical": "站上MA20+MA60（多頭排列）｜量比2.38x放量"
+        "fundamental": "PER 7.4｜偏便宜｜PBR 0.81",
+        "chip": "外資買超10,357張｜融資大減(籌碼沉澱)",
+        "technical": "站上MA20+MA60（多頭排列）｜量比2.37x放量"
       },
-      "weighted": 50.0,
+      "weighted": 100.0,
       "strategy_score": 6,
       "signals": [
         "📊 MA20>MA60多頭",
         "📐 上升趨勢",
         "🎯 雙線多頭排列",
-        "🔥 爆量2.57x"
+        "🔥 爆量2.56x"
       ],
-      "final_score": 60.0,
-      "positives": 2,
+      "final_score": 90.0,
+      "positives": 3,
       "negatives": 0,
       "action": "強力買進",
       "action_color": "#16a34a",
       "price": 82.8,
       "rsi": 43.4,
-      "vol_ratio": 2.38,
+      "vol_ratio": 2.37,
       "chg_pct": 4.94,
       "ma20": 81.17,
       "support": 76.7,
@@ -4021,17 +3898,17 @@
           "stop_suggest": 75.17
         },
         "medium": {
-          "weighted": 50.0,
-          "final_score": 60.0,
+          "weighted": 100.0,
+          "final_score": 90.0,
           "action": "強力買進",
           "action_color": "#16a34a",
           "buy_price": 81.17,
           "stop_suggest": 75.17
         },
         "long": {
-          "weighted": 35.0,
-          "final_score": 51.0,
-          "action": "買進",
+          "weighted": 100.0,
+          "final_score": 90.0,
+          "action": "強力買進",
           "action_color": "#16a34a",
           "buy_price": 81.17,
           "stop_suggest": 75.17
@@ -4039,261 +3916,312 @@
       },
       "earnings_date": "2026-08-10",
       "sector": "航運",
-      "streak_days": 1,
+      "streak_days": 2,
       "in_strong_sector": true
     },
     {
-      "stock_id": "2382",
-      "name": "廣達",
+      "stock_id": "5483",
+      "name": "中美晶",
       "market": "TW",
       "votes": {
-        "fundamental": 1,
+        "fundamental": 0,
         "chip": 1.0,
         "technical": 1
       },
       "vote_notes": {
-        "fundamental": "四維52分(C 體質中)｜強成長 YoY+94%｜毛利4.8%｜ROE41.1%",
-        "chip": "外資買超1,229張｜投信買超1,974張｜券資比8.9%(軋空潛力)",
-        "technical": "站上MA20+MA60（多頭排列）｜量比0.51x量縮"
+        "fundamental": "PER 31.6｜偏貴(不否決)｜PBR 2.62",
+        "chip": "外資買超5,108張｜(TWSE暫無→FinMind備援)",
+        "technical": "站上MA20+MA60（多頭排列）｜RSI 75.9 超買（強勢續抱）"
       },
-      "weighted": 100.0,
-      "strategy_score": 4,
+      "weighted": 50.0,
+      "strategy_score": 8,
       "signals": [
         "📊 MA20>MA60多頭",
-        "📐 上升趨勢",
-        "🎯 雙線多頭排列"
+        "💥 突破20日高點(量確認)",
+        "🔢 扣抵有利",
+        "📐 上升趨勢"
       ],
-      "final_score": 80.0,
-      "positives": 3,
+      "final_score": 70.0,
+      "positives": 2,
       "negatives": 0,
       "action": "強力買進",
       "action_color": "#16a34a",
-      "price": 377.0,
-      "rsi": 53.8,
-      "vol_ratio": 0.51,
-      "chg_pct": 2.17,
-      "ma20": 372.65,
-      "support": 362.0,
-      "buy_price": 372.65,
-      "stop_suggest": 354.76,
+      "price": 210.5,
+      "rsi": 75.9,
+      "vol_ratio": 1.31,
+      "chg_pct": 4.73,
+      "ma20": 171.12,
+      "support": 141.0,
+      "buy_price": 210.5,
+      "stop_suggest": 193.66,
       "tf_scores": {
         "short": {
           "weighted": 100.0,
-          "final_score": 80.0,
+          "final_score": 100.0,
           "action": "強力買進",
           "action_color": "#16a34a",
-          "buy_price": 372.65,
-          "stop_suggest": 354.76
+          "buy_price": 210.5,
+          "stop_suggest": 193.66
         },
         "medium": {
-          "weighted": 100.0,
-          "final_score": 80.0,
+          "weighted": 50.0,
+          "final_score": 70.0,
           "action": "強力買進",
           "action_color": "#16a34a",
-          "buy_price": 372.65,
-          "stop_suggest": 354.76
+          "buy_price": 210.5,
+          "stop_suggest": 193.66
         },
         "long": {
-          "weighted": 100.0,
-          "final_score": 80.0,
+          "weighted": 35.0,
+          "final_score": 61.0,
           "action": "強力買進",
           "action_color": "#16a34a",
-          "buy_price": 372.65,
-          "stop_suggest": 354.76
+          "buy_price": 210.5,
+          "stop_suggest": 193.66
         }
       },
-      "earnings_date": "2026-08-12",
-      "sector": "AI伺服器",
+      "earnings_date": null,
+      "sector": "半導體材料",
+      "streak_days": 3,
+      "in_strong_sector": true
+    },
+    {
+      "stock_id": "2383",
+      "name": "台光電",
+      "market": "TW",
+      "votes": {
+        "fundamental": 0,
+        "chip": 0.02,
+        "technical": 1
+      },
+      "vote_notes": {
+        "fundamental": "PER 131.6｜偏貴(不否決)｜PBR 45.44",
+        "chip": "外資+334張(中性)",
+        "technical": "站上MA20+MA60（多頭排列）｜RSI 73.4 超買（強勢續抱）"
+      },
+      "weighted": 25.5,
+      "strategy_score": 9,
+      "signals": [
+        "📊 MA20>MA60多頭",
+        "💥 突破20日高點(量確認)",
+        "🔢 扣抵有利",
+        "📐 上升趨勢"
+      ],
+      "final_score": 60.3,
+      "positives": 2,
+      "negatives": 0,
+      "action": "強力買進",
+      "action_color": "#16a34a",
+      "price": 6080.0,
+      "rsi": 73.4,
+      "vol_ratio": 1.45,
+      "chg_pct": 7.52,
+      "ma20": 5331.25,
+      "support": 4770.0,
+      "buy_price": 6080.0,
+      "stop_suggest": 5593.6,
+      "tf_scores": {
+        "short": {
+          "weighted": 51.0,
+          "final_score": 75.6,
+          "action": "強力買進",
+          "action_color": "#16a34a",
+          "buy_price": 6080.0,
+          "stop_suggest": 5593.6
+        },
+        "medium": {
+          "weighted": 25.5,
+          "final_score": 60.3,
+          "action": "強力買進",
+          "action_color": "#16a34a",
+          "buy_price": 6080.0,
+          "stop_suggest": 5593.6
+        },
+        "long": {
+          "weighted": 15.4,
+          "final_score": 54.2,
+          "action": "買進",
+          "action_color": "#16a34a",
+          "buy_price": 6080.0,
+          "stop_suggest": 5593.6
+        }
+      },
+      "earnings_date": "2026-07-29",
+      "sector": "ABF材料/CCL",
+      "streak_days": 3,
+      "in_strong_sector": true
+    },
+    {
+      "stock_id": "3189",
+      "name": "景碩",
+      "market": "TW",
+      "votes": {
+        "fundamental": 0,
+        "chip": 1.0,
+        "technical": 1
+      },
+      "vote_notes": {
+        "fundamental": "PER 243.6｜偏貴(不否決)｜PBR 10.17",
+        "chip": "外資買超1,217張｜投信賣超596張｜融資大減(籌碼沉澱)",
+        "technical": "站上MA20+MA60（多頭排列）｜量比0.13x量縮｜RSI 70.5 超買（強勢續抱）"
+      },
+      "weighted": 50.0,
+      "strategy_score": 6,
+      "signals": [
+        "📊 MA20>MA60多頭",
+        "🔢 扣抵有利",
+        "📐 上升趨勢",
+        "🎯 雙線多頭排列"
+      ],
+      "final_score": 60.0,
+      "positives": 2,
+      "negatives": 0,
+      "action": "強力買進",
+      "action_color": "#16a34a",
+      "price": 833.0,
+      "rsi": 70.5,
+      "vol_ratio": 0.13,
+      "chg_pct": 0.36,
+      "ma20": 742.27,
+      "support": 608.96,
+      "buy_price": 742.27,
+      "stop_suggest": 682.89,
+      "tf_scores": {
+        "short": {
+          "weighted": 100.0,
+          "final_score": 90.0,
+          "action": "強力買進",
+          "action_color": "#16a34a",
+          "buy_price": 742.27,
+          "stop_suggest": 682.89
+        },
+        "medium": {
+          "weighted": 50.0,
+          "final_score": 60.0,
+          "action": "強力買進",
+          "action_color": "#16a34a",
+          "buy_price": 742.27,
+          "stop_suggest": 682.89
+        },
+        "long": {
+          "weighted": 35.0,
+          "final_score": 51.0,
+          "action": "買進",
+          "action_color": "#16a34a",
+          "buy_price": 742.27,
+          "stop_suggest": 682.89
+        }
+      },
+      "earnings_date": "2026-07-27",
+      "sector": "ABF載板",
       "streak_days": 1,
+      "in_strong_sector": true
+    },
+    {
+      "stock_id": "3019",
+      "name": "亞光",
+      "market": "TW",
+      "votes": {
+        "fundamental": 0,
+        "chip": 1.0,
+        "technical": 1
+      },
+      "vote_notes": {
+        "fundamental": "PER 23.3｜中性｜PBR 2.97",
+        "chip": "外資買超1,214張",
+        "technical": "站上MA20+MA60（多頭排列）｜量比0.75x量縮"
+      },
+      "weighted": 50.0,
+      "strategy_score": 6,
+      "signals": [
+        "📊 MA20>MA60多頭",
+        "🔢 扣抵有利",
+        "📐 上升趨勢",
+        "🎯 雙線多頭排列"
+      ],
+      "final_score": 60.0,
+      "positives": 2,
+      "negatives": 0,
+      "action": "強力買進",
+      "action_color": "#16a34a",
+      "price": 152.0,
+      "rsi": 57.4,
+      "vol_ratio": 0.75,
+      "chg_pct": 1.67,
+      "ma20": 147.87,
+      "support": 137.84,
+      "buy_price": 147.87,
+      "stop_suggest": 136.04,
+      "tf_scores": {
+        "short": {
+          "weighted": 100.0,
+          "final_score": 90.0,
+          "action": "強力買進",
+          "action_color": "#16a34a",
+          "buy_price": 147.87,
+          "stop_suggest": 136.04
+        },
+        "medium": {
+          "weighted": 50.0,
+          "final_score": 60.0,
+          "action": "強力買進",
+          "action_color": "#16a34a",
+          "buy_price": 147.87,
+          "stop_suggest": 136.04
+        },
+        "long": {
+          "weighted": 35.0,
+          "final_score": 51.0,
+          "action": "買進",
+          "action_color": "#16a34a",
+          "buy_price": 147.87,
+          "stop_suggest": 136.04
+        }
+      },
+      "earnings_date": null,
+      "sector": "光學鏡頭",
+      "streak_days": 3,
       "in_strong_sector": false
     }
   ],
   "buy_folded": {
-    "半導體材料": [
-      {
-        "stock_id": "1785",
-        "name": "光洋科",
-        "score": 75.0
-      },
-      {
-        "stock_id": "6488",
-        "name": "環球晶",
-        "score": 73.0
-      }
-    ],
-    "ABF材料": [
-      {
-        "stock_id": "4958",
-        "name": "臻鼎-KY",
-        "score": 72.0
-      }
-    ],
-    "ABF載板": [
-      {
-        "stock_id": "8046",
-        "name": "南電",
-        "score": 63.4
-      },
-      {
-        "stock_id": "2368",
-        "name": "金像電",
-        "score": 58.4
-      }
-    ],
     "航運": [
+      {
+        "stock_id": "2609",
+        "name": "陽明",
+        "score": 80.0
+      },
       {
         "stock_id": "2603",
         "name": "長榮",
         "score": 45.0
       }
     ],
-    "AI伺服器": [
+    "ABF材料": [
       {
-        "stock_id": "2059",
-        "name": "川湖",
-        "score": 75.2
-      },
+        "stock_id": "6274",
+        "name": "台燿",
+        "score": 45.8
+      }
+    ],
+    "半導體材料": [
       {
-        "stock_id": "6669",
-        "name": "緯穎",
-        "score": 65.9
+        "stock_id": "1785",
+        "name": "光洋科",
+        "score": 45.0
       }
     ]
   },
-  "watch_top": [
-    {
-      "stock_id": "3017",
-      "name": "奇鋐",
-      "market": "TW",
-      "votes": {
-        "fundamental": 1,
-        "chip": 0.08,
-        "technical": 1
-      },
-      "vote_notes": {
-        "fundamental": "四維78分(B 體質良)｜強成長 YoY+144%｜毛利29.8%｜ROE76.8%",
-        "chip": "外資+295張(中性)",
-        "technical": "站上MA20+MA60（多頭排列）"
-      },
-      "weighted": 77.0,
-      "strategy_score": 0,
-      "signals": [],
-      "final_score": 46.2,
-      "positives": 3,
-      "negatives": 0,
-      "action": "觀察候選",
-      "action_color": "#f59e0b",
-      "price": 2760.0,
-      "rsi": 67.8,
-      "vol_ratio": 1.17,
-      "chg_pct": 0.73,
-      "ma20": 2472.0,
-      "support": 2255.0,
-      "buy_price": 2472.0,
-      "stop_suggest": 2274.24,
-      "tf_scores": {
-        "short": {
-          "weighted": 54.0,
-          "final_score": 32.4,
-          "action": "觀察候選",
-          "action_color": "#f59e0b",
-          "buy_price": 2472.0,
-          "stop_suggest": 2274.24
-        },
-        "medium": {
-          "weighted": 77.0,
-          "final_score": 46.2,
-          "action": "觀察候選",
-          "action_color": "#f59e0b",
-          "buy_price": 2472.0,
-          "stop_suggest": 2274.24
-        },
-        "long": {
-          "weighted": 81.6,
-          "final_score": 49.0,
-          "action": "觀察候選",
-          "action_color": "#f59e0b",
-          "buy_price": 2472.0,
-          "stop_suggest": 2274.24
-        }
-      },
-      "earnings_date": "2026-08-11",
-      "sector": "散熱電源",
-      "streak_days": 0,
-      "in_strong_sector": false
-    }
-  ],
-  "sell_top": [
-    {
-      "stock_id": "4977",
-      "name": "眾達-KY",
-      "market": "TW",
-      "votes": {
-        "fundamental": -1,
-        "chip": 0.0,
-        "technical": -1
-      },
-      "vote_notes": {
-        "fundamental": "四維37分(D 體質弱)｜營收衰退 YoY-24%｜毛利19.7%｜ROE-9.7%",
-        "chip": "外資-152張(中性)",
-        "technical": "跌破MA20（弱勢）"
-      },
-      "weighted": -75.0,
-      "strategy_score": 0,
-      "signals": [],
-      "final_score": -45.0,
-      "positives": 0,
-      "negatives": 2,
-      "action": "賣出/避開",
-      "action_color": "#dc2626",
-      "price": 162.0,
-      "rsi": 35.4,
-      "vol_ratio": 0.95,
-      "chg_pct": 0.93,
-      "ma20": 177.2,
-      "support": 157.0,
-      "buy_price": null,
-      "stop_suggest": null,
-      "tf_scores": {
-        "short": {
-          "weighted": -50.0,
-          "final_score": -30.0,
-          "action": "賣出/避開",
-          "action_color": "#dc2626",
-          "buy_price": null,
-          "stop_suggest": null
-        },
-        "medium": {
-          "weighted": -75.0,
-          "final_score": -45.0,
-          "action": "賣出/避開",
-          "action_color": "#dc2626",
-          "buy_price": null,
-          "stop_suggest": null
-        },
-        "long": {
-          "weighted": -80.0,
-          "final_score": -48.0,
-          "action": "賣出/避開",
-          "action_color": "#dc2626",
-          "buy_price": null,
-          "stop_suggest": null
-        }
-      },
-      "earnings_date": null,
-      "sector": "CPO光通訊",
-      "streak_days": 0,
-      "in_strong_sector": true
-    }
-  ],
+  "watch_top": [],
+  "sell_top": [],
   "by_timeframe": {
     "short": {
       "buy_ids": [
         "5483",
         "2615",
+        "3189",
         "2383",
-        "6274",
-        "2382"
+        "3019"
       ],
       "buy_folded": {
         "航運": [
@@ -4312,33 +4240,19 @@
           {
             "stock_id": "6488",
             "name": "環球晶",
-            "score": 56.1
+            "score": 58.5
           }
         ],
         "ABF材料": [
           {
+            "stock_id": "6274",
+            "name": "台燿",
+            "score": 61.5
+          },
+          {
             "stock_id": "4958",
             "name": "臻鼎-KY",
             "score": 54.0
-          }
-        ],
-        "ABF載板": [
-          {
-            "stock_id": "2368",
-            "name": "金像電",
-            "score": 46.9
-          }
-        ],
-        "AI伺服器": [
-          {
-            "stock_id": "2059",
-            "name": "川湖",
-            "score": 60.3
-          },
-          {
-            "stock_id": "6669",
-            "name": "緯穎",
-            "score": 51.8
           }
         ]
       },
@@ -4346,137 +4260,76 @@
         "3017"
       ],
       "sell_ids": [
+        "4977",
         "3491",
         "5388",
-        "4977",
         "3081",
-        "2313"
+        "6187"
       ]
     },
     "medium": {
       "buy_ids": [
+        "2615",
         "5483",
         "2383",
-        "6274",
-        "2615",
-        "2382"
+        "3189",
+        "3019"
       ],
       "buy_folded": {
-        "半導體材料": [
-          {
-            "stock_id": "1785",
-            "name": "光洋科",
-            "score": 75.0
-          },
-          {
-            "stock_id": "6488",
-            "name": "環球晶",
-            "score": 73.0
-          }
-        ],
-        "ABF材料": [
-          {
-            "stock_id": "4958",
-            "name": "臻鼎-KY",
-            "score": 72.0
-          }
-        ],
-        "ABF載板": [
-          {
-            "stock_id": "8046",
-            "name": "南電",
-            "score": 63.4
-          },
-          {
-            "stock_id": "2368",
-            "name": "金像電",
-            "score": 58.4
-          }
-        ],
         "航運": [
+          {
+            "stock_id": "2609",
+            "name": "陽明",
+            "score": 80.0
+          },
           {
             "stock_id": "2603",
             "name": "長榮",
             "score": 45.0
           }
         ],
-        "AI伺服器": [
+        "ABF材料": [
           {
-            "stock_id": "2059",
-            "name": "川湖",
-            "score": 75.2
-          },
-          {
-            "stock_id": "6669",
-            "name": "緯穎",
-            "score": 65.9
+            "stock_id": "6274",
+            "name": "台燿",
+            "score": 45.8
           }
-        ]
-      },
-      "watch_ids": [
-        "3017"
-      ],
-      "sell_ids": [
-        "4977"
-      ]
-    },
-    "long": {
-      "buy_ids": [
-        "5483",
-        "2383",
-        "6274",
-        "2603",
-        "2891"
-      ],
-      "buy_folded": {
+        ],
         "半導體材料": [
-          {
-            "stock_id": "6488",
-            "name": "環球晶",
-            "score": 76.4
-          },
           {
             "stock_id": "1785",
             "name": "光洋科",
-            "score": 75.0
-          }
-        ],
-        "ABF材料": [
-          {
-            "stock_id": "4958",
-            "name": "臻鼎-KY",
-            "score": 75.6
-          }
-        ],
-        "ABF載板": [
-          {
-            "stock_id": "8046",
-            "name": "南電",
-            "score": 68.8
-          },
-          {
-            "stock_id": "2368",
-            "name": "金像電",
-            "score": 60.8
-          }
-        ],
-        "航運": [
-          {
-            "stock_id": "2615",
-            "name": "萬海",
-            "score": 51.0
+            "score": 45.0
           }
         ]
       },
-      "watch_ids": [
-        "3491",
-        "5388",
-        "3017",
-        "6187"
+      "watch_ids": [],
+      "sell_ids": []
+    },
+    "long": {
+      "buy_ids": [
+        "2615",
+        "5483",
+        "2383",
+        "3189",
+        "2357"
       ],
-      "sell_ids": [
-        "4977"
-      ]
+      "buy_folded": {
+        "航運": [
+          {
+            "stock_id": "2609",
+            "name": "陽明",
+            "score": 80.0
+          },
+          {
+            "stock_id": "2603",
+            "name": "長榮",
+            "score": 57.0
+          }
+        ]
+      },
+      "watch_ids": [],
+      "sell_ids": []
     }
   },
   "market_regime": {
