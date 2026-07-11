@@ -61,12 +61,16 @@
 <div class="tabs">
   <button class="on" data-p="buy" onclick="tab('buy')">🛒 能買</button>
   <button data-p="market" onclick="tab('market')">📊 大盤</button>
+  <button data-p="sector" onclick="tab('sector')">🔄 板塊</button>
+  <button data-p="options" onclick="tab('options')">🎯 期權</button>
   <button data-p="brief" onclick="tab('brief')">🔔 快報</button>
 </div>
 <div class="pane on" id="p-buy"><div class="muted" style="padding:20px;text-align:center">載入中…</div></div>
 <div class="pane" id="p-market"></div>
+<div class="pane" id="p-sector"></div>
+<div class="pane" id="p-options"></div>
 <div class="pane" id="p-brief"></div>
-<div class="foot">市場資料每日多時段自動更新 · 完整功能（持倉/帳務/掃描）請用電腦版<br>下單決策由你拍板，本頁僅供參考</div>
+<div class="foot">市場資料每日多時段自動更新 · 完整功能（持倉/帳務/雷達/決策）請用電腦版<br>下單決策由你拍板，本頁僅供參考</div>
 
 <script>
 const D = {};   // 載入的資料
@@ -179,14 +183,65 @@ function renderBrief(bk){
   document.getElementById('p-brief').innerHTML=html;
 }
 
+// 板塊頁：台股強勢板塊 + 美股ETF輪動 + 動能象限(強勢股，無持股)
+function renderSector(){
+  const el=document.getElementById('p-sector');let html='';
+  const ss=((D.tw||{}).strong_sectors)||[];
+  if(ss.length){
+    html+=`<h3>🇹🇼 台股強勢板塊 <span class="muted" style="font-weight:400">領漲</span></h3><div class="card">`+
+      ss.map(s=>`<div class="row" style="padding:6px 0;border-bottom:1px solid var(--line)">
+        <div><b>${s.sector}</b>${s.consecutive>0?` <span class="muted">連${s.consecutive}日</span>`:''}</div>
+        <div style="color:${col(s.chg)};font-weight:700">${s.chg>=0?'▲':'▼'}${Math.abs(s.chg).toFixed(2)}%</div></div>`).join('')+`</div>`;
+  }
+  const uf=D.usflow||{};
+  if((uf.sectors||[]).length){
+    const bm=uf.benchmark||{};
+    const secs=(uf.sectors||[]).slice().sort((a,b)=>(b.rs||0)-(a.rs||0));
+    html+=`<h3>🇺🇸 美股板塊輪動 <span class="muted" style="font-weight:400">vs ${bm.sym||'SPY'} ${(bm.r20>=0?'+':'')}${(bm.r20||0).toFixed(1)}%(20日)</span></h3>`;
+    if(uf.summary)html+=`<div class="muted" style="margin-bottom:8px">${uf.summary}</div>`;
+    html+=`<div class="card">`+secs.map(s=>{const inflow=s.flow_dir==='in';return `<div class="row" style="padding:7px 0;border-bottom:1px solid var(--line)">
+        <div><b>${s.name}</b> <span class="muted">${s.sym}</span>${s.consecutive>0?` <span class="muted">連${s.consecutive}日${inflow?'流入':'流出'}</span>`:''}</div>
+        <div style="text-align:right"><span class="pill" style="background:${inflow?'#f0fdf4':'#fef2f2'};color:${inflow?'var(--g)':'var(--r)'}">${inflow?'▲流入':'▼流出'}</span>
+        <div class="muted">RS ${s.rs>=0?'+':''}${(s.rs||0).toFixed(1)}｜20日${s.r20>=0?'+':''}${(s.r20||0).toFixed(1)}%</div></div></div>`;}).join('')+`</div>`;
+  }
+  const pts=((D.mom||{}).points)||[];
+  if(pts.length){
+    const groups={};pts.forEach(p=>{(groups[p.quadrant]=groups[p.quadrant]||[]).push(p);});
+    html+=`<h3>🧭 動能象限（強勢股）<span class="muted" style="font-weight:400">近5日×近20日</span></h3>`;
+    Object.keys(groups).forEach(q=>{const arr=groups[q],c=arr[0].quad_color||'#888';
+      html+=`<div class="card"><div class="row" style="margin-bottom:4px"><b style="color:${c}">${q}</b><span class="muted">${arr.length}檔</span></div>`+
+        arr.map(p=>`<div class="row" style="padding:5px 0;border-bottom:1px solid var(--line)">
+          <div><span class="nm" style="font-size:14px">${p.name}</span> <span class="muted">${p.stock_id}${p.in_strong_sector?' ·強板塊':''}</span></div>
+          <div class="muted">5日<b style="color:${col(p.chg5)}">${p.chg5>=0?'+':''}${p.chg5}%</b> 20日<b style="color:${col(p.chg20)}">${p.chg20>=0?'+':''}${p.chg20}%</b></div></div>`).join('')+`</div>`;});
+  }
+  el.innerHTML=html||'<div class="muted" style="padding:20px;text-align:center">無板塊資料</div>';
+}
+
+// 期權頁：命中率彙總 + 信心分級 + 近期已結案(純市場訊號，無持股)
+function renderOptions(){
+  const el=document.getElementById('p-options'),o=D.opt||{},sm=o.summary||{};
+  if(!Object.keys(sm).length){el.innerHTML='<div class="muted" style="padding:20px;text-align:center">無期權資料</div>';return;}
+  const cell=(l,s)=>{if(!s)return '';const done=(s.hit||0)+(s.miss||0);return `<div><div class="l">${l}</div><div class="v" style="color:${s.hit_rate>=50?'var(--g)':'#d97706'}">${done?s.hit_rate+'%':'—'}</div><div class="muted">${s.hit||0}中/${s.miss||0}錯</div></div>`;};
+  let html=`<h3>🎯 期權判讀命中率 <span class="muted" style="font-weight:400">美股·判讀後${o.window_days||''}交易日對答案(累積)</span></h3>
+    <div class="kpi">${cell('偏多',sm.bull)}${cell('偏空',sm.bear)}${cell('中性區間',sm.neutral_range)}${cell('方向性',sm.directional)}</div>`;
+  if(sm.by_confidence){html+=`<h3>依信心分級</h3><div class="kpi">`+['高','中','低'].map(k=>{const s=sm.by_confidence[k];if(!s)return '';const done=(s.hit||0)+(s.miss||0);return `<div><div class="l">信心${k}</div><div class="v" style="color:${s.hit_rate>=50?'var(--g)':'#d97706'}">${done?s.hit_rate+'%':'—'}</div></div>`;}).join('')+`</div>`;}
+  const rec=o.recent||[];
+  if(rec.length){html+=`<h3>近期已結案</h3><div class="card">`+rec.slice(0,20).map(r=>{
+    const bd=r.status==='hit'?['✓命中','var(--g)','#f0fdf4']:r.status==='miss'?['✗未中','var(--r)','#fef2f2']:['持平','var(--mut)','#f1f5f9'];
+    return `<div class="row" style="padding:6px 0;border-bottom:1px solid var(--line)">
+      <div><b>${r.name}</b> <span class="muted">${r.stock_id}${r.direction?' · '+r.direction:''}${r.confidence?' · 信心'+r.confidence:''}</span></div>
+      <div style="text-align:right"><span class="pill" style="background:${bd[2]};color:${bd[1]}">${bd[0]}</span>${r.result_ret_pct!=null?`<div class="muted" style="color:${col(r.result_ret_pct)}">${r.result_ret_pct>=0?'+':''}${r.result_ret_pct}%</div>`:''}</div></div>`;}).join('')+`</div>`;}
+  el.innerHTML=html;
+}
+
 async function load(){
   const f=async n=>{try{const r=await fetch(n+'?t='+Date.now());return r.ok?await r.json():null;}catch(e){return null;}};
-  const [tw,us,brief,hits,backtest]=await Promise.all([f('sector_scan.json'),f('us_scan.json'),f('market_brief.json'),f('actbuy_hits.json'),f('backtest_results.json')]);
-  Object.assign(D,{tw,us,brief,hits,backtest});
+  const [tw,us,brief,hits,backtest,usflow,mom,opt]=await Promise.all([f('sector_scan.json'),f('us_scan.json'),f('market_brief.json'),f('actbuy_hits.json'),f('backtest_results.json'),f('us_sector_flow.json'),f('momentum_quadrant.json'),f('options_hits.json')]);
+  Object.assign(D,{tw,us,brief,hits,backtest,usflow,mom,opt});
   const t=(tw||{}).scan_time||((brief||{}).tw_pre||{}).updated_at;
   document.getElementById('stamp').textContent='資料 '+fmtT(t);
   if(!tw&&!brief){document.getElementById('p-buy').innerHTML='<div class="err">❌ 資料載入失敗，稍後重試</div>';return;}
-  try{renderBuy();renderMarket();renderBrief();}catch(e){document.getElementById('p-buy').innerHTML='<div class="err">❌ '+e.message+'</div>';}
+  try{renderBuy();renderMarket();renderSector();renderOptions();renderBrief();}catch(e){document.getElementById('p-buy').innerHTML='<div class="err">❌ '+e.message+'</div>';}
 }
 load();
 </script>
