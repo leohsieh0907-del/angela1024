@@ -1,6 +1,6 @@
 {
-  "run_at": "2026-09-30T21:29:32.782815",
-  "period": "2022-04 ~ 2026-09",
+  "run_at": "2026-10-01T21:28:54.732908",
+  "period": "2022-04 ~ 2026-10",
   "init_cash": 100000,
   "commission": 0.001425,
   "universes": {
@@ -8,15 +8,15 @@
       "strategies": [
         {
           "name": "Breakout突破",
-          "win_rate": 46.44,
-          "return_pct": 151.79,
+          "win_rate": 46.01,
+          "return_pct": 150.89,
           "sharpe": 0.55,
-          "max_drawdown": -34.18,
-          "trades": 427,
-          "profit_factor": 3.48,
+          "max_drawdown": -34.14,
+          "trades": 426,
+          "profit_factor": 3.44,
           "bull": {
-            "trades": 398,
-            "win_rate": 44.22
+            "trades": 397,
+            "win_rate": 43.83
           },
           "bear": {
             "trades": 29,
@@ -27,129 +27,129 @@
         },
         {
           "name": "扣抵有利",
-          "win_rate": 37.66,
-          "return_pct": 220.26,
-          "sharpe": 0.58,
-          "max_drawdown": -41.68,
-          "trades": 1806,
-          "profit_factor": 2.25,
+          "win_rate": 37.49,
+          "return_pct": 219.62,
+          "sharpe": 0.57,
+          "max_drawdown": -41.73,
+          "trades": 1808,
+          "profit_factor": 2.24,
           "bull": {
-            "trades": 1669,
-            "win_rate": 37.39
+            "trades": 1673,
+            "win_rate": 37.06
           },
           "bear": {
-            "trades": 137,
-            "win_rate": 42.34
+            "trades": 135,
+            "win_rate": 44.44
+          },
+          "grade": "保留",
+          "sharpe_delta": 0.0
+        },
+        {
+          "name": "趨勢線",
+          "win_rate": 39.34,
+          "return_pct": 203.27,
+          "sharpe": 0.54,
+          "max_drawdown": -38.79,
+          "trades": 2107,
+          "profit_factor": 2.22,
+          "bull": {
+            "trades": 1941,
+            "win_rate": 39.36
+          },
+          "bear": {
+            "trades": 166,
+            "win_rate": 37.95
           },
           "grade": "保留",
           "sharpe_delta": 0.01
         },
         {
-          "name": "趨勢線",
-          "win_rate": 39.87,
-          "return_pct": 213.03,
+          "name": "雙線GC+VCP",
+          "win_rate": 29.83,
+          "return_pct": 178.92,
           "sharpe": 0.55,
-          "max_drawdown": -38.77,
-          "trades": 2104,
-          "profit_factor": 2.26,
+          "max_drawdown": -38.41,
+          "trades": 965,
+          "profit_factor": 2.71,
           "bull": {
-            "trades": 1934,
-            "win_rate": 39.56
+            "trades": 890,
+            "win_rate": 28.43
           },
           "bear": {
-            "trades": 170,
-            "win_rate": 43.53
+            "trades": 75,
+            "win_rate": 44.0
           },
           "grade": "保留",
           "sharpe_delta": 0.02
         },
         {
-          "name": "雙線GC+VCP",
-          "win_rate": 29.97,
-          "return_pct": 178.06,
-          "sharpe": 0.54,
-          "max_drawdown": -38.41,
-          "trades": 967,
-          "profit_factor": 2.7,
-          "bull": {
-            "trades": 888,
-            "win_rate": 28.83
-          },
-          "bear": {
-            "trades": 79,
-            "win_rate": 40.51
-          },
-          "grade": "保留",
-          "sharpe_delta": 0.01
-        },
-        {
           "name": "量能爆量",
-          "win_rate": 42.85,
-          "return_pct": 146.39,
-          "sharpe": 0.55,
+          "win_rate": 42.91,
+          "return_pct": 143.63,
+          "sharpe": 0.54,
           "max_drawdown": -34.06,
-          "trades": 685,
-          "profit_factor": 2.94,
+          "trades": 682,
+          "profit_factor": 2.92,
           "bull": {
             "trades": 588,
             "win_rate": 40.48
           },
           "bear": {
-            "trades": 97,
-            "win_rate": 51.55
+            "trades": 94,
+            "win_rate": 52.13
           },
           "grade": "保留",
-          "sharpe_delta": 0.01
+          "sharpe_delta": 0.0
         },
         {
           "name": "MACD+KD雙金叉",
-          "win_rate": 35.57,
-          "return_pct": 139.45,
+          "win_rate": 35.62,
+          "return_pct": 137.82,
           "sharpe": 0.42,
-          "max_drawdown": -37.71,
-          "trades": 564,
-          "profit_factor": 2.97,
+          "max_drawdown": -37.72,
+          "trades": 563,
+          "profit_factor": 2.96,
           "bull": {
             "trades": 539,
             "win_rate": 34.69
           },
           "bear": {
-            "trades": 25,
-            "win_rate": 48.0
+            "trades": 24,
+            "win_rate": 50.0
           },
           "grade": "普通",
           "sharpe_delta": 0.01
         },
         {
           "name": "綜合分數>=5",
-          "win_rate": 39.02,
-          "return_pct": 214.99,
-          "sharpe": 0.59,
+          "win_rate": 39.1,
+          "return_pct": 215.07,
+          "sharpe": 0.58,
           "max_drawdown": -38.03,
-          "trades": 1372,
-          "profit_factor": 2.54,
+          "trades": 1373,
+          "profit_factor": 2.55,
           "bull": {
-            "trades": 1284,
-            "win_rate": 38.86
+            "trades": 1288,
+            "win_rate": 38.66
           },
           "bear": {
-            "trades": 88,
-            "win_rate": 43.18
+            "trades": 85,
+            "win_rate": 47.06
           },
           "grade": "綜合",
-          "sharpe_delta": 0.02
+          "sharpe_delta": 0.01
         }
       ],
       "ranking": [
         "綜合分數>=5",
         "扣抵有利",
         "Breakout突破",
+        "雙線GC+VCP",
         "趨勢線",
         "量能爆量",
-        "雙線GC+VCP",
         "MACD+KD雙金叉"
       ],
-      "verdict": "值得留：Breakout突破、扣抵有利、趨勢線、雙線GC+VCP、量能爆量。 應砍（雜訊/負期望）：MACD+KD雙金叉。 綜合分數>=5 策略報酬 214.99% vs 單一策略平均 174.83%，多訊號共振確實較佳，分數高有意義。",
+      "verdict": "值得留：Breakout突破、扣抵有利、趨勢線、雙線GC+VCP、量能爆量。 應砍（雜訊/負期望）：MACD+KD雙金叉。 綜合分數>=5 策略報酬 215.07% vs 單一策略平均 172.36%，多訊號共振確實較佳，分數高有意義。",
       "changes": [],
       "label": "半導體·趨勢(24檔)",
       "test_symbols": [
@@ -183,15 +183,15 @@
       "strategies": [
         {
           "name": "Breakout突破",
-          "win_rate": 39.11,
-          "return_pct": 78.07,
+          "win_rate": 39.0,
+          "return_pct": 77.94,
           "sharpe": 0.2,
-          "max_drawdown": -30.8,
-          "trades": 810,
-          "profit_factor": 2.33,
+          "max_drawdown": -30.66,
+          "trades": 806,
+          "profit_factor": 2.31,
           "bull": {
-            "trades": 743,
-            "win_rate": 39.17
+            "trades": 739,
+            "win_rate": 39.11
           },
           "bear": {
             "trades": 67,
@@ -202,129 +202,129 @@
         },
         {
           "name": "扣抵有利",
-          "win_rate": 33.53,
-          "return_pct": 111.65,
+          "win_rate": 33.5,
+          "return_pct": 111.77,
           "sharpe": 0.13,
-          "max_drawdown": -40.28,
-          "trades": 3708,
+          "max_drawdown": -40.26,
+          "trades": 3704,
           "profit_factor": 1.63,
           "bull": {
-            "trades": 3368,
-            "win_rate": 33.4
+            "trades": 3374,
+            "win_rate": 33.31
           },
           "bear": {
-            "trades": 340,
-            "win_rate": 33.82
+            "trades": 330,
+            "win_rate": 34.55
           },
           "grade": "雜訊",
           "sharpe_delta": 0.01
         },
         {
           "name": "趨勢線",
-          "win_rate": 35.34,
-          "return_pct": 102.6,
-          "sharpe": 0.1,
-          "max_drawdown": -38.01,
-          "trades": 3999,
-          "profit_factor": 1.58,
+          "win_rate": 35.17,
+          "return_pct": 98.01,
+          "sharpe": 0.09,
+          "max_drawdown": -37.97,
+          "trades": 3996,
+          "profit_factor": 1.56,
           "bull": {
-            "trades": 3603,
-            "win_rate": 35.97
+            "trades": 3611,
+            "win_rate": 35.89
           },
           "bear": {
-            "trades": 396,
-            "win_rate": 33.84
+            "trades": 385,
+            "win_rate": 31.95
           },
           "grade": "雜訊",
-          "sharpe_delta": 0.01
+          "sharpe_delta": 0.0
         },
         {
           "name": "雙線GC+VCP",
-          "win_rate": 26.16,
-          "return_pct": 88.15,
-          "sharpe": 0.13,
-          "max_drawdown": -36.64,
-          "trades": 1898,
-          "profit_factor": 1.86,
+          "win_rate": 26.09,
+          "return_pct": 88.92,
+          "sharpe": 0.14,
+          "max_drawdown": -36.57,
+          "trades": 1893,
+          "profit_factor": 1.87,
           "bull": {
-            "trades": 1704,
-            "win_rate": 25.65
+            "trades": 1706,
+            "win_rate": 25.44
           },
           "bear": {
-            "trades": 194,
-            "win_rate": 28.35
+            "trades": 187,
+            "win_rate": 29.41
           },
           "grade": "雜訊",
-          "sharpe_delta": 0.01
+          "sharpe_delta": 0.02
         },
         {
           "name": "量能爆量",
-          "win_rate": 39.02,
-          "return_pct": 72.61,
+          "win_rate": 39.17,
+          "return_pct": 71.35,
           "sharpe": 0.17,
-          "max_drawdown": -31.78,
-          "trades": 1515,
-          "profit_factor": 1.98,
+          "max_drawdown": -31.7,
+          "trades": 1509,
+          "profit_factor": 1.97,
           "bull": {
             "trades": 1299,
             "win_rate": 36.87
           },
           "bear": {
-            "trades": 216,
-            "win_rate": 44.91
+            "trades": 210,
+            "win_rate": 46.19
           },
           "grade": "雜訊",
           "sharpe_delta": 0.01
         },
         {
           "name": "MACD+KD雙金叉",
-          "win_rate": 32.52,
-          "return_pct": 75.16,
+          "win_rate": 32.54,
+          "return_pct": 74.51,
           "sharpe": 0.17,
           "max_drawdown": -30.96,
-          "trades": 984,
+          "trades": 983,
           "profit_factor": 2.19,
           "bull": {
             "trades": 933,
             "win_rate": 32.69
           },
           "bear": {
-            "trades": 51,
-            "win_rate": 41.18
+            "trades": 50,
+            "win_rate": 42.0
           },
           "grade": "雜訊",
           "sharpe_delta": 0.01
         },
         {
           "name": "綜合分數>=5",
-          "win_rate": 34.11,
-          "return_pct": 107.63,
-          "sharpe": 0.12,
-          "max_drawdown": -37.57,
-          "trades": 2665,
-          "profit_factor": 1.76,
+          "win_rate": 34.21,
+          "return_pct": 108.07,
+          "sharpe": 0.13,
+          "max_drawdown": -37.5,
+          "trades": 2662,
+          "profit_factor": 1.77,
           "bull": {
-            "trades": 2432,
-            "win_rate": 34.87
+            "trades": 2437,
+            "win_rate": 34.8
           },
           "bear": {
-            "trades": 233,
-            "win_rate": 29.18
+            "trades": 225,
+            "win_rate": 30.67
           },
           "grade": "綜合",
-          "sharpe_delta": 0.01
+          "sharpe_delta": 0.02
         }
       ],
       "ranking": [
         "Breakout突破",
         "量能爆量",
         "MACD+KD雙金叉",
-        "扣抵有利",
         "雙線GC+VCP",
+        "扣抵有利",
         "綜合分數>=5",
         "趨勢線"
       ],
-      "verdict": "值得留：無。 應砍（雜訊/負期望）：Breakout突破、扣抵有利、趨勢線、雙線GC+VCP、量能爆量、MACD+KD雙金叉。 綜合分數>=5 策略報酬 107.63% vs 單一策略平均 88.04%，多訊號共振確實較佳，分數高有意義。",
+      "verdict": "值得留：無。 應砍（雜訊/負期望）：Breakout突破、扣抵有利、趨勢線、雙線GC+VCP、量能爆量、MACD+KD雙金叉。 綜合分數>=5 策略報酬 108.07% vs 單一策略平均 87.08%，多訊號共振確實較佳，分數高有意義。",
       "changes": [
         {
           "name": "Breakout突破",
@@ -441,15 +441,15 @@
   "strategies": [
     {
       "name": "Breakout突破",
-      "win_rate": 39.11,
-      "return_pct": 78.07,
+      "win_rate": 39.0,
+      "return_pct": 77.94,
       "sharpe": 0.2,
-      "max_drawdown": -30.8,
-      "trades": 810,
-      "profit_factor": 2.33,
+      "max_drawdown": -30.66,
+      "trades": 806,
+      "profit_factor": 2.31,
       "bull": {
-        "trades": 743,
-        "win_rate": 39.17
+        "trades": 739,
+        "win_rate": 39.11
       },
       "bear": {
         "trades": 67,
@@ -460,129 +460,129 @@
     },
     {
       "name": "扣抵有利",
-      "win_rate": 33.53,
-      "return_pct": 111.65,
+      "win_rate": 33.5,
+      "return_pct": 111.77,
       "sharpe": 0.13,
-      "max_drawdown": -40.28,
-      "trades": 3708,
+      "max_drawdown": -40.26,
+      "trades": 3704,
       "profit_factor": 1.63,
       "bull": {
-        "trades": 3368,
-        "win_rate": 33.4
+        "trades": 3374,
+        "win_rate": 33.31
       },
       "bear": {
-        "trades": 340,
-        "win_rate": 33.82
+        "trades": 330,
+        "win_rate": 34.55
       },
       "grade": "雜訊",
       "sharpe_delta": 0.01
     },
     {
       "name": "趨勢線",
-      "win_rate": 35.34,
-      "return_pct": 102.6,
-      "sharpe": 0.1,
-      "max_drawdown": -38.01,
-      "trades": 3999,
-      "profit_factor": 1.58,
+      "win_rate": 35.17,
+      "return_pct": 98.01,
+      "sharpe": 0.09,
+      "max_drawdown": -37.97,
+      "trades": 3996,
+      "profit_factor": 1.56,
       "bull": {
-        "trades": 3603,
-        "win_rate": 35.97
+        "trades": 3611,
+        "win_rate": 35.89
       },
       "bear": {
-        "trades": 396,
-        "win_rate": 33.84
+        "trades": 385,
+        "win_rate": 31.95
       },
       "grade": "雜訊",
-      "sharpe_delta": 0.01
+      "sharpe_delta": 0.0
     },
     {
       "name": "雙線GC+VCP",
-      "win_rate": 26.16,
-      "return_pct": 88.15,
-      "sharpe": 0.13,
-      "max_drawdown": -36.64,
-      "trades": 1898,
-      "profit_factor": 1.86,
+      "win_rate": 26.09,
+      "return_pct": 88.92,
+      "sharpe": 0.14,
+      "max_drawdown": -36.57,
+      "trades": 1893,
+      "profit_factor": 1.87,
       "bull": {
-        "trades": 1704,
-        "win_rate": 25.65
+        "trades": 1706,
+        "win_rate": 25.44
       },
       "bear": {
-        "trades": 194,
-        "win_rate": 28.35
+        "trades": 187,
+        "win_rate": 29.41
       },
       "grade": "雜訊",
-      "sharpe_delta": 0.01
+      "sharpe_delta": 0.02
     },
     {
       "name": "量能爆量",
-      "win_rate": 39.02,
-      "return_pct": 72.61,
+      "win_rate": 39.17,
+      "return_pct": 71.35,
       "sharpe": 0.17,
-      "max_drawdown": -31.78,
-      "trades": 1515,
-      "profit_factor": 1.98,
+      "max_drawdown": -31.7,
+      "trades": 1509,
+      "profit_factor": 1.97,
       "bull": {
         "trades": 1299,
         "win_rate": 36.87
       },
       "bear": {
-        "trades": 216,
-        "win_rate": 44.91
+        "trades": 210,
+        "win_rate": 46.19
       },
       "grade": "雜訊",
       "sharpe_delta": 0.01
     },
     {
       "name": "MACD+KD雙金叉",
-      "win_rate": 32.52,
-      "return_pct": 75.16,
+      "win_rate": 32.54,
+      "return_pct": 74.51,
       "sharpe": 0.17,
       "max_drawdown": -30.96,
-      "trades": 984,
+      "trades": 983,
       "profit_factor": 2.19,
       "bull": {
         "trades": 933,
         "win_rate": 32.69
       },
       "bear": {
-        "trades": 51,
-        "win_rate": 41.18
+        "trades": 50,
+        "win_rate": 42.0
       },
       "grade": "雜訊",
       "sharpe_delta": 0.01
     },
     {
       "name": "綜合分數>=5",
-      "win_rate": 34.11,
-      "return_pct": 107.63,
-      "sharpe": 0.12,
-      "max_drawdown": -37.57,
-      "trades": 2665,
-      "profit_factor": 1.76,
+      "win_rate": 34.21,
+      "return_pct": 108.07,
+      "sharpe": 0.13,
+      "max_drawdown": -37.5,
+      "trades": 2662,
+      "profit_factor": 1.77,
       "bull": {
-        "trades": 2432,
-        "win_rate": 34.87
+        "trades": 2437,
+        "win_rate": 34.8
       },
       "bear": {
-        "trades": 233,
-        "win_rate": 29.18
+        "trades": 225,
+        "win_rate": 30.67
       },
       "grade": "綜合",
-      "sharpe_delta": 0.01
+      "sharpe_delta": 0.02
     }
   ],
   "ranking": [
     "Breakout突破",
     "量能爆量",
     "MACD+KD雙金叉",
-    "扣抵有利",
     "雙線GC+VCP",
+    "扣抵有利",
     "綜合分數>=5",
     "趨勢線"
   ],
-  "verdict": "值得留：無。 應砍（雜訊/負期望）：Breakout突破、扣抵有利、趨勢線、雙線GC+VCP、量能爆量、MACD+KD雙金叉。 綜合分數>=5 策略報酬 107.63% vs 單一策略平均 88.04%，多訊號共振確實較佳，分數高有意義。",
+  "verdict": "值得留：無。 應砍（雜訊/負期望）：Breakout突破、扣抵有利、趨勢線、雙線GC+VCP、量能爆量、MACD+KD雙金叉。 綜合分數>=5 策略報酬 108.07% vs 單一策略平均 87.08%，多訊號共振確實較佳，分數高有意義。",
   "changes": [
     {
       "name": "Breakout突破",
