@@ -1,9 +1,181 @@
 {
-  "scan_time": "2026-11-09T20:36:19.333209",
+  "scan_time": "2026-11-10T15:42:38.856503",
   "total_scanned": 32,
   "valid_data": 32,
   "data_error": false,
   "results": [
+    {
+      "stock_id": "MSFT",
+      "name": "微軟",
+      "sector": "科技巨頭",
+      "market": "US",
+      "votes": {
+        "fundamental": 0,
+        "chip": 0,
+        "technical": 1
+      },
+      "vote_notes": {
+        "fundamental": "PER 28.5｜中性｜PBR 8.61",
+        "chip": "美股無台股法人",
+        "technical": "站上MA20+MA60（多頭排列）"
+      },
+      "weighted": 50.0,
+      "final_score": 56.7,
+      "strategy_score": 4,
+      "signals": [
+        "扣抵有利",
+        "趨勢線",
+        "雙線GC+VCP",
+        "MACD+KD金叉"
+      ],
+      "action": "買進",
+      "action_color": "#16a34a",
+      "price": 545.18,
+      "rsi": 54.8,
+      "vol_ratio": 0.97,
+      "chg_pct": 2.75,
+      "ma20": 531.61,
+      "support": 507.12,
+      "chg5": 7.5,
+      "chg20": 0.7,
+      "above_ma20": true,
+      "pe": 28.5,
+      "buy_price": 531.61,
+      "stop_suggest": 496.98,
+      "tf_scores": {
+        "short": {
+          "weighted": 80.0,
+          "final_score": 74.7,
+          "action": "強力買進",
+          "action_color": "#16a34a",
+          "buy_price": 531.61,
+          "stop_suggest": 496.98
+        },
+        "medium": {
+          "weighted": 50.0,
+          "final_score": 56.7,
+          "action": "買進",
+          "action_color": "#16a34a",
+          "buy_price": 531.61,
+          "stop_suggest": 496.98
+        }
+      },
+      "earnings_date": "2027-01-28"
+    },
+    {
+      "stock_id": "TXN",
+      "name": "德州儀器",
+      "sector": "半導體設備/IDM",
+      "market": "US",
+      "votes": {
+        "fundamental": 0,
+        "chip": 0,
+        "technical": 1
+      },
+      "vote_notes": {
+        "fundamental": "PER 38.4｜偏貴(不否決)｜PBR 14.09",
+        "chip": "美股無台股法人",
+        "technical": "站上MA20+MA60（多頭排列）"
+      },
+      "weighted": 50.0,
+      "final_score": 50.0,
+      "strategy_score": 3,
+      "signals": [
+        "扣抵有利",
+        "趨勢線",
+        "雙線GC+VCP"
+      ],
+      "action": "買進",
+      "action_color": "#16a34a",
+      "price": 295.73,
+      "rsi": 58.0,
+      "vol_ratio": 1.09,
+      "chg_pct": 6.62,
+      "ma20": 290.83,
+      "support": 274.81,
+      "chg5": -2.1,
+      "chg20": 5.5,
+      "above_ma20": true,
+      "pe": 38.4,
+      "buy_price": 290.83,
+      "stop_suggest": 269.31,
+      "tf_scores": {
+        "short": {
+          "weighted": 80.0,
+          "final_score": 68.0,
+          "action": "強力買進",
+          "action_color": "#16a34a",
+          "buy_price": 290.83,
+          "stop_suggest": 269.31
+        },
+        "medium": {
+          "weighted": 50.0,
+          "final_score": 50.0,
+          "action": "買進",
+          "action_color": "#16a34a",
+          "buy_price": 290.83,
+          "stop_suggest": 269.31
+        }
+      },
+      "earnings_date": "2027-01-27"
+    },
+    {
+      "stock_id": "AAPL",
+      "name": "蘋果",
+      "sector": "科技巨頭",
+      "market": "US",
+      "votes": {
+        "fundamental": 0,
+        "chip": 0,
+        "technical": 1
+      },
+      "vote_notes": {
+        "fundamental": "PER 39.1｜偏貴(不否決)｜PBR 45.47",
+        "chip": "美股無台股法人",
+        "technical": "站上MA20+MA60（多頭排列）"
+      },
+      "weighted": 50.0,
+      "final_score": 50.0,
+      "strategy_score": 3,
+      "signals": [
+        "扣抵有利",
+        "趨勢線",
+        "雙線GC+VCP"
+      ],
+      "action": "買進",
+      "action_color": "#16a34a",
+      "price": 350.69,
+      "rsi": 57.5,
+      "vol_ratio": 0.98,
+      "chg_pct": 2.43,
+      "ma20": 343.87,
+      "support": 331.9,
+      "chg5": 3.7,
+      "chg20": 2.9,
+      "above_ma20": true,
+      "pe": 39.1,
+      "buy_price": 343.87,
+      "stop_suggest": 325.26,
+      "tf_scores": {
+        "short": {
+          "weighted": 80.0,
+          "final_score": 68.0,
+          "action": "強力買進",
+          "action_color": "#16a34a",
+          "buy_price": 343.87,
+          "stop_suggest": 325.26
+        },
+        "medium": {
+          "weighted": 50.0,
+          "final_score": 50.0,
+          "action": "買進",
+          "action_color": "#16a34a",
+          "buy_price": 343.87,
+          "stop_suggest": 325.26
+        }
+      },
+      "earnings_date": "2027-01-29"
+    },
     {
       "stock_id": "AMZN",
       "name": "亞馬遜",
@@ -15,7 +187,7 @@
         "technical": 1
       },
       "vote_notes": {
-        "fundamental": "PER 21.0｜中性｜PBR 4.57",
+        "fundamental": "PER 21.6｜中性｜PBR 4.70",
         "chip": "美股無台股法人",
         "technical": "站上MA20+MA60（多頭排列）"
       },
@@ -27,17 +199,17 @@
       ],
       "action": "觀察候選",
       "action_color": "#f59e0b",
-      "price": 259.3,
-      "rsi": 47.7,
-      "vol_ratio": 0.88,
-      "chg_pct": -0.35,
-      "ma20": 254.28,
+      "price": 266.93,
+      "rsi": 52.8,
+      "vol_ratio": 1.04,
+      "chg_pct": 2.94,
+      "ma20": 254.65,
       "support": 240.35,
-      "chg5": 7.9,
-      "chg20": -1.2,
+      "chg5": 8.7,
+      "chg20": 2.9,
       "above_ma20": true,
-      "pe": 21.0,
-      "buy_price": 254.28,
+      "pe": 21.6,
+      "buy_price": 254.65,
       "stop_suggest": 235.54,
       "tf_scores": {
         "short": {
@@ -45,7 +217,7 @@
           "final_score": 54.7,
           "action": "觀察候選",
           "action_color": "#f59e0b",
-          "buy_price": 254.28,
+          "buy_price": 254.65,
           "stop_suggest": 235.54
         },
         "medium": {
@@ -53,7 +225,7 @@
           "final_score": 36.7,
           "action": "觀察候選",
           "action_color": "#f59e0b",
-          "buy_price": 254.28,
+          "buy_price": 254.65,
           "stop_suggest": 235.54
         }
       },
@@ -70,7 +242,7 @@
         "technical": -1
       },
       "vote_notes": {
-        "fundamental": "PER 9.3｜偏便宜｜PBR 5.64",
+        "fundamental": "PER 9.9｜偏便宜｜PBR 5.99",
         "chip": "美股無台股法人",
         "technical": "跌破MA20（弱勢）"
       },
@@ -80,16 +252,16 @@
       "signals": [],
       "action": "中性觀望",
       "action_color": "#888",
-      "price": 690.0,
-      "rsi": 32.5,
-      "vol_ratio": 1.47,
-      "chg_pct": 5.12,
-      "ma20": 878.99,
+      "price": 733.15,
+      "rsi": 37.4,
+      "vol_ratio": 1.03,
+      "chg_pct": 6.25,
+      "ma20": 866.2,
       "support": 656.39,
-      "chg5": -22.0,
-      "chg20": -32.9,
+      "chg5": -12.0,
+      "chg20": -25.9,
       "above_ma20": false,
-      "pe": 9.3,
+      "pe": 9.9,
       "buy_price": null,
       "stop_suggest": null,
       "tf_scores": {
@@ -133,14 +305,14 @@
       "signals": [],
       "action": "中性觀望",
       "action_color": "#888",
-      "price": 63.31,
-      "rsi": 36.3,
-      "vol_ratio": 1.26,
-      "chg_pct": 0.48,
-      "ma20": 72.92,
+      "price": 69.11,
+      "rsi": 41.7,
+      "vol_ratio": 1.18,
+      "chg_pct": 9.16,
+      "ma20": 72.58,
       "support": 63.01,
-      "chg5": -11.7,
-      "chg20": -18.3,
+      "chg5": -1.4,
+      "chg20": -9.1,
       "above_ma20": false,
       "pe": null,
       "buy_price": null,
@@ -166,228 +338,6 @@
       "earnings_date": null
     },
     {
-      "stock_id": "AAPL",
-      "name": "蘋果",
-      "sector": "科技巨頭",
-      "market": "US",
-      "votes": {
-        "fundamental": 0,
-        "chip": 0,
-        "technical": -1
-      },
-      "vote_notes": {
-        "fundamental": "PER 38.1｜偏貴(不否決)｜PBR 44.39",
-        "chip": "美股無台股法人",
-        "technical": "跌破MA20（弱勢）"
-      },
-      "weighted": -50.0,
-      "final_score": -16.7,
-      "strategy_score": 2,
-      "signals": [
-        "扣抵有利",
-        "趨勢線"
-      ],
-      "action": "中性觀望",
-      "action_color": "#888",
-      "price": 342.37,
-      "rsi": 49.6,
-      "vol_ratio": 0.92,
-      "chg_pct": -0.52,
-      "ma20": 343.38,
-      "support": 331.9,
-      "chg5": -0.7,
-      "chg20": 1.7,
-      "above_ma20": false,
-      "pe": 38.1,
-      "buy_price": null,
-      "stop_suggest": null,
-      "tf_scores": {
-        "short": {
-          "weighted": -80.0,
-          "final_score": -34.7,
-          "action": "賣出/避開",
-          "action_color": "#dc2626",
-          "buy_price": null,
-          "stop_suggest": null
-        },
-        "medium": {
-          "weighted": -50.0,
-          "final_score": -16.7,
-          "action": "中性觀望",
-          "action_color": "#888",
-          "buy_price": null,
-          "stop_suggest": null
-        }
-      },
-      "earnings_date": "2027-01-29"
-    },
-    {
-      "stock_id": "MSFT",
-      "name": "微軟",
-      "sector": "科技巨頭",
-      "market": "US",
-      "votes": {
-        "fundamental": 0,
-        "chip": 0,
-        "technical": -1
-      },
-      "vote_notes": {
-        "fundamental": "PER 27.7｜中性｜PBR 8.38",
-        "chip": "美股無台股法人",
-        "technical": "跌破MA20（弱勢）"
-      },
-      "weighted": -50.0,
-      "final_score": -16.7,
-      "strategy_score": 2,
-      "signals": [
-        "扣抵有利",
-        "趨勢線"
-      ],
-      "action": "中性觀望",
-      "action_color": "#888",
-      "price": 530.61,
-      "rsi": 48.8,
-      "vol_ratio": 1.05,
-      "chg_pct": -0.99,
-      "ma20": 531.41,
-      "support": 507.12,
-      "chg5": 1.7,
-      "chg20": -0.8,
-      "above_ma20": false,
-      "pe": 27.7,
-      "buy_price": null,
-      "stop_suggest": null,
-      "tf_scores": {
-        "short": {
-          "weighted": -80.0,
-          "final_score": -34.7,
-          "action": "賣出/避開",
-          "action_color": "#dc2626",
-          "buy_price": null,
-          "stop_suggest": null
-        },
-        "medium": {
-          "weighted": -50.0,
-          "final_score": -16.7,
-          "action": "中性觀望",
-          "action_color": "#888",
-          "buy_price": null,
-          "stop_suggest": null
-        }
-      },
-      "earnings_date": "2027-01-28"
-    },
-    {
-      "stock_id": "TXN",
-      "name": "德州儀器",
-      "sector": "半導體設備/IDM",
-      "market": "US",
-      "votes": {
-        "fundamental": 0,
-        "chip": 0,
-        "technical": -1
-      },
-      "vote_notes": {
-        "fundamental": "PER 36.0｜偏貴(不否決)｜PBR 13.21",
-        "chip": "美股無台股法人",
-        "technical": "跌破MA20（弱勢）"
-      },
-      "weighted": -50.0,
-      "final_score": -23.3,
-      "strategy_score": 1,
-      "signals": [
-        "趨勢線"
-      ],
-      "action": "中性觀望",
-      "action_color": "#888",
-      "price": 277.36,
-      "rsi": 51.2,
-      "vol_ratio": 1.11,
-      "chg_pct": -0.28,
-      "ma20": 290.06,
-      "support": 274.81,
-      "chg5": -7.8,
-      "chg20": -1.8,
-      "above_ma20": false,
-      "pe": 36.0,
-      "buy_price": null,
-      "stop_suggest": null,
-      "tf_scores": {
-        "short": {
-          "weighted": -80.0,
-          "final_score": -41.3,
-          "action": "賣出/避開",
-          "action_color": "#dc2626",
-          "buy_price": null,
-          "stop_suggest": null
-        },
-        "medium": {
-          "weighted": -50.0,
-          "final_score": -23.3,
-          "action": "中性觀望",
-          "action_color": "#888",
-          "buy_price": null,
-          "stop_suggest": null
-        }
-      },
-      "earnings_date": "2027-01-27"
-    },
-    {
-      "stock_id": "NET",
-      "name": "Cloudflare",
-      "sector": "軟體/雲端",
-      "market": "US",
-      "votes": {
-        "fundamental": 0,
-        "chip": 0,
-        "technical": -1
-      },
-      "vote_notes": {
-        "fundamental": "PER 147.2｜偏貴(不否決)｜PBR 65.73",
-        "chip": "美股無台股法人",
-        "technical": "跌破MA20（弱勢）｜量比2.39x放量"
-      },
-      "weighted": -50.0,
-      "final_score": -23.3,
-      "strategy_score": 1,
-      "signals": [
-        "量能爆量2.6x"
-      ],
-      "action": "中性觀望",
-      "action_color": "#888",
-      "price": 268.75,
-      "rsi": 42.1,
-      "vol_ratio": 2.39,
-      "chg_pct": 9.91,
-      "ma20": 302.47,
-      "support": 244.51,
-      "chg5": -4.3,
-      "chg20": -25.5,
-      "above_ma20": false,
-      "pe": 147.2,
-      "buy_price": null,
-      "stop_suggest": null,
-      "tf_scores": {
-        "short": {
-          "weighted": -80.0,
-          "final_score": -41.3,
-          "action": "賣出/避開",
-          "action_color": "#dc2626",
-          "buy_price": null,
-          "stop_suggest": null
-        },
-        "medium": {
-          "weighted": -50.0,
-          "final_score": -23.3,
-          "action": "中性觀望",
-          "action_color": "#888",
-          "buy_price": null,
-          "stop_suggest": null
-        }
-      },
-      "earnings_date": null
-    },
-    {
       "stock_id": "NVDA",
       "name": "輝達",
       "sector": "AI/半導體龍頭",
@@ -398,32 +348,34 @@
         "technical": -1
       },
       "vote_notes": {
-        "fundamental": "PER 23.6｜中性｜PBR 19.68",
+        "fundamental": "PER 22.6｜中性｜PBR 18.84",
         "chip": "美股無台股法人",
-        "technical": "跌破MA20（弱勢）｜量比1.53x放量｜RSI 29.6 超賣"
+        "technical": "跌破MA20（弱勢）｜量比3.35x放量｜RSI 27.0 超賣"
       },
       "weighted": -50.0,
-      "final_score": -30.0,
-      "strategy_score": 0,
-      "signals": [],
-      "action": "賣出/避開",
-      "action_color": "#dc2626",
-      "price": 186.64,
-      "rsi": 29.6,
-      "vol_ratio": 1.53,
-      "chg_pct": 2.78,
-      "ma20": 211.55,
-      "support": 181.6,
-      "chg5": -8.8,
-      "chg20": -18.6,
+      "final_score": -23.3,
+      "strategy_score": 1,
+      "signals": [
+        "量能爆量3.9x"
+      ],
+      "action": "中性觀望",
+      "action_color": "#888",
+      "price": 178.67,
+      "rsi": 27.0,
+      "vol_ratio": 3.35,
+      "chg_pct": -4.27,
+      "ma20": 209.16,
+      "support": 178.67,
+      "chg5": -11.6,
+      "chg20": -21.1,
       "above_ma20": false,
-      "pe": 23.6,
+      "pe": 22.6,
       "buy_price": null,
       "stop_suggest": null,
       "tf_scores": {
         "short": {
           "weighted": -80.0,
-          "final_score": -48.0,
+          "final_score": -41.3,
           "action": "賣出/避開",
           "action_color": "#dc2626",
           "buy_price": null,
@@ -431,14 +383,124 @@
         },
         "medium": {
           "weighted": -50.0,
-          "final_score": -30.0,
-          "action": "賣出/避開",
-          "action_color": "#dc2626",
+          "final_score": -23.3,
+          "action": "中性觀望",
+          "action_color": "#888",
           "buy_price": null,
           "stop_suggest": null
         }
       },
       "earnings_date": "2026-11-18"
+    },
+    {
+      "stock_id": "ADI",
+      "name": "亞德諾",
+      "sector": "半導體設備/IDM",
+      "market": "US",
+      "votes": {
+        "fundamental": 0,
+        "chip": 0,
+        "technical": -1
+      },
+      "vote_notes": {
+        "fundamental": "PER 46.9｜偏貴(不否決)｜PBR 5.70",
+        "chip": "美股無台股法人",
+        "technical": "跌破MA20（弱勢）"
+      },
+      "weighted": -50.0,
+      "final_score": -23.3,
+      "strategy_score": 1,
+      "signals": [
+        "趨勢線"
+      ],
+      "action": "中性觀望",
+      "action_color": "#888",
+      "price": 394.66,
+      "rsi": 49.4,
+      "vol_ratio": 1.31,
+      "chg_pct": 8.55,
+      "ma20": 403.1,
+      "support": 361.01,
+      "chg5": -4.4,
+      "chg20": -2.9,
+      "above_ma20": false,
+      "pe": 46.9,
+      "buy_price": null,
+      "stop_suggest": null,
+      "tf_scores": {
+        "short": {
+          "weighted": -80.0,
+          "final_score": -41.3,
+          "action": "賣出/避開",
+          "action_color": "#dc2626",
+          "buy_price": null,
+          "stop_suggest": null
+        },
+        "medium": {
+          "weighted": -50.0,
+          "final_score": -23.3,
+          "action": "中性觀望",
+          "action_color": "#888",
+          "buy_price": null,
+          "stop_suggest": null
+        }
+      },
+      "earnings_date": "2026-11-24"
+    },
+    {
+      "stock_id": "TSLA",
+      "name": "特斯拉",
+      "sector": "科技巨頭",
+      "market": "US",
+      "votes": {
+        "fundamental": 0,
+        "chip": 0,
+        "technical": -1
+      },
+      "vote_notes": {
+        "fundamental": "PER 415.4｜偏貴(不否決)｜PBR 16.74",
+        "chip": "美股無台股法人",
+        "technical": "跌破MA20（弱勢）"
+      },
+      "weighted": -50.0,
+      "final_score": -23.3,
+      "strategy_score": 1,
+      "signals": [
+        "趨勢線"
+      ],
+      "action": "中性觀望",
+      "action_color": "#888",
+      "price": 378.05,
+      "rsi": 51.3,
+      "vol_ratio": 0.89,
+      "chg_pct": 5.54,
+      "ma20": 380.42,
+      "support": 343.69,
+      "chg5": -6.4,
+      "chg20": 0.0,
+      "above_ma20": false,
+      "pe": 415.4,
+      "buy_price": null,
+      "stop_suggest": null,
+      "tf_scores": {
+        "short": {
+          "weighted": -80.0,
+          "final_score": -41.3,
+          "action": "賣出/避開",
+          "action_color": "#dc2626",
+          "buy_price": null,
+          "stop_suggest": null
+        },
+        "medium": {
+          "weighted": -50.0,
+          "final_score": -23.3,
+          "action": "中性觀望",
+          "action_color": "#888",
+          "buy_price": null,
+          "stop_suggest": null
+        }
+      },
+      "earnings_date": "2027-01-28"
     },
     {
       "stock_id": "AMD",
@@ -451,9 +513,9 @@
         "technical": -1
       },
       "vote_notes": {
-        "fundamental": "PER 95.9｜偏貴(不否決)｜PBR 10.77",
+        "fundamental": "PER 108.7｜偏貴(不否決)｜PBR 12.20",
         "chip": "美股無台股法人",
-        "technical": "跌破MA20（弱勢）｜量比1.66x放量"
+        "technical": "跌破MA20（弱勢）｜量比1.74x放量"
       },
       "weighted": -50.0,
       "final_score": -30.0,
@@ -461,16 +523,16 @@
       "signals": [],
       "action": "賣出/避開",
       "action_color": "#dc2626",
-      "price": 449.04,
-      "rsi": 38.9,
-      "vol_ratio": 1.66,
-      "chg_pct": 11.04,
-      "ma20": 527.3,
+      "price": 508.58,
+      "rsi": 47.1,
+      "vol_ratio": 1.74,
+      "chg_pct": 13.26,
+      "ma20": 523.01,
       "support": 404.4,
-      "chg5": -11.0,
-      "chg20": -26.2,
+      "chg5": 8.9,
+      "chg20": -14.4,
       "above_ma20": false,
-      "pe": 95.9,
+      "pe": 108.7,
       "buy_price": null,
       "stop_suggest": null,
       "tf_scores": {
@@ -504,7 +566,7 @@
         "technical": -1
       },
       "vote_notes": {
-        "fundamental": "PER 37.5｜偏貴(不否決)｜PBR 14.06",
+        "fundamental": "PER 40.8｜偏貴(不否決)｜PBR 15.30",
         "chip": "美股無台股法人",
         "technical": "跌破MA20（弱勢）"
       },
@@ -514,16 +576,16 @@
       "signals": [],
       "action": "賣出/避開",
       "action_color": "#dc2626",
-      "price": 293.69,
-      "rsi": 34.5,
-      "vol_ratio": 1.36,
-      "chg_pct": 0.74,
-      "ma20": 332.12,
+      "price": 319.48,
+      "rsi": 45.3,
+      "vol_ratio": 1.47,
+      "chg_pct": 8.78,
+      "ma20": 330.36,
       "support": 291.53,
-      "chg5": -9.9,
-      "chg20": -18.8,
+      "chg5": -0.9,
+      "chg20": -9.9,
       "above_ma20": false,
-      "pe": 37.5,
+      "pe": 40.8,
       "buy_price": null,
       "stop_suggest": null,
       "tf_scores": {
@@ -557,9 +619,9 @@
         "technical": -1
       },
       "vote_notes": {
-        "fundamental": "PER 24.3｜中性｜PBR 71.65",
+        "fundamental": "PER 25.2｜中性｜PBR 74.17",
         "chip": "美股無台股法人",
-        "technical": "跌破MA20（弱勢）｜量比1.62x放量"
+        "technical": "跌破MA20（弱勢）"
       },
       "weighted": -50.0,
       "final_score": -30.0,
@@ -567,16 +629,16 @@
       "signals": [],
       "action": "賣出/避開",
       "action_color": "#dc2626",
-      "price": 375.44,
-      "rsi": 37.5,
-      "vol_ratio": 1.62,
-      "chg_pct": 6.33,
-      "ma20": 416.44,
+      "price": 388.62,
+      "rsi": 40.3,
+      "vol_ratio": 1.04,
+      "chg_pct": 3.51,
+      "ma20": 413.65,
       "support": 353.1,
-      "chg5": -7.6,
-      "chg20": -17.2,
+      "chg5": -2.5,
+      "chg20": -12.5,
       "above_ma20": false,
-      "pe": 24.3,
+      "pe": 25.2,
       "buy_price": null,
       "stop_suggest": null,
       "tf_scores": {
@@ -610,7 +672,7 @@
         "technical": -1
       },
       "vote_notes": {
-        "fundamental": "PER 35.1｜偏貴(不否決)｜PBR 1223.36",
+        "fundamental": "PER 37.2｜偏貴(不否決)｜PBR 1299.35",
         "chip": "美股無台股法人",
         "technical": "跌破MA20（弱勢）"
       },
@@ -620,16 +682,16 @@
       "signals": [],
       "action": "賣出/避開",
       "action_color": "#dc2626",
-      "price": 1424.75,
-      "rsi": 35.0,
-      "vol_ratio": 1.1,
-      "chg_pct": 5.02,
-      "ma20": 1598.35,
+      "price": 1513.25,
+      "rsi": 42.8,
+      "vol_ratio": 1.23,
+      "chg_pct": 6.21,
+      "ma20": 1586.62,
       "support": 1356.65,
-      "chg5": -9.0,
-      "chg20": -19.9,
+      "chg5": -0.8,
+      "chg20": -13.4,
       "above_ma20": false,
-      "pe": 35.1,
+      "pe": 37.2,
       "buy_price": null,
       "stop_suggest": null,
       "tf_scores": {
@@ -663,9 +725,9 @@
         "technical": -1
       },
       "vote_notes": {
-        "fundamental": "PER 46.4｜偏貴(不否決)｜PBR 6.68",
+        "fundamental": "PER 50.9｜偏貴(不否決)｜PBR 7.31",
         "chip": "美股無台股法人",
-        "technical": "跌破MA20（弱勢）｜RSI 23.9 超賣"
+        "technical": "跌破MA20（弱勢）｜RSI 27.9 超賣"
       },
       "weighted": -50.0,
       "final_score": -30.0,
@@ -673,16 +735,16 @@
       "signals": [],
       "action": "賣出/避開",
       "action_color": "#dc2626",
-      "price": 141.2,
-      "rsi": 23.9,
-      "vol_ratio": 1.16,
-      "chg_pct": 5.73,
-      "ma20": 217.24,
+      "price": 154.6,
+      "rsi": 27.9,
+      "vol_ratio": 1.14,
+      "chg_pct": 9.49,
+      "ma20": 211.68,
       "support": 133.55,
-      "chg5": -28.1,
-      "chg20": -48.7,
+      "chg5": -9.8,
+      "chg20": -41.8,
       "above_ma20": false,
-      "pe": 46.4,
+      "pe": 50.9,
       "buy_price": null,
       "stop_suggest": null,
       "tf_scores": {
@@ -716,7 +778,7 @@
         "technical": -1
       },
       "vote_notes": {
-        "fundamental": "PER 200.7｜偏貴(不否決)｜PBR 20.56",
+        "fundamental": "PER 214.1｜偏貴(不否決)｜PBR 21.94",
         "chip": "美股無台股法人",
         "technical": "跌破MA20（弱勢）"
       },
@@ -726,16 +788,16 @@
       "signals": [],
       "action": "賣出/避開",
       "action_color": "#dc2626",
-      "price": 174.62,
-      "rsi": 31.4,
-      "vol_ratio": 1.11,
-      "chg_pct": 4.74,
-      "ma20": 218.52,
+      "price": 186.3,
+      "rsi": 38.3,
+      "vol_ratio": 1.02,
+      "chg_pct": 6.69,
+      "ma20": 215.07,
       "support": 166.72,
-      "chg5": -15.2,
-      "chg20": -34.4,
+      "chg5": -5.3,
+      "chg20": -27.0,
       "above_ma20": false,
-      "pe": 200.7,
+      "pe": 214.1,
       "buy_price": null,
       "stop_suggest": null,
       "tf_scores": {
@@ -771,7 +833,7 @@
       "vote_notes": {
         "fundamental": "四維55分(C 體質中)｜成長平緩 YoY+25%｜毛利38.9%｜ROE-10.7%",
         "chip": "美股無台股法人",
-        "technical": "跌破MA20（弱勢）｜RSI 23.6 超賣"
+        "technical": "跌破MA20（弱勢）｜RSI 27.0 超賣"
       },
       "weighted": -50.0,
       "final_score": -30.0,
@@ -779,14 +841,14 @@
       "signals": [],
       "action": "賣出/避開",
       "action_color": "#dc2626",
-      "price": 56.28,
-      "rsi": 23.6,
-      "vol_ratio": 1.21,
-      "chg_pct": 7.71,
-      "ma20": 83.08,
+      "price": 59.37,
+      "rsi": 27.0,
+      "vol_ratio": 0.99,
+      "chg_pct": 5.49,
+      "ma20": 80.98,
       "support": 52.25,
-      "chg5": -14.4,
-      "chg20": -46.2,
+      "chg5": -1.0,
+      "chg20": -41.4,
       "above_ma20": false,
       "pe": null,
       "buy_price": null,
@@ -822,7 +884,7 @@
         "technical": -1
       },
       "vote_notes": {
-        "fundamental": "PER 13.0｜中性｜PBR 5.83",
+        "fundamental": "PER 13.5｜中性｜PBR 6.05",
         "chip": "美股無台股法人",
         "technical": "跌破MA20（弱勢）"
       },
@@ -832,16 +894,16 @@
       "signals": [],
       "action": "賣出/避開",
       "action_color": "#dc2626",
-      "price": 165.41,
-      "rsi": 45.2,
-      "vol_ratio": 1.46,
-      "chg_pct": 5.52,
-      "ma20": 173.46,
+      "price": 171.47,
+      "rsi": 47.6,
+      "vol_ratio": 1.18,
+      "chg_pct": 3.66,
+      "ma20": 173.31,
       "support": 156.75,
-      "chg5": 0.4,
-      "chg20": -5.7,
+      "chg5": 5.8,
+      "chg20": -1.7,
       "above_ma20": false,
-      "pe": 13.0,
+      "pe": 13.5,
       "buy_price": null,
       "stop_suggest": null,
       "tf_scores": {
@@ -865,59 +927,6 @@
       "earnings_date": "2027-02-04"
     },
     {
-      "stock_id": "ADI",
-      "name": "亞德諾",
-      "sector": "半導體設備/IDM",
-      "market": "US",
-      "votes": {
-        "fundamental": 0,
-        "chip": 0,
-        "technical": -1
-      },
-      "vote_notes": {
-        "fundamental": "PER 43.2｜偏貴(不否決)｜PBR 5.25",
-        "chip": "美股無台股法人",
-        "technical": "跌破MA20（弱勢）"
-      },
-      "weighted": -50.0,
-      "final_score": -30.0,
-      "strategy_score": 0,
-      "signals": [],
-      "action": "賣出/避開",
-      "action_color": "#dc2626",
-      "price": 363.56,
-      "rsi": 40.8,
-      "vol_ratio": 1.43,
-      "chg_pct": 0.71,
-      "ma20": 403.67,
-      "support": 361.01,
-      "chg5": -12.8,
-      "chg20": -10.5,
-      "above_ma20": false,
-      "pe": 43.2,
-      "buy_price": null,
-      "stop_suggest": null,
-      "tf_scores": {
-        "short": {
-          "weighted": -80.0,
-          "final_score": -48.0,
-          "action": "賣出/避開",
-          "action_color": "#dc2626",
-          "buy_price": null,
-          "stop_suggest": null
-        },
-        "medium": {
-          "weighted": -50.0,
-          "final_score": -30.0,
-          "action": "賣出/避開",
-          "action_color": "#dc2626",
-          "buy_price": null,
-          "stop_suggest": null
-        }
-      },
-      "earnings_date": "2026-11-24"
-    },
-    {
       "stock_id": "LRCX",
       "name": "科林研發",
       "sector": "半導體設備/IDM",
@@ -928,9 +937,9 @@
         "technical": -1
       },
       "vote_notes": {
-        "fundamental": "PER 29.9｜中性｜PBR 18.00",
+        "fundamental": "PER 33.0｜偏貴(不否決)｜PBR 19.88",
         "chip": "美股無台股法人",
-        "technical": "跌破MA20（弱勢）｜RSI 27.2 超賣"
+        "technical": "跌破MA20（弱勢）"
       },
       "weighted": -50.0,
       "final_score": -30.0,
@@ -938,16 +947,16 @@
       "signals": [],
       "action": "賣出/避開",
       "action_color": "#dc2626",
-      "price": 200.44,
-      "rsi": 27.2,
-      "vol_ratio": 1.35,
-      "chg_pct": 8.23,
-      "ma20": 249.34,
+      "price": 221.31,
+      "rsi": 37.6,
+      "vol_ratio": 1.21,
+      "chg_pct": 10.41,
+      "ma20": 244.92,
       "support": 185.2,
-      "chg5": -16.2,
-      "chg20": -37.1,
+      "chg5": -2.7,
+      "chg20": -28.5,
       "above_ma20": false,
-      "pe": 29.9,
+      "pe": 33.0,
       "buy_price": null,
       "stop_suggest": null,
       "tf_scores": {
@@ -981,7 +990,7 @@
         "technical": -1
       },
       "vote_notes": {
-        "fundamental": "PER 28.7｜中性｜PBR 10.30",
+        "fundamental": "PER 32.0｜偏貴(不否決)｜PBR 11.48",
         "chip": "美股無台股法人",
         "technical": "跌破MA20（弱勢）"
       },
@@ -991,16 +1000,16 @@
       "signals": [],
       "action": "賣出/避開",
       "action_color": "#dc2626",
-      "price": 332.72,
-      "rsi": 31.9,
-      "vol_ratio": 1.12,
-      "chg_pct": 4.22,
-      "ma20": 400.83,
+      "price": 370.55,
+      "rsi": 43.2,
+      "vol_ratio": 1.25,
+      "chg_pct": 11.37,
+      "ma20": 394.48,
       "support": 319.25,
-      "chg5": -14.7,
-      "chg20": -34.4,
+      "chg5": -1.1,
+      "chg20": -25.5,
       "above_ma20": false,
-      "pe": 28.7,
+      "pe": 32.0,
       "buy_price": null,
       "stop_suggest": null,
       "tf_scores": {
@@ -1034,7 +1043,7 @@
         "technical": -1
       },
       "vote_notes": {
-        "fundamental": "PER 34.7｜偏貴(不否決)｜PBR 27.67",
+        "fundamental": "PER 37.9｜偏貴(不否決)｜PBR 30.25",
         "chip": "美股無台股法人",
         "technical": "跌破MA20（弱勢）"
       },
@@ -1044,16 +1053,16 @@
       "signals": [],
       "action": "賣出/避開",
       "action_color": "#dc2626",
-      "price": 138.49,
-      "rsi": 35.8,
-      "vol_ratio": 1.07,
-      "chg_pct": 6.69,
-      "ma20": 159.63,
+      "price": 151.38,
+      "rsi": 45.1,
+      "vol_ratio": 1.43,
+      "chg_pct": 9.31,
+      "ma20": 157.69,
       "support": 129.8,
-      "chg5": -12.3,
-      "chg20": -29.2,
+      "chg5": -1.1,
+      "chg20": -20.4,
       "above_ma20": false,
-      "pe": 34.7,
+      "pe": 37.9,
       "buy_price": null,
       "stop_suggest": null,
       "tf_scores": {
@@ -1087,9 +1096,9 @@
         "technical": -1
       },
       "vote_notes": {
-        "fundamental": "PER 14.9｜中性｜PBR 5.31",
+        "fundamental": "PER 15.0｜中性｜PBR 5.37",
         "chip": "美股無台股法人",
-        "technical": "跌破MA20（弱勢）｜RSI 20.3 超賣"
+        "technical": "跌破MA20（弱勢）｜RSI 23.8 超賣"
       },
       "weighted": -50.0,
       "final_score": -30.0,
@@ -1097,16 +1106,16 @@
       "signals": [],
       "action": "賣出/避開",
       "action_color": "#dc2626",
-      "price": 284.78,
-      "rsi": 20.3,
-      "vol_ratio": 0.93,
-      "chg_pct": 0.78,
-      "ma20": 317.44,
+      "price": 288.15,
+      "rsi": 23.8,
+      "vol_ratio": 0.91,
+      "chg_pct": 1.18,
+      "ma20": 314.21,
       "support": 278.99,
-      "chg5": 1.8,
-      "chg20": -19.0,
+      "chg5": 3.3,
+      "chg20": -18.3,
       "above_ma20": false,
-      "pe": 14.9,
+      "pe": 15.0,
       "buy_price": null,
       "stop_suggest": null,
       "tf_scores": {
@@ -1140,9 +1149,9 @@
         "technical": -1
       },
       "vote_notes": {
-        "fundamental": "PER 20.8｜中性｜PBR 5.73",
+        "fundamental": "PER 21.9｜中性｜PBR 6.02",
         "chip": "美股無台股法人",
-        "technical": "跌破MA20（弱勢）｜量比0.62x量縮｜RSI 23.9 超賣"
+        "technical": "跌破MA20（弱勢）｜量比0.77x量縮"
       },
       "weighted": -50.0,
       "final_score": -30.0,
@@ -1150,69 +1159,16 @@
       "signals": [],
       "action": "賣出/避開",
       "action_color": "#dc2626",
-      "price": 610.15,
-      "rsi": 23.9,
-      "vol_ratio": 0.62,
-      "chg_pct": 0.84,
-      "ma20": 662.67,
+      "price": 641.37,
+      "rsi": 36.9,
+      "vol_ratio": 0.77,
+      "chg_pct": 5.12,
+      "ma20": 657.59,
       "support": 605.08,
-      "chg5": -0.8,
-      "chg20": -15.1,
+      "chg5": 5.7,
+      "chg20": -13.7,
       "above_ma20": false,
-      "pe": 20.8,
-      "buy_price": null,
-      "stop_suggest": null,
-      "tf_scores": {
-        "short": {
-          "weighted": -80.0,
-          "final_score": -48.0,
-          "action": "賣出/避開",
-          "action_color": "#dc2626",
-          "buy_price": null,
-          "stop_suggest": null
-        },
-        "medium": {
-          "weighted": -50.0,
-          "final_score": -30.0,
-          "action": "賣出/避開",
-          "action_color": "#dc2626",
-          "buy_price": null,
-          "stop_suggest": null
-        }
-      },
-      "earnings_date": "2027-01-28"
-    },
-    {
-      "stock_id": "TSLA",
-      "name": "特斯拉",
-      "sector": "科技巨頭",
-      "market": "US",
-      "votes": {
-        "fundamental": 0,
-        "chip": 0,
-        "technical": -1
-      },
-      "vote_notes": {
-        "fundamental": "PER 393.6｜偏貴(不否決)｜PBR 15.86",
-        "chip": "美股無台股法人",
-        "technical": "跌破MA20（弱勢）"
-      },
-      "weighted": -50.0,
-      "final_score": -30.0,
-      "strategy_score": 0,
-      "signals": [],
-      "action": "賣出/避開",
-      "action_color": "#dc2626",
-      "price": 358.22,
-      "rsi": 46.8,
-      "vol_ratio": 0.92,
-      "chg_pct": 4.23,
-      "ma20": 380.42,
-      "support": 343.69,
-      "chg5": -10.4,
-      "chg20": -6.4,
-      "above_ma20": false,
-      "pe": 393.6,
+      "pe": 21.9,
       "buy_price": null,
       "stop_suggest": null,
       "tf_scores": {
@@ -1246,9 +1202,9 @@
         "technical": -1
       },
       "vote_notes": {
-        "fundamental": "PER 112.9｜偏貴(不否決)｜PBR 34.41",
+        "fundamental": "PER 119.2｜偏貴(不否決)｜PBR 36.30",
         "chip": "美股無台股法人",
-        "technical": "跌破MA20（弱勢）｜RSI 25.2 超賣"
+        "technical": "跌破MA20（弱勢）"
       },
       "weighted": -50.0,
       "final_score": -30.0,
@@ -1256,16 +1212,16 @@
       "signals": [],
       "action": "賣出/避開",
       "action_color": "#dc2626",
-      "price": 160.38,
-      "rsi": 25.2,
-      "vol_ratio": 0.92,
-      "chg_pct": 3.48,
-      "ma20": 190.11,
+      "price": 169.2,
+      "rsi": 34.5,
+      "vol_ratio": 0.9,
+      "chg_pct": 5.5,
+      "ma20": 188.12,
       "support": 154.99,
-      "chg5": -12.9,
-      "chg20": -23.3,
+      "chg5": -5.1,
+      "chg20": -19.0,
       "above_ma20": false,
-      "pe": 112.9,
+      "pe": 119.2,
       "buy_price": null,
       "stop_suggest": null,
       "tf_scores": {
@@ -1299,9 +1255,9 @@
         "technical": -1
       },
       "vote_notes": {
-        "fundamental": "PER 19.5｜中性｜PBR 4.58",
+        "fundamental": "PER 19.7｜中性｜PBR 4.61",
         "chip": "美股無台股法人",
-        "technical": "跌破MA20（弱勢）｜RSI 25.2 超賣"
+        "technical": "跌破MA20（弱勢）｜RSI 26.8 超賣"
       },
       "weighted": -50.0,
       "final_score": -30.0,
@@ -1309,16 +1265,16 @@
       "signals": [],
       "action": "賣出/避開",
       "action_color": "#dc2626",
-      "price": 213.65,
-      "rsi": 25.2,
-      "vol_ratio": 0.91,
-      "chg_pct": -3.94,
-      "ma20": 236.15,
+      "price": 214.94,
+      "rsi": 26.8,
+      "vol_ratio": 0.92,
+      "chg_pct": 0.6,
+      "ma20": 235.2,
       "support": 213.65,
-      "chg5": -6.8,
-      "chg20": -6.8,
+      "chg5": -5.0,
+      "chg20": -8.1,
       "above_ma20": false,
-      "pe": 19.5,
+      "pe": 19.7,
       "buy_price": null,
       "stop_suggest": null,
       "tf_scores": {
@@ -1352,9 +1308,9 @@
         "technical": -1
       },
       "vote_notes": {
-        "fundamental": "PER 73.4｜偏貴(不否決)｜PBR 8.08",
+        "fundamental": "PER 73.9｜偏貴(不否決)｜PBR 8.14",
         "chip": "美股無台股法人",
-        "technical": "跌破MA20（弱勢）｜量比0.76x量縮｜RSI 22.4 超賣"
+        "technical": "跌破MA20（弱勢）｜量比0.65x量縮｜RSI 18.9 超賣"
       },
       "weighted": -50.0,
       "final_score": -30.0,
@@ -1362,16 +1318,16 @@
       "signals": [],
       "action": "賣出/避開",
       "action_color": "#dc2626",
-      "price": 101.97,
-      "rsi": 22.4,
-      "vol_ratio": 0.76,
-      "chg_pct": -0.38,
-      "ma20": 133.98,
+      "price": 102.76,
+      "rsi": 18.9,
+      "vol_ratio": 0.65,
+      "chg_pct": 0.77,
+      "ma20": 132.1,
       "support": 101.97,
-      "chg5": -3.0,
-      "chg20": -27.6,
+      "chg5": -3.1,
+      "chg20": -26.8,
       "above_ma20": false,
-      "pe": 73.4,
+      "pe": 73.9,
       "buy_price": null,
       "stop_suggest": null,
       "tf_scores": {
@@ -1405,7 +1361,7 @@
         "technical": -1
       },
       "vote_notes": {
-        "fundamental": "PER 90.7｜偏貴(不否決)｜PBR 45.23",
+        "fundamental": "PER 95.7｜偏貴(不否決)｜PBR 47.74",
         "chip": "美股無台股法人",
         "technical": "跌破MA20（弱勢）"
       },
@@ -1415,16 +1371,16 @@
       "signals": [],
       "action": "賣出/避開",
       "action_color": "#dc2626",
-      "price": 275.88,
-      "rsi": 34.5,
-      "vol_ratio": 1.03,
-      "chg_pct": 2.35,
-      "ma20": 318.13,
+      "price": 291.14,
+      "rsi": 39.7,
+      "vol_ratio": 0.81,
+      "chg_pct": 5.53,
+      "ma20": 314.67,
       "support": 269.54,
-      "chg5": -9.9,
-      "chg20": -25.2,
+      "chg5": 0.2,
+      "chg20": -19.2,
       "above_ma20": false,
-      "pe": 90.7,
+      "pe": 95.7,
       "buy_price": null,
       "stop_suggest": null,
       "tf_scores": {
@@ -1448,6 +1404,59 @@
       "earnings_date": "2026-12-03"
     },
     {
+      "stock_id": "NET",
+      "name": "Cloudflare",
+      "sector": "軟體/雲端",
+      "market": "US",
+      "votes": {
+        "fundamental": 0,
+        "chip": 0,
+        "technical": -1
+      },
+      "vote_notes": {
+        "fundamental": "PER 158.8｜偏貴(不否決)｜PBR 71.84",
+        "chip": "美股無台股法人",
+        "technical": "跌破MA20（弱勢）"
+      },
+      "weighted": -50.0,
+      "final_score": -30.0,
+      "strategy_score": 0,
+      "signals": [],
+      "action": "賣出/避開",
+      "action_color": "#dc2626",
+      "price": 293.75,
+      "rsi": 50.5,
+      "vol_ratio": 1.47,
+      "chg_pct": 9.3,
+      "ma20": 299.61,
+      "support": 244.51,
+      "chg5": 10.8,
+      "chg20": -16.3,
+      "above_ma20": false,
+      "pe": 158.8,
+      "buy_price": null,
+      "stop_suggest": null,
+      "tf_scores": {
+        "short": {
+          "weighted": -80.0,
+          "final_score": -48.0,
+          "action": "賣出/避開",
+          "action_color": "#dc2626",
+          "buy_price": null,
+          "stop_suggest": null
+        },
+        "medium": {
+          "weighted": -50.0,
+          "final_score": -30.0,
+          "action": "賣出/避開",
+          "action_color": "#dc2626",
+          "buy_price": null,
+          "stop_suggest": null
+        }
+      },
+      "earnings_date": null
+    },
+    {
       "stock_id": "CRWD",
       "name": "CrowdStrike",
       "sector": "軟體/雲端",
@@ -1458,7 +1467,7 @@
         "technical": -1
       },
       "vote_notes": {
-        "fundamental": "PER 3615.0｜偏貴(不否決)｜PBR 43.53",
+        "fundamental": "PER 3809.7｜偏貴(不否決)｜PBR 45.87",
         "chip": "美股無台股法人",
         "technical": "跌破MA20（弱勢）"
       },
@@ -1468,16 +1477,16 @@
       "signals": [],
       "action": "賣出/避開",
       "action_color": "#dc2626",
-      "price": 216.9,
-      "rsi": 44.5,
-      "vol_ratio": 1.13,
-      "chg_pct": -0.14,
-      "ma20": 245.27,
+      "price": 228.58,
+      "rsi": 50.5,
+      "vol_ratio": 0.87,
+      "chg_pct": 5.38,
+      "ma20": 243.55,
       "support": 216.9,
-      "chg5": -13.4,
-      "chg20": -21.1,
+      "chg5": -5.5,
+      "chg20": -13.1,
       "above_ma20": false,
-      "pe": 3615.0,
+      "pe": 3809.7,
       "buy_price": null,
       "stop_suggest": null,
       "tf_scores": {
@@ -1511,9 +1520,9 @@
         "technical": -1
       },
       "vote_notes": {
-        "fundamental": "PER 18.2｜中性｜PBR 5.68",
+        "fundamental": "PER 18.8｜中性｜PBR 5.86",
         "chip": "美股無台股法人",
-        "technical": "跌破MA20（弱勢）"
+        "technical": "跌破MA20（弱勢）｜量比0.63x量縮"
       },
       "weighted": -50.0,
       "final_score": -30.0,
@@ -1521,16 +1530,16 @@
       "signals": [],
       "action": "賣出/避開",
       "action_color": "#dc2626",
-      "price": 116.1,
-      "rsi": 40.4,
-      "vol_ratio": 1.09,
-      "chg_pct": 0.82,
-      "ma20": 129.36,
+      "price": 119.79,
+      "rsi": 42.2,
+      "vol_ratio": 0.63,
+      "chg_pct": 3.18,
+      "ma20": 128.48,
       "support": 115.16,
-      "chg5": -11.2,
-      "chg20": -17.9,
+      "chg5": 0.5,
+      "chg20": -12.8,
       "above_ma20": false,
-      "pe": 18.2,
+      "pe": 18.8,
       "buy_price": null,
       "stop_suggest": null,
       "tf_scores": {
@@ -1564,9 +1573,9 @@
         "technical": -1
       },
       "vote_notes": {
-        "fundamental": "PER 13.4｜中性｜PBR 7.95",
+        "fundamental": "PER 13.3｜中性｜PBR 7.89",
         "chip": "美股無台股法人",
-        "technical": "跌破MA20（弱勢）｜量比0.78x量縮"
+        "technical": "跌破MA20（弱勢）"
       },
       "weighted": -50.0,
       "final_score": -30.0,
@@ -1574,16 +1583,16 @@
       "signals": [],
       "action": "賣出/避開",
       "action_color": "#dc2626",
-      "price": 239.3,
-      "rsi": 44.6,
-      "vol_ratio": 0.78,
-      "chg_pct": -2.9,
-      "ma20": 249.61,
+      "price": 237.32,
+      "rsi": 35.0,
+      "vol_ratio": 0.84,
+      "chg_pct": -0.83,
+      "ma20": 249.57,
       "support": 236.28,
-      "chg5": -4.4,
-      "chg20": -1.2,
+      "chg5": -5.6,
+      "chg20": -0.3,
       "above_ma20": false,
-      "pe": 13.4,
+      "pe": 13.3,
       "buy_price": null,
       "stop_suggest": null,
       "tf_scores": {
@@ -1619,7 +1628,7 @@
       "vote_notes": {
         "fundamental": "四維68分(B 體質良)｜成長平緩 YoY+8%｜毛利45.5%｜ROE3.5%",
         "chip": "美股無台股法人",
-        "technical": "跌破MA20（弱勢）｜量比0.6x量縮"
+        "technical": "跌破MA20（弱勢）｜量比0.68x量縮"
       },
       "weighted": -50.0,
       "final_score": -30.0,
@@ -1627,14 +1636,14 @@
       "signals": [],
       "action": "賣出/避開",
       "action_color": "#dc2626",
-      "price": 7.66,
-      "rsi": 37.1,
-      "vol_ratio": 0.6,
-      "chg_pct": 2.68,
-      "ma20": 8.8,
+      "price": 8.18,
+      "rsi": 43.0,
+      "vol_ratio": 0.68,
+      "chg_pct": 6.79,
+      "ma20": 8.72,
       "support": 7.46,
-      "chg5": -10.5,
-      "chg20": -26.1,
+      "chg5": -1.4,
+      "chg20": -17.4,
       "above_ma20": false,
       "pe": null,
       "buy_price": null,
@@ -1672,7 +1681,7 @@
       "vote_notes": {
         "fundamental": "無估值資料（可能ETF/ADR）",
         "chip": "美股無台股法人",
-        "technical": "跌破MA20（弱勢）｜量比0.38x量縮"
+        "technical": "跌破MA20（弱勢）｜量比0.54x量縮"
       },
       "weighted": -50.0,
       "final_score": -30.0,
@@ -1680,14 +1689,14 @@
       "signals": [],
       "action": "賣出/避開",
       "action_color": "#dc2626",
-      "price": 3.6,
-      "rsi": 43.4,
-      "vol_ratio": 0.38,
-      "chg_pct": -5.76,
-      "ma20": 3.96,
-      "support": 3.59,
-      "chg5": -8.9,
-      "chg20": -4.6,
+      "price": 3.53,
+      "rsi": 34.0,
+      "vol_ratio": 0.54,
+      "chg_pct": -1.94,
+      "ma20": 3.95,
+      "support": 3.53,
+      "chg5": -11.5,
+      "chg20": -3.0,
       "above_ma20": false,
       "pe": null,
       "buy_price": null,
@@ -1713,8 +1722,132 @@
       "earnings_date": null
     }
   ],
-  "buy_top": [],
-  "buy_folded": {},
+  "buy_top": [
+    {
+      "stock_id": "MSFT",
+      "name": "微軟",
+      "sector": "科技巨頭",
+      "market": "US",
+      "votes": {
+        "fundamental": 0,
+        "chip": 0,
+        "technical": 1
+      },
+      "vote_notes": {
+        "fundamental": "PER 28.5｜中性｜PBR 8.61",
+        "chip": "美股無台股法人",
+        "technical": "站上MA20+MA60（多頭排列）"
+      },
+      "weighted": 50.0,
+      "final_score": 56.7,
+      "strategy_score": 4,
+      "signals": [
+        "扣抵有利",
+        "趨勢線",
+        "雙線GC+VCP",
+        "MACD+KD金叉"
+      ],
+      "action": "買進",
+      "action_color": "#16a34a",
+      "price": 545.18,
+      "rsi": 54.8,
+      "vol_ratio": 0.97,
+      "chg_pct": 2.75,
+      "ma20": 531.61,
+      "support": 507.12,
+      "chg5": 7.5,
+      "chg20": 0.7,
+      "above_ma20": true,
+      "pe": 28.5,
+      "buy_price": 531.61,
+      "stop_suggest": 496.98,
+      "tf_scores": {
+        "short": {
+          "weighted": 80.0,
+          "final_score": 74.7,
+          "action": "強力買進",
+          "action_color": "#16a34a",
+          "buy_price": 531.61,
+          "stop_suggest": 496.98
+        },
+        "medium": {
+          "weighted": 50.0,
+          "final_score": 56.7,
+          "action": "買進",
+          "action_color": "#16a34a",
+          "buy_price": 531.61,
+          "stop_suggest": 496.98
+        }
+      },
+      "earnings_date": "2027-01-28"
+    },
+    {
+      "stock_id": "TXN",
+      "name": "德州儀器",
+      "sector": "半導體設備/IDM",
+      "market": "US",
+      "votes": {
+        "fundamental": 0,
+        "chip": 0,
+        "technical": 1
+      },
+      "vote_notes": {
+        "fundamental": "PER 38.4｜偏貴(不否決)｜PBR 14.09",
+        "chip": "美股無台股法人",
+        "technical": "站上MA20+MA60（多頭排列）"
+      },
+      "weighted": 50.0,
+      "final_score": 50.0,
+      "strategy_score": 3,
+      "signals": [
+        "扣抵有利",
+        "趨勢線",
+        "雙線GC+VCP"
+      ],
+      "action": "買進",
+      "action_color": "#16a34a",
+      "price": 295.73,
+      "rsi": 58.0,
+      "vol_ratio": 1.09,
+      "chg_pct": 6.62,
+      "ma20": 290.83,
+      "support": 274.81,
+      "chg5": -2.1,
+      "chg20": 5.5,
+      "above_ma20": true,
+      "pe": 38.4,
+      "buy_price": 290.83,
+      "stop_suggest": 269.31,
+      "tf_scores": {
+        "short": {
+          "weighted": 80.0,
+          "final_score": 68.0,
+          "action": "強力買進",
+          "action_color": "#16a34a",
+          "buy_price": 290.83,
+          "stop_suggest": 269.31
+        },
+        "medium": {
+          "weighted": 50.0,
+          "final_score": 50.0,
+          "action": "買進",
+          "action_color": "#16a34a",
+          "buy_price": 290.83,
+          "stop_suggest": 269.31
+        }
+      },
+      "earnings_date": "2027-01-27"
+    }
+  ],
+  "buy_folded": {
+    "科技巨頭": [
+      {
+        "stock_id": "AAPL",
+        "name": "蘋果",
+        "score": 50.0
+      }
+    ]
+  },
   "watch_top": [
     {
       "stock_id": "AMZN",
@@ -1727,7 +1860,7 @@
         "technical": 1
       },
       "vote_notes": {
-        "fundamental": "PER 21.0｜中性｜PBR 4.57",
+        "fundamental": "PER 21.6｜中性｜PBR 4.70",
         "chip": "美股無台股法人",
         "technical": "站上MA20+MA60（多頭排列）"
       },
@@ -1739,17 +1872,17 @@
       ],
       "action": "觀察候選",
       "action_color": "#f59e0b",
-      "price": 259.3,
-      "rsi": 47.7,
-      "vol_ratio": 0.88,
-      "chg_pct": -0.35,
-      "ma20": 254.28,
+      "price": 266.93,
+      "rsi": 52.8,
+      "vol_ratio": 1.04,
+      "chg_pct": 2.94,
+      "ma20": 254.65,
       "support": 240.35,
-      "chg5": 7.9,
-      "chg20": -1.2,
+      "chg5": 8.7,
+      "chg20": 2.9,
       "above_ma20": true,
-      "pe": 21.0,
-      "buy_price": 254.28,
+      "pe": 21.6,
+      "buy_price": 254.65,
       "stop_suggest": 235.54,
       "tf_scores": {
         "short": {
@@ -1757,7 +1890,7 @@
           "final_score": 54.7,
           "action": "觀察候選",
           "action_color": "#f59e0b",
-          "buy_price": 254.28,
+          "buy_price": 254.65,
           "stop_suggest": 235.54
         },
         "medium": {
@@ -1765,7 +1898,7 @@
           "final_score": 36.7,
           "action": "觀察候選",
           "action_color": "#f59e0b",
-          "buy_price": 254.28,
+          "buy_price": 254.65,
           "stop_suggest": 235.54
         }
       },
@@ -1773,59 +1906,6 @@
     }
   ],
   "sell_top": [
-    {
-      "stock_id": "NVDA",
-      "name": "輝達",
-      "sector": "AI/半導體龍頭",
-      "market": "US",
-      "votes": {
-        "fundamental": 0,
-        "chip": 0,
-        "technical": -1
-      },
-      "vote_notes": {
-        "fundamental": "PER 23.6｜中性｜PBR 19.68",
-        "chip": "美股無台股法人",
-        "technical": "跌破MA20（弱勢）｜量比1.53x放量｜RSI 29.6 超賣"
-      },
-      "weighted": -50.0,
-      "final_score": -30.0,
-      "strategy_score": 0,
-      "signals": [],
-      "action": "賣出/避開",
-      "action_color": "#dc2626",
-      "price": 186.64,
-      "rsi": 29.6,
-      "vol_ratio": 1.53,
-      "chg_pct": 2.78,
-      "ma20": 211.55,
-      "support": 181.6,
-      "chg5": -8.8,
-      "chg20": -18.6,
-      "above_ma20": false,
-      "pe": 23.6,
-      "buy_price": null,
-      "stop_suggest": null,
-      "tf_scores": {
-        "short": {
-          "weighted": -80.0,
-          "final_score": -48.0,
-          "action": "賣出/避開",
-          "action_color": "#dc2626",
-          "buy_price": null,
-          "stop_suggest": null
-        },
-        "medium": {
-          "weighted": -50.0,
-          "final_score": -30.0,
-          "action": "賣出/避開",
-          "action_color": "#dc2626",
-          "buy_price": null,
-          "stop_suggest": null
-        }
-      },
-      "earnings_date": "2026-11-18"
-    },
     {
       "stock_id": "AMD",
       "name": "超微",
@@ -1837,9 +1917,9 @@
         "technical": -1
       },
       "vote_notes": {
-        "fundamental": "PER 95.9｜偏貴(不否決)｜PBR 10.77",
+        "fundamental": "PER 108.7｜偏貴(不否決)｜PBR 12.20",
         "chip": "美股無台股法人",
-        "technical": "跌破MA20（弱勢）｜量比1.66x放量"
+        "technical": "跌破MA20（弱勢）｜量比1.74x放量"
       },
       "weighted": -50.0,
       "final_score": -30.0,
@@ -1847,16 +1927,16 @@
       "signals": [],
       "action": "賣出/避開",
       "action_color": "#dc2626",
-      "price": 449.04,
-      "rsi": 38.9,
-      "vol_ratio": 1.66,
-      "chg_pct": 11.04,
-      "ma20": 527.3,
+      "price": 508.58,
+      "rsi": 47.1,
+      "vol_ratio": 1.74,
+      "chg_pct": 13.26,
+      "ma20": 523.01,
       "support": 404.4,
-      "chg5": -11.0,
-      "chg20": -26.2,
+      "chg5": 8.9,
+      "chg20": -14.4,
       "above_ma20": false,
-      "pe": 95.9,
+      "pe": 108.7,
       "buy_price": null,
       "stop_suggest": null,
       "tf_scores": {
@@ -1890,7 +1970,7 @@
         "technical": -1
       },
       "vote_notes": {
-        "fundamental": "PER 37.5｜偏貴(不否決)｜PBR 14.06",
+        "fundamental": "PER 40.8｜偏貴(不否決)｜PBR 15.30",
         "chip": "美股無台股法人",
         "technical": "跌破MA20（弱勢）"
       },
@@ -1900,16 +1980,16 @@
       "signals": [],
       "action": "賣出/避開",
       "action_color": "#dc2626",
-      "price": 293.69,
-      "rsi": 34.5,
-      "vol_ratio": 1.36,
-      "chg_pct": 0.74,
-      "ma20": 332.12,
+      "price": 319.48,
+      "rsi": 45.3,
+      "vol_ratio": 1.47,
+      "chg_pct": 8.78,
+      "ma20": 330.36,
       "support": 291.53,
-      "chg5": -9.9,
-      "chg20": -18.8,
+      "chg5": -0.9,
+      "chg20": -9.9,
       "above_ma20": false,
-      "pe": 37.5,
+      "pe": 40.8,
       "buy_price": null,
       "stop_suggest": null,
       "tf_scores": {
@@ -1943,9 +2023,9 @@
         "technical": -1
       },
       "vote_notes": {
-        "fundamental": "PER 24.3｜中性｜PBR 71.65",
+        "fundamental": "PER 25.2｜中性｜PBR 74.17",
         "chip": "美股無台股法人",
-        "technical": "跌破MA20（弱勢）｜量比1.62x放量"
+        "technical": "跌破MA20（弱勢）"
       },
       "weighted": -50.0,
       "final_score": -30.0,
@@ -1953,16 +2033,16 @@
       "signals": [],
       "action": "賣出/避開",
       "action_color": "#dc2626",
-      "price": 375.44,
-      "rsi": 37.5,
-      "vol_ratio": 1.62,
-      "chg_pct": 6.33,
-      "ma20": 416.44,
+      "price": 388.62,
+      "rsi": 40.3,
+      "vol_ratio": 1.04,
+      "chg_pct": 3.51,
+      "ma20": 413.65,
       "support": 353.1,
-      "chg5": -7.6,
-      "chg20": -17.2,
+      "chg5": -2.5,
+      "chg20": -12.5,
       "above_ma20": false,
-      "pe": 24.3,
+      "pe": 25.2,
       "buy_price": null,
       "stop_suggest": null,
       "tf_scores": {
@@ -1996,7 +2076,7 @@
         "technical": -1
       },
       "vote_notes": {
-        "fundamental": "PER 35.1｜偏貴(不否決)｜PBR 1223.36",
+        "fundamental": "PER 37.2｜偏貴(不否決)｜PBR 1299.35",
         "chip": "美股無台股法人",
         "technical": "跌破MA20（弱勢）"
       },
@@ -2006,16 +2086,16 @@
       "signals": [],
       "action": "賣出/避開",
       "action_color": "#dc2626",
-      "price": 1424.75,
-      "rsi": 35.0,
-      "vol_ratio": 1.1,
-      "chg_pct": 5.02,
-      "ma20": 1598.35,
+      "price": 1513.25,
+      "rsi": 42.8,
+      "vol_ratio": 1.23,
+      "chg_pct": 6.21,
+      "ma20": 1586.62,
       "support": 1356.65,
-      "chg5": -9.0,
-      "chg20": -19.9,
+      "chg5": -0.8,
+      "chg20": -13.4,
       "above_ma20": false,
-      "pe": 35.1,
+      "pe": 37.2,
       "buy_price": null,
       "stop_suggest": null,
       "tf_scores": {
@@ -2037,42 +2117,117 @@
         }
       },
       "earnings_date": "2027-01-27"
+    },
+    {
+      "stock_id": "MRVL",
+      "name": "邁威爾",
+      "sector": "AI/半導體龍頭",
+      "market": "US",
+      "votes": {
+        "fundamental": 0,
+        "chip": 0,
+        "technical": -1
+      },
+      "vote_notes": {
+        "fundamental": "PER 50.9｜偏貴(不否決)｜PBR 7.31",
+        "chip": "美股無台股法人",
+        "technical": "跌破MA20（弱勢）｜RSI 27.9 超賣"
+      },
+      "weighted": -50.0,
+      "final_score": -30.0,
+      "strategy_score": 0,
+      "signals": [],
+      "action": "賣出/避開",
+      "action_color": "#dc2626",
+      "price": 154.6,
+      "rsi": 27.9,
+      "vol_ratio": 1.14,
+      "chg_pct": 9.49,
+      "ma20": 211.68,
+      "support": 133.55,
+      "chg5": -9.8,
+      "chg20": -41.8,
+      "above_ma20": false,
+      "pe": 50.9,
+      "buy_price": null,
+      "stop_suggest": null,
+      "tf_scores": {
+        "short": {
+          "weighted": -80.0,
+          "final_score": -48.0,
+          "action": "賣出/避開",
+          "action_color": "#dc2626",
+          "buy_price": null,
+          "stop_suggest": null
+        },
+        "medium": {
+          "weighted": -50.0,
+          "final_score": -30.0,
+          "action": "賣出/避開",
+          "action_color": "#dc2626",
+          "buy_price": null,
+          "stop_suggest": null
+        }
+      },
+      "earnings_date": "2026-12-02"
     }
   ],
   "by_timeframe": {
     "short": {
-      "buy_ids": [],
-      "buy_folded": {},
+      "buy_ids": [
+        "MSFT",
+        "TXN"
+      ],
+      "buy_folded": {
+        "科技巨頭": [
+          {
+            "stock_id": "AAPL",
+            "name": "蘋果",
+            "score": 68.0
+          }
+        ]
+      },
       "watch_ids": [
         "AMZN"
       ],
       "sell_ids": [
-        "AAPL",
-        "MSFT",
         "MU",
         "ON",
-        "TXN"
+        "NVDA",
+        "ADI",
+        "TSLA"
       ]
     },
     "medium": {
-      "buy_ids": [],
-      "buy_folded": {},
+      "buy_ids": [
+        "MSFT",
+        "TXN"
+      ],
+      "buy_folded": {
+        "科技巨頭": [
+          {
+            "stock_id": "AAPL",
+            "name": "蘋果",
+            "score": 50.0
+          }
+        ]
+      },
       "watch_ids": [
         "AMZN"
       ],
       "sell_ids": [
-        "NVDA",
         "AMD",
         "AVGO",
         "TSM",
-        "ASML"
+        "ASML",
+        "MRVL"
       ]
     }
   },
   "market_regime": {
     "bull": true,
-    "index": 7376.9,
-    "ma200": 7325.1
+    "index": 7549.9,
+    "ma200": 7328.2
   },
   "note": "美股無台股法人，評分=(基本面50%+技術50%)×60% + 6價量策略×40%"
 }
