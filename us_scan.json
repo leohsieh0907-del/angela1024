@@ -1,460 +1,9 @@
 {
-  "scan_time": "2026-11-12T20:43:43.332591",
+  "scan_time": "2026-11-13T15:30:43.097925",
   "total_scanned": 32,
-  "valid_data": 32,
-  "data_error": false,
+  "valid_data": 0,
+  "data_error": true,
   "results": [
-    {
-      "stock_id": "AAPL",
-      "name": "蘋果",
-      "sector": "科技巨頭",
-      "market": "US",
-      "votes": {
-        "fundamental": 0,
-        "chip": 0,
-        "technical": 1
-      },
-      "vote_notes": {
-        "fundamental": "PER 39.6｜偏貴(不否決)｜PBR 46.11",
-        "chip": "美股無台股法人",
-        "technical": "站上MA20+MA60（多頭排列）｜量比0.71x量縮"
-      },
-      "weighted": 50.0,
-      "final_score": 56.7,
-      "strategy_score": 4,
-      "signals": [
-        "扣抵有利",
-        "趨勢線",
-        "雙線GC+VCP",
-        "MACD+KD金叉"
-      ],
-      "action": "買進",
-      "action_color": "#16a34a",
-      "price": 355.63,
-      "rsi": 54.9,
-      "vol_ratio": 0.71,
-      "chg_pct": 2.04,
-      "ma20": 344.87,
-      "support": 331.9,
-      "chg5": 1.8,
-      "chg20": 3.7,
-      "above_ma20": true,
-      "pe": 39.6,
-      "buy_price": 344.87,
-      "stop_suggest": 325.26,
-      "tf_scores": {
-        "short": {
-          "weighted": 80.0,
-          "final_score": 74.7,
-          "action": "強力買進",
-          "action_color": "#16a34a",
-          "buy_price": 344.87,
-          "stop_suggest": 325.26
-        },
-        "medium": {
-          "weighted": 50.0,
-          "final_score": 56.7,
-          "action": "買進",
-          "action_color": "#16a34a",
-          "buy_price": 344.87,
-          "stop_suggest": 325.26
-        }
-      },
-      "earnings_date": "2027-01-29"
-    },
-    {
-      "stock_id": "TXN",
-      "name": "德州儀器",
-      "sector": "半導體設備/IDM",
-      "market": "US",
-      "votes": {
-        "fundamental": 0,
-        "chip": 0,
-        "technical": 1
-      },
-      "vote_notes": {
-        "fundamental": "PER 40.2｜偏貴(不否決)｜PBR 14.76",
-        "chip": "美股無台股法人",
-        "technical": "站上MA20+MA60（多頭排列）"
-      },
-      "weighted": 50.0,
-      "final_score": 50.0,
-      "strategy_score": 3,
-      "signals": [
-        "扣抵有利",
-        "趨勢線",
-        "雙線GC+VCP"
-      ],
-      "action": "買進",
-      "action_color": "#16a34a",
-      "price": 309.81,
-      "rsi": 62.9,
-      "vol_ratio": 0.83,
-      "chg_pct": 3.09,
-      "ma20": 293.05,
-      "support": 274.81,
-      "chg5": -0.5,
-      "chg20": 10.9,
-      "above_ma20": true,
-      "pe": 40.2,
-      "buy_price": 294.32,
-      "stop_suggest": 270.77,
-      "tf_scores": {
-        "short": {
-          "weighted": 80.0,
-          "final_score": 68.0,
-          "action": "強力買進",
-          "action_color": "#16a34a",
-          "buy_price": 294.32,
-          "stop_suggest": 270.77
-        },
-        "medium": {
-          "weighted": 50.0,
-          "final_score": 50.0,
-          "action": "買進",
-          "action_color": "#16a34a",
-          "buy_price": 294.32,
-          "stop_suggest": 270.77
-        }
-      },
-      "earnings_date": "2027-01-27"
-    },
-    {
-      "stock_id": "TSLA",
-      "name": "特斯拉",
-      "sector": "科技巨頭",
-      "market": "US",
-      "votes": {
-        "fundamental": 0,
-        "chip": 0,
-        "technical": 1
-      },
-      "vote_notes": {
-        "fundamental": "PER 429.5｜偏貴(不否決)｜PBR 17.30",
-        "chip": "美股無台股法人",
-        "technical": "站上MA20+MA60（多頭排列）｜量比0.68x量縮"
-      },
-      "weighted": 50.0,
-      "final_score": 50.0,
-      "strategy_score": 3,
-      "signals": [
-        "扣抵有利",
-        "趨勢線",
-        "雙線GC+VCP"
-      ],
-      "action": "買進",
-      "action_color": "#16a34a",
-      "price": 390.84,
-      "rsi": 55.2,
-      "vol_ratio": 0.68,
-      "chg_pct": 2.91,
-      "ma20": 381.83,
-      "support": 343.69,
-      "chg5": 1.5,
-      "chg20": 6.4,
-      "above_ma20": true,
-      "pe": 429.5,
-      "buy_price": 381.83,
-      "stop_suggest": 351.28,
-      "tf_scores": {
-        "short": {
-          "weighted": 80.0,
-          "final_score": 68.0,
-          "action": "強力買進",
-          "action_color": "#16a34a",
-          "buy_price": 381.83,
-          "stop_suggest": 351.28
-        },
-        "medium": {
-          "weighted": 50.0,
-          "final_score": 50.0,
-          "action": "買進",
-          "action_color": "#16a34a",
-          "buy_price": 381.83,
-          "stop_suggest": 351.28
-        }
-      },
-      "earnings_date": "2027-01-28"
-    },
-    {
-      "stock_id": "AMD",
-      "name": "超微",
-      "sector": "AI/半導體龍頭",
-      "market": "US",
-      "votes": {
-        "fundamental": 0,
-        "chip": 0,
-        "technical": 1
-      },
-      "vote_notes": {
-        "fundamental": "PER 118.1｜偏貴(不否決)｜PBR 13.26",
-        "chip": "美股無台股法人",
-        "technical": "站上MA20+MA60（多頭排列）"
-      },
-      "weighted": 50.0,
-      "final_score": 43.3,
-      "strategy_score": 2,
-      "signals": [
-        "趨勢線",
-        "MACD+KD金叉"
-      ],
-      "action": "中性偏多觀望",
-      "action_color": "#84cc16",
-      "price": 552.9,
-      "rsi": 55.1,
-      "vol_ratio": 1.4,
-      "chg_pct": 7.32,
-      "ma20": 517.6,
-      "support": 404.4,
-      "chg5": 13.1,
-      "chg20": -3.1,
-      "above_ma20": true,
-      "pe": 118.1,
-      "buy_price": 525.25,
-      "stop_suggest": 483.23,
-      "tf_scores": {
-        "short": {
-          "weighted": 80.0,
-          "final_score": 61.3,
-          "action": "強力買進",
-          "action_color": "#16a34a",
-          "buy_price": 525.25,
-          "stop_suggest": 483.23
-        },
-        "medium": {
-          "weighted": 50.0,
-          "final_score": 43.3,
-          "action": "中性偏多觀望",
-          "action_color": "#84cc16",
-          "buy_price": 525.25,
-          "stop_suggest": 483.23
-        }
-      },
-      "earnings_date": "2027-02-03"
-    },
-    {
-      "stock_id": "ADI",
-      "name": "亞德諾",
-      "sector": "半導體設備/IDM",
-      "market": "US",
-      "votes": {
-        "fundamental": 0,
-        "chip": 0,
-        "technical": 1
-      },
-      "vote_notes": {
-        "fundamental": "PER 48.6｜偏貴(不否決)｜PBR 5.91",
-        "chip": "美股無台股法人",
-        "technical": "站上MA20+MA60（多頭排列）｜量比0.77x量縮"
-      },
-      "weighted": 50.0,
-      "final_score": 43.3,
-      "strategy_score": 2,
-      "signals": [
-        "趨勢線",
-        "雙線GC+VCP"
-      ],
-      "action": "中性偏多觀望",
-      "action_color": "#84cc16",
-      "price": 409.08,
-      "rsi": 56.3,
-      "vol_ratio": 0.77,
-      "chg_pct": 4.01,
-      "ma20": 402.3,
-      "support": 361.01,
-      "chg5": 0.7,
-      "chg20": 1.4,
-      "above_ma20": true,
-      "pe": 48.6,
-      "buy_price": 402.3,
-      "stop_suggest": 370.12,
-      "tf_scores": {
-        "short": {
-          "weighted": 80.0,
-          "final_score": 61.3,
-          "action": "強力買進",
-          "action_color": "#16a34a",
-          "buy_price": 402.3,
-          "stop_suggest": 370.12
-        },
-        "medium": {
-          "weighted": 50.0,
-          "final_score": 43.3,
-          "action": "中性偏多觀望",
-          "action_color": "#84cc16",
-          "buy_price": 402.3,
-          "stop_suggest": 370.12
-        }
-      },
-      "earnings_date": "2026-11-24"
-    },
-    {
-      "stock_id": "AMZN",
-      "name": "亞馬遜",
-      "sector": "科技巨頭",
-      "market": "US",
-      "votes": {
-        "fundamental": 0,
-        "chip": 0,
-        "technical": 1
-      },
-      "vote_notes": {
-        "fundamental": "PER 21.5｜中性｜PBR 4.69",
-        "chip": "美股無台股法人",
-        "technical": "站上MA20+MA60（多頭排列）｜量比0.75x量縮"
-      },
-      "weighted": 50.0,
-      "final_score": 43.3,
-      "strategy_score": 2,
-      "signals": [
-        "扣抵有利",
-        "雙線GC+VCP"
-      ],
-      "action": "中性偏多觀望",
-      "action_color": "#84cc16",
-      "price": 266.17,
-      "rsi": 61.0,
-      "vol_ratio": 0.75,
-      "chg_pct": -1.74,
-      "ma20": 255.87,
-      "support": 240.35,
-      "chg5": 0.1,
-      "chg20": 4.8,
-      "above_ma20": true,
-      "pe": 21.5,
-      "buy_price": 255.87,
-      "stop_suggest": 235.54,
-      "tf_scores": {
-        "short": {
-          "weighted": 80.0,
-          "final_score": 61.3,
-          "action": "強力買進",
-          "action_color": "#16a34a",
-          "buy_price": 255.87,
-          "stop_suggest": 235.54
-        },
-        "medium": {
-          "weighted": 50.0,
-          "final_score": 43.3,
-          "action": "中性偏多觀望",
-          "action_color": "#84cc16",
-          "buy_price": 255.87,
-          "stop_suggest": 235.54
-        }
-      },
-      "earnings_date": null
-    },
-    {
-      "stock_id": "NET",
-      "name": "Cloudflare",
-      "sector": "軟體/雲端",
-      "market": "US",
-      "votes": {
-        "fundamental": 0,
-        "chip": 0,
-        "technical": 1
-      },
-      "vote_notes": {
-        "fundamental": "PER 170.3｜偏貴(不否決)｜PBR 77.04",
-        "chip": "美股無台股法人",
-        "technical": "站上MA20+MA60（多頭排列）"
-      },
-      "weighted": 50.0,
-      "final_score": 43.3,
-      "strategy_score": 2,
-      "signals": [
-        "趨勢線",
-        "MACD+KD金叉"
-      ],
-      "action": "中性偏多觀望",
-      "action_color": "#84cc16",
-      "price": 315.0,
-      "rsi": 52.8,
-      "vol_ratio": 1.08,
-      "chg_pct": 3.01,
-      "ma20": 297.05,
-      "support": 244.51,
-      "chg5": 18.2,
-      "chg20": -2.9,
-      "above_ma20": true,
-      "pe": 170.3,
-      "buy_price": 299.25,
-      "stop_suggest": 275.31,
-      "tf_scores": {
-        "short": {
-          "weighted": 80.0,
-          "final_score": 61.3,
-          "action": "強力買進",
-          "action_color": "#16a34a",
-          "buy_price": 299.25,
-          "stop_suggest": 275.31
-        },
-        "medium": {
-          "weighted": 50.0,
-          "final_score": 43.3,
-          "action": "中性偏多觀望",
-          "action_color": "#84cc16",
-          "buy_price": 299.25,
-          "stop_suggest": 275.31
-        }
-      },
-      "earnings_date": null
-    },
-    {
-      "stock_id": "QCOM",
-      "name": "高通",
-      "sector": "半導體設備/IDM",
-      "market": "US",
-      "votes": {
-        "fundamental": 0,
-        "chip": 0,
-        "technical": 1
-      },
-      "vote_notes": {
-        "fundamental": "PER 13.9｜中性｜PBR 6.23",
-        "chip": "美股無台股法人",
-        "technical": "站上MA20+MA60（多頭排列）"
-      },
-      "weighted": 50.0,
-      "final_score": 36.7,
-      "strategy_score": 1,
-      "signals": [
-        "趨勢線"
-      ],
-      "action": "觀察候選",
-      "action_color": "#f59e0b",
-      "price": 176.57,
-      "rsi": 52.2,
-      "vol_ratio": 1.02,
-      "chg_pct": 1.75,
-      "ma20": 173.34,
-      "support": 156.75,
-      "chg5": 2.0,
-      "chg20": 2.3,
-      "above_ma20": true,
-      "pe": 13.9,
-      "buy_price": 173.34,
-      "stop_suggest": 159.47,
-      "tf_scores": {
-        "short": {
-          "weighted": 80.0,
-          "final_score": 54.7,
-          "action": "觀察候選",
-          "action_color": "#f59e0b",
-          "buy_price": 173.34,
-          "stop_suggest": 159.47
-        },
-        "medium": {
-          "weighted": 50.0,
-          "final_score": 36.7,
-          "action": "觀察候選",
-          "action_color": "#f59e0b",
-          "buy_price": 173.34,
-          "stop_suggest": 159.47
-        }
-      },
-      "earnings_date": "2027-02-04"
-    },
     {
       "stock_id": "ON",
       "name": "安森美",
@@ -468,7 +17,7 @@
       "vote_notes": {
         "fundamental": "四維89分(A 體質優)｜強成長 YoY+37%｜毛利42.8%｜ROE8.3%",
         "chip": "美股無台股法人",
-        "technical": "站上MA20但未站MA60（中性偏多）"
+        "technical": "資料不足"
       },
       "weighted": 50.0,
       "final_score": 30.0,
@@ -476,18 +25,18 @@
       "signals": [],
       "action": "觀察候選",
       "action_color": "#f59e0b",
-      "price": 73.62,
-      "rsi": 50.5,
-      "vol_ratio": 0.8,
-      "chg_pct": 5.76,
-      "ma20": 72.24,
-      "support": 63.01,
-      "chg5": 3.3,
-      "chg20": 0.4,
-      "above_ma20": true,
+      "price": null,
+      "rsi": 50,
+      "vol_ratio": 0,
+      "chg_pct": null,
+      "ma20": null,
+      "support": null,
+      "chg5": null,
+      "chg20": null,
+      "above_ma20": null,
       "pe": null,
-      "buy_price": 72.24,
-      "stop_suggest": 66.46,
+      "buy_price": null,
+      "stop_suggest": null,
       "tf_scores": {
         "short": {
           "weighted": 20.0,
@@ -502,8 +51,114 @@
           "final_score": 30.0,
           "action": "觀察候選",
           "action_color": "#f59e0b",
-          "buy_price": 72.24,
-          "stop_suggest": 66.46
+          "buy_price": null,
+          "stop_suggest": null
+        }
+      },
+      "earnings_date": null
+    },
+    {
+      "stock_id": "NVDA",
+      "name": "輝達",
+      "sector": "AI/半導體龍頭",
+      "market": "US",
+      "votes": {
+        "fundamental": 0,
+        "chip": 0,
+        "technical": 0
+      },
+      "vote_notes": {
+        "fundamental": "估值資料失敗:Failed to perform, curl: (6) Could not resolve host: query1.finance.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.",
+        "chip": "美股無台股法人",
+        "technical": "資料不足"
+      },
+      "weighted": 0.0,
+      "final_score": 0.0,
+      "strategy_score": 0,
+      "signals": [],
+      "action": "中性觀望",
+      "action_color": "#888",
+      "price": null,
+      "rsi": 50,
+      "vol_ratio": 0,
+      "chg_pct": null,
+      "ma20": null,
+      "support": null,
+      "chg5": null,
+      "chg20": null,
+      "above_ma20": null,
+      "pe": null,
+      "buy_price": null,
+      "stop_suggest": null,
+      "tf_scores": {
+        "short": {
+          "weighted": 0.0,
+          "final_score": 0.0,
+          "action": "中性觀望",
+          "action_color": "#888",
+          "buy_price": null,
+          "stop_suggest": null
+        },
+        "medium": {
+          "weighted": 0.0,
+          "final_score": 0.0,
+          "action": "中性觀望",
+          "action_color": "#888",
+          "buy_price": null,
+          "stop_suggest": null
+        }
+      },
+      "earnings_date": null
+    },
+    {
+      "stock_id": "AMD",
+      "name": "超微",
+      "sector": "AI/半導體龍頭",
+      "market": "US",
+      "votes": {
+        "fundamental": 0,
+        "chip": 0,
+        "technical": 0
+      },
+      "vote_notes": {
+        "fundamental": "估值資料失敗:Failed to perform, curl: (6) Could not resolve host: query1.finance.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.",
+        "chip": "美股無台股法人",
+        "technical": "資料不足"
+      },
+      "weighted": 0.0,
+      "final_score": 0.0,
+      "strategy_score": 0,
+      "signals": [],
+      "action": "中性觀望",
+      "action_color": "#888",
+      "price": null,
+      "rsi": 50,
+      "vol_ratio": 0,
+      "chg_pct": null,
+      "ma20": null,
+      "support": null,
+      "chg5": null,
+      "chg20": null,
+      "above_ma20": null,
+      "pe": null,
+      "buy_price": null,
+      "stop_suggest": null,
+      "tf_scores": {
+        "short": {
+          "weighted": 0.0,
+          "final_score": 0.0,
+          "action": "中性觀望",
+          "action_color": "#888",
+          "buy_price": null,
+          "stop_suggest": null
+        },
+        "medium": {
+          "weighted": 0.0,
+          "final_score": 0.0,
+          "action": "中性觀望",
+          "action_color": "#888",
+          "buy_price": null,
+          "stop_suggest": null
         }
       },
       "earnings_date": null
@@ -519,9 +174,9 @@
         "technical": 0
       },
       "vote_notes": {
-        "fundamental": "PER 44.1｜偏貴(不否決)｜PBR 16.53",
+        "fundamental": "估值資料失敗:Failed to perform, curl: (6) Could not resolve host: query1.finance.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.",
         "chip": "美股無台股法人",
-        "technical": "站上MA20但未站MA60（中性偏多）"
+        "technical": "資料不足"
       },
       "weighted": 0.0,
       "final_score": 0.0,
@@ -529,16 +184,16 @@
       "signals": [],
       "action": "中性觀望",
       "action_color": "#888",
-      "price": 345.22,
-      "rsi": 56.6,
-      "vol_ratio": 1.28,
-      "chg_pct": 3.99,
-      "ma20": 329.04,
-      "support": 291.53,
-      "chg5": 6.1,
-      "chg20": -0.3,
-      "above_ma20": true,
-      "pe": 44.1,
+      "price": null,
+      "rsi": 50,
+      "vol_ratio": 0,
+      "chg_pct": null,
+      "ma20": null,
+      "support": null,
+      "chg5": null,
+      "chg20": null,
+      "above_ma20": null,
+      "pe": null,
       "buy_price": null,
       "stop_suggest": null,
       "tf_scores": {
@@ -559,7 +214,7 @@
           "stop_suggest": null
         }
       },
-      "earnings_date": "2026-12-10"
+      "earnings_date": null
     },
     {
       "stock_id": "TSM",
@@ -572,9 +227,9 @@
         "technical": 0
       },
       "vote_notes": {
-        "fundamental": "PER 26.8｜中性｜PBR 78.88",
+        "fundamental": "估值資料失敗:Failed to perform, curl: (6) Could not resolve host: query1.finance.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.",
         "chip": "美股無台股法人",
-        "technical": "站上MA20但未站MA60（中性偏多）"
+        "technical": "資料不足"
       },
       "weighted": 0.0,
       "final_score": 0.0,
@@ -582,16 +237,16 @@
       "signals": [],
       "action": "中性觀望",
       "action_color": "#888",
-      "price": 413.35,
-      "rsi": 50.3,
-      "vol_ratio": 0.94,
-      "chg_pct": 4.25,
-      "ma20": 410.39,
-      "support": 353.1,
-      "chg5": 4.4,
-      "chg20": -3.9,
-      "above_ma20": true,
-      "pe": 26.8,
+      "price": null,
+      "rsi": 50,
+      "vol_ratio": 0,
+      "chg_pct": null,
+      "ma20": null,
+      "support": null,
+      "chg5": null,
+      "chg20": null,
+      "above_ma20": null,
+      "pe": null,
       "buy_price": null,
       "stop_suggest": null,
       "tf_scores": {
@@ -612,7 +267,7 @@
           "stop_suggest": null
         }
       },
-      "earnings_date": "2027-01-14"
+      "earnings_date": null
     },
     {
       "stock_id": "MU",
@@ -620,14 +275,14 @@
       "sector": "AI/半導體龍頭",
       "market": "US",
       "votes": {
-        "fundamental": 1,
+        "fundamental": 0,
         "chip": 0,
-        "technical": -1
+        "technical": 0
       },
       "vote_notes": {
-        "fundamental": "PER 10.9｜偏便宜｜PBR 6.63",
+        "fundamental": "估值資料失敗:Failed to perform, curl: (6) Could not resolve host: query1.finance.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.",
         "chip": "美股無台股法人",
-        "technical": "跌破MA20（弱勢）"
+        "technical": "資料不足"
       },
       "weighted": 0.0,
       "final_score": 0.0,
@@ -635,24 +290,24 @@
       "signals": [],
       "action": "中性觀望",
       "action_color": "#888",
-      "price": 811.3,
-      "rsi": 46.6,
-      "vol_ratio": 1.15,
-      "chg_pct": 11.89,
-      "ma20": 849.67,
-      "support": 656.39,
-      "chg5": 2.0,
-      "chg20": -11.2,
-      "above_ma20": false,
-      "pe": 10.9,
+      "price": null,
+      "rsi": 50,
+      "vol_ratio": 0,
+      "chg_pct": null,
+      "ma20": null,
+      "support": null,
+      "chg5": null,
+      "chg20": null,
+      "above_ma20": null,
+      "pe": null,
       "buy_price": null,
       "stop_suggest": null,
       "tf_scores": {
         "short": {
-          "weighted": -60.0,
-          "final_score": -36.0,
-          "action": "賣出/避開",
-          "action_color": "#dc2626",
+          "weighted": 0.0,
+          "final_score": 0.0,
+          "action": "中性觀望",
+          "action_color": "#888",
           "buy_price": null,
           "stop_suggest": null
         },
@@ -665,7 +320,431 @@
           "stop_suggest": null
         }
       },
-      "earnings_date": "2026-12-24"
+      "earnings_date": null
+    },
+    {
+      "stock_id": "ASML",
+      "name": "艾司摩爾",
+      "sector": "AI/半導體龍頭",
+      "market": "US",
+      "votes": {
+        "fundamental": 0,
+        "chip": 0,
+        "technical": 0
+      },
+      "vote_notes": {
+        "fundamental": "估值資料失敗:Failed to perform, curl: (6) Could not resolve host: query1.finance.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.",
+        "chip": "美股無台股法人",
+        "technical": "資料不足"
+      },
+      "weighted": 0.0,
+      "final_score": 0.0,
+      "strategy_score": 0,
+      "signals": [],
+      "action": "中性觀望",
+      "action_color": "#888",
+      "price": null,
+      "rsi": 50,
+      "vol_ratio": 0,
+      "chg_pct": null,
+      "ma20": null,
+      "support": null,
+      "chg5": null,
+      "chg20": null,
+      "above_ma20": null,
+      "pe": null,
+      "buy_price": null,
+      "stop_suggest": null,
+      "tf_scores": {
+        "short": {
+          "weighted": 0.0,
+          "final_score": 0.0,
+          "action": "中性觀望",
+          "action_color": "#888",
+          "buy_price": null,
+          "stop_suggest": null
+        },
+        "medium": {
+          "weighted": 0.0,
+          "final_score": 0.0,
+          "action": "中性觀望",
+          "action_color": "#888",
+          "buy_price": null,
+          "stop_suggest": null
+        }
+      },
+      "earnings_date": null
+    },
+    {
+      "stock_id": "MRVL",
+      "name": "邁威爾",
+      "sector": "AI/半導體龍頭",
+      "market": "US",
+      "votes": {
+        "fundamental": 0,
+        "chip": 0,
+        "technical": 0
+      },
+      "vote_notes": {
+        "fundamental": "估值資料失敗:Failed to perform, curl: (6) Could not resolve host: query1.finance.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.",
+        "chip": "美股無台股法人",
+        "technical": "資料不足"
+      },
+      "weighted": 0.0,
+      "final_score": 0.0,
+      "strategy_score": 0,
+      "signals": [],
+      "action": "中性觀望",
+      "action_color": "#888",
+      "price": null,
+      "rsi": 50,
+      "vol_ratio": 0,
+      "chg_pct": null,
+      "ma20": null,
+      "support": null,
+      "chg5": null,
+      "chg20": null,
+      "above_ma20": null,
+      "pe": null,
+      "buy_price": null,
+      "stop_suggest": null,
+      "tf_scores": {
+        "short": {
+          "weighted": 0.0,
+          "final_score": 0.0,
+          "action": "中性觀望",
+          "action_color": "#888",
+          "buy_price": null,
+          "stop_suggest": null
+        },
+        "medium": {
+          "weighted": 0.0,
+          "final_score": 0.0,
+          "action": "中性觀望",
+          "action_color": "#888",
+          "buy_price": null,
+          "stop_suggest": null
+        }
+      },
+      "earnings_date": null
+    },
+    {
+      "stock_id": "ARM",
+      "name": "安謀",
+      "sector": "AI/半導體龍頭",
+      "market": "US",
+      "votes": {
+        "fundamental": 0,
+        "chip": 0,
+        "technical": 0
+      },
+      "vote_notes": {
+        "fundamental": "估值資料失敗:Failed to perform, curl: (6) Could not resolve host: query1.finance.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.",
+        "chip": "美股無台股法人",
+        "technical": "資料不足"
+      },
+      "weighted": 0.0,
+      "final_score": 0.0,
+      "strategy_score": 0,
+      "signals": [],
+      "action": "中性觀望",
+      "action_color": "#888",
+      "price": null,
+      "rsi": 50,
+      "vol_ratio": 0,
+      "chg_pct": null,
+      "ma20": null,
+      "support": null,
+      "chg5": null,
+      "chg20": null,
+      "above_ma20": null,
+      "pe": null,
+      "buy_price": null,
+      "stop_suggest": null,
+      "tf_scores": {
+        "short": {
+          "weighted": 0.0,
+          "final_score": 0.0,
+          "action": "中性觀望",
+          "action_color": "#888",
+          "buy_price": null,
+          "stop_suggest": null
+        },
+        "medium": {
+          "weighted": 0.0,
+          "final_score": 0.0,
+          "action": "中性觀望",
+          "action_color": "#888",
+          "buy_price": null,
+          "stop_suggest": null
+        }
+      },
+      "earnings_date": null
+    },
+    {
+      "stock_id": "INTC",
+      "name": "英特爾",
+      "sector": "半導體設備/IDM",
+      "market": "US",
+      "votes": {
+        "fundamental": 0,
+        "chip": 0,
+        "technical": 0
+      },
+      "vote_notes": {
+        "fundamental": "四維55分(C 體質中)｜成長平緩 YoY+25%｜毛利38.9%｜ROE-10.7%",
+        "chip": "美股無台股法人",
+        "technical": "資料不足"
+      },
+      "weighted": 0.0,
+      "final_score": 0.0,
+      "strategy_score": 0,
+      "signals": [],
+      "action": "中性觀望",
+      "action_color": "#888",
+      "price": null,
+      "rsi": 50,
+      "vol_ratio": 0,
+      "chg_pct": null,
+      "ma20": null,
+      "support": null,
+      "chg5": null,
+      "chg20": null,
+      "above_ma20": null,
+      "pe": null,
+      "buy_price": null,
+      "stop_suggest": null,
+      "tf_scores": {
+        "short": {
+          "weighted": 0.0,
+          "final_score": 0.0,
+          "action": "中性觀望",
+          "action_color": "#888",
+          "buy_price": null,
+          "stop_suggest": null
+        },
+        "medium": {
+          "weighted": 0.0,
+          "final_score": 0.0,
+          "action": "中性觀望",
+          "action_color": "#888",
+          "buy_price": null,
+          "stop_suggest": null
+        }
+      },
+      "earnings_date": null
+    },
+    {
+      "stock_id": "QCOM",
+      "name": "高通",
+      "sector": "半導體設備/IDM",
+      "market": "US",
+      "votes": {
+        "fundamental": 0,
+        "chip": 0,
+        "technical": 0
+      },
+      "vote_notes": {
+        "fundamental": "估值資料失敗:Failed to perform, curl: (6) Could not resolve host: query1.finance.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.",
+        "chip": "美股無台股法人",
+        "technical": "資料不足"
+      },
+      "weighted": 0.0,
+      "final_score": 0.0,
+      "strategy_score": 0,
+      "signals": [],
+      "action": "中性觀望",
+      "action_color": "#888",
+      "price": null,
+      "rsi": 50,
+      "vol_ratio": 0,
+      "chg_pct": null,
+      "ma20": null,
+      "support": null,
+      "chg5": null,
+      "chg20": null,
+      "above_ma20": null,
+      "pe": null,
+      "buy_price": null,
+      "stop_suggest": null,
+      "tf_scores": {
+        "short": {
+          "weighted": 0.0,
+          "final_score": 0.0,
+          "action": "中性觀望",
+          "action_color": "#888",
+          "buy_price": null,
+          "stop_suggest": null
+        },
+        "medium": {
+          "weighted": 0.0,
+          "final_score": 0.0,
+          "action": "中性觀望",
+          "action_color": "#888",
+          "buy_price": null,
+          "stop_suggest": null
+        }
+      },
+      "earnings_date": null
+    },
+    {
+      "stock_id": "TXN",
+      "name": "德州儀器",
+      "sector": "半導體設備/IDM",
+      "market": "US",
+      "votes": {
+        "fundamental": 0,
+        "chip": 0,
+        "technical": 0
+      },
+      "vote_notes": {
+        "fundamental": "估值資料失敗:Failed to perform, curl: (6) Could not resolve host: query1.finance.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.",
+        "chip": "美股無台股法人",
+        "technical": "資料不足"
+      },
+      "weighted": 0.0,
+      "final_score": 0.0,
+      "strategy_score": 0,
+      "signals": [],
+      "action": "中性觀望",
+      "action_color": "#888",
+      "price": null,
+      "rsi": 50,
+      "vol_ratio": 0,
+      "chg_pct": null,
+      "ma20": null,
+      "support": null,
+      "chg5": null,
+      "chg20": null,
+      "above_ma20": null,
+      "pe": null,
+      "buy_price": null,
+      "stop_suggest": null,
+      "tf_scores": {
+        "short": {
+          "weighted": 0.0,
+          "final_score": 0.0,
+          "action": "中性觀望",
+          "action_color": "#888",
+          "buy_price": null,
+          "stop_suggest": null
+        },
+        "medium": {
+          "weighted": 0.0,
+          "final_score": 0.0,
+          "action": "中性觀望",
+          "action_color": "#888",
+          "buy_price": null,
+          "stop_suggest": null
+        }
+      },
+      "earnings_date": null
+    },
+    {
+      "stock_id": "ADI",
+      "name": "亞德諾",
+      "sector": "半導體設備/IDM",
+      "market": "US",
+      "votes": {
+        "fundamental": 0,
+        "chip": 0,
+        "technical": 0
+      },
+      "vote_notes": {
+        "fundamental": "估值資料失敗:Failed to perform, curl: (6) Could not resolve host: query1.finance.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.",
+        "chip": "美股無台股法人",
+        "technical": "資料不足"
+      },
+      "weighted": 0.0,
+      "final_score": 0.0,
+      "strategy_score": 0,
+      "signals": [],
+      "action": "中性觀望",
+      "action_color": "#888",
+      "price": null,
+      "rsi": 50,
+      "vol_ratio": 0,
+      "chg_pct": null,
+      "ma20": null,
+      "support": null,
+      "chg5": null,
+      "chg20": null,
+      "above_ma20": null,
+      "pe": null,
+      "buy_price": null,
+      "stop_suggest": null,
+      "tf_scores": {
+        "short": {
+          "weighted": 0.0,
+          "final_score": 0.0,
+          "action": "中性觀望",
+          "action_color": "#888",
+          "buy_price": null,
+          "stop_suggest": null
+        },
+        "medium": {
+          "weighted": 0.0,
+          "final_score": 0.0,
+          "action": "中性觀望",
+          "action_color": "#888",
+          "buy_price": null,
+          "stop_suggest": null
+        }
+      },
+      "earnings_date": null
+    },
+    {
+      "stock_id": "LRCX",
+      "name": "科林研發",
+      "sector": "半導體設備/IDM",
+      "market": "US",
+      "votes": {
+        "fundamental": 0,
+        "chip": 0,
+        "technical": 0
+      },
+      "vote_notes": {
+        "fundamental": "估值資料失敗:Failed to perform, curl: (6) Could not resolve host: query1.finance.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.",
+        "chip": "美股無台股法人",
+        "technical": "資料不足"
+      },
+      "weighted": 0.0,
+      "final_score": 0.0,
+      "strategy_score": 0,
+      "signals": [],
+      "action": "中性觀望",
+      "action_color": "#888",
+      "price": null,
+      "rsi": 50,
+      "vol_ratio": 0,
+      "chg_pct": null,
+      "ma20": null,
+      "support": null,
+      "chg5": null,
+      "chg20": null,
+      "above_ma20": null,
+      "pe": null,
+      "buy_price": null,
+      "stop_suggest": null,
+      "tf_scores": {
+        "short": {
+          "weighted": 0.0,
+          "final_score": 0.0,
+          "action": "中性觀望",
+          "action_color": "#888",
+          "buy_price": null,
+          "stop_suggest": null
+        },
+        "medium": {
+          "weighted": 0.0,
+          "final_score": 0.0,
+          "action": "中性觀望",
+          "action_color": "#888",
+          "buy_price": null,
+          "stop_suggest": null
+        }
+      },
+      "earnings_date": null
     },
     {
       "stock_id": "AMAT",
@@ -678,9 +757,9 @@
         "technical": 0
       },
       "vote_notes": {
-        "fundamental": "PER 34.1｜偏貴(不否決)｜PBR 12.23",
+        "fundamental": "估值資料失敗:Failed to perform, curl: (6) Could not resolve host: query1.finance.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.",
         "chip": "美股無台股法人",
-        "technical": "站上MA20但未站MA60（中性偏多）"
+        "technical": "資料不足"
       },
       "weighted": 0.0,
       "final_score": 0.0,
@@ -688,16 +767,16 @@
       "signals": [],
       "action": "中性觀望",
       "action_color": "#888",
-      "price": 395.08,
-      "rsi": 54.1,
-      "vol_ratio": 0.87,
-      "chg_pct": 6.05,
-      "ma20": 387.32,
-      "support": 319.25,
-      "chg5": 7.0,
-      "chg20": -11.5,
-      "above_ma20": true,
-      "pe": 34.1,
+      "price": null,
+      "rsi": 50,
+      "vol_ratio": 0,
+      "chg_pct": null,
+      "ma20": null,
+      "support": null,
+      "chg5": null,
+      "chg20": null,
+      "above_ma20": null,
+      "pe": null,
       "buy_price": null,
       "stop_suggest": null,
       "tf_scores": {
@@ -718,7 +797,7 @@
           "stop_suggest": null
         }
       },
-      "earnings_date": "2026-11-13"
+      "earnings_date": null
     },
     {
       "stock_id": "KLAC",
@@ -731,9 +810,9 @@
         "technical": 0
       },
       "vote_notes": {
-        "fundamental": "PER 40.4｜偏貴(不否決)｜PBR 32.17",
+        "fundamental": "估值資料失敗:Failed to perform, curl: (6) Could not resolve host: query1.finance.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.",
         "chip": "美股無台股法人",
-        "technical": "站上MA20但未站MA60（中性偏多）｜量比0.75x量縮"
+        "technical": "資料不足"
       },
       "weighted": 0.0,
       "final_score": 0.0,
@@ -741,16 +820,16 @@
       "signals": [],
       "action": "中性觀望",
       "action_color": "#888",
-      "price": 161.01,
-      "rsi": 56.7,
-      "vol_ratio": 0.75,
-      "chg_pct": 5.24,
-      "ma20": 155.25,
-      "support": 129.8,
-      "chg5": 7.5,
-      "chg20": -10.0,
-      "above_ma20": true,
-      "pe": 40.4,
+      "price": null,
+      "rsi": 50,
+      "vol_ratio": 0,
+      "chg_pct": null,
+      "ma20": null,
+      "support": null,
+      "chg5": null,
+      "chg20": null,
+      "above_ma20": null,
+      "pe": null,
       "buy_price": null,
       "stop_suggest": null,
       "tf_scores": {
@@ -771,12 +850,12 @@
           "stop_suggest": null
         }
       },
-      "earnings_date": "2027-01-29"
+      "earnings_date": null
     },
     {
-      "stock_id": "ORCL",
-      "name": "甲骨文",
-      "sector": "軟體/雲端",
+      "stock_id": "AAPL",
+      "name": "蘋果",
+      "sector": "科技巨頭",
       "market": "US",
       "votes": {
         "fundamental": 0,
@@ -784,9 +863,9 @@
         "technical": 0
       },
       "vote_notes": {
-        "fundamental": "PER 20.1｜中性｜PBR 6.28",
+        "fundamental": "估值資料失敗:Failed to perform, curl: (6) Could not resolve host: query1.finance.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.",
         "chip": "美股無台股法人",
-        "technical": "站上MA20但未站MA60（中性偏多）"
+        "technical": "資料不足"
       },
       "weighted": 0.0,
       "final_score": 0.0,
@@ -794,16 +873,16 @@
       "signals": [],
       "action": "中性觀望",
       "action_color": "#888",
-      "price": 128.38,
-      "rsi": 51.8,
-      "vol_ratio": 0.89,
-      "chg_pct": 8.82,
-      "ma20": 127.11,
-      "support": 115.16,
-      "chg5": 3.8,
-      "chg20": -1.7,
-      "above_ma20": true,
-      "pe": 20.1,
+      "price": null,
+      "rsi": 50,
+      "vol_ratio": 0,
+      "chg_pct": null,
+      "ma20": null,
+      "support": null,
+      "chg5": null,
+      "chg20": null,
+      "above_ma20": null,
+      "pe": null,
       "buy_price": null,
       "stop_suggest": null,
       "tf_scores": {
@@ -824,62 +903,7 @@
           "stop_suggest": null
         }
       },
-      "earnings_date": "2026-12-15"
-    },
-    {
-      "stock_id": "NVDA",
-      "name": "輝達",
-      "sector": "AI/半導體龍頭",
-      "market": "US",
-      "votes": {
-        "fundamental": 0,
-        "chip": 0,
-        "technical": -1
-      },
-      "vote_notes": {
-        "fundamental": "PER 22.0｜中性｜PBR 18.32",
-        "chip": "美股無台股法人",
-        "technical": "跌破MA20（弱勢）｜量比1.91x放量｜RSI 26.4 超賣"
-      },
-      "weighted": -50.0,
-      "final_score": -23.3,
-      "strategy_score": 1,
-      "signals": [
-        "量能爆量2.0x"
-      ],
-      "action": "中性觀望",
-      "action_color": "#888",
-      "price": 173.73,
-      "rsi": 26.4,
-      "vol_ratio": 1.91,
-      "chg_pct": 2.87,
-      "ma20": 203.8,
-      "support": 168.89,
-      "chg5": -13.2,
-      "chg20": -21.5,
-      "above_ma20": false,
-      "pe": 22.0,
-      "buy_price": null,
-      "stop_suggest": null,
-      "tf_scores": {
-        "short": {
-          "weighted": -80.0,
-          "final_score": -41.3,
-          "action": "賣出/避開",
-          "action_color": "#dc2626",
-          "buy_price": null,
-          "stop_suggest": null
-        },
-        "medium": {
-          "weighted": -50.0,
-          "final_score": -23.3,
-          "action": "中性觀望",
-          "action_color": "#888",
-          "buy_price": null,
-          "stop_suggest": null
-        }
-      },
-      "earnings_date": "2026-11-18"
+      "earnings_date": null
     },
     {
       "stock_id": "MSFT",
@@ -889,427 +913,50 @@
       "votes": {
         "fundamental": 0,
         "chip": 0,
-        "technical": -1
+        "technical": 0
       },
       "vote_notes": {
-        "fundamental": "PER 27.2｜中性｜PBR 8.23",
+        "fundamental": "估值資料失敗:Failed to perform, curl: (6) Could not resolve host: query1.finance.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.",
         "chip": "美股無台股法人",
-        "technical": "跌破MA20（弱勢）"
+        "technical": "資料不足"
       },
-      "weighted": -50.0,
-      "final_score": -23.3,
-      "strategy_score": 1,
-      "signals": [
-        "趨勢線"
-      ],
+      "weighted": 0.0,
+      "final_score": 0.0,
+      "strategy_score": 0,
+      "signals": [],
       "action": "中性觀望",
       "action_color": "#888",
-      "price": 521.13,
-      "rsi": 50.0,
-      "vol_ratio": 1.1,
-      "chg_pct": -2.26,
-      "ma20": 530.47,
-      "support": 507.12,
-      "chg5": -6.2,
-      "chg20": -2.4,
-      "above_ma20": false,
-      "pe": 27.2,
-      "buy_price": null,
-      "stop_suggest": null,
-      "tf_scores": {
-        "short": {
-          "weighted": -80.0,
-          "final_score": -41.3,
-          "action": "賣出/避開",
-          "action_color": "#dc2626",
-          "buy_price": null,
-          "stop_suggest": null
-        },
-        "medium": {
-          "weighted": -50.0,
-          "final_score": -23.3,
-          "action": "中性觀望",
-          "action_color": "#888",
-          "buy_price": null,
-          "stop_suggest": null
-        }
-      },
-      "earnings_date": "2027-01-28"
-    },
-    {
-      "stock_id": "META",
-      "name": "Meta",
-      "sector": "科技巨頭",
-      "market": "US",
-      "votes": {
-        "fundamental": 0,
-        "chip": 0,
-        "technical": -1
-      },
-      "vote_notes": {
-        "fundamental": "PER 21.5｜中性｜PBR 5.90",
-        "chip": "美股無台股法人",
-        "technical": "跌破MA20（弱勢）｜量比0.64x量縮"
-      },
-      "weighted": -50.0,
-      "final_score": -23.3,
-      "strategy_score": 1,
-      "signals": [
-        "MACD+KD金叉"
-      ],
-      "action": "中性觀望",
-      "action_color": "#888",
-      "price": 628.77,
-      "rsi": 43.9,
-      "vol_ratio": 0.64,
-      "chg_pct": -1.97,
-      "ma20": 646.1,
-      "support": 605.08,
-      "chg5": -0.2,
-      "chg20": -14.7,
-      "above_ma20": false,
-      "pe": 21.5,
-      "buy_price": null,
-      "stop_suggest": null,
-      "tf_scores": {
-        "short": {
-          "weighted": -80.0,
-          "final_score": -41.3,
-          "action": "賣出/避開",
-          "action_color": "#dc2626",
-          "buy_price": null,
-          "stop_suggest": null
-        },
-        "medium": {
-          "weighted": -50.0,
-          "final_score": -23.3,
-          "action": "中性觀望",
-          "action_color": "#888",
-          "buy_price": null,
-          "stop_suggest": null
-        }
-      },
-      "earnings_date": "2027-01-28"
-    },
-    {
-      "stock_id": "ADBE",
-      "name": "Adobe",
-      "sector": "軟體/雲端",
-      "market": "US",
-      "votes": {
-        "fundamental": 0,
-        "chip": 0,
-        "technical": -1
-      },
-      "vote_notes": {
-        "fundamental": "PER 13.3｜中性｜PBR 7.90",
-        "chip": "美股無台股法人",
-        "technical": "跌破MA20（弱勢）｜RSI 16.3 超賣"
-      },
-      "weighted": -50.0,
-      "final_score": -23.3,
-      "strategy_score": 1,
-      "signals": [
-        "扣抵有利"
-      ],
-      "action": "中性觀望",
-      "action_color": "#888",
-      "price": 237.6,
-      "rsi": 16.3,
-      "vol_ratio": 0.99,
-      "chg_pct": 0.38,
-      "ma20": 249.43,
-      "support": 236.7,
-      "chg5": -4.4,
-      "chg20": -1.3,
-      "above_ma20": false,
-      "pe": 13.3,
-      "buy_price": null,
-      "stop_suggest": null,
-      "tf_scores": {
-        "short": {
-          "weighted": -80.0,
-          "final_score": -41.3,
-          "action": "賣出/避開",
-          "action_color": "#dc2626",
-          "buy_price": null,
-          "stop_suggest": null
-        },
-        "medium": {
-          "weighted": -50.0,
-          "final_score": -23.3,
-          "action": "中性觀望",
-          "action_color": "#888",
-          "buy_price": null,
-          "stop_suggest": null
-        }
-      },
-      "earnings_date": "2026-12-10"
-    },
-    {
-      "stock_id": "ASML",
-      "name": "艾司摩爾",
-      "sector": "AI/半導體龍頭",
-      "market": "US",
-      "votes": {
-        "fundamental": 0,
-        "chip": 0,
-        "technical": -1
-      },
-      "vote_notes": {
-        "fundamental": "PER 37.8｜偏貴(不否決)｜PBR 1317.53",
-        "chip": "美股無台股法人",
-        "technical": "跌破MA20（弱勢）"
-      },
-      "weighted": -50.0,
-      "final_score": -30.0,
-      "strategy_score": 0,
-      "signals": [],
-      "action": "賣出/避開",
-      "action_color": "#dc2626",
-      "price": 1534.42,
-      "rsi": 48.2,
-      "vol_ratio": 0.85,
-      "chg_pct": 1.76,
-      "ma20": 1570.56,
-      "support": 1356.65,
-      "chg5": 2.5,
-      "chg20": -6.9,
-      "above_ma20": false,
-      "pe": 37.8,
-      "buy_price": null,
-      "stop_suggest": null,
-      "tf_scores": {
-        "short": {
-          "weighted": -80.0,
-          "final_score": -48.0,
-          "action": "賣出/避開",
-          "action_color": "#dc2626",
-          "buy_price": null,
-          "stop_suggest": null
-        },
-        "medium": {
-          "weighted": -50.0,
-          "final_score": -30.0,
-          "action": "賣出/避開",
-          "action_color": "#dc2626",
-          "buy_price": null,
-          "stop_suggest": null
-        }
-      },
-      "earnings_date": "2027-01-27"
-    },
-    {
-      "stock_id": "MRVL",
-      "name": "邁威爾",
-      "sector": "AI/半導體龍頭",
-      "market": "US",
-      "votes": {
-        "fundamental": 0,
-        "chip": 0,
-        "technical": -1
-      },
-      "vote_notes": {
-        "fundamental": "PER 55.5｜偏貴(不否決)｜PBR 7.99",
-        "chip": "美股無台股法人",
-        "technical": "跌破MA20（弱勢）"
-      },
-      "weighted": -50.0,
-      "final_score": -30.0,
-      "strategy_score": 0,
-      "signals": [],
-      "action": "賣出/避開",
-      "action_color": "#dc2626",
-      "price": 168.8,
-      "rsi": 35.1,
-      "vol_ratio": 1.11,
-      "chg_pct": 9.33,
-      "ma20": 202.14,
-      "support": 133.55,
-      "chg5": 5.6,
-      "chg20": -31.2,
-      "above_ma20": false,
-      "pe": 55.5,
-      "buy_price": null,
-      "stop_suggest": null,
-      "tf_scores": {
-        "short": {
-          "weighted": -80.0,
-          "final_score": -48.0,
-          "action": "賣出/避開",
-          "action_color": "#dc2626",
-          "buy_price": null,
-          "stop_suggest": null
-        },
-        "medium": {
-          "weighted": -50.0,
-          "final_score": -30.0,
-          "action": "賣出/避開",
-          "action_color": "#dc2626",
-          "buy_price": null,
-          "stop_suggest": null
-        }
-      },
-      "earnings_date": "2026-12-02"
-    },
-    {
-      "stock_id": "ARM",
-      "name": "安謀",
-      "sector": "AI/半導體龍頭",
-      "market": "US",
-      "votes": {
-        "fundamental": 0,
-        "chip": 0,
-        "technical": -1
-      },
-      "vote_notes": {
-        "fundamental": "PER 233.7｜偏貴(不否決)｜PBR 23.94",
-        "chip": "美股無台股法人",
-        "technical": "跌破MA20（弱勢）"
-      },
-      "weighted": -50.0,
-      "final_score": -30.0,
-      "strategy_score": 0,
-      "signals": [],
-      "action": "賣出/避開",
-      "action_color": "#dc2626",
-      "price": 203.36,
-      "rsi": 47.8,
-      "vol_ratio": 1.15,
-      "chg_pct": 12.05,
-      "ma20": 209.64,
-      "support": 166.72,
-      "chg5": 6.0,
-      "chg20": -14.6,
-      "above_ma20": false,
-      "pe": 233.7,
-      "buy_price": null,
-      "stop_suggest": null,
-      "tf_scores": {
-        "short": {
-          "weighted": -80.0,
-          "final_score": -48.0,
-          "action": "賣出/避開",
-          "action_color": "#dc2626",
-          "buy_price": null,
-          "stop_suggest": null
-        },
-        "medium": {
-          "weighted": -50.0,
-          "final_score": -30.0,
-          "action": "賣出/避開",
-          "action_color": "#dc2626",
-          "buy_price": null,
-          "stop_suggest": null
-        }
-      },
-      "earnings_date": "2027-02-04"
-    },
-    {
-      "stock_id": "INTC",
-      "name": "英特爾",
-      "sector": "半導體設備/IDM",
-      "market": "US",
-      "votes": {
-        "fundamental": 0,
-        "chip": 0,
-        "technical": -1
-      },
-      "vote_notes": {
-        "fundamental": "四維55分(C 體質中)｜成長平緩 YoY+25%｜毛利38.9%｜ROE-10.7%",
-        "chip": "美股無台股法人",
-        "technical": "跌破MA20（弱勢）"
-      },
-      "weighted": -50.0,
-      "final_score": -30.0,
-      "strategy_score": 0,
-      "signals": [],
-      "action": "賣出/避開",
-      "action_color": "#dc2626",
-      "price": 62.5,
-      "rsi": 32.9,
-      "vol_ratio": 0.88,
-      "chg_pct": 7.52,
-      "ma20": 76.96,
-      "support": 52.25,
-      "chg5": 7.3,
-      "chg20": -36.3,
-      "above_ma20": false,
+      "price": null,
+      "rsi": 50,
+      "vol_ratio": 0,
+      "chg_pct": null,
+      "ma20": null,
+      "support": null,
+      "chg5": null,
+      "chg20": null,
+      "above_ma20": null,
       "pe": null,
       "buy_price": null,
       "stop_suggest": null,
       "tf_scores": {
         "short": {
-          "weighted": -80.0,
-          "final_score": -48.0,
-          "action": "賣出/避開",
-          "action_color": "#dc2626",
+          "weighted": 0.0,
+          "final_score": 0.0,
+          "action": "中性觀望",
+          "action_color": "#888",
           "buy_price": null,
           "stop_suggest": null
         },
         "medium": {
-          "weighted": -50.0,
-          "final_score": -30.0,
-          "action": "賣出/避開",
-          "action_color": "#dc2626",
+          "weighted": 0.0,
+          "final_score": 0.0,
+          "action": "中性觀望",
+          "action_color": "#888",
           "buy_price": null,
           "stop_suggest": null
         }
       },
-      "earnings_date": "2027-01-29"
-    },
-    {
-      "stock_id": "LRCX",
-      "name": "科林研發",
-      "sector": "半導體設備/IDM",
-      "market": "US",
-      "votes": {
-        "fundamental": 0,
-        "chip": 0,
-        "technical": -1
-      },
-      "vote_notes": {
-        "fundamental": "PER 35.2｜偏貴(不否決)｜PBR 21.19",
-        "chip": "美股無台股法人",
-        "technical": "跌破MA20（弱勢）｜量比0.79x量縮"
-      },
-      "weighted": -50.0,
-      "final_score": -30.0,
-      "strategy_score": 0,
-      "signals": [],
-      "action": "賣出/避開",
-      "action_color": "#dc2626",
-      "price": 235.88,
-      "rsi": 51.9,
-      "vol_ratio": 0.79,
-      "chg_pct": 6.07,
-      "ma20": 238.44,
-      "support": 185.2,
-      "chg5": 6.5,
-      "chg20": -17.8,
-      "above_ma20": false,
-      "pe": 35.2,
-      "buy_price": null,
-      "stop_suggest": null,
-      "tf_scores": {
-        "short": {
-          "weighted": -80.0,
-          "final_score": -48.0,
-          "action": "賣出/避開",
-          "action_color": "#dc2626",
-          "buy_price": null,
-          "stop_suggest": null
-        },
-        "medium": {
-          "weighted": -50.0,
-          "final_score": -30.0,
-          "action": "賣出/避開",
-          "action_color": "#dc2626",
-          "buy_price": null,
-          "stop_suggest": null
-        }
-      },
-      "earnings_date": "2027-01-28"
+      "earnings_date": null
     },
     {
       "stock_id": "GOOGL",
@@ -1319,45 +966,204 @@
       "votes": {
         "fundamental": 0,
         "chip": 0,
-        "technical": -1
+        "technical": 0
       },
       "vote_notes": {
-        "fundamental": "PER 15.3｜中性｜PBR 5.47",
+        "fundamental": "估值資料失敗:Failed to perform, curl: (6) Could not resolve host: query1.finance.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.",
         "chip": "美股無台股法人",
-        "technical": "跌破MA20（弱勢）｜量比0.64x量縮"
+        "technical": "資料不足"
       },
-      "weighted": -50.0,
-      "final_score": -30.0,
+      "weighted": 0.0,
+      "final_score": 0.0,
       "strategy_score": 0,
       "signals": [],
-      "action": "賣出/避開",
-      "action_color": "#dc2626",
-      "price": 293.45,
-      "rsi": 32.9,
-      "vol_ratio": 0.64,
-      "chg_pct": 2.11,
-      "ma20": 308.18,
-      "support": 278.99,
-      "chg5": 1.6,
-      "chg20": -15.6,
-      "above_ma20": false,
-      "pe": 15.3,
+      "action": "中性觀望",
+      "action_color": "#888",
+      "price": null,
+      "rsi": 50,
+      "vol_ratio": 0,
+      "chg_pct": null,
+      "ma20": null,
+      "support": null,
+      "chg5": null,
+      "chg20": null,
+      "above_ma20": null,
+      "pe": null,
       "buy_price": null,
       "stop_suggest": null,
       "tf_scores": {
         "short": {
-          "weighted": -80.0,
-          "final_score": -48.0,
-          "action": "賣出/避開",
-          "action_color": "#dc2626",
+          "weighted": 0.0,
+          "final_score": 0.0,
+          "action": "中性觀望",
+          "action_color": "#888",
           "buy_price": null,
           "stop_suggest": null
         },
         "medium": {
-          "weighted": -50.0,
-          "final_score": -30.0,
-          "action": "賣出/避開",
-          "action_color": "#dc2626",
+          "weighted": 0.0,
+          "final_score": 0.0,
+          "action": "中性觀望",
+          "action_color": "#888",
+          "buy_price": null,
+          "stop_suggest": null
+        }
+      },
+      "earnings_date": null
+    },
+    {
+      "stock_id": "META",
+      "name": "Meta",
+      "sector": "科技巨頭",
+      "market": "US",
+      "votes": {
+        "fundamental": 0,
+        "chip": 0,
+        "technical": 0
+      },
+      "vote_notes": {
+        "fundamental": "估值資料失敗:Failed to perform, curl: (6) Could not resolve host: query1.finance.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.",
+        "chip": "美股無台股法人",
+        "technical": "資料不足"
+      },
+      "weighted": 0.0,
+      "final_score": 0.0,
+      "strategy_score": 0,
+      "signals": [],
+      "action": "中性觀望",
+      "action_color": "#888",
+      "price": null,
+      "rsi": 50,
+      "vol_ratio": 0,
+      "chg_pct": null,
+      "ma20": null,
+      "support": null,
+      "chg5": null,
+      "chg20": null,
+      "above_ma20": null,
+      "pe": null,
+      "buy_price": null,
+      "stop_suggest": null,
+      "tf_scores": {
+        "short": {
+          "weighted": 0.0,
+          "final_score": 0.0,
+          "action": "中性觀望",
+          "action_color": "#888",
+          "buy_price": null,
+          "stop_suggest": null
+        },
+        "medium": {
+          "weighted": 0.0,
+          "final_score": 0.0,
+          "action": "中性觀望",
+          "action_color": "#888",
+          "buy_price": null,
+          "stop_suggest": null
+        }
+      },
+      "earnings_date": null
+    },
+    {
+      "stock_id": "AMZN",
+      "name": "亞馬遜",
+      "sector": "科技巨頭",
+      "market": "US",
+      "votes": {
+        "fundamental": 0,
+        "chip": 0,
+        "technical": 0
+      },
+      "vote_notes": {
+        "fundamental": "估值資料失敗:Failed to perform, curl: (6) Could not resolve host: query1.finance.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.",
+        "chip": "美股無台股法人",
+        "technical": "資料不足"
+      },
+      "weighted": 0.0,
+      "final_score": 0.0,
+      "strategy_score": 0,
+      "signals": [],
+      "action": "中性觀望",
+      "action_color": "#888",
+      "price": null,
+      "rsi": 50,
+      "vol_ratio": 0,
+      "chg_pct": null,
+      "ma20": null,
+      "support": null,
+      "chg5": null,
+      "chg20": null,
+      "above_ma20": null,
+      "pe": null,
+      "buy_price": null,
+      "stop_suggest": null,
+      "tf_scores": {
+        "short": {
+          "weighted": 0.0,
+          "final_score": 0.0,
+          "action": "中性觀望",
+          "action_color": "#888",
+          "buy_price": null,
+          "stop_suggest": null
+        },
+        "medium": {
+          "weighted": 0.0,
+          "final_score": 0.0,
+          "action": "中性觀望",
+          "action_color": "#888",
+          "buy_price": null,
+          "stop_suggest": null
+        }
+      },
+      "earnings_date": null
+    },
+    {
+      "stock_id": "TSLA",
+      "name": "特斯拉",
+      "sector": "科技巨頭",
+      "market": "US",
+      "votes": {
+        "fundamental": 0,
+        "chip": 0,
+        "technical": 0
+      },
+      "vote_notes": {
+        "fundamental": "估值資料失敗:Failed to perform, curl: (6) Could not resolve host: query1.finance.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.",
+        "chip": "美股無台股法人",
+        "technical": "資料不足"
+      },
+      "weighted": 0.0,
+      "final_score": 0.0,
+      "strategy_score": 0,
+      "signals": [],
+      "action": "中性觀望",
+      "action_color": "#888",
+      "price": null,
+      "rsi": 50,
+      "vol_ratio": 0,
+      "chg_pct": null,
+      "ma20": null,
+      "support": null,
+      "chg5": null,
+      "chg20": null,
+      "above_ma20": null,
+      "pe": null,
+      "buy_price": null,
+      "stop_suggest": null,
+      "tf_scores": {
+        "short": {
+          "weighted": 0.0,
+          "final_score": 0.0,
+          "action": "中性觀望",
+          "action_color": "#888",
+          "buy_price": null,
+          "stop_suggest": null
+        },
+        "medium": {
+          "weighted": 0.0,
+          "final_score": 0.0,
+          "action": "中性觀望",
+          "action_color": "#888",
           "buy_price": null,
           "stop_suggest": null
         }
@@ -1372,50 +1178,50 @@
       "votes": {
         "fundamental": 0,
         "chip": 0,
-        "technical": -1
+        "technical": 0
       },
       "vote_notes": {
-        "fundamental": "PER 121.4｜偏貴(不否決)｜PBR 36.99",
+        "fundamental": "估值資料失敗:Failed to perform, curl: (6) Could not resolve host: query1.finance.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.",
         "chip": "美股無台股法人",
-        "technical": "跌破MA20（弱勢）｜量比0.61x量縮"
+        "technical": "資料不足"
       },
-      "weighted": -50.0,
-      "final_score": -30.0,
+      "weighted": 0.0,
+      "final_score": 0.0,
       "strategy_score": 0,
       "signals": [],
-      "action": "賣出/避開",
-      "action_color": "#dc2626",
-      "price": 172.4,
-      "rsi": 31.6,
-      "vol_ratio": 0.61,
-      "chg_pct": 2.12,
-      "ma20": 184.7,
-      "support": 154.99,
-      "chg5": 0.4,
-      "chg20": -14.2,
-      "above_ma20": false,
-      "pe": 121.4,
+      "action": "中性觀望",
+      "action_color": "#888",
+      "price": null,
+      "rsi": 50,
+      "vol_ratio": 0,
+      "chg_pct": null,
+      "ma20": null,
+      "support": null,
+      "chg5": null,
+      "chg20": null,
+      "above_ma20": null,
+      "pe": null,
       "buy_price": null,
       "stop_suggest": null,
       "tf_scores": {
         "short": {
-          "weighted": -80.0,
-          "final_score": -48.0,
-          "action": "賣出/避開",
-          "action_color": "#dc2626",
+          "weighted": 0.0,
+          "final_score": 0.0,
+          "action": "中性觀望",
+          "action_color": "#888",
           "buy_price": null,
           "stop_suggest": null
         },
         "medium": {
-          "weighted": -50.0,
-          "final_score": -30.0,
-          "action": "賣出/避開",
-          "action_color": "#dc2626",
+          "weighted": 0.0,
+          "final_score": 0.0,
+          "action": "中性觀望",
+          "action_color": "#888",
           "buy_price": null,
           "stop_suggest": null
         }
       },
-      "earnings_date": "2027-02-02"
+      "earnings_date": null
     },
     {
       "stock_id": "CRM",
@@ -1425,50 +1231,50 @@
       "votes": {
         "fundamental": 0,
         "chip": 0,
-        "technical": -1
+        "technical": 0
       },
       "vote_notes": {
-        "fundamental": "PER 19.9｜中性｜PBR 4.68",
+        "fundamental": "估值資料失敗:Failed to perform, curl: (6) Could not resolve host: query1.finance.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.",
         "chip": "美股無台股法人",
-        "technical": "跌破MA20（弱勢）｜RSI 21.3 超賣"
+        "technical": "資料不足"
       },
-      "weighted": -50.0,
-      "final_score": -30.0,
+      "weighted": 0.0,
+      "final_score": 0.0,
       "strategy_score": 0,
       "signals": [],
-      "action": "賣出/避開",
-      "action_color": "#dc2626",
-      "price": 218.01,
-      "rsi": 21.3,
-      "vol_ratio": 0.86,
-      "chg_pct": 2.12,
-      "ma20": 233.08,
-      "support": 213.48,
-      "chg5": -4.0,
-      "chg20": -7.6,
-      "above_ma20": false,
-      "pe": 19.9,
+      "action": "中性觀望",
+      "action_color": "#888",
+      "price": null,
+      "rsi": 50,
+      "vol_ratio": 0,
+      "chg_pct": null,
+      "ma20": null,
+      "support": null,
+      "chg5": null,
+      "chg20": null,
+      "above_ma20": null,
+      "pe": null,
       "buy_price": null,
       "stop_suggest": null,
       "tf_scores": {
         "short": {
-          "weighted": -80.0,
-          "final_score": -48.0,
-          "action": "賣出/避開",
-          "action_color": "#dc2626",
+          "weighted": 0.0,
+          "final_score": 0.0,
+          "action": "中性觀望",
+          "action_color": "#888",
           "buy_price": null,
           "stop_suggest": null
         },
         "medium": {
-          "weighted": -50.0,
-          "final_score": -30.0,
-          "action": "賣出/避開",
-          "action_color": "#dc2626",
+          "weighted": 0.0,
+          "final_score": 0.0,
+          "action": "中性觀望",
+          "action_color": "#888",
           "buy_price": null,
           "stop_suggest": null
         }
       },
-      "earnings_date": "2026-12-03"
+      "earnings_date": null
     },
     {
       "stock_id": "NOW",
@@ -1478,50 +1284,50 @@
       "votes": {
         "fundamental": 0,
         "chip": 0,
-        "technical": -1
+        "technical": 0
       },
       "vote_notes": {
-        "fundamental": "PER 73.9｜偏貴(不否決)｜PBR 8.14",
+        "fundamental": "估值資料失敗:Failed to perform, curl: (6) Could not resolve host: query1.finance.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.",
         "chip": "美股無台股法人",
-        "technical": "跌破MA20（弱勢）｜量比0.71x量縮｜RSI 13.4 超賣"
+        "technical": "資料不足"
       },
-      "weighted": -50.0,
-      "final_score": -30.0,
+      "weighted": 0.0,
+      "final_score": 0.0,
       "strategy_score": 0,
       "signals": [],
-      "action": "賣出/避開",
-      "action_color": "#dc2626",
-      "price": 102.76,
-      "rsi": 13.4,
-      "vol_ratio": 0.71,
-      "chg_pct": 3.16,
-      "ma20": 128.29,
-      "support": 99.61,
-      "chg5": -5.6,
-      "chg20": -26.6,
-      "above_ma20": false,
-      "pe": 73.9,
+      "action": "中性觀望",
+      "action_color": "#888",
+      "price": null,
+      "rsi": 50,
+      "vol_ratio": 0,
+      "chg_pct": null,
+      "ma20": null,
+      "support": null,
+      "chg5": null,
+      "chg20": null,
+      "above_ma20": null,
+      "pe": null,
       "buy_price": null,
       "stop_suggest": null,
       "tf_scores": {
         "short": {
-          "weighted": -80.0,
-          "final_score": -48.0,
-          "action": "賣出/避開",
-          "action_color": "#dc2626",
+          "weighted": 0.0,
+          "final_score": 0.0,
+          "action": "中性觀望",
+          "action_color": "#888",
           "buy_price": null,
           "stop_suggest": null
         },
         "medium": {
-          "weighted": -50.0,
-          "final_score": -30.0,
-          "action": "賣出/避開",
-          "action_color": "#dc2626",
+          "weighted": 0.0,
+          "final_score": 0.0,
+          "action": "中性觀望",
+          "action_color": "#888",
           "buy_price": null,
           "stop_suggest": null
         }
       },
-      "earnings_date": "2027-01-28"
+      "earnings_date": null
     },
     {
       "stock_id": "SNOW",
@@ -1531,50 +1337,103 @@
       "votes": {
         "fundamental": 0,
         "chip": 0,
-        "technical": -1
+        "technical": 0
       },
       "vote_notes": {
-        "fundamental": "PER 98.9｜偏貴(不否決)｜PBR 49.39",
+        "fundamental": "估值資料失敗:Failed to perform, curl: (6) Could not resolve host: query1.finance.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.",
         "chip": "美股無台股法人",
-        "technical": "跌破MA20（弱勢）"
+        "technical": "資料不足"
       },
-      "weighted": -50.0,
-      "final_score": -30.0,
+      "weighted": 0.0,
+      "final_score": 0.0,
       "strategy_score": 0,
       "signals": [],
-      "action": "賣出/避開",
-      "action_color": "#dc2626",
-      "price": 301.22,
-      "rsi": 45.3,
-      "vol_ratio": 1.05,
-      "chg_pct": 1.85,
-      "ma20": 309.87,
-      "support": 269.54,
-      "chg5": 3.7,
-      "chg20": -10.1,
-      "above_ma20": false,
-      "pe": 98.9,
+      "action": "中性觀望",
+      "action_color": "#888",
+      "price": null,
+      "rsi": 50,
+      "vol_ratio": 0,
+      "chg_pct": null,
+      "ma20": null,
+      "support": null,
+      "chg5": null,
+      "chg20": null,
+      "above_ma20": null,
+      "pe": null,
       "buy_price": null,
       "stop_suggest": null,
       "tf_scores": {
         "short": {
-          "weighted": -80.0,
-          "final_score": -48.0,
-          "action": "賣出/避開",
-          "action_color": "#dc2626",
+          "weighted": 0.0,
+          "final_score": 0.0,
+          "action": "中性觀望",
+          "action_color": "#888",
           "buy_price": null,
           "stop_suggest": null
         },
         "medium": {
-          "weighted": -50.0,
-          "final_score": -30.0,
-          "action": "賣出/避開",
-          "action_color": "#dc2626",
+          "weighted": 0.0,
+          "final_score": 0.0,
+          "action": "中性觀望",
+          "action_color": "#888",
           "buy_price": null,
           "stop_suggest": null
         }
       },
-      "earnings_date": "2026-12-03"
+      "earnings_date": null
+    },
+    {
+      "stock_id": "NET",
+      "name": "Cloudflare",
+      "sector": "軟體/雲端",
+      "market": "US",
+      "votes": {
+        "fundamental": 0,
+        "chip": 0,
+        "technical": 0
+      },
+      "vote_notes": {
+        "fundamental": "估值資料失敗:Failed to perform, curl: (6) Could not resolve host: query1.finance.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.",
+        "chip": "美股無台股法人",
+        "technical": "資料不足"
+      },
+      "weighted": 0.0,
+      "final_score": 0.0,
+      "strategy_score": 0,
+      "signals": [],
+      "action": "中性觀望",
+      "action_color": "#888",
+      "price": null,
+      "rsi": 50,
+      "vol_ratio": 0,
+      "chg_pct": null,
+      "ma20": null,
+      "support": null,
+      "chg5": null,
+      "chg20": null,
+      "above_ma20": null,
+      "pe": null,
+      "buy_price": null,
+      "stop_suggest": null,
+      "tf_scores": {
+        "short": {
+          "weighted": 0.0,
+          "final_score": 0.0,
+          "action": "中性觀望",
+          "action_color": "#888",
+          "buy_price": null,
+          "stop_suggest": null
+        },
+        "medium": {
+          "weighted": 0.0,
+          "final_score": 0.0,
+          "action": "中性觀望",
+          "action_color": "#888",
+          "buy_price": null,
+          "stop_suggest": null
+        }
+      },
+      "earnings_date": null
     },
     {
       "stock_id": "CRWD",
@@ -1584,50 +1443,156 @@
       "votes": {
         "fundamental": 0,
         "chip": 0,
-        "technical": -1
+        "technical": 0
       },
       "vote_notes": {
-        "fundamental": "PER 4581.2｜偏貴(不否決)｜PBR 45.97",
+        "fundamental": "估值資料失敗:Failed to perform, curl: (6) Could not resolve host: query1.finance.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.",
         "chip": "美股無台股法人",
-        "technical": "跌破MA20（弱勢）｜量比0.75x量縮"
+        "technical": "資料不足"
       },
-      "weighted": -50.0,
-      "final_score": -30.0,
+      "weighted": 0.0,
+      "final_score": 0.0,
       "strategy_score": 0,
       "signals": [],
-      "action": "賣出/避開",
-      "action_color": "#dc2626",
-      "price": 229.06,
-      "rsi": 45.8,
-      "vol_ratio": 0.75,
-      "chg_pct": 1.46,
-      "ma20": 240.77,
-      "support": 216.9,
-      "chg5": -5.0,
-      "chg20": -8.1,
-      "above_ma20": false,
-      "pe": 4581.2,
+      "action": "中性觀望",
+      "action_color": "#888",
+      "price": null,
+      "rsi": 50,
+      "vol_ratio": 0,
+      "chg_pct": null,
+      "ma20": null,
+      "support": null,
+      "chg5": null,
+      "chg20": null,
+      "above_ma20": null,
+      "pe": null,
       "buy_price": null,
       "stop_suggest": null,
       "tf_scores": {
         "short": {
-          "weighted": -80.0,
-          "final_score": -48.0,
-          "action": "賣出/避開",
-          "action_color": "#dc2626",
+          "weighted": 0.0,
+          "final_score": 0.0,
+          "action": "中性觀望",
+          "action_color": "#888",
           "buy_price": null,
           "stop_suggest": null
         },
         "medium": {
-          "weighted": -50.0,
-          "final_score": -30.0,
-          "action": "賣出/避開",
-          "action_color": "#dc2626",
+          "weighted": 0.0,
+          "final_score": 0.0,
+          "action": "中性觀望",
+          "action_color": "#888",
           "buy_price": null,
           "stop_suggest": null
         }
       },
-      "earnings_date": "2026-12-02"
+      "earnings_date": null
+    },
+    {
+      "stock_id": "ORCL",
+      "name": "甲骨文",
+      "sector": "軟體/雲端",
+      "market": "US",
+      "votes": {
+        "fundamental": 0,
+        "chip": 0,
+        "technical": 0
+      },
+      "vote_notes": {
+        "fundamental": "估值資料失敗:Failed to perform, curl: (6) Could not resolve host: query1.finance.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.",
+        "chip": "美股無台股法人",
+        "technical": "資料不足"
+      },
+      "weighted": 0.0,
+      "final_score": 0.0,
+      "strategy_score": 0,
+      "signals": [],
+      "action": "中性觀望",
+      "action_color": "#888",
+      "price": null,
+      "rsi": 50,
+      "vol_ratio": 0,
+      "chg_pct": null,
+      "ma20": null,
+      "support": null,
+      "chg5": null,
+      "chg20": null,
+      "above_ma20": null,
+      "pe": null,
+      "buy_price": null,
+      "stop_suggest": null,
+      "tf_scores": {
+        "short": {
+          "weighted": 0.0,
+          "final_score": 0.0,
+          "action": "中性觀望",
+          "action_color": "#888",
+          "buy_price": null,
+          "stop_suggest": null
+        },
+        "medium": {
+          "weighted": 0.0,
+          "final_score": 0.0,
+          "action": "中性觀望",
+          "action_color": "#888",
+          "buy_price": null,
+          "stop_suggest": null
+        }
+      },
+      "earnings_date": null
+    },
+    {
+      "stock_id": "ADBE",
+      "name": "Adobe",
+      "sector": "軟體/雲端",
+      "market": "US",
+      "votes": {
+        "fundamental": 0,
+        "chip": 0,
+        "technical": 0
+      },
+      "vote_notes": {
+        "fundamental": "估值資料失敗:Failed to perform, curl: (6) Could not resolve host: query1.finance.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.",
+        "chip": "美股無台股法人",
+        "technical": "資料不足"
+      },
+      "weighted": 0.0,
+      "final_score": 0.0,
+      "strategy_score": 0,
+      "signals": [],
+      "action": "中性觀望",
+      "action_color": "#888",
+      "price": null,
+      "rsi": 50,
+      "vol_ratio": 0,
+      "chg_pct": null,
+      "ma20": null,
+      "support": null,
+      "chg5": null,
+      "chg20": null,
+      "above_ma20": null,
+      "pe": null,
+      "buy_price": null,
+      "stop_suggest": null,
+      "tf_scores": {
+        "short": {
+          "weighted": 0.0,
+          "final_score": 0.0,
+          "action": "中性觀望",
+          "action_color": "#888",
+          "buy_price": null,
+          "stop_suggest": null
+        },
+        "medium": {
+          "weighted": 0.0,
+          "final_score": 0.0,
+          "action": "中性觀望",
+          "action_color": "#888",
+          "buy_price": null,
+          "stop_suggest": null
+        }
+      },
+      "earnings_date": null
     },
     {
       "stock_id": "NOK",
@@ -1637,50 +1602,50 @@
       "votes": {
         "fundamental": 0,
         "chip": 0,
-        "technical": -1
+        "technical": 0
       },
       "vote_notes": {
         "fundamental": "四維68分(B 體質良)｜成長平緩 YoY+8%｜毛利45.5%｜ROE3.5%",
         "chip": "美股無台股法人",
-        "technical": "跌破MA20（弱勢）｜量比0.78x量縮"
+        "technical": "資料不足"
       },
-      "weighted": -50.0,
-      "final_score": -30.0,
+      "weighted": 0.0,
+      "final_score": 0.0,
       "strategy_score": 0,
       "signals": [],
-      "action": "賣出/避開",
-      "action_color": "#dc2626",
-      "price": 8.44,
-      "rsi": 56.1,
-      "vol_ratio": 0.78,
-      "chg_pct": 2.3,
-      "ma20": 8.59,
-      "support": 7.46,
-      "chg5": 2.2,
-      "chg20": -10.2,
-      "above_ma20": false,
+      "action": "中性觀望",
+      "action_color": "#888",
+      "price": null,
+      "rsi": 50,
+      "vol_ratio": 0,
+      "chg_pct": null,
+      "ma20": null,
+      "support": null,
+      "chg5": null,
+      "chg20": null,
+      "above_ma20": null,
       "pe": null,
       "buy_price": null,
       "stop_suggest": null,
       "tf_scores": {
         "short": {
-          "weighted": -80.0,
-          "final_score": -48.0,
-          "action": "賣出/避開",
-          "action_color": "#dc2626",
+          "weighted": 0.0,
+          "final_score": 0.0,
+          "action": "中性觀望",
+          "action_color": "#888",
           "buy_price": null,
           "stop_suggest": null
         },
         "medium": {
-          "weighted": -50.0,
-          "final_score": -30.0,
-          "action": "賣出/避開",
-          "action_color": "#dc2626",
+          "weighted": 0.0,
+          "final_score": 0.0,
+          "action": "中性觀望",
+          "action_color": "#888",
           "buy_price": null,
           "stop_suggest": null
         }
       },
-      "earnings_date": "2027-01-28"
+      "earnings_date": null
     },
     {
       "stock_id": "ADBG",
@@ -1690,45 +1655,45 @@
       "votes": {
         "fundamental": 0,
         "chip": 0,
-        "technical": -1
+        "technical": 0
       },
       "vote_notes": {
-        "fundamental": "無估值資料（可能ETF/ADR）",
+        "fundamental": "估值資料失敗:Failed to perform, curl: (6) Could not resolve host: query1.finance.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.",
         "chip": "美股無台股法人",
-        "technical": "跌破MA20（弱勢）｜量比0.6x量縮｜RSI 14.2 超賣"
+        "technical": "資料不足"
       },
-      "weighted": -50.0,
-      "final_score": -30.0,
+      "weighted": 0.0,
+      "final_score": 0.0,
       "strategy_score": 0,
       "signals": [],
-      "action": "賣出/避開",
-      "action_color": "#dc2626",
-      "price": 3.53,
-      "rsi": 14.2,
-      "vol_ratio": 0.6,
-      "chg_pct": 0.28,
-      "ma20": 3.94,
-      "support": 3.52,
-      "chg5": -9.0,
-      "chg20": -5.1,
-      "above_ma20": false,
+      "action": "中性觀望",
+      "action_color": "#888",
+      "price": null,
+      "rsi": 50,
+      "vol_ratio": 0,
+      "chg_pct": null,
+      "ma20": null,
+      "support": null,
+      "chg5": null,
+      "chg20": null,
+      "above_ma20": null,
       "pe": null,
       "buy_price": null,
       "stop_suggest": null,
       "tf_scores": {
         "short": {
-          "weighted": -80.0,
-          "final_score": -48.0,
-          "action": "賣出/避開",
-          "action_color": "#dc2626",
+          "weighted": 0.0,
+          "final_score": 0.0,
+          "action": "中性觀望",
+          "action_color": "#888",
           "buy_price": null,
           "stop_suggest": null
         },
         "medium": {
-          "weighted": -50.0,
-          "final_score": -30.0,
-          "action": "賣出/避開",
-          "action_color": "#dc2626",
+          "weighted": 0.0,
+          "final_score": 0.0,
+          "action": "中性觀望",
+          "action_color": "#888",
           "buy_price": null,
           "stop_suggest": null
         }
@@ -1736,188 +1701,9 @@
       "earnings_date": null
     }
   ],
-  "buy_top": [
-    {
-      "stock_id": "AAPL",
-      "name": "蘋果",
-      "sector": "科技巨頭",
-      "market": "US",
-      "votes": {
-        "fundamental": 0,
-        "chip": 0,
-        "technical": 1
-      },
-      "vote_notes": {
-        "fundamental": "PER 39.6｜偏貴(不否決)｜PBR 46.11",
-        "chip": "美股無台股法人",
-        "technical": "站上MA20+MA60（多頭排列）｜量比0.71x量縮"
-      },
-      "weighted": 50.0,
-      "final_score": 56.7,
-      "strategy_score": 4,
-      "signals": [
-        "扣抵有利",
-        "趨勢線",
-        "雙線GC+VCP",
-        "MACD+KD金叉"
-      ],
-      "action": "買進",
-      "action_color": "#16a34a",
-      "price": 355.63,
-      "rsi": 54.9,
-      "vol_ratio": 0.71,
-      "chg_pct": 2.04,
-      "ma20": 344.87,
-      "support": 331.9,
-      "chg5": 1.8,
-      "chg20": 3.7,
-      "above_ma20": true,
-      "pe": 39.6,
-      "buy_price": 344.87,
-      "stop_suggest": 325.26,
-      "tf_scores": {
-        "short": {
-          "weighted": 80.0,
-          "final_score": 74.7,
-          "action": "強力買進",
-          "action_color": "#16a34a",
-          "buy_price": 344.87,
-          "stop_suggest": 325.26
-        },
-        "medium": {
-          "weighted": 50.0,
-          "final_score": 56.7,
-          "action": "買進",
-          "action_color": "#16a34a",
-          "buy_price": 344.87,
-          "stop_suggest": 325.26
-        }
-      },
-      "earnings_date": "2027-01-29"
-    },
-    {
-      "stock_id": "TXN",
-      "name": "德州儀器",
-      "sector": "半導體設備/IDM",
-      "market": "US",
-      "votes": {
-        "fundamental": 0,
-        "chip": 0,
-        "technical": 1
-      },
-      "vote_notes": {
-        "fundamental": "PER 40.2｜偏貴(不否決)｜PBR 14.76",
-        "chip": "美股無台股法人",
-        "technical": "站上MA20+MA60（多頭排列）"
-      },
-      "weighted": 50.0,
-      "final_score": 50.0,
-      "strategy_score": 3,
-      "signals": [
-        "扣抵有利",
-        "趨勢線",
-        "雙線GC+VCP"
-      ],
-      "action": "買進",
-      "action_color": "#16a34a",
-      "price": 309.81,
-      "rsi": 62.9,
-      "vol_ratio": 0.83,
-      "chg_pct": 3.09,
-      "ma20": 293.05,
-      "support": 274.81,
-      "chg5": -0.5,
-      "chg20": 10.9,
-      "above_ma20": true,
-      "pe": 40.2,
-      "buy_price": 294.32,
-      "stop_suggest": 270.77,
-      "tf_scores": {
-        "short": {
-          "weighted": 80.0,
-          "final_score": 68.0,
-          "action": "強力買進",
-          "action_color": "#16a34a",
-          "buy_price": 294.32,
-          "stop_suggest": 270.77
-        },
-        "medium": {
-          "weighted": 50.0,
-          "final_score": 50.0,
-          "action": "買進",
-          "action_color": "#16a34a",
-          "buy_price": 294.32,
-          "stop_suggest": 270.77
-        }
-      },
-      "earnings_date": "2027-01-27"
-    }
-  ],
-  "buy_folded": {
-    "科技巨頭": [
-      {
-        "stock_id": "TSLA",
-        "name": "特斯拉",
-        "score": 50.0
-      }
-    ]
-  },
+  "buy_top": [],
+  "buy_folded": {},
   "watch_top": [
-    {
-      "stock_id": "QCOM",
-      "name": "高通",
-      "sector": "半導體設備/IDM",
-      "market": "US",
-      "votes": {
-        "fundamental": 0,
-        "chip": 0,
-        "technical": 1
-      },
-      "vote_notes": {
-        "fundamental": "PER 13.9｜中性｜PBR 6.23",
-        "chip": "美股無台股法人",
-        "technical": "站上MA20+MA60（多頭排列）"
-      },
-      "weighted": 50.0,
-      "final_score": 36.7,
-      "strategy_score": 1,
-      "signals": [
-        "趨勢線"
-      ],
-      "action": "觀察候選",
-      "action_color": "#f59e0b",
-      "price": 176.57,
-      "rsi": 52.2,
-      "vol_ratio": 1.02,
-      "chg_pct": 1.75,
-      "ma20": 173.34,
-      "support": 156.75,
-      "chg5": 2.0,
-      "chg20": 2.3,
-      "above_ma20": true,
-      "pe": 13.9,
-      "buy_price": 173.34,
-      "stop_suggest": 159.47,
-      "tf_scores": {
-        "short": {
-          "weighted": 80.0,
-          "final_score": 54.7,
-          "action": "觀察候選",
-          "action_color": "#f59e0b",
-          "buy_price": 173.34,
-          "stop_suggest": 159.47
-        },
-        "medium": {
-          "weighted": 50.0,
-          "final_score": 36.7,
-          "action": "觀察候選",
-          "action_color": "#f59e0b",
-          "buy_price": 173.34,
-          "stop_suggest": 159.47
-        }
-      },
-      "earnings_date": "2027-02-04"
-    },
     {
       "stock_id": "ON",
       "name": "安森美",
@@ -1931,7 +1717,7 @@
       "vote_notes": {
         "fundamental": "四維89分(A 體質優)｜強成長 YoY+37%｜毛利42.8%｜ROE8.3%",
         "chip": "美股無台股法人",
-        "technical": "站上MA20但未站MA60（中性偏多）"
+        "technical": "資料不足"
       },
       "weighted": 50.0,
       "final_score": 30.0,
@@ -1939,18 +1725,18 @@
       "signals": [],
       "action": "觀察候選",
       "action_color": "#f59e0b",
-      "price": 73.62,
-      "rsi": 50.5,
-      "vol_ratio": 0.8,
-      "chg_pct": 5.76,
-      "ma20": 72.24,
-      "support": 63.01,
-      "chg5": 3.3,
-      "chg20": 0.4,
-      "above_ma20": true,
+      "price": null,
+      "rsi": 50,
+      "vol_ratio": 0,
+      "chg_pct": null,
+      "ma20": null,
+      "support": null,
+      "chg5": null,
+      "chg20": null,
+      "above_ma20": null,
       "pe": null,
-      "buy_price": 72.24,
-      "stop_suggest": 66.46,
+      "buy_price": null,
+      "stop_suggest": null,
       "tf_scores": {
         "short": {
           "weighted": 20.0,
@@ -1965,351 +1751,30 @@
           "final_score": 30.0,
           "action": "觀察候選",
           "action_color": "#f59e0b",
-          "buy_price": 72.24,
-          "stop_suggest": 66.46
+          "buy_price": null,
+          "stop_suggest": null
         }
       },
       "earnings_date": null
     }
   ],
-  "sell_top": [
-    {
-      "stock_id": "ASML",
-      "name": "艾司摩爾",
-      "sector": "AI/半導體龍頭",
-      "market": "US",
-      "votes": {
-        "fundamental": 0,
-        "chip": 0,
-        "technical": -1
-      },
-      "vote_notes": {
-        "fundamental": "PER 37.8｜偏貴(不否決)｜PBR 1317.53",
-        "chip": "美股無台股法人",
-        "technical": "跌破MA20（弱勢）"
-      },
-      "weighted": -50.0,
-      "final_score": -30.0,
-      "strategy_score": 0,
-      "signals": [],
-      "action": "賣出/避開",
-      "action_color": "#dc2626",
-      "price": 1534.42,
-      "rsi": 48.2,
-      "vol_ratio": 0.85,
-      "chg_pct": 1.76,
-      "ma20": 1570.56,
-      "support": 1356.65,
-      "chg5": 2.5,
-      "chg20": -6.9,
-      "above_ma20": false,
-      "pe": 37.8,
-      "buy_price": null,
-      "stop_suggest": null,
-      "tf_scores": {
-        "short": {
-          "weighted": -80.0,
-          "final_score": -48.0,
-          "action": "賣出/避開",
-          "action_color": "#dc2626",
-          "buy_price": null,
-          "stop_suggest": null
-        },
-        "medium": {
-          "weighted": -50.0,
-          "final_score": -30.0,
-          "action": "賣出/避開",
-          "action_color": "#dc2626",
-          "buy_price": null,
-          "stop_suggest": null
-        }
-      },
-      "earnings_date": "2027-01-27"
-    },
-    {
-      "stock_id": "MRVL",
-      "name": "邁威爾",
-      "sector": "AI/半導體龍頭",
-      "market": "US",
-      "votes": {
-        "fundamental": 0,
-        "chip": 0,
-        "technical": -1
-      },
-      "vote_notes": {
-        "fundamental": "PER 55.5｜偏貴(不否決)｜PBR 7.99",
-        "chip": "美股無台股法人",
-        "technical": "跌破MA20（弱勢）"
-      },
-      "weighted": -50.0,
-      "final_score": -30.0,
-      "strategy_score": 0,
-      "signals": [],
-      "action": "賣出/避開",
-      "action_color": "#dc2626",
-      "price": 168.8,
-      "rsi": 35.1,
-      "vol_ratio": 1.11,
-      "chg_pct": 9.33,
-      "ma20": 202.14,
-      "support": 133.55,
-      "chg5": 5.6,
-      "chg20": -31.2,
-      "above_ma20": false,
-      "pe": 55.5,
-      "buy_price": null,
-      "stop_suggest": null,
-      "tf_scores": {
-        "short": {
-          "weighted": -80.0,
-          "final_score": -48.0,
-          "action": "賣出/避開",
-          "action_color": "#dc2626",
-          "buy_price": null,
-          "stop_suggest": null
-        },
-        "medium": {
-          "weighted": -50.0,
-          "final_score": -30.0,
-          "action": "賣出/避開",
-          "action_color": "#dc2626",
-          "buy_price": null,
-          "stop_suggest": null
-        }
-      },
-      "earnings_date": "2026-12-02"
-    },
-    {
-      "stock_id": "ARM",
-      "name": "安謀",
-      "sector": "AI/半導體龍頭",
-      "market": "US",
-      "votes": {
-        "fundamental": 0,
-        "chip": 0,
-        "technical": -1
-      },
-      "vote_notes": {
-        "fundamental": "PER 233.7｜偏貴(不否決)｜PBR 23.94",
-        "chip": "美股無台股法人",
-        "technical": "跌破MA20（弱勢）"
-      },
-      "weighted": -50.0,
-      "final_score": -30.0,
-      "strategy_score": 0,
-      "signals": [],
-      "action": "賣出/避開",
-      "action_color": "#dc2626",
-      "price": 203.36,
-      "rsi": 47.8,
-      "vol_ratio": 1.15,
-      "chg_pct": 12.05,
-      "ma20": 209.64,
-      "support": 166.72,
-      "chg5": 6.0,
-      "chg20": -14.6,
-      "above_ma20": false,
-      "pe": 233.7,
-      "buy_price": null,
-      "stop_suggest": null,
-      "tf_scores": {
-        "short": {
-          "weighted": -80.0,
-          "final_score": -48.0,
-          "action": "賣出/避開",
-          "action_color": "#dc2626",
-          "buy_price": null,
-          "stop_suggest": null
-        },
-        "medium": {
-          "weighted": -50.0,
-          "final_score": -30.0,
-          "action": "賣出/避開",
-          "action_color": "#dc2626",
-          "buy_price": null,
-          "stop_suggest": null
-        }
-      },
-      "earnings_date": "2027-02-04"
-    },
-    {
-      "stock_id": "INTC",
-      "name": "英特爾",
-      "sector": "半導體設備/IDM",
-      "market": "US",
-      "votes": {
-        "fundamental": 0,
-        "chip": 0,
-        "technical": -1
-      },
-      "vote_notes": {
-        "fundamental": "四維55分(C 體質中)｜成長平緩 YoY+25%｜毛利38.9%｜ROE-10.7%",
-        "chip": "美股無台股法人",
-        "technical": "跌破MA20（弱勢）"
-      },
-      "weighted": -50.0,
-      "final_score": -30.0,
-      "strategy_score": 0,
-      "signals": [],
-      "action": "賣出/避開",
-      "action_color": "#dc2626",
-      "price": 62.5,
-      "rsi": 32.9,
-      "vol_ratio": 0.88,
-      "chg_pct": 7.52,
-      "ma20": 76.96,
-      "support": 52.25,
-      "chg5": 7.3,
-      "chg20": -36.3,
-      "above_ma20": false,
-      "pe": null,
-      "buy_price": null,
-      "stop_suggest": null,
-      "tf_scores": {
-        "short": {
-          "weighted": -80.0,
-          "final_score": -48.0,
-          "action": "賣出/避開",
-          "action_color": "#dc2626",
-          "buy_price": null,
-          "stop_suggest": null
-        },
-        "medium": {
-          "weighted": -50.0,
-          "final_score": -30.0,
-          "action": "賣出/避開",
-          "action_color": "#dc2626",
-          "buy_price": null,
-          "stop_suggest": null
-        }
-      },
-      "earnings_date": "2027-01-29"
-    },
-    {
-      "stock_id": "LRCX",
-      "name": "科林研發",
-      "sector": "半導體設備/IDM",
-      "market": "US",
-      "votes": {
-        "fundamental": 0,
-        "chip": 0,
-        "technical": -1
-      },
-      "vote_notes": {
-        "fundamental": "PER 35.2｜偏貴(不否決)｜PBR 21.19",
-        "chip": "美股無台股法人",
-        "technical": "跌破MA20（弱勢）｜量比0.79x量縮"
-      },
-      "weighted": -50.0,
-      "final_score": -30.0,
-      "strategy_score": 0,
-      "signals": [],
-      "action": "賣出/避開",
-      "action_color": "#dc2626",
-      "price": 235.88,
-      "rsi": 51.9,
-      "vol_ratio": 0.79,
-      "chg_pct": 6.07,
-      "ma20": 238.44,
-      "support": 185.2,
-      "chg5": 6.5,
-      "chg20": -17.8,
-      "above_ma20": false,
-      "pe": 35.2,
-      "buy_price": null,
-      "stop_suggest": null,
-      "tf_scores": {
-        "short": {
-          "weighted": -80.0,
-          "final_score": -48.0,
-          "action": "賣出/避開",
-          "action_color": "#dc2626",
-          "buy_price": null,
-          "stop_suggest": null
-        },
-        "medium": {
-          "weighted": -50.0,
-          "final_score": -30.0,
-          "action": "賣出/避開",
-          "action_color": "#dc2626",
-          "buy_price": null,
-          "stop_suggest": null
-        }
-      },
-      "earnings_date": "2027-01-28"
-    }
-  ],
+  "sell_top": [],
   "by_timeframe": {
     "short": {
-      "buy_ids": [
-        "AAPL",
-        "TXN",
-        "AMD",
-        "NET"
-      ],
-      "buy_folded": {
-        "科技巨頭": [
-          {
-            "stock_id": "TSLA",
-            "name": "特斯拉",
-            "score": 68.0
-          },
-          {
-            "stock_id": "AMZN",
-            "name": "亞馬遜",
-            "score": 61.3
-          }
-        ],
-        "半導體設備": [
-          {
-            "stock_id": "ADI",
-            "name": "亞德諾",
-            "score": 61.3
-          }
-        ]
-      },
-      "watch_ids": [
-        "QCOM"
-      ],
-      "sell_ids": [
-        "MU",
-        "NVDA",
-        "MSFT",
-        "META",
-        "ADBE"
-      ]
+      "buy_ids": [],
+      "buy_folded": {},
+      "watch_ids": [],
+      "sell_ids": []
     },
     "medium": {
-      "buy_ids": [
-        "AAPL",
-        "TXN"
-      ],
-      "buy_folded": {
-        "科技巨頭": [
-          {
-            "stock_id": "TSLA",
-            "name": "特斯拉",
-            "score": 50.0
-          }
-        ]
-      },
+      "buy_ids": [],
+      "buy_folded": {},
       "watch_ids": [
-        "QCOM",
         "ON"
       ],
-      "sell_ids": [
-        "ASML",
-        "MRVL",
-        "ARM",
-        "INTC",
-        "LRCX"
-      ]
+      "sell_ids": []
     }
   },
-  "market_regime": {
-    "bull": true,
-    "index": 7619.4,
-    "ma200": 7334.3
-  },
+  "market_regime": null,
   "note": "美股無台股法人，評分=(基本面50%+技術50%)×60% + 6價量策略×40%"
 }
